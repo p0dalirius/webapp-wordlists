@@ -1,0 +1,12 @@
+/themes
+/themes/chameleon
+/themes/chameleon/marvin
+/themes/bluemarine
+/themes/engines
+/themes/engines/xtemplate
+/themes/pushbutton
+/misc
+/modules
+/includes
+/database
+/scripts
