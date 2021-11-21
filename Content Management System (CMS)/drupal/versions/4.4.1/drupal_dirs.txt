@@ -1,0 +1,13 @@
+/themes
+/themes/chameleon
+/themes/chameleon/marvin
+/themes/chameleon/pure
+/themes/xtemplate
+/themes/xtemplate/default
+/themes/xtemplate/pushbutton
+/themes/example
+/misc
+/modules
+/includes
+/database
+/scripts
