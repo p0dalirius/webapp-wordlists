@@ -1,0 +1,13 @@
+/themes
+/themes/marvin
+/themes/marvin/images
+/themes/goofy
+/themes/goofy/images
+/themes/example
+/themes/unconed
+/themes/unconed/images
+/misc
+/modules
+/includes
+/database
+/scripts
