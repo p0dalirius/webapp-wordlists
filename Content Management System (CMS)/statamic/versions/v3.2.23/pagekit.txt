@@ -1,0 +1,3 @@
+/get_statamic_paths.py
+/versions
+/versions/v3.2.23
