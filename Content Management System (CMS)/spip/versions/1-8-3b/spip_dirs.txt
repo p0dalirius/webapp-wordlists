@@ -1,0 +1,17 @@
+/CACHE
+/formulaires
+/dist
+/oo
+/IMG
+/IMG/icones
+/IMG/icones_barre
+/ecrire
+/ecrire/polices
+/ecrire/safehtml
+/ecrire/safehtml/classes
+/ecrire/safehtml/classes/HTMLSax3
+/ecrire/oo
+/ecrire/lang
+/ecrire/img_pack
+/ecrire/data
+/ecrire/upload
