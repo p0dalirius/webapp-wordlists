@@ -1,0 +1,11 @@
+/get_statamic_paths.py
+/versions/v3.2.23/pagekit.txt
+/versions/v3.2.23/statamic_dirs.txt
+/versions/v3.2.23/pagekit_files.txt
+/versions/v3.2.23/pagekit_dirs.txt
+/versions/v3.2.23/statamic_files.txt
+/versions/v3.2.23/statamic.txt
+/versions/v3.2.22/pagekit.txt
+/versions/v3.2.22/pagekit_files.txt
+/versions/v3.2.22/pagekit_dirs.txt
+/versions/v3.2.22/statamic.txt
