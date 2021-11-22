@@ -1,0 +1,16 @@
+/log
+/resource
+/resource/script_queries
+/resource/snmp_queries
+/install
+/lib
+/lib/adodb
+/lib/adodb/drivers
+/lib/adodb/datadict
+/rra
+/include
+/include/treeview
+/scripts
+/images
+/docs
+/docs/manual
