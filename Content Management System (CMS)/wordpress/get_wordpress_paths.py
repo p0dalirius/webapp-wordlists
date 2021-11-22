@@ -21,7 +21,7 @@ def parseArgs():
 
 def save_wordlist(result, version, lang, filename):
     list_of_files = [l.strip() for l in result.split()]
-    f = open('./%s/%s/%s' % (version, lang, filename), "w")
+    f = open('./versions/%s/%s/%s' % (version, lang, filename), "w")
     for remotefile in list_of_files:
         if remotefile not in ['.', './', '..', '../']:
             if remotefile.startswith('./'):
@@ -80,20 +80,26 @@ if __name__ == '__main__':
         for lang in versions[version].keys():
             print('   [>] Extracting wordlist of version %s lang %s ...' % (version, lang))
 
-            if not os.path.exists('./%s/%s/' % (version, lang)):
-                os.makedirs('./%s/%s/' % (version, lang), exist_ok=True)
+            if not os.path.exists('./versions/%s/%s/' % (version, lang)):
+                os.makedirs('./versions/%s/%s/' % (version, lang), exist_ok=True)
 
             dl_url = versions[version][lang]
 
             if options.verbose:
                 print("      [>] Create dir ...")
-            os.system('rm -rf /tmp/paths_wordpress_extract/; mkdir -p /tmp/paths_wordpress_extract/')
+                os.system('rm -rf /tmp/paths_wordpress_extract/; mkdir -p /tmp/paths_wordpress_extract/')
+            else:
+                os.popen('rm -rf /tmp/paths_wordpress_extract/; mkdir -p /tmp/paths_wordpress_extract/').read()
             if options.verbose:
                 print("      [>] Getting file ...")
-            os.system('wget -q --show-progress "%s" -O /tmp/paths_wordpress_extract/wordpress.zip' % dl_url)
+                os.system('wget -q --show-progress "%s" -O /tmp/paths_wordpress_extract/wordpress.zip' % dl_url)
+            else:
+                os.popen('wget -q "%s" -O /tmp/paths_wordpress_extract/wordpress.zip' % dl_url).read()
             if options.verbose:
                 print("      [>] Unzipping archive ...")
-            os.system('cd /tmp/paths_wordpress_extract/; unzip wordpress.zip 1>/dev/null')
+                os.system('cd /tmp/paths_wordpress_extract/; unzip wordpress.zip 1>/dev/null')
+            else:
+                os.popen('cd /tmp/paths_wordpress_extract/; unzip wordpress.zip 1>/dev/null').read()
 
             if options.verbose:
                 print("      [>] Getting wordlist ...")
@@ -103,15 +109,15 @@ if __name__ == '__main__':
 
             if options.verbose:
                 print("      [>] Committing results ...")
-                os.system('git add ./versions/%s/; git commit -m "Added wordlists for wordpress version %s";' % (version, version))
+                os.system('git add ./versions/%s/%s/*; git commit -m "Added wordlists for wordpress version %s lang %s";' % (version, lang, version, lang))
             else:
-                os.popen('git add ./versions/%s/; git commit -m "Added wordlists for wordpress version %s";' % (version, version)).read()
+                os.popen('git add ./versions/%s/%s/*; git commit -m "Added wordlists for wordpress version %s lang %s";' % (version, lang, version, lang)).read()
 
-        if options.verbose:
-            print("      [>] Creating common wordlists ...")
-        os.system('find ./versions/ -type f -name "wordpress.txt" -exec cat {} \\; | sort -u > wordpress.txt')
-        os.system('find ./versions/ -type f -name "wordpress_files.txt" -exec cat {} \\; | sort -u > wordpress_files.txt')
-        os.system('find ./versions/ -type f -name "wordpress_dirs.txt" -exec cat {} \\; | sort -u > wordpress_dirs.txt')
+    if options.verbose:
+        print("      [>] Creating common wordlists ...")
+    os.system('find ./versions/ -type f -name "wordpress.txt" -exec cat {} \\; | sort -u > wordpress.txt')
+    os.system('find ./versions/ -type f -name "wordpress_files.txt" -exec cat {} \\; | sort -u > wordpress_files.txt')
+    os.system('find ./versions/ -type f -name "wordpress_dirs.txt" -exec cat {} \\; | sort -u > wordpress_dirs.txt')
 
     if options.verbose:
         print("      [>] Committing results ...")

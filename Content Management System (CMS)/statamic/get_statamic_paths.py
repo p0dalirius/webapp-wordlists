@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# File name          : get_pagekit_paths.py
+# File name          : get_statamic_paths.py
 # Author             : Podalirius (@podalirius_)
 # Date created       : 22 Nov 2021
+
 
 
 import json
@@ -33,14 +34,14 @@ def save_wordlist(result, version, filename):
 if __name__ == '__main__':
     options = parseArgs()
 
-    r = requests.get("https://api.github.com/repos/pagekit/pagekit/releases", headers={"Accept": "application/vnd.github.v3+json"})
+    r = requests.get("https://api.github.com/repos/statamic/cms/releases", headers={"Accept": "application/vnd.github.v3+json"})
 
     versions = {}
     for release in r.json():
         versions[release['tag_name']] = release['zipball_url']
 
     for version in versions.keys():
-        print('[>] Extracting wordlist for pagekit version %s' % version)
+        print('[>] Extracting wordlist for statamic version %s' % version)
 
         if not os.path.exists('./versions/%s/' % (version)):
             os.makedirs('./versions/%s/' % (version), exist_ok=True)
@@ -49,41 +50,41 @@ if __name__ == '__main__':
 
         if options.verbose:
             print("      [>] Create dir ...")
-            os.system('rm -rf /tmp/paths_pagekit_extract/; mkdir -p /tmp/paths_pagekit_extract/')
+            os.system('rm -rf /tmp/paths_statamic_extract/; mkdir -p /tmp/paths_statamic_extract/')
         else:
-            os.popen('rm -rf /tmp/paths_pagekit_extract/; mkdir -p /tmp/paths_pagekit_extract/').read()
+            os.popen('rm -rf /tmp/paths_statamic_extract/; mkdir -p /tmp/paths_statamic_extract/').read()
         if options.verbose:
             print("      [>] Getting file ...")
-            print('wget -q --show-progress "%s" -O /tmp/paths_pagekit_extract/pagekit.zip' % dl_url)
-            os.system('wget -q --show-progress "%s" -O /tmp/paths_pagekit_extract/pagekit.zip' % dl_url)
+            print('wget -q --show-progress "%s" -O /tmp/paths_statamic_extract/statamic.zip' % dl_url)
+            os.system('wget -q --show-progress "%s" -O /tmp/paths_statamic_extract/statamic.zip' % dl_url)
         else:
-            os.popen('wget -q "%s" -O /tmp/paths_pagekit_extract/pagekit.zip' % dl_url).read()
+            os.popen('wget -q "%s" -O /tmp/paths_statamic_extract/statamic.zip' % dl_url).read()
         if options.verbose:
             print("      [>] Unzipping archive ...")
-            os.system('cd /tmp/paths_pagekit_extract/; unzip pagekit.zip 1>/dev/null')
+            os.system('cd /tmp/paths_statamic_extract/; unzip statamic.zip 1>/dev/null')
         else:
-            os.popen('cd /tmp/paths_pagekit_extract/; unzip pagekit.zip 1>/dev/null').read()
+            os.popen('cd /tmp/paths_statamic_extract/; unzip statamic.zip 1>/dev/null').read()
 
         if options.verbose:
             print("      [>] Getting wordlist ...")
-        save_wordlist(os.popen('cd /tmp/paths_pagekit_extract/pagekit*/; find .').read(), version, filename="pagekit.txt")
-        save_wordlist(os.popen('cd /tmp/paths_pagekit_extract/pagekit*/; find . -type f').read(), version, filename="pagekit_files.txt")
-        save_wordlist(os.popen('cd /tmp/paths_pagekit_extract/pagekit*/; find . -type d').read(), version, filename="pagekit_dirs.txt")
+        save_wordlist(os.popen('cd /tmp/paths_statamic_extract/*/; find .').read(), version, filename="statamic.txt")
+        save_wordlist(os.popen('cd /tmp/paths_statamic_extract/*/; find . -type f').read(), version, filename="statamic_files.txt")
+        save_wordlist(os.popen('cd /tmp/paths_statamic_extract/*/; find . -type d').read(), version, filename="statamic_dirs.txt")
 
         if options.verbose:
             print("      [>] Committing results ...")
-            os.system('git add ./versions/%s/*; git commit -m "Added wordlists for pagekit version %s";' % (version, version))
+            os.system('git add ./versions/%s/*; git commit -m "Added wordlists for statamic version %s";' % (version, version))
         else:
-            os.popen('git add ./versions/%s/*; git commit -m "Added wordlists for pagekit version %s";' % (version, version)).read()
+            os.popen('git add ./versions/%s/*; git commit -m "Added wordlists for statamic version %s";' % (version, version)).read()
 
     if options.verbose:
         print("      [>] Creating common wordlists ...")
-    os.system('find ./versions/ -type f -name "pagekit.txt" -exec cat {} \\; | sort -u > pagekit.txt')
-    os.system('find ./versions/ -type f -name "pagekit_files.txt" -exec cat {} \\; | sort -u > pagekit_files.txt')
-    os.system('find ./versions/ -type f -name "pagekit_dirs.txt" -exec cat {} \\; | sort -u > pagekit_dirs.txt')
+    os.system('find ./versions/ -type f -name "statamic.txt" -exec cat {} \\; | sort -u > statamic.txt')
+    os.system('find ./versions/ -type f -name "statamic_files.txt" -exec cat {} \\; | sort -u > statamic_files.txt')
+    os.system('find ./versions/ -type f -name "statamic_dirs.txt" -exec cat {} \\; | sort -u > statamic_dirs.txt')
 
     if options.verbose:
         print("      [>] Committing results ...")
-        os.system('git add *.txt; git commit -m "Added general wordlists for pagekit";')
+        os.system('git add *.txt; git commit -m "Added general wordlists for statamic";')
     else:
-        os.popen('git add *.txt; git commit -m "Added general wordlists for pagekit";').read()
+        os.popen('git add *.txt; git commit -m "Added general wordlists for statamic";').read()
