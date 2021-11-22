@@ -15,7 +15,9 @@ This repository contains wordlists for each versions of common web applications 
    + [typo3](./Content%20Management%20System%20(CMS)/typo3/)
    + [wordpress](./Content%20Management%20System%20(CMS)/wordpress/)
    + [xpressengine](./Content%20Management%20System%20(CMS)/xpressengine/)
- 
+ + [Other](./Other/)
+   + [cacti](./Other/cacti/)
+   
 ## Contributing
 
 Pull requests are welcome. Feel free to open an issue if you want to request another webapp wordlist.
