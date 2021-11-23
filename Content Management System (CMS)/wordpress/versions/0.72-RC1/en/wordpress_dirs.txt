@@ -1,0 +1,10 @@
+/wp-admin
+/wp-admin/help
+/wp-admin/help/en
+/wp-admin/help/en/CVS
+/wp-admin/help/CVS
+/wp-links
+/wp-links/links-images
+/b2-include
+/b2-img
+/b2-img/smilies
