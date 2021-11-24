@@ -1,6 +1,7 @@
 /config
 /resources
 /resources/audio
+/resources/blueprints
 /resources/fonts
 /resources/fonts/Inter-UI
 /resources/img
@@ -26,6 +27,7 @@
 /resources/js/components/fieldtypes/assets
 /resources/js/components/fieldtypes/bard
 /resources/js/components/fieldtypes/grid
+/resources/js/components/fieldtypes/relate
 /resources/js/components/fieldtypes/relationship
 /resources/js/components/fieldtypes/replicator
 /resources/js/components/field-validation
@@ -59,10 +61,12 @@
 /resources/js/translations
 /resources/js/vendor
 /resources/js/vendor/dmuploader
+/resources/js/vendor/eqcss
 /resources/js/vendor/jquery-ui
 /resources/lang
 /resources/lang/da
 /resources/lang/de
+/resources/lang/de-CH
 /resources/lang/de_CH
 /resources/lang/en
 /resources/lang/es
@@ -73,6 +77,7 @@
 /resources/lang/pt
 /resources/lang/ru
 /resources/lang/sl
+/resources/lang/zh-TW
 /resources/lang/zh_TW
 /resources/sass
 /resources/sass/components
@@ -115,10 +120,12 @@
 /resources/views/partials
 /resources/views/roles
 /resources/views/settings
+/resources/views/structures
 /resources/views/taxonomies
 /resources/views/taxonomies/blueprints
 /resources/views/terms
 /resources/views/updater
+/resources/views/updater/partials
 /resources/views/usergroups
 /resources/views/users
 /resources/views/users/blueprints
@@ -175,9 +182,13 @@
 /src/Entries
 /src/Events
 /src/Events/Concerns
+/src/Events/Data
+/src/Events/OAuth
+/src/Events/Stache
 /src/Exceptions
 /src/Exceptions/Concerns
 /src/Extend
+/src/Extend/Management
 /src/Extensions
 /src/Extensions/Pagination
 /src/Extensions/Translation
@@ -193,7 +204,9 @@
 /src/Forms
 /src/Forms/Exceptions
 /src/Forms/Exporters
+/src/Forms/Listeners
 /src/Forms/Metrics
+/src/Forms/Presenters
 /src/Forms/Uploaders
 /src/Git
 /src/Globals
@@ -288,11 +301,13 @@
 /src/Tags
 /src/Tags/Collection
 /src/Tags/Concerns
+/src/Tags/Query
 /src/Tags/Taxonomy
 /src/Taxonomies
 /src/Translator
 /src/Translator/Commands
 /src/Updater
+/src/Updater/Core
 /src/Updater/Presenters
 /src/UpdateScripts
 /src/Validation
