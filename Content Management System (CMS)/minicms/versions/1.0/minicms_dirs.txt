@@ -1,0 +1,11 @@
+/mc-files
+/mc-files/theme
+/mc-files/theme/prettify
+/mc-files/posts
+/mc-files/posts/index
+/mc-files/pages
+/mc-files/pages/index
+/mc-admin
+/mc-admin/ace-builds
+/mc-admin/ace-builds/src-min
+/mc-admin/ace-builds/src-min/snippets
