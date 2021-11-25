@@ -1,0 +1,13 @@
+/themes/default/summary
+/themes/default/theme.php
+/themes/default/version
+/themes/default/css/style.css
+/license
+/README.md
+/index.php
+/.gitignore
+/.htaccess
+/.github/FUNDING.yml
+/CONTRIBUTING.md
+/version
+/tests/WcmsTest.php
