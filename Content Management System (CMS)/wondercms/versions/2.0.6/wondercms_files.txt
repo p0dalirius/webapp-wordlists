@@ -1,0 +1,7 @@
+/themes/default/theme.php
+/themes/default/css/style.css
+/license
+/README.md
+/index.php
+/.htaccess
+/version
