@@ -1,0 +1,5 @@
+/themes
+/themes/default
+/themes/default/css
+/.github
+/tests
