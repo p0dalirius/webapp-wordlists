@@ -15,6 +15,7 @@ This repository contains wordlists for each versions of common web applications 
    + [typo3](./Content%20Management%20System%20(CMS)/typo3/)
    + [wordpress](./Content%20Management%20System%20(CMS)/wordpress/)
    + [xpressengine](./Content%20Management%20System%20(CMS)/xpressengine/)
+ + [Customer Relationship Management (CRM)](./Customer%20Relationship%20Management%20(CRM))
  + [Other](./Other/)
    + [cacti](./Other/cacti/)
    

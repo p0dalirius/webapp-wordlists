@@ -28,13 +28,18 @@ def get_releases_from_github(username, repo, per_page=100):
             "https://api.github.com/repos/%s/%s/releases?per_page=%d&page=%d" % (username, repo, per_page, page_number),
             headers={"Accept": "application/vnd.github.v3+json"}
         )
-        for release in r.json():
-            if release['tag_name'].startswith('v'):
-                release['tag_name'] = release['tag_name'][1:]
-            versions[release['tag_name']] = release['zipball_url']
-        if len(r.json()) < per_page:
-            running = False
-        page_number += 1
+        if type(r.json()) != list:
+            if "message" in r.json().keys():
+                print(r.json()['message'])
+                running = False
+        else:
+            for release in r.json():
+                if release['tag_name'].startswith('v'):
+                    release['tag_name'] = release['tag_name'][1:]
+                versions[release['tag_name']] = release['zipball_url']
+            if len(r.json()) < per_page:
+                running = False
+            page_number += 1
     print('[>] Loaded %d %s/%s versions.' % (len(versions.keys()), username, repo))
     return versions
 
