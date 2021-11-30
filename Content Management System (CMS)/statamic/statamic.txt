@@ -616,6 +616,13 @@
 /resources/lang/fr/messages.php
 /resources/lang/fr/permissions.php
 /resources/lang/fr/validation.php
+/resources/lang/hu
+/resources/lang/hu/fieldtypes.php
+/resources/lang/hu.json
+/resources/lang/hu/markdown.php
+/resources/lang/hu/messages.php
+/resources/lang/hu/permissions.php
+/resources/lang/hu/validation.php
 /resources/lang/id
 /resources/lang/id/fieldtypes.php
 /resources/lang/id.json
