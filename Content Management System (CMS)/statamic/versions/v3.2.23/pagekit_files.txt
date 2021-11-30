@@ -1,2 +1,0 @@
-/get_statamic_paths.py
-/versions/v3.2.23/pagekit.txt

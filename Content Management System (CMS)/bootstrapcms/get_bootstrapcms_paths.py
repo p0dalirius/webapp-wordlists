@@ -20,6 +20,31 @@ def parseArgs():
     return parser.parse_args()
 
 
+def get_releases_from_github(username, repo, per_page=100):
+    # https://docs.github.com/en/rest/reference/repos#releases
+    print("[+] Loading %s/%s versions ... " % (username, repo))
+    versions, page_number, running = {}, 1, True
+    while running:
+        r = requests.get(
+            "https://api.github.com/repos/%s/%s/releases?per_page=%d&page=%d" % (username, repo, per_page, page_number),
+            headers={"Accept": "application/vnd.github.v3+json"}
+        )
+        if type(r.json()) != list:
+            if "message" in r.json().keys():
+                print(r.json()['message'])
+                running = False
+        else:
+            for release in r.json():
+                if release['tag_name'].startswith('v'):
+                    release['tag_name'] = release['tag_name'][1:]
+                versions[release['tag_name']] = release['zipball_url']
+            if len(r.json()) < per_page:
+                running = False
+            page_number += 1
+    print('[>] Loaded %d %s/%s versions.' % (len(versions.keys()), username, repo))
+    return versions
+
+
 def save_wordlist(result, version, filename):
     list_of_files = [l.strip() for l in result.split()]
     f = open('./versions/%s/%s' % (version, filename), "w")
@@ -34,11 +59,7 @@ def save_wordlist(result, version, filename):
 if __name__ == '__main__':
     options = parseArgs()
 
-    r = requests.get("https://api.github.com/repos/bootstrapcms/cms/releases", headers={"Accept": "application/vnd.github.v3+json"})
-
-    versions = {}
-    for release in r.json():
-        versions[release['tag_name']] = release['zipball_url']
+    versions = get_releases_from_github("bootstrapcms", "cms")
 
     for version in versions.keys():
         print('[>] Extracting wordlist for bootstrapcms version %s' % version)
