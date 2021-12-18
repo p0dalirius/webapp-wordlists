@@ -9,6 +9,7 @@
 /versions/9.5.23
 /versions/10.4.14
 /versions/7.6.49
+/versions/11.5.4
 /versions/7.6.43
 /versions/9.5.11
 /versions/7.6.40
@@ -193,6 +194,7 @@
 /versions/7.6.18
 /versions/11.3.0
 /versions/6.0.12
+/versions/10.4.22
 /versions/7.6.3
 /versions/8.6.1
 /versions/6.0.9
