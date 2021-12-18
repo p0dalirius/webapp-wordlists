@@ -33,6 +33,8 @@ def save_wordlist(result, version, lang, filename):
 if __name__ == '__main__':
     options = parseArgs()
 
+    os.chdir(os.path.dirname(__file__))
+
     source_url = "https://fr.wordpress.org/download/releases/"
 
     r = requests.get(source_url)

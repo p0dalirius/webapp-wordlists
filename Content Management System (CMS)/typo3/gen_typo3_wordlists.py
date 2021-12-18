@@ -33,6 +33,8 @@ def save_wordlist(result, version, filename):
 if __name__ == '__main__':
     options = parseArgs()
 
+    os.chdir(os.path.dirname(__file__))
+
     print("[+] Loading versions ... ")
     versions = {}
     for version_page in range(0,12):

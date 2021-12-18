@@ -28,9 +28,10 @@ def get_releases_from_github(username, repo, per_page=100):
             "https://api.github.com/repos/%s/%s/releases?per_page=%d&page=%d" % (username, repo, per_page, page_number),
             headers={"Accept": "application/vnd.github.v3+json"}
         )
-        if "message" in r.json().keys():
-            print(r.json()['message'])
-            running = False
+        if type(r.json()) == dict:
+            if "message" in r.json().keys():
+                print(r.json()['message'])
+                running = False
         else:
             for release in r.json():
                 if release['tag_name'].startswith('v'):
@@ -56,6 +57,8 @@ def save_wordlist(result, version, filename):
 
 if __name__ == '__main__':
     options = parseArgs()
+
+    os.chdir(os.path.dirname(__file__))
 
     versions = get_releases_from_github("backdrop", "backdrop")
 

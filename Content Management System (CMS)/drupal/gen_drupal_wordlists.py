@@ -33,6 +33,8 @@ def save_wordlist(result, version, filename):
 if __name__ == '__main__':
     options = parseArgs()
 
+    os.chdir(os.path.dirname(__file__))
+
     source_url = "https://www.drupal.org/project/drupal/releases"
     r = requests.get(source_url)
     soup = BeautifulSoup(r.content.decode('utf-8'), 'lxml')
