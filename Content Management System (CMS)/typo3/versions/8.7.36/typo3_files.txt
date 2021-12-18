@@ -28,6 +28,9 @@
 /versions/7.6.49/typo3_dirs.txt
 /versions/7.6.49/typo3.txt
 /versions/7.6.49/typo3_files.txt
+/versions/11.5.4/typo3_dirs.txt
+/versions/11.5.4/typo3.txt
+/versions/11.5.4/typo3_files.txt
 /versions/7.6.43/typo3_dirs.txt
 /versions/7.6.43/typo3.txt
 /versions/7.6.43/typo3_files.txt
@@ -580,6 +583,9 @@
 /versions/6.0.12/typo3_dirs.txt
 /versions/6.0.12/typo3.txt
 /versions/6.0.12/typo3_files.txt
+/versions/10.4.22/typo3_dirs.txt
+/versions/10.4.22/typo3.txt
+/versions/10.4.22/typo3_files.txt
 /versions/7.6.3/typo3_dirs.txt
 /versions/7.6.3/typo3.txt
 /versions/7.6.3/typo3_files.txt
