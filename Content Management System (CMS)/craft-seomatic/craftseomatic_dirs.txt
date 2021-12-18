@@ -26,6 +26,7 @@
 /src/assetbundles/seomatic
 /src/assetbundles/seomatic/dist
 /src/assetbundles/seomatic/dist/css
+/src/assetbundles/seomatic/dist/fonts
 /src/assetbundles/seomatic/dist/img
 /src/assetbundles/seomatic/dist/js
 /src/assetbundles/seomatic/src

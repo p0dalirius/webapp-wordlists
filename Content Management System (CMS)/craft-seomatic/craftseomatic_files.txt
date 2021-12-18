@@ -22,6 +22,7 @@
 /buildchain/webpack-configs/image-loader.config.js
 /buildchain/webpack-configs/imagemin-webp.config.js
 /buildchain/webpack-configs/manifest.config.js
+/buildchain/webpack-configs/monaco-editor.config.js
 /buildchain/webpack-configs/postcss-loader.config.js
 /buildchain/webpack-configs/production.config.js
 /buildchain/webpack-configs/typescript-loader.config.js
@@ -35,6 +36,7 @@
 /buildchain/webpack-settings/copy.settings.js
 /buildchain/webpack-settings/dev-server.settings.js
 /buildchain/webpack-settings/manifest.settings.js
+/buildchain/webpack-settings/monaco-editor.settings.js
 /buildchain/webpack-settings/production.settings.js
 /buildchain/webpack-settings/typescript-loader.settings.js
 /CHANGELOG.md
@@ -189,6 +191,19 @@
 /src/assetbundles/seomatic/dist/css/vendors~content-seo.css.map
 /src/assetbundles/seomatic/dist/css/vendors.css
 /src/assetbundles/seomatic/dist/css/vendors.css.gz
+/src/assetbundles/seomatic/dist/css.worker.js
+/src/assetbundles/seomatic/dist/css.worker.js.gz
+/src/assetbundles/seomatic/dist/css.worker.js.map
+/src/assetbundles/seomatic/dist/css.worker.js.map.gz
+/src/assetbundles/seomatic/dist/editor.worker.js
+/src/assetbundles/seomatic/dist/editor.worker.js.gz
+/src/assetbundles/seomatic/dist/editor.worker.js.map
+/src/assetbundles/seomatic/dist/editor.worker.js.map.gz
+/src/assetbundles/seomatic/dist/fonts/codicon.ttf
+/src/assetbundles/seomatic/dist/html.worker.js
+/src/assetbundles/seomatic/dist/html.worker.js.gz
+/src/assetbundles/seomatic/dist/html.worker.js.map
+/src/assetbundles/seomatic/dist/html.worker.js.map.gz
 /src/assetbundles/seomatic/dist/img/link-icon.svg
 /src/assetbundles/seomatic/dist/img/missing_image.png
 /src/assetbundles/seomatic/dist/img/missing_image.webp
@@ -213,8 +228,13 @@
 /src/assetbundles/seomatic/dist/js/javascript-editor.js.gz
 /src/assetbundles/seomatic/dist/js/javascript-editor.js.map
 /src/assetbundles/seomatic/dist/js/javascript-editor.js.map.gz
+/src/assetbundles/seomatic/dist/json.worker.js
+/src/assetbundles/seomatic/dist/json.worker.js.gz
+/src/assetbundles/seomatic/dist/json.worker.js.map
+/src/assetbundles/seomatic/dist/json.worker.js.map.gz
 /src/assetbundles/seomatic/dist/js/runtime.js
 /src/assetbundles/seomatic/dist/js/runtime.js.map
+/src/assetbundles/seomatic/dist/js/runtime.js.map.gz
 /src/assetbundles/seomatic/dist/js/seomatic-chart.js
 /src/assetbundles/seomatic/dist/js/seomatic-chart.js.map
 /src/assetbundles/seomatic/dist/js/seomatic.js
@@ -259,11 +279,16 @@
 /src/assetbundles/seomatic/dist/js/vendors~twig-editor.js.map
 /src/assetbundles/seomatic/dist/manifest.json
 /src/assetbundles/seomatic/dist/report-legacy.html
+/src/assetbundles/seomatic/dist/ts.worker.js
+/src/assetbundles/seomatic/dist/ts.worker.js.gz
+/src/assetbundles/seomatic/dist/ts.worker.js.map
+/src/assetbundles/seomatic/dist/ts.worker.js.map.gz
 /src/assetbundles/seomatic/SeomaticAsset.php
 /src/assetbundles/seomatic/SeomaticChartAsset.php
 /src/assetbundles/seomatic/src/css/app.pcss
 /src/assetbundles/seomatic/src/css/components/css-reset.css
 /src/assetbundles/seomatic/src/css/components/global.pcss
+/src/assetbundles/seomatic/src/css/components/monaco-editor.pcss
 /src/assetbundles/seomatic/src/css/components/seo-previews.css
 /src/assetbundles/seomatic/src/css/components/tables.css
 /src/assetbundles/seomatic/src/css/components/typography.pcss
@@ -285,6 +310,7 @@
 /src/assetbundles/seomatic/src/img/structured-data-icon.svg
 /src/assetbundles/seomatic/src/img/tags-icon.svg
 /src/assetbundles/seomatic/src/img/variables-icon.svg
+/src/assetbundles/seomatic/src/js/autocomplete.js
 /src/assetbundles/seomatic/src/js/content-seo.js
 /src/assetbundles/seomatic/src/js/dashboard.js
 /src/assetbundles/seomatic/src/js/javascript-editor.js
@@ -332,6 +358,7 @@
 /src/base/VarsModel.php
 /src/config.php
 /src/console/controllers/SitemapController.php
+/src/controllers/AutocompleteController.php
 /src/controllers/ContentSeoController.php
 /src/controllers/FileController.php
 /src/controllers/FrontendTemplateController.php
@@ -362,6 +389,7 @@
 /src/gql/types/SeomaticFrontendTemplateType.php
 /src/gql/types/SeomaticType.php
 /src/helpers/ArrayHelper.php
+/src/helpers/Autocomplete.php
 /src/helpers/Config.php
 /src/helpers/Container.php
 /src/helpers/Dependency.php
@@ -380,6 +408,7 @@
 /src/helpers/PullField.php
 /src/helpers/Queue.php
 /src/helpers/Schema.php
+/src/helpers/SiteHelper.php
 /src/helpers/Sitemap.php
 /src/helpers/Text.php
 /src/helpers/UrlHelper.php
@@ -1718,6 +1747,7 @@
 /src/templates/settings/_includes/field-wrapper-embed.twig
 /src/templates/settings/_includes/macros.twig
 /src/templates/settings/_includes/mainEntityOfPage-partial.twig
+/src/templates/settings/_includes/monaco-editor-css.twig
 /src/templates/settings/_includes/seo-image-partial.twig
 /src/templates/settings/_includes/sites-menu.twig
 /src/templates/settings/_includes/tab-ads.twig
