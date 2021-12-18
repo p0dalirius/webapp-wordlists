@@ -154,6 +154,7 @@
 /plugins-dist/safehtml/lib/safehtml/classes
 /plugins-dist/safehtml/lib/safehtml/classes/HTMLSax3
 /plugins-dist/safehtml/lang
+/plugins-dist/safehtml/tests
 /plugins-dist/safehtml/images
 /plugins-dist/mots
 /plugins-dist/mots/inc

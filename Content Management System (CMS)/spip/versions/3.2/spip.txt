@@ -81,7 +81,6 @@
 /plugins-dist/compresseur/lib/csstidy/README.md
 /plugins-dist/compresseur/lib/csstidy/data.inc.php
 /plugins-dist/compresseur/lib/csstidy/class.csstidy_print.php
-/plugins-dist/compresseur/lib/csstidy/NEWS
 /plugins-dist/compresseur/lib/csstidy/class.csstidy.php
 /plugins-dist/compresseur/lang
 /plugins-dist/compresseur/lang/compresseur_he.php
@@ -1225,6 +1224,8 @@
 /plugins-dist/safehtml/lang/paquet-safehtml_it.php
 /plugins-dist/safehtml/lang/paquet-safehtml_uk.php
 /plugins-dist/safehtml/lang/paquet-safehtml_sk.php
+/plugins-dist/safehtml/tests
+/plugins-dist/safehtml/tests/safehtml.php
 /plugins-dist/safehtml/images
 /plugins-dist/safehtml/images/safehtml-32.png
 /plugins-dist/safehtml/images/safehtml-128.png
@@ -3248,6 +3249,7 @@
 /plugins-dist/medias/lib/getid3
 /plugins-dist/medias/lib/getid3/module.misc.msoffice.php
 /plugins-dist/medias/lib/getid3/write.apetag.php
+/plugins-dist/medias/lib/getid3/module.audio.tak.php
 /plugins-dist/medias/lib/getid3/module.audio.bonk.php
 /plugins-dist/medias/lib/getid3/module.archive.rar.php
 /plugins-dist/medias/lib/getid3/module.audio.avr.php
@@ -3260,6 +3262,7 @@
 /plugins-dist/medias/lib/getid3/module.audio.amr.php
 /plugins-dist/medias/lib/getid3/module.audio.dts.php
 /plugins-dist/medias/lib/getid3/module.graphic.bmp.php
+/plugins-dist/medias/lib/getid3/module.archive.xz.php
 /plugins-dist/medias/lib/getid3/getid3.lib.php
 /plugins-dist/medias/lib/getid3/module.audio.mod.php
 /plugins-dist/medias/lib/getid3/write.vorbiscomment.php
@@ -3270,6 +3273,7 @@
 /plugins-dist/medias/lib/getid3/module.graphic.pcd.php
 /plugins-dist/medias/lib/getid3/module.misc.cue.php
 /plugins-dist/medias/lib/getid3/module.archive.zip.php
+/plugins-dist/medias/lib/getid3/module.audio-video.ivf.php
 /plugins-dist/medias/lib/getid3/module.audio-video.riff.php
 /plugins-dist/medias/lib/getid3/module.archive.gzip.php
 /plugins-dist/medias/lib/getid3/write.lyrics3.php
@@ -3293,6 +3297,7 @@
 /plugins-dist/medias/lib/getid3/module.audio-video.flv.php
 /plugins-dist/medias/lib/getid3/module.tag.lyrics3.php
 /plugins-dist/medias/lib/getid3/module.audio-video.ts.php
+/plugins-dist/medias/lib/getid3/module.audio-video.wtv.php
 /plugins-dist/medias/lib/getid3/write.metaflac.php
 /plugins-dist/medias/lib/getid3/module.audio.monkey.php
 /plugins-dist/medias/lib/getid3/module.audio-video.mpeg.php
@@ -3319,6 +3324,8 @@
 /plugins-dist/medias/lib/getid3/extension.cache.mysqli.php
 /plugins-dist/medias/lib/getid3/extension.cache.mysql.php
 /plugins-dist/medias/lib/getid3/module.audio.ogg.php
+/plugins-dist/medias/lib/getid3/module.archive.hpk.php
+/plugins-dist/medias/lib/getid3/module.audio.dsdiff.php
 /plugins-dist/medias/lib/getid3/module.archive.szip.php
 /plugins-dist/medias/lib/getid3/module.audio-video.asf.php
 /plugins-dist/medias/medias_ieconfig.php
