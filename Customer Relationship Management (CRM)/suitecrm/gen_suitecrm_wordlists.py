@@ -17,6 +17,7 @@ def parseArgs():
     parser.add_argument("-v", "--verbose", default=None, action="store_true", help='arg1 help message')
     return parser.parse_args()
 
+
 def get_releases_from_github(username, repo, per_page=100):
     # https://docs.github.com/en/rest/reference/repos#releases
     print("[+] Loading %s/%s versions ... " % (username, repo))
