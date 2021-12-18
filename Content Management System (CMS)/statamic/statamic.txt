@@ -211,8 +211,10 @@
 /resources/js/components/collections/DeleteLocalizationConfirmation.vue
 /resources/js/components/collections/EditForm.vue
 /resources/js/components/collections/Listing.vue
+/resources/js/components/collections/OneOrManySitesField.vue
 /resources/js/components/collections/Routes.vue
 /resources/js/components/collections/Scaffolder.vue
+/resources/js/components/collections/TitleFormats.vue
 /resources/js/components/collections/View.vue
 /resources/js/components/collections/Wizard.vue
 /resources/js/components/Component.js
@@ -665,6 +667,13 @@
 /resources/lang/sl/messages.php
 /resources/lang/sl/permissions.php
 /resources/lang/sl/validation.php
+/resources/lang/sv
+/resources/lang/sv/fieldtypes.php
+/resources/lang/sv.json
+/resources/lang/sv/markdown.php
+/resources/lang/sv/messages.php
+/resources/lang/sv/permissions.php
+/resources/lang/sv/validation.php
 /resources/lang/zh-TW
 /resources/lang/zh_TW
 /resources/lang/zh-TW/fieldtypes.php
@@ -849,6 +858,7 @@
 /resources/svg/external-link.svg
 /resources/svg/fieldsets.svg
 /resources/svg/fieldset.svg
+/resources/svg/fieldtype.svg
 /resources/svg/file-archive.svg
 /resources/svg/file-audio.svg
 /resources/svg/file-code.svg
@@ -887,6 +897,7 @@
 /resources/svg/folder-image.svg
 /resources/svg/folder.svg
 /resources/svg/form.svg
+/resources/svg/generic-field.svg
 /resources/svg/generic.svg
 /resources/svg/git.svg
 /resources/svg/grid.svg
@@ -931,6 +942,7 @@
 /resources/svg/pin.svg
 /resources/svg/playground.svg
 /resources/svg/pro-ribbon.svg
+/resources/svg/pull-down.svg
 /resources/svg/radio.svg
 /resources/svg/range.svg
 /resources/svg/relationship.svg
@@ -950,6 +962,7 @@
 /resources/svg/shrink-vertical.svg
 /resources/svg/sites.svg
 /resources/svg/slug.svg
+/resources/svg/sort-numeric.svg
 /resources/svg/statamic-logo-contained-horizontal.svg
 /resources/svg/statamic-logo-contained-stacked.svg
 /resources/svg/statamic-logo-hollow-stacked.svg
@@ -1266,6 +1279,7 @@
 /src/Console/Commands/GeneratorCommand.php
 /src/Console/Commands/GlideClear.php
 /src/Console/Commands/Install.php
+/src/Console/Commands/LicenseSet.php
 /src/Console/Commands/ListCommand.php
 /src/Console/Commands/MakeAction.php
 /src/Console/Commands/MakeAddon.php
@@ -1742,6 +1756,7 @@
 /src/Fieldtypes/Code.php
 /src/Fieldtypes/CollectionRoutes.php
 /src/Fieldtypes/Collections.php
+/src/Fieldtypes/CollectionTitleFormats.php
 /src/Fieldtypes/Color.php
 /src/Fieldtypes/Concerns
 /src/Fieldtypes/Concerns/ResolvesStatamicUrls.php
