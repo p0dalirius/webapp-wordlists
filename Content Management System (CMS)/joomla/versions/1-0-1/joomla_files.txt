@@ -1,0 +1,5 @@
+/versions/1-0-0/joomla_files.txt
+/versions/1-0-0/joomla.txt
+/versions/1-0-0/joomla_dirs.txt
+/versions/1-0-1/joomla.txt
+/gen_joomla_wordlists.py
