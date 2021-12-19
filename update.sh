@@ -2,6 +2,6 @@
 
 while read script; do
   pushd "$(dirname "$script")"
-  python3 $(basename "$script")
+  ./$(basename "$script")
   popd
-done <<< $(find ./ -name "gen_*.py")
+done <<< $(find ./ -name "gen_*.py" | grep -v 'drupal' | grep -v 'wordpress')

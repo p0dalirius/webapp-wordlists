@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# File name          : get_drupal_paths.py
+# File name          : gen_joomla_wordlists.py
 # Author             : Podalirius (@podalirius_)
-# Date created       : 21 Nov 2021
+# Date created       : 19 Dec 2021
 
 
 import json
 import os
+import re
 import sys
 import requests
 import argparse
@@ -16,6 +17,7 @@ from bs4 import BeautifulSoup
 def parseArgs():
     parser = argparse.ArgumentParser(description="Description message")
     parser.add_argument("-v", "--verbose", default=None, action="store_true", help='arg1 help message')
+    parser.add_argument("-O", "--overwrite", default=None, action="store_true", help='arg1 help message')
     return parser.parse_args()
 
 
@@ -35,68 +37,97 @@ if __name__ == '__main__':
 
     os.chdir(os.path.dirname(__file__))
 
-    source_url = "https://www.drupal.org/project/drupal/releases"
-    r = requests.get(source_url)
+    print("[+] Loading joomla versions ... ")
+    r = requests.get("https://downloads.joomla.org/cms")
     soup = BeautifulSoup(r.content.decode('utf-8'), 'lxml')
 
-    last_page_link = soup.find('a', attrs={"title": "Go to last page"})
-    last_page_num = int(last_page_link['href'].split('?page=')[1])
-    print(last_page_num)
+    major_versions_links = [a['href'] for a in soup.findAll("a") if a.has_attr('href')]
+    major_versions_links = ["https://downloads.joomla.org"+m for m in major_versions_links if re.match('/cms/joomla[0-9]+', m)]
 
-    print("[+] Loading drupal versions ... ")
-    drupal_versions = {}
-    for page_k in range(0, last_page_num + 1):
-        if options.verbose:
-            print('   [>] Parsing page %d' % page_k)
-        r = requests.get("https://www.drupal.org/project/drupal/releases?page=%d" % page_k)
+    joomla_versions = {}
+    for major_version_link in major_versions_links:
+        # if options.verbose:
+        #     print('   [>] Parsing page %d' % page_k)
+        r = requests.get(major_version_link)
         soup = BeautifulSoup(r.content.decode('utf-8'), 'lxml')
         for a in soup.findAll('a'):
-            if a['href'].startswith('/project/drupal/releases/'):
-                drupal_versions[a['href'].split('/project/drupal/releases/')[1]] = "https://www.drupal.org/" + a['href']
+            if a.text.strip() == "View files":
+                joomla_versions[a['href'].split('/')[-1]] = "https://downloads.joomla.org" + a['href']
     print("Done.")
     sys.stdout.flush()
-    print('[>] Loaded %d drupal versions.' % len(drupal_versions.keys()))
+    print('[>] Loaded %d joomla versions.' % len(joomla_versions.keys()))
 
-    for version in sorted(drupal_versions.keys()):
-        print('   [>] Extracting wordlist of drupal version %s ...' % version)
+    for version in sorted(joomla_versions.keys()):
+        skip = True
+        _version = version.replace("-", ".")
+        if not os.path.exists('./versions/%s/' % _version):
+            os.makedirs('./versions/%s/' % _version, exist_ok=True)
+            skip = False
+        elif options.overwrite:
+            skip = False
+        else:
+            if options.verbose:
+                print('      [>] Skipping existing joomla version %s ...' % _version)
+        if skip == False:
+            print('   [>] Extracting wordlist of joomla version %s ...' % _version)
 
-        r = requests.get(drupal_versions[version])
-        soup = BeautifulSoup(r.content.decode('utf-8'), 'lxml')
-        dl_url = [a['href'] for a in soup.findAll('a', attrs={"class": "download"}) if a['href'].endswith(".zip")]
+            r = requests.get(joomla_versions[version])
+            soup = BeautifulSoup(r.content.decode('utf-8'), 'lxml')
 
-        if len(dl_url) != 0:
-            dl_url = dl_url[0]
-            if not os.path.exists('./versions/%s/' % version):
-                os.makedirs('./versions/%s/' % version, exist_ok=True)
+            # Extracting download url for this version in .tar.gz
+            use_zip = False
+            dl_url = ""
+            for a in soup.findAll('a'):
+                if a.text.strip() == "Download now" and a['href'].endswith("?format=gz"):
+                    dl_url = "https://downloads.joomla.org" + a['href']
+                    break
+            if dl_url == "":
+                for a in soup.findAll('a'):
+                    if a.text.strip() == "Download now" and a['href'].endswith("?format=zip"):
+                        dl_url = "https://downloads.joomla.org" + a['href']
+                        use_zip = True
+                        break
 
             if options.verbose:
                 print("      [>] Create dir ...")
-            os.system('rm -rf /tmp/paths_drupal_extract/; mkdir -p /tmp/paths_drupal_extract/')
+            os.system('rm -rf /tmp/paths_joomla_extract/; mkdir -p /tmp/paths_joomla_extract/')
             if options.verbose:
                 print("      [>] Getting file ...")
-                os.system('wget -q --show-progress "%s" -O /tmp/paths_drupal_extract/drupal.zip' % dl_url)
+                if use_zip:
+                    print('wget -q --show-progress "%s" -O /tmp/paths_joomla_extract/joomla.zip' % dl_url)
+                    os.system('wget -q --show-progress "%s" -O /tmp/paths_joomla_extract/joomla.zip' % dl_url)
+                else:
+                    print('wget -q --show-progress "%s" -O /tmp/paths_joomla_extract/joomla.tar.gz' % dl_url)
+                    os.system('wget -q --show-progress "%s" -O /tmp/paths_joomla_extract/joomla.tar.gz' % dl_url)
             else:
-                os.popen('wget -q "%s" -O /tmp/paths_drupal_extract/drupal.zip' % dl_url).read()
+                if use_zip:
+                    os.popen('wget -q "%s" -O /tmp/paths_joomla_extract/joomla.zip' % dl_url).read()
+                else:
+                    os.popen('wget -q "%s" -O /tmp/paths_joomla_extract/joomla.tar.gz' % dl_url).read()
             if options.verbose:
-                print("      [>] Unzipping archive ...")
-            os.system('cd /tmp/paths_drupal_extract/; unzip drupal.zip 1>/dev/null')
+                print("      [>] Extracting archive ...")
+
+            if use_zip:
+                os.system('cd /tmp/paths_joomla_extract/; unzip joomla.zip 1>/dev/null; rm joomla.zip')
+            else:
+                os.system('cd /tmp/paths_joomla_extract/; tar xvf joomla.tar.gz 1>/dev/null; rm joomla.tar.gz')
 
             if options.verbose:
                 print("      [>] Getting wordlist ...")
-            save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find .').read(), version, filename="drupal.txt")
-            save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find . -type f').read(), version, filename="drupal_files.txt")
-            save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find . -type d').read(), version, filename="drupal_dirs.txt")
+            save_wordlist(os.popen('cd /tmp/paths_joomla_extract/; find .').read(), _version, filename="joomla.txt")
+            save_wordlist(os.popen('cd /tmp/paths_joomla_extract/; find . -type f').read(), _version, filename="joomla_files.txt")
+            save_wordlist(os.popen('cd /tmp/paths_joomla_extract/; find . -type d').read(), _version, filename="joomla_dirs.txt")
 
             if options.verbose:
                 print("      [>] Committing results ...")
-                os.system('git add ./versions/%s/; git commit -m "Added wordlists for drupal version %s";' % (version, version))
+                os.system('git add ./versions/%s/; git commit -m "Added wordlists for joomla version %s";' % (_version, _version))
             else:
-                os.popen('git add ./versions/%s/; git commit -m "Added wordlists for drupal version %s";' % (version, version)).read()
+                os.popen('git add ./versions/%s/; git commit -m "Added wordlists for joomla version %s";' % (_version, _version)).read()
 
     if options.verbose:
         print("      [>] Creating common wordlists ...")
-    os.system('find ./versions/ -type f -name "drupal.txt" -exec cat {} \\; | sort -u > drupal.txt')
-    os.system('find ./versions/ -type f -name "drupal_files.txt" -exec cat {} \\; | sort -u > drupal_files.txt')
-    os.system('find ./versions/ -type f -name "drupal_dirs.txt" -exec cat {} \\; | sort -u > drupal_dirs.txt')
+    os.system('find ./versions/ -type f -name "joomla.txt" -exec cat {} \\; | sort -u > joomla.txt')
+    os.system('find ./versions/ -type f -name "joomla_files.txt" -exec cat {} \\; | sort -u > joomla_files.txt')
+    os.system('find ./versions/ -type f -name "joomla_dirs.txt" -exec cat {} \\; | sort -u > joomla_dirs.txt')
 
-    os.system('git add *.txt; git commit -m "Added general wordlists for drupal";')
+    os.system('git add *.txt; git commit -m "Added general wordlists for joomla";')
