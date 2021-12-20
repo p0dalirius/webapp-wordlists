@@ -1,0 +1,5 @@
+/versions/1.1/croogo.txt
+/versions/1.0a/croogo_files.txt
+/versions/1.0a/croogo_dirs.txt
+/versions/1.0a/croogo.txt
+/gen_croogo_wordlists.py
