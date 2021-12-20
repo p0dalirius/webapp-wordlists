@@ -1,5 +1,0 @@
-/versions/1.5.2/backdrop_files.txt
-/versions/1.5.2/backdrop.txt
-/versions/1.5.2/backdrop_dirs.txt
-/versions/1.5.1/backdrop.txt
-/gen_wbcecms_wordlists.py

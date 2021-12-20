@@ -1,3 +1,0 @@
-/versions
-/versions/1.5.2
-/gen_wbcecms_wordlists.py
