@@ -11,13 +11,7 @@ License.txt
 Open
 Plugin.url
 /README.md
-/versions/1.5.1/backdrop_dirs.txt
-/versions/1.5.1/backdrop_files.txt
-/versions/1.5.1/backdrop.txt
 /versions/1.5.1/wbce-cms.txt
-/versions/1.5.2/backdrop_dirs.txt
-/versions/1.5.2/backdrop_files.txt
-/versions/1.5.2/backdrop.txt
 /versions/1.5.2/wbce-cms_dirs.txt
 /versions/1.5.2/wbce-cms_files.txt
 /versions/1.5.2/wbce-cms.txt
@@ -252,6 +246,9 @@ Plugin.url
 /wbce/admin/users/index.php
 /wbce/admin/users/save.php
 /wbce/admin/users/users.php
+/wbce-cms_dirs.txt
+/wbce-cms_files.txt
+/wbce-cms.txt
 /wbce/config/index.php
 /wbce/config.php.new
 /wbce/favicon.ico

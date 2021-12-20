@@ -12,15 +12,8 @@ Open
 Plugin.url
 /README.md
 /versions
-/versions/1.5.0
 /versions/1.5.1
-/versions/1.5.1/backdrop_dirs.txt
-/versions/1.5.1/backdrop_files.txt
-/versions/1.5.1/backdrop.txt
 /versions/1.5.2
-/versions/1.5.2/backdrop_dirs.txt
-/versions/1.5.2/backdrop_files.txt
-/versions/1.5.2/backdrop.txt
 /versions/1.5.2/wbce-cms_dirs.txt
 /versions/1.5.2/wbce-cms_files.txt
 /versions/1.5.2/wbce-cms.txt
@@ -286,6 +279,9 @@ Plugin.url
 /wbce/admin/users/index.php
 /wbce/admin/users/save.php
 /wbce/admin/users/users.php
+/wbce-cms_dirs.txt
+/wbce-cms_files.txt
+/wbce-cms.txt
 /wbce/config
 /wbce/config/index.php
 /wbce/config.php.new
