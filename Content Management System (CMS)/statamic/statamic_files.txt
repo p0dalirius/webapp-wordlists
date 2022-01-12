@@ -1043,8 +1043,10 @@
 /src/Actions/ActionRepository.php
 /src/Actions/DeleteMultisiteEntry.php
 /src/Actions/Delete.php
+/src/Actions/MoveAssetFolder.php
 /src/Actions/MoveAsset.php
 /src/Actions/Publish.php
+/src/Actions/RenameAssetFolder.php
 /src/Actions/RenameAsset.php
 /src/Actions/SendPasswordReset.php
 /src/Actions/Unpublish.php
@@ -1537,8 +1539,11 @@
 /src/Fieldtypes/Assets/ContainerException.php
 /src/Fieldtypes/Assets/DimensionsRule.php
 /src/Fieldtypes/Assets/ImageRule.php
+/src/Fieldtypes/Assets/MaxRule.php
 /src/Fieldtypes/Assets/MimesRule.php
 /src/Fieldtypes/Assets/MimetypesRule.php
+/src/Fieldtypes/Assets/MinRule.php
+/src/Fieldtypes/Assets/SizeBasedRule.php
 /src/Fieldtypes/Assets/UndefinedContainerException.php
 /src/Fieldtypes/Bard/Augmentor.php
 /src/Fieldtypes/Bard/Buttons.php
@@ -1990,6 +1995,7 @@
 /src/Query/EloquentQueryBuilder.php
 /src/Query/IteratorBuilder.php
 /src/Query/OrderBy.php
+/src/Query/ResolveValue.php
 /src/Query/Scopes/Filter.php
 /src/Query/Scopes/Filters/Blueprint.php
 /src/Query/Scopes/Filters/Collection.php
