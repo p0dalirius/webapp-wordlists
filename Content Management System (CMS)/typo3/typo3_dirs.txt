@@ -7692,6 +7692,8 @@ space
 /vendor/symfony/console/CI
 /vendor/symfony/console/Command
 /vendor/symfony/console/CommandLoader
+/vendor/symfony/console/Completion
+/vendor/symfony/console/Completion/Output
 /vendor/symfony/console/DependencyInjection
 /vendor/symfony/console/Descriptor
 /vendor/symfony/console/Event
@@ -7708,6 +7710,7 @@ space
 /vendor/symfony/console/SignalRegistry
 /vendor/symfony/console/Style
 /vendor/symfony/console/Tester
+/vendor/symfony/console/Tester/Constraint
 /vendor/symfony/console/Tests
 /vendor/symfony/console/Tests/Command
 /vendor/symfony/console/Tests/Descriptor
@@ -7894,6 +7897,7 @@ space
 /vendor/symfony/property-info
 /vendor/symfony/property-info/DependencyInjection
 /vendor/symfony/property-info/Extractor
+/vendor/symfony/property-info/PhpStan
 /vendor/symfony/property-info/Util
 /vendor/symfony/rate-limiter
 /vendor/symfony/rate-limiter/Exception

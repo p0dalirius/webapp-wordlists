@@ -6606,6 +6606,7 @@ space/foo.txt
 /typo3/sysext/core/Classes/Database/Query/Expression/CompositeExpression.php
 /typo3/sysext/core/Classes/Database/Query/Expression/ExpressionBuilder.php
 /typo3/sysext/core/Classes/Database/QueryGenerator.php
+/typo3/sysext/core/Classes/Database/Query/NamedParameterNotSupportedForPreparedStatementException.php
 /typo3/sysext/core/Classes/Database/Query/QueryBuilder.php
 /typo3/sysext/core/Classes/Database/Query/QueryContext.php
 /typo3/sysext/core/Classes/Database/Query/QueryContextType.php
@@ -6629,6 +6630,7 @@ space/foo.txt
 /typo3/sysext/core/Classes/Database/Query/Restriction/RootLevelRestriction.php
 /typo3/sysext/core/Classes/Database/Query/Restriction/StartTimeRestriction.php
 /typo3/sysext/core/Classes/Database/Query/Restriction/WorkspaceRestriction.php
+/typo3/sysext/core/Classes/Database/Query/UnsupportedPreparedStatementParameterTypeException.php
 /typo3/sysext/core/Classes/Database/QueryView.php
 /typo3/sysext/core/Classes/Database/ReferenceIndex.php
 /typo3/sysext/core/Classes/Database/RelationHandler.php
@@ -7764,6 +7766,7 @@ space/foo.txt
 /typo3/sysext/core/Documentation/Changelog/10.4.x/Important-91117-UseGlobalEventHandlerAndActionDispatcherInsteadOfInlineJS.rst
 /typo3/sysext/core/Documentation/Changelog/10.4.x/Important-91123-AvoidUsingBackendUtilityViewOnClick.rst
 /typo3/sysext/core/Documentation/Changelog/10.4.x/Important-91132-AvoidJavaScriptInUserSettingsConfigurationOptions.rst
+/typo3/sysext/core/Documentation/Changelog/10.4.x/Important-92020-NewAPIEntryPointAvailableAtHttpsgettypo3orgapi.rst
 /typo3/sysext/core/Documentation/Changelog/10.4.x/Important-92100-YAMLImportsFollowDeclarationOrder.rst
 /typo3/sysext/core/Documentation/Changelog/10.4.x/Important-92336-DiscardingRecordsInWorkspaceModuleHardDeletesThem.rst
 /typo3/sysext/core/Documentation/Changelog/10.4.x/Important-92356-DataHandlerPerformanceImprovements.rst
@@ -8123,6 +8126,7 @@ space/foo.txt
 /typo3/sysext/core/Documentation/Changelog/11.5/Important-95384-TCAInternal_typedbOptionalForTypegroup.rst
 /typo3/sysext/core/Documentation/Changelog/11.5/Index.rst
 /typo3/sysext/core/Documentation/Changelog/11.5.x/Deprecation-95800-GeneratingPublicURLForPrivateAssetFiles.rst
+/typo3/sysext/core/Documentation/Changelog/11.5.x/Important-92020-NewAPIEntryPointAvailableAtHttpsgettypo3orgapi.rst
 /typo3/sysext/core/Documentation/Changelog/11.5.x/Important-93635-AddMailConfigurationForSettingSmtpDomain.rst
 /typo3/sysext/core/Documentation/Changelog/11.5.x/Index.rst
 /typo3/sysext/core/Documentation/Changelog-11.rst
@@ -21279,6 +21283,7 @@ space/foo.txt
 /typo3/sysext/form/Documentation/Images/form_manager.png
 /typo3/sysext/form/Documentation/Images/introduction_form_editor.png
 /typo3/sysext/form/Documentation/Images/javascript_module_interaction.png
+/typo3/sysext/form/Documentation/Includes.rst.txt
 /typo3/sysext/form/Documentation/Includes.txt
 /typo3/sysext/form/Documentation/Index.rst
 /typo3/sysext/form/Documentation/Introduction/Images/introduction_form_editor.png
@@ -28621,6 +28626,7 @@ space/foo.txt
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/autoembed/lang/gl.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/autoembed/lang/hr.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/autoembed/lang/hu.js
+/typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/autoembed/lang/id.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/autoembed/lang/it.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/autoembed/lang/ja.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/autoembed/lang/km.js
@@ -29382,6 +29388,7 @@ space/foo.txt
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/emoji/lang/en-au.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/emoji/lang/en.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/emoji/lang/et.js
+/typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/emoji/lang/fa.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/emoji/lang/fr.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/emoji/lang/gl.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/emoji/lang/hr.js
@@ -31223,6 +31230,7 @@ space/foo.txt
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/templates/lang/zh-cn.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/templates/lang/zh.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/templates/plugin.js
+/typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/templates/templatedefinition.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/templates/templates/default.js
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/templates/templates/images/template1.gif
 /typo3/sysext/rte_ckeditor/Resources/Public/JavaScript/Contrib/plugins/templates/templates/images/template2.gif
@@ -41208,6 +41216,8 @@ space/foo.txt
 /vendor/symfony/console/CI/GithubActionReporter.php
 /vendor/symfony/console/Color.php
 /vendor/symfony/console/Command/Command.php
+/vendor/symfony/console/Command/CompleteCommand.php
+/vendor/symfony/console/Command/DumpCompletionCommand.php
 /vendor/symfony/console/Command/HelpCommand.php
 /vendor/symfony/console/Command/LazyCommand.php
 /vendor/symfony/console/Command/ListCommand.php
@@ -41216,6 +41226,11 @@ space/foo.txt
 /vendor/symfony/console/CommandLoader/FactoryCommandLoader.php
 /vendor/symfony/console/Command/LockableTrait.php
 /vendor/symfony/console/Command/SignalableCommandInterface.php
+/vendor/symfony/console/Completion/CompletionInput.php
+/vendor/symfony/console/Completion/CompletionSuggestions.php
+/vendor/symfony/console/Completion/Output/BashCompletionOutput.php
+/vendor/symfony/console/Completion/Output/CompletionOutputInterface.php
+/vendor/symfony/console/Completion/Suggestion.php
 /vendor/symfony/console/composer.json
 /vendor/symfony/console/ConsoleEvents.php
 /vendor/symfony/console/Cursor.php
@@ -41301,6 +41316,7 @@ space/foo.txt
 /vendor/symfony/console/Question/Question.php
 /vendor/symfony/console/README.md
 /vendor/symfony/console/Resources/bin/hiddeninput.exe
+/vendor/symfony/console/Resources/completion.bash
 /vendor/symfony/console/Shell.php
 /vendor/symfony/console/SignalRegistry/SignalRegistry.php
 /vendor/symfony/console/SingleCommandApplication.php
@@ -41309,7 +41325,9 @@ space/foo.txt
 /vendor/symfony/console/Style/SymfonyStyle.php
 /vendor/symfony/console/Terminal.php
 /vendor/symfony/console/Tester/ApplicationTester.php
+/vendor/symfony/console/Tester/CommandCompletionTester.php
 /vendor/symfony/console/Tester/CommandTester.php
+/vendor/symfony/console/Tester/Constraint/CommandIsSuccessful.php
 /vendor/symfony/console/Tester/TesterTrait.php
 /vendor/symfony/console/Tests/ApplicationTest.php
 /vendor/symfony/console/Tests/Command/CommandTest.php
@@ -41649,6 +41667,7 @@ space/foo.txt
 /vendor/symfony/dependency-injection/Loader/Configurator/AbstractConfigurator.php
 /vendor/symfony/dependency-injection/Loader/Configurator/AbstractServiceConfigurator.php
 /vendor/symfony/dependency-injection/Loader/Configurator/AliasConfigurator.php
+/vendor/symfony/dependency-injection/Loader/Configurator/ClosureReferenceConfigurator.php
 /vendor/symfony/dependency-injection/Loader/Configurator/ContainerConfigurator.php
 /vendor/symfony/dependency-injection/Loader/Configurator/DefaultsConfigurator.php
 /vendor/symfony/dependency-injection/Loader/Configurator/EnvConfigurator.php
@@ -41770,9 +41789,11 @@ space/foo.txt
 /vendor/symfony/filesystem/Exception/InvalidArgumentException.php
 /vendor/symfony/filesystem/Exception/IOExceptionInterface.php
 /vendor/symfony/filesystem/Exception/IOException.php
+/vendor/symfony/filesystem/Exception/RuntimeException.php
 /vendor/symfony/filesystem/Filesystem.php
 /vendor/symfony/filesystem/.gitattributes
 /vendor/symfony/filesystem/LICENSE
+/vendor/symfony/filesystem/Path.php
 /vendor/symfony/filesystem/phpunit.xml.dist
 /vendor/symfony/filesystem/README.md
 /vendor/symfony/finder/Adapter/AbstractAdapter.php
@@ -41816,6 +41837,7 @@ space/foo.txt
 /vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php
 /vendor/symfony/finder/Iterator/SizeRangeFilterIterator.php
 /vendor/symfony/finder/Iterator/SortableIterator.php
+/vendor/symfony/finder/Iterator/VcsIgnoredFilterIterator.php
 /vendor/symfony/finder/LICENSE
 /vendor/symfony/finder/phpunit.xml.dist
 /vendor/symfony/finder/README.md
@@ -41933,6 +41955,7 @@ space/foo.txt
 /vendor/symfony/http-foundation/Session/Flash/FlashBag.php
 /vendor/symfony/http-foundation/Session/SessionBagInterface.php
 /vendor/symfony/http-foundation/Session/SessionBagProxy.php
+/vendor/symfony/http-foundation/Session/SessionFactoryInterface.php
 /vendor/symfony/http-foundation/Session/SessionFactory.php
 /vendor/symfony/http-foundation/Session/SessionInterface.php
 /vendor/symfony/http-foundation/Session/Session.php
@@ -43663,10 +43686,13 @@ space/foo.txt
 /vendor/symfony/property-info/Extractor/ConstructorArgumentTypeExtractorInterface.php
 /vendor/symfony/property-info/Extractor/ConstructorExtractor.php
 /vendor/symfony/property-info/Extractor/PhpDocExtractor.php
+/vendor/symfony/property-info/Extractor/PhpStanExtractor.php
 /vendor/symfony/property-info/Extractor/ReflectionExtractor.php
 /vendor/symfony/property-info/Extractor/SerializerExtractor.php
 /vendor/symfony/property-info/.gitattributes
 /vendor/symfony/property-info/LICENSE
+/vendor/symfony/property-info/PhpStan/NameScopeFactory.php
+/vendor/symfony/property-info/PhpStan/NameScope.php
 /vendor/symfony/property-info/phpunit.xml.dist
 /vendor/symfony/property-info/PropertyAccessExtractorInterface.php
 /vendor/symfony/property-info/PropertyDescriptionExtractorInterface.php
@@ -43683,6 +43709,7 @@ space/foo.txt
 /vendor/symfony/property-info/README.md
 /vendor/symfony/property-info/Type.php
 /vendor/symfony/property-info/Util/PhpDocTypeHelper.php
+/vendor/symfony/property-info/Util/PhpStanTypeHelper.php
 /vendor/symfony/rate-limiter/CHANGELOG.md
 /vendor/symfony/rate-limiter/composer.json
 /vendor/symfony/rate-limiter/CompoundLimiter.php
@@ -43710,18 +43737,22 @@ space/foo.txt
 /vendor/symfony/rate-limiter/Storage/InMemoryStorage.php
 /vendor/symfony/rate-limiter/Storage/StorageInterface.php
 /vendor/symfony/rate-limiter/Util/TimeUtil.php
+/vendor/symfony/routing/Alias.php
 /vendor/symfony/routing/Annotation/Route.php
 /vendor/symfony/routing/CHANGELOG.md
 /vendor/symfony/routing/CompiledRoute.php
 /vendor/symfony/routing/composer.json
 /vendor/symfony/routing/DependencyInjection/RoutingResolverPass.php
 /vendor/symfony/routing/Exception/ExceptionInterface.php
+/vendor/symfony/routing/Exception/InvalidArgumentException.php
 /vendor/symfony/routing/Exception/InvalidParameterException.php
 /vendor/symfony/routing/Exception/MethodNotAllowedException.php
 /vendor/symfony/routing/Exception/MissingMandatoryParametersException.php
 /vendor/symfony/routing/Exception/NoConfigurationException.php
 /vendor/symfony/routing/Exception/ResourceNotFoundException.php
+/vendor/symfony/routing/Exception/RouteCircularReferenceException.php
 /vendor/symfony/routing/Exception/RouteNotFoundException.php
+/vendor/symfony/routing/Exception/RuntimeException.php
 /vendor/symfony/routing/Generator/CompiledUrlGenerator.php
 /vendor/symfony/routing/Generator/ConfigurableRequirementsInterface.php
 /vendor/symfony/routing/Generator/Dumper/CompiledUrlGeneratorDumper.php
@@ -43736,6 +43767,7 @@ space/foo.txt
 /vendor/symfony/routing/Loader/AnnotationDirectoryLoader.php
 /vendor/symfony/routing/Loader/AnnotationFileLoader.php
 /vendor/symfony/routing/Loader/ClosureLoader.php
+/vendor/symfony/routing/Loader/Configurator/AliasConfigurator.php
 /vendor/symfony/routing/Loader/Configurator/CollectionConfigurator.php
 /vendor/symfony/routing/Loader/Configurator/ImportConfigurator.php
 /vendor/symfony/routing/Loader/Configurator/RouteConfigurator.php
@@ -43826,6 +43858,7 @@ space/foo.txt
 /vendor/symfony/var-dumper/Caster/DsPairStub.php
 /vendor/symfony/var-dumper/Caster/EnumStub.php
 /vendor/symfony/var-dumper/Caster/ExceptionCaster.php
+/vendor/symfony/var-dumper/Caster/FiberCaster.php
 /vendor/symfony/var-dumper/Caster/FrameStub.php
 /vendor/symfony/var-dumper/Caster/GmpCaster.php
 /vendor/symfony/var-dumper/Caster/ImagineCaster.php
