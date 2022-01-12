@@ -460,6 +460,7 @@
 /core/vendor/agelxnash/modx-evo-database/tests/Real/Issue1
 /core/vendor/agelxnash/modx-evo-database/tests/Source
 /core/vendor/agelxnash/modx-evo-database/tests/Source/Traits
+/core/vendor/bin
 /core/vendor/composer
 /core/vendor/composer/ca-bundle
 /core/vendor/composer/ca-bundle/res
@@ -513,12 +514,16 @@
 /core/vendor/composer/composer/src/Composer/Util/Http
 /core/vendor/composer/metadata-minifier
 /core/vendor/composer/metadata-minifier/src
+/core/vendor/composer/pcre
+/core/vendor/composer/pcre/src
 /core/vendor/composer/semver
 /core/vendor/composer/semver/.github
 /core/vendor/composer/semver/.github/workflows
 /core/vendor/composer/semver/src
 /core/vendor/composer/semver/src/Constraint
 /core/vendor/composer/spdx-licenses
+/core/vendor/composer/spdx-licenses/.github
+/core/vendor/composer/spdx-licenses/.github/workflows
 /core/vendor/composer/spdx-licenses/res
 /core/vendor/composer/spdx-licenses/src
 /core/vendor/composer/xdebug-handler
@@ -688,6 +693,7 @@
 /core/vendor/guzzlehttp/psr7/.github
 /core/vendor/guzzlehttp/psr7/.github/workflows
 /core/vendor/guzzlehttp/psr7/src
+/core/vendor/guzzlehttp/psr7/src/Exception
 /core/vendor/guzzlehttp/psr7/vendor-bin
 /core/vendor/guzzlehttp/psr7/vendor-bin/php-cs-fixer
 /core/vendor/guzzlehttp/psr7/vendor-bin/phpstan
@@ -879,6 +885,8 @@
 /core/vendor/nesbot/carbon
 /core/vendor/nesbot/carbon/bin
 /core/vendor/nesbot/carbon/.github
+/core/vendor/nesbot/carbon/lazy
+/core/vendor/nesbot/carbon/lazy/Carbon
 /core/vendor/nesbot/carbon/src
 /core/vendor/nesbot/carbon/src/Carbon
 /core/vendor/nesbot/carbon/src/Carbon/Cli
@@ -948,6 +956,7 @@
 /core/vendor/psr/log/Psr
 /core/vendor/psr/log/Psr/Log
 /core/vendor/psr/log/Psr/Log/Test
+/core/vendor/psr/log/src
 /core/vendor/psr/simple-cache
 /core/vendor/psr/simple-cache/src
 /core/vendor/ralouphie
@@ -958,6 +967,10 @@
 /core/vendor/react/promise/src
 /core/vendor/react/promise/src/Exception
 /core/vendor/rosell-dk
+/core/vendor/rosell-dk/exec-with-fallback
+/core/vendor/rosell-dk/exec-with-fallback/.github
+/core/vendor/rosell-dk/exec-with-fallback/.github/workflows
+/core/vendor/rosell-dk/exec-with-fallback/src
 /core/vendor/rosell-dk/image-mime-type-guesser
 /core/vendor/rosell-dk/image-mime-type-guesser/.circleci
 /core/vendor/rosell-dk/image-mime-type-guesser/.github
@@ -973,9 +986,11 @@
 /core/vendor/rosell-dk/webp-convert/docs/v2.0
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/converting
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/converting/converters
+/core/vendor/rosell-dk/webp-convert/docs/v2.0/installing-converters
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/serving
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/webp-on-demand
 /core/vendor/rosell-dk/webp-convert/.github
+/core/vendor/rosell-dk/webp-convert/.github/workflows
 /core/vendor/rosell-dk/webp-convert/src
 /core/vendor/rosell-dk/webp-convert/src/Convert
 /core/vendor/rosell-dk/webp-convert/src/Convert/Converters
@@ -1013,6 +1028,8 @@
 /core/vendor/symfony/console/CI
 /core/vendor/symfony/console/Command
 /core/vendor/symfony/console/CommandLoader
+/core/vendor/symfony/console/Completion
+/core/vendor/symfony/console/Completion/Output
 /core/vendor/symfony/console/DependencyInjection
 /core/vendor/symfony/console/Descriptor
 /core/vendor/symfony/console/Event
@@ -1029,6 +1046,7 @@
 /core/vendor/symfony/console/SignalRegistry
 /core/vendor/symfony/console/Style
 /core/vendor/symfony/console/Tester
+/core/vendor/symfony/console/Tester/Constraint
 /core/vendor/symfony/console/Tests
 /core/vendor/symfony/console/Tests/Command
 /core/vendor/symfony/console/Tests/CommandLoader
@@ -1064,11 +1082,13 @@
 /core/vendor/symfony/error-handler/ErrorEnhancer
 /core/vendor/symfony/error-handler/ErrorRenderer
 /core/vendor/symfony/error-handler/Exception
+/core/vendor/symfony/error-handler/Internal
 /core/vendor/symfony/error-handler/Resources
 /core/vendor/symfony/error-handler/Resources/assets
 /core/vendor/symfony/error-handler/Resources/assets/css
 /core/vendor/symfony/error-handler/Resources/assets/images
 /core/vendor/symfony/error-handler/Resources/assets/js
+/core/vendor/symfony/error-handler/Resources/bin
 /core/vendor/symfony/error-handler/Resources/views
 /core/vendor/symfony/event-dispatcher
 /core/vendor/symfony/event-dispatcher/Attribute

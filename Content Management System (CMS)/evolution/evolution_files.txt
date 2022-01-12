@@ -1882,6 +1882,7 @@
 /core/artisan
 /core/bootstrap.php
 /core/composer.json
+/core/composer.lock
 /core/config/app.php
 /core/config/cache.php
 /core/config/cms/observers.php
@@ -1997,6 +1998,7 @@
 /core/src/Controllers/ExportSite.php
 /core/src/Controllers/Frame.php
 /core/src/Controllers/Help.php
+/core/src/Controllers/Modules.php
 /core/src/Controllers/MoveDocument.php
 /core/src/Controllers/Password.php
 /core/src/Controllers/Phpinfo.php
@@ -2382,6 +2384,7 @@
 /core/vendor/composer/composer/doc/fixtures/repo-composer-with-providers/p/qux/quux$c142d1a07ca354be46b613f59f1d601923a5a00ccc5fcce50a77ecdd461eb72d.json
 /core/vendor/composer/composer/.editorconfig
 /core/vendor/composer/composer/LICENSE
+/core/vendor/composer/composer/.php-cs-fixer.php
 /core/vendor/composer/composer/PORTING_INFO
 /core/vendor/composer/composer/README.md
 /core/vendor/composer/composer/res/composer-repository-schema.json
@@ -2676,6 +2679,17 @@
 /core/vendor/composer/metadata-minifier/phpstan.neon.dist
 /core/vendor/composer/metadata-minifier/README.md
 /core/vendor/composer/metadata-minifier/src/MetadataMinifier.php
+/core/vendor/composer/pcre/composer.json
+/core/vendor/composer/pcre/LICENSE
+/core/vendor/composer/pcre/README.md
+/core/vendor/composer/pcre/src/MatchAllResult.php
+/core/vendor/composer/pcre/src/MatchAllWithOffsetsResult.php
+/core/vendor/composer/pcre/src/MatchResult.php
+/core/vendor/composer/pcre/src/MatchWithOffsetsResult.php
+/core/vendor/composer/pcre/src/PcreException.php
+/core/vendor/composer/pcre/src/Preg.php
+/core/vendor/composer/pcre/src/Regex.php
+/core/vendor/composer/pcre/src/ReplaceResult.php
 /core/vendor/composer/platform_check.php
 /core/vendor/composer/semver/CHANGELOG.md
 /core/vendor/composer/semver/composer.json
@@ -2702,9 +2716,13 @@
 /core/vendor/composer/spdx-licenses/CHANGELOG.md
 /core/vendor/composer/spdx-licenses/composer
 /core/vendor/composer/spdx-licenses/composer.json
+/core/vendor/composer/spdx-licenses/.github/workflows/continuous-integration.yml
+/core/vendor/composer/spdx-licenses/.github/workflows/lint.yml
+/core/vendor/composer/spdx-licenses/.github/workflows/phpstan.yml
 /core/vendor/composer/spdx-licenses/LICENSE
 /core/vendor/composer/spdx-licenses/.php_cs
 /core/vendor/composer/spdx-licenses/.php_cs.dist
+/core/vendor/composer/spdx-licenses/phpstan.neon.dist
 /core/vendor/composer/spdx-licenses/README
 /core/vendor/composer/spdx-licenses/README.md
 /core/vendor/composer/spdx-licenses/res/spdx-exceptions
@@ -3174,6 +3192,7 @@
 /core/vendor/doctrine/inflector/lib/Doctrine/Inflector/WordInflector.php
 /core/vendor/doctrine/inflector/LICENSE
 /core/vendor/doctrine/inflector/phpstan.neon.dist
+/core/vendor/doctrine/inflector/psalm.xml
 /core/vendor/doctrine/inflector/README.md
 /core/vendor/doctrine/lexer/composer.json
 /core/vendor/doctrine/lexer/lib/Doctrine/Common/Lexer/AbstractLexer.php
@@ -3285,6 +3304,7 @@
 /core/vendor/evolutioncms-services/user-manager/src/Providers/UserManagerServiceProvider.php
 /core/vendor/evolutioncms-services/user-manager/src/Services/UserManager.php
 /core/vendor/evolutioncms-services/user-manager/src/Services/Users/ExcludeStandardFieldsTrait.php
+/core/vendor/evolutioncms-services/user-manager/src/Services/Users/SafelyDestroyUserSessionTrait.php
 /core/vendor/evolutioncms-services/user-manager/src/Services/Users/UserChangePassword.php
 /core/vendor/evolutioncms-services/user-manager/src/Services/Users/UserClearSettings.php
 /core/vendor/evolutioncms-services/user-manager/src/Services/Users/UserDelete.php
@@ -3400,6 +3420,7 @@
 /core/vendor/guzzlehttp/psr7/src/BufferStream.php
 /core/vendor/guzzlehttp/psr7/src/CachingStream.php
 /core/vendor/guzzlehttp/psr7/src/DroppingStream.php
+/core/vendor/guzzlehttp/psr7/src/Exception/MalformedUriException.php
 /core/vendor/guzzlehttp/psr7/src/FnStream.php
 /core/vendor/guzzlehttp/psr7/src/functions_include.php
 /core/vendor/guzzlehttp/psr7/src/functions.php
@@ -3443,6 +3464,7 @@
 /core/vendor/illuminate/bus/PendingBatch.php
 /core/vendor/illuminate/bus/PrunableBatchRepository.php
 /core/vendor/illuminate/bus/Queueable.php
+/core/vendor/illuminate/bus/UniqueLock.php
 /core/vendor/illuminate/bus/UpdatedBatchJobCounts.php
 /core/vendor/illuminate/cache/ApcStore.php
 /core/vendor/illuminate/cache/ApcWrapper.php
@@ -3508,6 +3530,7 @@
 /core/vendor/illuminate/console/Command.php
 /core/vendor/illuminate/console/composer.json
 /core/vendor/illuminate/console/Concerns/CallsCommands.php
+/core/vendor/illuminate/console/Concerns/CreatesMatchingTest.php
 /core/vendor/illuminate/console/Concerns/HasParameters.php
 /core/vendor/illuminate/console/Concerns/InteractsWithIO.php
 /core/vendor/illuminate/console/ConfirmableTrait.php
@@ -3644,6 +3667,7 @@
 /core/vendor/illuminate/contracts/Routing/UrlRoutable.php
 /core/vendor/illuminate/contracts/Session/Session.php
 /core/vendor/illuminate/contracts/Support/Arrayable.php
+/core/vendor/illuminate/contracts/Support/CanBeEscapedWhenCastToString.php
 /core/vendor/illuminate/contracts/Support/DeferrableProvider.php
 /core/vendor/illuminate/contracts/Support/DeferringDisplayableValue.php
 /core/vendor/illuminate/contracts/Support/Htmlable.php
@@ -3720,6 +3744,7 @@
 /core/vendor/illuminate/database/Eloquent/Casts/AsCollection.php
 /core/vendor/illuminate/database/Eloquent/Casts/AsEncryptedArrayObject.php
 /core/vendor/illuminate/database/Eloquent/Casts/AsEncryptedCollection.php
+/core/vendor/illuminate/database/Eloquent/Casts/AsStringable.php
 /core/vendor/illuminate/database/Eloquent/Collection.php
 /core/vendor/illuminate/database/Eloquent/Concerns/GuardsAttributes.php
 /core/vendor/illuminate/database/Eloquent/Concerns/HasAttributes.php
@@ -4100,6 +4125,7 @@
 /core/vendor/illuminate/support/HigherOrderTapProxy.php
 /core/vendor/illuminate/support/HtmlString.php
 /core/vendor/illuminate/support/InteractsWithTime.php
+/core/vendor/illuminate/support/Js.php
 /core/vendor/illuminate/support/LazyCollection.php
 /core/vendor/illuminate/support/LICENSE.md
 /core/vendor/illuminate/support/Manager.php
@@ -4154,6 +4180,7 @@
 /core/vendor/illuminate/validation/Rule.php
 /core/vendor/illuminate/validation/Rules/DatabaseRule.php
 /core/vendor/illuminate/validation/Rules/Dimensions.php
+/core/vendor/illuminate/validation/Rules/Enum.php
 /core/vendor/illuminate/validation/Rules/Exists.php
 /core/vendor/illuminate/validation/Rules/In.php
 /core/vendor/illuminate/validation/Rules/NotIn.php
@@ -4184,6 +4211,7 @@
 /core/vendor/illuminate/view/Compilers/Concerns/CompilesIncludes.php
 /core/vendor/illuminate/view/Compilers/Concerns/CompilesInjections.php
 /core/vendor/illuminate/view/Compilers/Concerns/CompilesJson.php
+/core/vendor/illuminate/view/Compilers/Concerns/CompilesJs.php
 /core/vendor/illuminate/view/Compilers/Concerns/CompilesLayouts.php
 /core/vendor/illuminate/view/Compilers/Concerns/CompilesLoops.php
 /core/vendor/illuminate/view/Compilers/Concerns/CompilesRawPhp.php
@@ -4591,11 +4619,14 @@
 /core/vendor/nesbot/carbon/extension.neon
 /core/vendor/nesbot/carbon/.github/FUNDING.yml
 /core/vendor/nesbot/carbon/.github/ISSUE_TEMPLATE.md
+/core/vendor/nesbot/carbon/lazy/Carbon/TranslatorStrongType.php
+/core/vendor/nesbot/carbon/lazy/Carbon/TranslatorWeakType.php
 /core/vendor/nesbot/carbon/LICENSE
 /core/vendor/nesbot/carbon/.multi-tester.yml
 /core/vendor/nesbot/carbon/.php_cs.dist
 /core/vendor/nesbot/carbon/phpmd.xml
 /core/vendor/nesbot/carbon/readme.md
+/core/vendor/nesbot/carbon/src/Carbon/AbstractTranslator.php
 /core/vendor/nesbot/carbon/src/Carbon/CarbonConverterInterface.php
 /core/vendor/nesbot/carbon/src/Carbon/CarbonImmutable.php
 /core/vendor/nesbot/carbon/src/Carbon/CarbonInterface.php
@@ -5479,6 +5510,7 @@
 /core/vendor/nesbot/carbon/src/Carbon/Traits/Converter.php
 /core/vendor/nesbot/carbon/src/Carbon/Traits/Creator.php
 /core/vendor/nesbot/carbon/src/Carbon/Traits/Date.php
+/core/vendor/nesbot/carbon/src/Carbon/Traits/DeprecatedProperties.php
 /core/vendor/nesbot/carbon/src/Carbon/Traits/Difference.php
 /core/vendor/nesbot/carbon/src/Carbon/Traits/IntervalRounding.php
 /core/vendor/nesbot/carbon/src/Carbon/Traits/IntervalStep.php
@@ -5496,6 +5528,7 @@
 /core/vendor/nesbot/carbon/src/Carbon/Traits/Units.php
 /core/vendor/nesbot/carbon/src/Carbon/Traits/Week.php
 /core/vendor/nesbot/carbon/src/Carbon/Translator.php
+/core/vendor/nesbot/carbon/src/Carbon/TranslatorStrongTypeInterface.php
 /core/vendor/paragonie/random_compat/build-phar.sh
 /core/vendor/paragonie/random_compat/composer.json
 /core/vendor/paragonie/random_compat/dist/random_compat.phar.pubkey
@@ -5969,6 +6002,14 @@
 /core/vendor/psr/log/Psr/Log/Test/TestLogger.php
 /core/vendor/psr/log/README
 /core/vendor/psr/log/README.md
+/core/vendor/psr/log/src/AbstractLogger.php
+/core/vendor/psr/log/src/InvalidArgumentException.php
+/core/vendor/psr/log/src/LoggerAwareInterface.php
+/core/vendor/psr/log/src/LoggerAwareTrait.php
+/core/vendor/psr/log/src/LoggerInterface.php
+/core/vendor/psr/log/src/LoggerTrait.php
+/core/vendor/psr/log/src/LogLevel.php
+/core/vendor/psr/log/src/NullLogger.php
 /core/vendor/psr/simple-cache/composer.json
 /core/vendor/psr/simple-cache/.editorconfig
 /core/vendor/psr/simple-cache/LICENSE.md
@@ -5998,6 +6039,23 @@
 /core/vendor/react/promise/src/PromisorInterface.php
 /core/vendor/react/promise/src/RejectedPromise.php
 /core/vendor/react/promise/src/UnhandledRejectionException.php
+/core/vendor/rosell-dk/exec-with-fallback/composer.json
+/core/vendor/rosell-dk/exec-with-fallback/.github/FUNDING.yml
+/core/vendor/rosell-dk/exec-with-fallback/.github/workflows/php.yml
+/core/vendor/rosell-dk/exec-with-fallback/.github/workflows/release.yml
+/core/vendor/rosell-dk/exec-with-fallback/LICENSE
+/core/vendor/rosell-dk/exec-with-fallback/phpstan.neon
+/core/vendor/rosell-dk/exec-with-fallback/phpunit.xml.dist
+/core/vendor/rosell-dk/exec-with-fallback/phpunit.xml.dist.bak
+/core/vendor/rosell-dk/exec-with-fallback/README.md
+/core/vendor/rosell-dk/exec-with-fallback/src/Availability.php
+/core/vendor/rosell-dk/exec-with-fallback/src/ExecWithFallbackNoMercy.php
+/core/vendor/rosell-dk/exec-with-fallback/src/ExecWithFallback.php
+/core/vendor/rosell-dk/exec-with-fallback/src/Passthru.php
+/core/vendor/rosell-dk/exec-with-fallback/src/POpen.php
+/core/vendor/rosell-dk/exec-with-fallback/src/ProcOpen.php
+/core/vendor/rosell-dk/exec-with-fallback/src/ShellExec.php
+/core/vendor/rosell-dk/exec-with-fallback/test.php
 /core/vendor/rosell-dk/image-mime-type-guesser/.circleci/config.yml
 /core/vendor/rosell-dk/image-mime-type-guesser/composer.json
 /core/vendor/rosell-dk/image-mime-type-guesser/.github/FUNDING.yml
@@ -6033,6 +6091,12 @@
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/converting/introduction-for-converting.md
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/converting/mouse-q100.jpg
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/converting/options.md
+/core/vendor/rosell-dk/webp-convert/docs/v2.0/installing-converters/cwebp.md
+/core/vendor/rosell-dk/webp-convert/docs/v2.0/installing-converters/ffmpeg.md
+/core/vendor/rosell-dk/webp-convert/docs/v2.0/installing-converters/gd.md
+/core/vendor/rosell-dk/webp-convert/docs/v2.0/installing-converters/gmagick-extension.md
+/core/vendor/rosell-dk/webp-convert/docs/v2.0/installing-converters/imagick-extension.md
+/core/vendor/rosell-dk/webp-convert/docs/v2.0/installing-converters/vips.md
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/migrating-to-2.0.md
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/serving/introduction-for-serving.md
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/serving/laravel-nginx-serving.md
@@ -6040,8 +6104,16 @@
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/webp-on-demand/webp-on-demand.md
 /core/vendor/rosell-dk/webp-convert/docs/v2.0/webp-on-demand/without-composer.md
 /core/vendor/rosell-dk/webp-convert/.github/FUNDING.yml
+/core/vendor/rosell-dk/webp-convert/.github/install-gmagick-with-webp.sh
+/core/vendor/rosell-dk/webp-convert/.github/install-imagemagick-with-webp.sh
+/core/vendor/rosell-dk/webp-convert/.github/install-vips.sh
+/core/vendor/rosell-dk/webp-convert/.github/workflows/code-coverage.yml
+/core/vendor/rosell-dk/webp-convert/.github/workflows/php-debug.yml
+/core/vendor/rosell-dk/webp-convert/.github/workflows/php.yml
+/core/vendor/rosell-dk/webp-convert/.github/workflows/release.yml
 /core/vendor/rosell-dk/webp-convert/LICENSE
 /core/vendor/rosell-dk/webp-convert/phpunit-41.xml.dist
+/core/vendor/rosell-dk/webp-convert/phpunit-with-coverage.xml.dist
 /core/vendor/rosell-dk/webp-convert/README.md
 /core/vendor/rosell-dk/webp-convert/src/Convert/ConverterFactory.php
 /core/vendor/rosell-dk/webp-convert/src/Convert/Converters/AbstractConverter.php
@@ -6117,6 +6189,7 @@
 /core/vendor/rosell-dk/webp-convert/src/Options/IntegerOption.php
 /core/vendor/rosell-dk/webp-convert/src/Options/IntegerOrNullOption.php
 /core/vendor/rosell-dk/webp-convert/src/Options/MetadataOption.php
+/core/vendor/rosell-dk/webp-convert/src/Options/OptionFactory.php
 /core/vendor/rosell-dk/webp-convert/src/Options/Option.php
 /core/vendor/rosell-dk/webp-convert/src/Options/Options.php
 /core/vendor/rosell-dk/webp-convert/src/Options/QualityOption.php
@@ -6166,6 +6239,8 @@
 /core/vendor/symfony/console/CI/GithubActionReporter.php
 /core/vendor/symfony/console/Color.php
 /core/vendor/symfony/console/Command/Command.php
+/core/vendor/symfony/console/Command/CompleteCommand.php
+/core/vendor/symfony/console/Command/DumpCompletionCommand.php
 /core/vendor/symfony/console/Command/HelpCommand.php
 /core/vendor/symfony/console/Command/LazyCommand.php
 /core/vendor/symfony/console/Command/ListCommand.php
@@ -6174,6 +6249,11 @@
 /core/vendor/symfony/console/CommandLoader/FactoryCommandLoader.php
 /core/vendor/symfony/console/Command/LockableTrait.php
 /core/vendor/symfony/console/Command/SignalableCommandInterface.php
+/core/vendor/symfony/console/Completion/CompletionInput.php
+/core/vendor/symfony/console/Completion/CompletionSuggestions.php
+/core/vendor/symfony/console/Completion/Output/BashCompletionOutput.php
+/core/vendor/symfony/console/Completion/Output/CompletionOutputInterface.php
+/core/vendor/symfony/console/Completion/Suggestion.php
 /core/vendor/symfony/console/composer.json
 /core/vendor/symfony/console/ConsoleEvents.php
 /core/vendor/symfony/console/Cursor.php
@@ -6253,6 +6333,7 @@
 /core/vendor/symfony/console/Question/Question.php
 /core/vendor/symfony/console/README.md
 /core/vendor/symfony/console/Resources/bin/hiddeninput.exe
+/core/vendor/symfony/console/Resources/completion.bash
 /core/vendor/symfony/console/SignalRegistry/SignalRegistry.php
 /core/vendor/symfony/console/SingleCommandApplication.php
 /core/vendor/symfony/console/Style/OutputStyle.php
@@ -6260,7 +6341,9 @@
 /core/vendor/symfony/console/Style/SymfonyStyle.php
 /core/vendor/symfony/console/Terminal.php
 /core/vendor/symfony/console/Tester/ApplicationTester.php
+/core/vendor/symfony/console/Tester/CommandCompletionTester.php
 /core/vendor/symfony/console/Tester/CommandTester.php
+/core/vendor/symfony/console/Tester/Constraint/CommandIsSuccessful.php
 /core/vendor/symfony/console/Tester/TesterTrait.php
 /core/vendor/symfony/console/Tests/ApplicationTest.php
 /core/vendor/symfony/console/Tests/Command/CommandTest.php
@@ -6592,6 +6675,7 @@
 /core/vendor/symfony/error-handler/Error/UndefinedMethodError.php
 /core/vendor/symfony/error-handler/Exception/FlattenException.php
 /core/vendor/symfony/error-handler/Exception/SilencedErrorContext.php
+/core/vendor/symfony/error-handler/Internal/TentativeTypes.php
 /core/vendor/symfony/error-handler/LICENSE
 /core/vendor/symfony/error-handler/README.md
 /core/vendor/symfony/error-handler/Resources/assets/css/error.css
@@ -6600,6 +6684,7 @@
 /core/vendor/symfony/error-handler/Resources/assets/images/chevron-right.svg
 /core/vendor/symfony/error-handler/Resources/assets/images/favicon.png.base64
 /core/vendor/symfony/error-handler/Resources/assets/images/icon-book.svg
+/core/vendor/symfony/error-handler/Resources/assets/images/icon-copy.svg
 /core/vendor/symfony/error-handler/Resources/assets/images/icon-minus-square-o.svg
 /core/vendor/symfony/error-handler/Resources/assets/images/icon-minus-square.svg
 /core/vendor/symfony/error-handler/Resources/assets/images/icon-plus-square-o.svg
@@ -6608,6 +6693,8 @@
 /core/vendor/symfony/error-handler/Resources/assets/images/symfony-ghost.svg.php
 /core/vendor/symfony/error-handler/Resources/assets/images/symfony-logo.svg
 /core/vendor/symfony/error-handler/Resources/assets/js/exception.js
+/core/vendor/symfony/error-handler/Resources/bin/extract-tentative-return-types.php
+/core/vendor/symfony/error-handler/Resources/bin/patch-type-declarations
 /core/vendor/symfony/error-handler/Resources/views/error.html.php
 /core/vendor/symfony/error-handler/Resources/views/exception_full.html.php
 /core/vendor/symfony/error-handler/Resources/views/exception.html.php
@@ -6647,8 +6734,10 @@
 /core/vendor/symfony/filesystem/Exception/InvalidArgumentException.php
 /core/vendor/symfony/filesystem/Exception/IOExceptionInterface.php
 /core/vendor/symfony/filesystem/Exception/IOException.php
+/core/vendor/symfony/filesystem/Exception/RuntimeException.php
 /core/vendor/symfony/filesystem/Filesystem.php
 /core/vendor/symfony/filesystem/LICENSE
+/core/vendor/symfony/filesystem/Path.php
 /core/vendor/symfony/filesystem/phpunit.xml.dist
 /core/vendor/symfony/filesystem/README.md
 /core/vendor/symfony/filesystem/Tests/ExceptionTest.php
@@ -6678,6 +6767,7 @@
 /core/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php
 /core/vendor/symfony/finder/Iterator/SizeRangeFilterIterator.php
 /core/vendor/symfony/finder/Iterator/SortableIterator.php
+/core/vendor/symfony/finder/Iterator/VcsIgnoredFilterIterator.php
 /core/vendor/symfony/finder/LICENSE
 /core/vendor/symfony/finder/phpunit.xml.dist
 /core/vendor/symfony/finder/README.md
@@ -6805,6 +6895,7 @@
 /core/vendor/symfony/http-foundation/Session/Flash/FlashBag.php
 /core/vendor/symfony/http-foundation/Session/SessionBagInterface.php
 /core/vendor/symfony/http-foundation/Session/SessionBagProxy.php
+/core/vendor/symfony/http-foundation/Session/SessionFactoryInterface.php
 /core/vendor/symfony/http-foundation/Session/SessionFactory.php
 /core/vendor/symfony/http-foundation/Session/SessionInterface.php
 /core/vendor/symfony/http-foundation/Session/Session.php
@@ -6843,6 +6934,7 @@
 /core/vendor/symfony/http-foundation/Test/Constraint/ResponseHeaderSame.php
 /core/vendor/symfony/http-foundation/Test/Constraint/ResponseIsRedirected.php
 /core/vendor/symfony/http-foundation/Test/Constraint/ResponseIsSuccessful.php
+/core/vendor/symfony/http-foundation/Test/Constraint/ResponseIsUnprocessable.php
 /core/vendor/symfony/http-foundation/Test/Constraint/ResponseStatusCodeSame.php
 /core/vendor/symfony/http-foundation/UrlHelper.php
 /core/vendor/symfony/http-kernel/Attribute/ArgumentInterface.php
@@ -7186,18 +7278,22 @@
 /core/vendor/symfony/process/Tests/ProcessFailedExceptionTest.php
 /core/vendor/symfony/process/Tests/ProcessTest.php
 /core/vendor/symfony/process/Tests/SignalListener.php
+/core/vendor/symfony/routing/Alias.php
 /core/vendor/symfony/routing/Annotation/Route.php
 /core/vendor/symfony/routing/CHANGELOG.md
 /core/vendor/symfony/routing/CompiledRoute.php
 /core/vendor/symfony/routing/composer.json
 /core/vendor/symfony/routing/DependencyInjection/RoutingResolverPass.php
 /core/vendor/symfony/routing/Exception/ExceptionInterface.php
+/core/vendor/symfony/routing/Exception/InvalidArgumentException.php
 /core/vendor/symfony/routing/Exception/InvalidParameterException.php
 /core/vendor/symfony/routing/Exception/MethodNotAllowedException.php
 /core/vendor/symfony/routing/Exception/MissingMandatoryParametersException.php
 /core/vendor/symfony/routing/Exception/NoConfigurationException.php
 /core/vendor/symfony/routing/Exception/ResourceNotFoundException.php
+/core/vendor/symfony/routing/Exception/RouteCircularReferenceException.php
 /core/vendor/symfony/routing/Exception/RouteNotFoundException.php
+/core/vendor/symfony/routing/Exception/RuntimeException.php
 /core/vendor/symfony/routing/Generator/CompiledUrlGenerator.php
 /core/vendor/symfony/routing/Generator/ConfigurableRequirementsInterface.php
 /core/vendor/symfony/routing/Generator/Dumper/CompiledUrlGeneratorDumper.php
@@ -7211,6 +7307,7 @@
 /core/vendor/symfony/routing/Loader/AnnotationDirectoryLoader.php
 /core/vendor/symfony/routing/Loader/AnnotationFileLoader.php
 /core/vendor/symfony/routing/Loader/ClosureLoader.php
+/core/vendor/symfony/routing/Loader/Configurator/AliasConfigurator.php
 /core/vendor/symfony/routing/Loader/Configurator/CollectionConfigurator.php
 /core/vendor/symfony/routing/Loader/Configurator/ImportConfigurator.php
 /core/vendor/symfony/routing/Loader/Configurator/RouteConfigurator.php
@@ -7523,6 +7620,7 @@
 /core/vendor/symfony/var-dumper/Caster/DsPairStub.php
 /core/vendor/symfony/var-dumper/Caster/EnumStub.php
 /core/vendor/symfony/var-dumper/Caster/ExceptionCaster.php
+/core/vendor/symfony/var-dumper/Caster/FiberCaster.php
 /core/vendor/symfony/var-dumper/Caster/FrameStub.php
 /core/vendor/symfony/var-dumper/Caster/GmpCaster.php
 /core/vendor/symfony/var-dumper/Caster/ImagineCaster.php
@@ -7600,6 +7698,7 @@
 /core/vendor/tracy/tracy/examples/redirect.php
 /core/vendor/tracy/tracy/examples/warning.php
 /core/vendor/tracy/tracy/license.md
+/core/vendor/tracy/tracy/ncs.php
 /core/vendor/tracy/tracy/readme.md
 /core/vendor/tracy/tracy/src/Bridges/Nette/Bridge.php
 /core/vendor/tracy/tracy/src/Bridges/Nette/MailSender.php
@@ -9431,6 +9530,7 @@
 /manager/views/page/eventlog_details.blade.php
 /manager/views/page/export_site.blade.php
 /manager/views/page/help.blade.php
+/manager/views/page/modules.blade.php
 /manager/views/page/move_document.blade.php
 /manager/views/page/password.blade.php
 /manager/views/page/phpinfo.blade.php
