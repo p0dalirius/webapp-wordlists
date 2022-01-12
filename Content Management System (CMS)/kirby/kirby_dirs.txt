@@ -133,6 +133,13 @@
 /vendor/psr/log/Psr/Log
 /vendor/psr/log/src
 /vendor/symfony
+/vendor/symfony/polyfill-intl-idn
+/vendor/symfony/polyfill-intl-idn/Resources
+/vendor/symfony/polyfill-intl-idn/Resources/unidata
+/vendor/symfony/polyfill-intl-normalizer
+/vendor/symfony/polyfill-intl-normalizer/Resources
+/vendor/symfony/polyfill-intl-normalizer/Resources/stubs
+/vendor/symfony/polyfill-intl-normalizer/Resources/unidata
 /vendor/symfony/polyfill-mbstring
 /vendor/symfony/polyfill-mbstring/Resources
 /vendor/symfony/polyfill-mbstring/Resources/unidata
@@ -146,3 +153,4 @@
 /vendor/zendframework/zend-escaper/src/Exception
 /views
 /views/snippets
+/.vscode
