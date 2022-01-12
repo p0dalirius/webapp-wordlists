@@ -3340,6 +3340,7 @@
 /core/modules/link/tests/modules/link_test_views/test_views
 /core/modules/link/tests/src
 /core/modules/link/tests/src/Functional
+/core/modules/link/tests/src/FunctionalJavascript
 /core/modules/link/tests/src/Functional/Views
 /core/modules/link/tests/src/Kernel
 /core/modules/link/tests/src/Kernel/Plugin
@@ -10170,9 +10171,13 @@
 /vendor/egulias/email-validator/src/Egulias/EmailValidator/Parser
 /vendor/egulias/email-validator/src/Exception
 /vendor/egulias/email-validator/src/Parser
+/vendor/egulias/email-validator/src/Parser/CommentStrategy
+/vendor/egulias/email-validator/src/Result
+/vendor/egulias/email-validator/src/Result/Reason
 /vendor/egulias/email-validator/src/Validation
 /vendor/egulias/email-validator/src/Validation/Error
 /vendor/egulias/email-validator/src/Validation/Exception
+/vendor/egulias/email-validator/src/Validation/Extra
 /vendor/egulias/email-validator/src/Warning
 /vendor/egulias/email-validator/tests
 /vendor/egulias/email-validator/tests/egulias
