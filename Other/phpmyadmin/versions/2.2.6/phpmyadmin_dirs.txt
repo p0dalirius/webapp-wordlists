@@ -1,0 +1,5 @@
+/lang
+/libraries
+/libraries/auth
+/scripts
+/images
