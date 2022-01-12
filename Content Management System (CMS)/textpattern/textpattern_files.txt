@@ -24,10 +24,12 @@
 /README.txt
 /rpc/index.php
 /rpc/TXP_RPCServer.php
+/SECURITY.md
 /sites/README.txt
 /sites/site1/admin/index.php
 /sites/site1/admin/setup/index.php
 /sites/site1/admin/setup/setup-multisite.css
+/sites/site1/admin/textpattern.js
 /sites/site1/private/config-dist.php
 /sites/site1/public/css.php
 /sites/site1/public/files/.htaccess-dist

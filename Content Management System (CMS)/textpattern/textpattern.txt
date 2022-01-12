@@ -28,6 +28,7 @@
 /rpc
 /rpc/index.php
 /rpc/TXP_RPCServer.php
+/SECURITY.md
 /sites
 /sites/README.txt
 /sites/site1
