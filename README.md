@@ -2,7 +2,9 @@
 
 This repository contains wordlists for each versions of common web applications and content management systems (CMS). Each version contains a wordlist of all the files directories for this version.
 
-## Summary
+This repository contains **66735** wordlists!
+
+## Table of wordlists
 
  + [Content Management System (CMS)](./Content%20Management%20System%20(CMS)/)
    + [anchor-cms](./Content%20Management%20System%20(CMS)/anchor-cms)
@@ -73,6 +75,8 @@ This repository contains wordlists for each versions of common web applications 
    + [suitecrm](./Customer%20Relationship%20Management%20(CRM)/suitecrm/)
  + [Other](./Other/)
    + [cacti](./Other/cacti/)
+   + [phpmyadmin](./Other/phpmyadmin/)
+
    
 ## Contributing
 
