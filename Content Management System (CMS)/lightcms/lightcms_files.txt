@@ -167,6 +167,7 @@
 /database/migrations/2021_08_20_151245_add_sort_to_entities_table.php
 /database/migrations/2021_08_20_154052_add_list_sort_to_entity_fields_table.php
 /database/migrations/2021_08_20_172715_add_searchable_fields_to_entity_fields_table.php
+/database/migrations/2021_12_06_114147_add_category_entity_id_to_entity_fields_table.php
 /database/seeds/AdminUsersTableSeeder.php
 /database/seeds/CategoriesTableSeeder.php
 /database/seeds/ConfigsTableSeeder.php
@@ -2435,6 +2436,7 @@
 /routes/console.php
 /routes/member.php
 /routes/web.php
+/SECURITY.md
 /server.php
 /storage/app/.gitignore
 /storage/app/public/.gitignore
