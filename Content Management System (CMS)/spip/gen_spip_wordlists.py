@@ -15,7 +15,9 @@ from bs4 import BeautifulSoup
 
 def parseArgs():
     parser = argparse.ArgumentParser(description="Description message")
-    parser.add_argument("-v", "--verbose", default=None, action="store_true", help='arg1 help message')
+    parser.add_argument("-v", "--verbose", default=None, action="store_true", help='Verbose mode (default: False)')
+    parser.add_argument("-f", "--force", default=None, action="store_true", help='Force updating existing wordlists. (default: False)')
+    parser.add_argument("-n", "--no-commit", default=False, action="store_true", help='Disable automatic commit (default: False)')
     return parser.parse_args()
 
 
@@ -51,46 +53,53 @@ if __name__ == '__main__':
             v = link.split('/')[-1].lower().lstrip('spip-v').rstrip('.zip')
             v = v.replace("trois.", "3.")
             versions[v] = link
-    print("Done.")
-
     print('[>] Loaded %d spip versions.' % len(versions.keys()))
 
     for version in versions.keys():
-        print('   [>] Extracting wordlist of version %s ...' % version)
+        str_version = version
 
-        if not os.path.exists('./versions/%s/' % version):
-            os.makedirs('./versions/%s/' % version, exist_ok=True)
+        generate = False
+        if not os.path.exists('./versions/%s/' % (str_version)):
+            os.makedirs('./versions/%s/' % (str_version), exist_ok=True)
+            generate = True
+        elif options.force:
+            generate = True
+        elif options.verbose:
+            print('[>] Ignoring spip version %s (local wordlists exists)' % str_version)
 
-        dl_url = versions[version]
+        if generate:
+            print('[>] Extracting wordlists for spip version %s' % str_version)
 
-        if options.verbose:
-            print("      [>] Create dir ...")
-        os.system('rm -rf /tmp/paths_spip_extract/; mkdir -p /tmp/paths_spip_extract/')
-        if options.verbose:
-            print("      [>] Getting file ...")
-            os.system('wget -q --show-progress "%s" -O /tmp/paths_spip_extract/spip.zip' % dl_url)
-        else:
-            os.popen('wget -q "%s" -O /tmp/paths_spip_extract/spip.zip' % dl_url).read()
-        if options.verbose:
-            print("      [>] Unzipping archive ...")
-        os.system('cd /tmp/paths_spip_extract/; unzip spip.zip -d spip 1>/dev/null')
+            dl_url = versions[version]
 
-        if options.verbose:
-            print("      [>] Getting wordlist ...")
-        if version in ['3.1', '3.2', '3.1.13', '3.1.14', '3.1.15', '3.2.10', '3.2.11', '3.2.8', '3.2.9', '4.0.0']:
-            save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/; find .').read(), version, filename="spip.txt")
-            save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/; find . -type f').read(), version, filename="spip_files.txt")
-            save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/; find . -type d').read(), version, filename="spip_dirs.txt")
-        else:
-            save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/spip/; find .').read(), version, filename="spip.txt")
-            save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/spip/; find . -type f').read(), version, filename="spip_files.txt")
-            save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/spip/; find . -type d').read(), version, filename="spip_dirs.txt")
+            if options.verbose:
+                print("      [>] Create dir ...")
+            os.system('rm -rf /tmp/paths_spip_extract/; mkdir -p /tmp/paths_spip_extract/')
+            if options.verbose:
+                print("      [>] Getting file ...")
+                os.system('wget -q --show-progress "%s" -O /tmp/paths_spip_extract/spip.zip' % dl_url)
+            else:
+                os.popen('wget -q "%s" -O /tmp/paths_spip_extract/spip.zip' % dl_url).read()
+            if options.verbose:
+                print("      [>] Unzipping archive ...")
+            os.system('cd /tmp/paths_spip_extract/; unzip spip.zip -d spip 1>/dev/null')
 
-        if options.verbose:
-            print("      [>] Committing results ...")
-            os.system('git add ./versions/%s/; git commit -m "Added wordlists for spip version %s";' % (version, version))
-        else:
-            os.popen('git add ./versions/%s/; git commit -m "Added wordlists for spip version %s";' % (version, version)).read()
+            if options.verbose:
+                print("      [>] Getting wordlist ...")
+            if version in ['3.1', '3.2', '3.1.13', '3.1.14', '3.1.15', '3.2.10', '3.2.11', '3.2.8', '3.2.9', '4.0.0']:
+                save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/; find .').read(), version, filename="spip.txt")
+                save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/; find . -type f').read(), version, filename="spip_files.txt")
+                save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/; find . -type d').read(), version, filename="spip_dirs.txt")
+            else:
+                save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/spip/; find .').read(), version, filename="spip.txt")
+                save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/spip/; find . -type f').read(), version, filename="spip_files.txt")
+                save_wordlist(os.popen('cd /tmp/paths_spip_extract/spip*/spip/; find . -type d').read(), version, filename="spip_dirs.txt")
+
+            if options.verbose:
+                print("      [>] Committing results ...")
+                os.system('git add ./versions/%s/; git commit -m "Added wordlists for spip version %s";' % (version, version))
+            else:
+                os.popen('git add ./versions/%s/; git commit -m "Added wordlists for spip version %s";' % (version, version)).read()
 
 
     if options.verbose:

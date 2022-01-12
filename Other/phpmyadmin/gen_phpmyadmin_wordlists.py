@@ -14,8 +14,9 @@ from bs4 import BeautifulSoup
 
 def parseArgs():
     parser = argparse.ArgumentParser(description="Description message")
-    parser.add_argument("-v", "--verbose", default=None, action="store_true", help='arg1 help message')
-    parser.add_argument("-n", "--no-commit", default=False, action="store_true", help='arg1 help message')
+    parser.add_argument("-v", "--verbose", default=None, action="store_true", help='Verbose mode (default: False)')
+    parser.add_argument("-f", "--force", default=None, action="store_true", help='Force updating existing wordlists. (default: False)')
+    parser.add_argument("-n", "--no-commit", default=False, action="store_true", help='Disable automatic commit (default: False)')
     return parser.parse_args()
 
 
@@ -63,47 +64,55 @@ if __name__ == '__main__':
     versions = get_releases_from_github("phpmyadmin", "phpmyadmin")
 
     for version in versions.keys():
-
         dl_url = versions[version]
 
         if version.startswith("RELEASE_"):
-            version = version.lstrip("RELEASE_").strip("_").replace("_", ".")
-
-        print('[>] Extracting wordlist for phpmyadmin version %s' % version)
-
-        if not os.path.exists('./versions/%s/' % version):
-            os.makedirs('./versions/%s/' % version, exist_ok=True)
-
-        if options.verbose:
-            print("      [>] Create dir ...")
-            os.system('rm -rf /tmp/paths_phpmyadmin_extract/; mkdir -p /tmp/paths_phpmyadmin_extract/')
+            str_version = version.lstrip("RELEASE_").strip("_").replace("_", ".")
         else:
-            os.popen('rm -rf /tmp/paths_phpmyadmin_extract/; mkdir -p /tmp/paths_phpmyadmin_extract/').read()
-        if options.verbose:
-            print("      [>] Getting file ...")
-            print('wget -q --show-progress "%s" -O /tmp/paths_phpmyadmin_extract/phpmyadmin.zip' % dl_url)
-            os.system('wget -q --show-progress "%s" -O /tmp/paths_phpmyadmin_extract/phpmyadmin.zip' % dl_url)
-        else:
-            os.popen('wget -q "%s" -O /tmp/paths_phpmyadmin_extract/phpmyadmin.zip' % dl_url).read()
-        if options.verbose:
-            print("      [>] Unzipping archive ...")
-            os.system('cd /tmp/paths_phpmyadmin_extract/; unzip phpmyadmin.zip 1>/dev/null')
-        else:
-            os.popen('cd /tmp/paths_phpmyadmin_extract/; unzip phpmyadmin.zip 1>/dev/null').read()
+            str_version = version
 
-        if options.verbose:
-            print("      [>] Getting wordlist ...")
-        save_wordlist(os.popen('cd /tmp/paths_phpmyadmin_extract/*/; find .').read(), version, filename="phpmyadmin.txt")
-        save_wordlist(os.popen('cd /tmp/paths_phpmyadmin_extract/*/; find . -type f').read(), version, filename="phpmyadmin_files.txt")
-        save_wordlist(os.popen('cd /tmp/paths_phpmyadmin_extract/*/; find . -type d').read(), version, filename="phpmyadmin_dirs.txt")
-        
-        if not options.no_commit:
-            if os.path.exists("./versions/"):
-                if options.verbose:
-                    print("      [>] Committing results ...")
-                    os.system('git add ./versions/%s/*; git commit -m "Added wordlists for phpmyadmin version %s";' % (version, version))
-                else:
-                    os.popen('git add ./versions/%s/*; git commit -m "Added wordlists for phpmyadmin version %s";' % (version, version)).read()
+        generate = False
+        if not os.path.exists('./versions/%s/' % str_version):
+            os.makedirs('./versions/%s/' % str_version, exist_ok=True)
+            generate = True
+        elif options.force:
+            generate = True
+        elif options.verbose:
+            print('[>] Ignoring phpmyadmin version %s (local wordlists exists)' % str_version)
+
+        if generate:
+            print('[>] Extracting wordlists for phpmyadmin version %s' % str_version)
+
+            if options.verbose:
+                print("      [>] Create dir ...")
+                os.system('rm -rf /tmp/paths_phpmyadmin_extract/; mkdir -p /tmp/paths_phpmyadmin_extract/')
+            else:
+                os.popen('rm -rf /tmp/paths_phpmyadmin_extract/; mkdir -p /tmp/paths_phpmyadmin_extract/').read()
+            if options.verbose:
+                print("      [>] Getting file ...")
+                print('wget -q --show-progress "%s" -O /tmp/paths_phpmyadmin_extract/phpmyadmin.zip' % dl_url)
+                os.system('wget -q --show-progress "%s" -O /tmp/paths_phpmyadmin_extract/phpmyadmin.zip' % dl_url)
+            else:
+                os.popen('wget -q "%s" -O /tmp/paths_phpmyadmin_extract/phpmyadmin.zip' % dl_url).read()
+            if options.verbose:
+                print("      [>] Unzipping archive ...")
+                os.system('cd /tmp/paths_phpmyadmin_extract/; unzip phpmyadmin.zip 1>/dev/null')
+            else:
+                os.popen('cd /tmp/paths_phpmyadmin_extract/; unzip phpmyadmin.zip 1>/dev/null').read()
+
+            if options.verbose:
+                print("      [>] Getting wordlist ...")
+            save_wordlist(os.popen('cd /tmp/paths_phpmyadmin_extract/*/; find .').read(), version, filename="phpmyadmin.txt")
+            save_wordlist(os.popen('cd /tmp/paths_phpmyadmin_extract/*/; find . -type f').read(), version, filename="phpmyadmin_files.txt")
+            save_wordlist(os.popen('cd /tmp/paths_phpmyadmin_extract/*/; find . -type d').read(), version, filename="phpmyadmin_dirs.txt")
+
+            if not options.no_commit:
+                if os.path.exists("./versions/"):
+                    if options.verbose:
+                        print("      [>] Committing results ...")
+                        os.system('git add ./versions/%s/*; git commit -m "Added wordlists for phpmyadmin version %s";' % (version, version))
+                    else:
+                        os.popen('git add ./versions/%s/*; git commit -m "Added wordlists for phpmyadmin version %s";' % (version, version)).read()
 
     if os.path.exists("./versions/"):
         if options.verbose:

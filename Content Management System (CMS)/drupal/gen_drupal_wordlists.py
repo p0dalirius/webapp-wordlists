@@ -15,7 +15,9 @@ from bs4 import BeautifulSoup
 
 def parseArgs():
     parser = argparse.ArgumentParser(description="Description message")
-    parser.add_argument("-v", "--verbose", default=None, action="store_true", help='arg1 help message')
+    parser.add_argument("-v", "--verbose", default=None, action="store_true", help='Verbose mode (default: False)')
+    parser.add_argument("-f", "--force", default=None, action="store_true", help='Force updating existing wordlists. (default: False)')
+    parser.add_argument("-n", "--no-commit", default=False, action="store_true", help='Disable automatic commit (default: False)')
     return parser.parse_args()
 
 
@@ -41,7 +43,6 @@ if __name__ == '__main__':
 
     last_page_link = soup.find('a', attrs={"title": "Go to last page"})
     last_page_num = int(last_page_link['href'].split('?page=')[1])
-    print(last_page_num)
 
     print("[+] Loading drupal versions ... ")
     drupal_versions = {}
@@ -53,12 +54,10 @@ if __name__ == '__main__':
         for a in soup.findAll('a'):
             if a['href'].startswith('/project/drupal/releases/'):
                 drupal_versions[a['href'].split('/project/drupal/releases/')[1]] = "https://www.drupal.org/" + a['href']
-    print("Done.")
     sys.stdout.flush()
     print('[>] Loaded %d drupal versions.' % len(drupal_versions.keys()))
 
     for version in sorted(drupal_versions.keys()):
-        print('   [>] Extracting wordlist of drupal version %s ...' % version)
 
         r = requests.get(drupal_versions[version])
         soup = BeautifulSoup(r.content.decode('utf-8'), 'lxml')
@@ -66,32 +65,44 @@ if __name__ == '__main__':
 
         if len(dl_url) != 0:
             dl_url = dl_url[0]
+
+            generate = False
             if not os.path.exists('./versions/%s/' % version):
                 os.makedirs('./versions/%s/' % version, exist_ok=True)
+                generate = True
+            elif options.force:
+                generate = True
+            elif options.verbose:
+                print('[>] Ignoring drupal version %s (local wordlists exists)' % version)
 
-            if options.verbose:
-                print("      [>] Create dir ...")
-            os.system('rm -rf /tmp/paths_drupal_extract/; mkdir -p /tmp/paths_drupal_extract/')
-            if options.verbose:
-                print("      [>] Getting file ...")
-                os.system('wget -q --show-progress "%s" -O /tmp/paths_drupal_extract/drupal.zip' % dl_url)
-            else:
-                os.popen('wget -q "%s" -O /tmp/paths_drupal_extract/drupal.zip' % dl_url).read()
-            if options.verbose:
-                print("      [>] Unzipping archive ...")
-            os.system('cd /tmp/paths_drupal_extract/; unzip drupal.zip 1>/dev/null')
+            if generate:
+                print('   [>] Extracting wordlist of drupal version %s ...' % version)
 
-            if options.verbose:
-                print("      [>] Getting wordlist ...")
-            save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find .').read(), version, filename="drupal.txt")
-            save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find . -type f').read(), version, filename="drupal_files.txt")
-            save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find . -type d').read(), version, filename="drupal_dirs.txt")
+                if options.verbose:
+                    print("      [>] Create dir ...")
+                os.system('rm -rf /tmp/paths_drupal_extract/; mkdir -p /tmp/paths_drupal_extract/')
 
-            if options.verbose:
-                print("      [>] Committing results ...")
-                os.system('git add ./versions/%s/; git commit -m "Added wordlists for drupal version %s";' % (version, version))
-            else:
-                os.popen('git add ./versions/%s/; git commit -m "Added wordlists for drupal version %s";' % (version, version)).read()
+                if options.verbose:
+                    print("      [>] Getting file ...")
+                    os.system('wget -q --show-progress "%s" -O /tmp/paths_drupal_extract/drupal.zip' % dl_url)
+                else:
+                    os.popen('wget -q "%s" -O /tmp/paths_drupal_extract/drupal.zip' % dl_url).read()
+
+                if options.verbose:
+                    print("      [>] Unzipping archive ...")
+                os.system('cd /tmp/paths_drupal_extract/; unzip drupal.zip 1>/dev/null')
+
+                if options.verbose:
+                    print("      [>] Getting wordlist ...")
+                save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find .').read(), version, filename="drupal.txt")
+                save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find . -type f').read(), version, filename="drupal_files.txt")
+                save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find . -type d').read(), version, filename="drupal_dirs.txt")
+
+                if options.verbose:
+                    print("      [>] Committing results ...")
+                    os.system('git add ./versions/%s/; git commit -m "Added wordlists for drupal version %s";' % (version, version))
+                else:
+                    os.popen('git add ./versions/%s/; git commit -m "Added wordlists for drupal version %s";' % (version, version)).read()
 
     if options.verbose:
         print("      [>] Creating common wordlists ...")

@@ -16,8 +16,9 @@ from bs4 import BeautifulSoup
 
 def parseArgs():
     parser = argparse.ArgumentParser(description="Description message")
-    parser.add_argument("-v", "--verbose", default=None, action="store_true", help='arg1 help message')
-    parser.add_argument("-O", "--overwrite", default=None, action="store_true", help='arg1 help message')
+    parser.add_argument("-v", "--verbose", default=None, action="store_true", help='Verbose mode (default: False)')
+    parser.add_argument("-f", "--force", default=None, action="store_true", help='Force updating existing wordlists. (default: False)')
+    parser.add_argument("-n", "--no-commit", default=False, action="store_true", help='Disable automatic commit (default: False)')
     return parser.parse_args()
 
 
@@ -58,17 +59,19 @@ if __name__ == '__main__':
     print('[>] Loaded %d joomla versions.' % len(joomla_versions.keys()))
 
     for version in sorted(joomla_versions.keys()):
-        skip = True
+
+        generate = False
         _version = version.replace("-", ".")
         if not os.path.exists('./versions/%s/' % _version):
             os.makedirs('./versions/%s/' % _version, exist_ok=True)
-            skip = False
-        elif options.overwrite:
-            skip = False
+            generate = True
+        elif options.force:
+            generate = True
         else:
             if options.verbose:
                 print('      [>] Skipping existing joomla version %s ...' % _version)
-        if skip == False:
+
+        if generate:
             print('   [>] Extracting wordlist of joomla version %s ...' % _version)
 
             r = requests.get(joomla_versions[version])

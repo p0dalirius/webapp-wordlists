@@ -46,15 +46,13 @@ if __name__ == '__main__':
             v = a['href'].lower().lstrip("cacti-").rstrip(".zip")
             if v != "latest":
                 versions[v] = source_url + a['href']
-    print("Done.")
-
     print('[>] Loaded %d cacti versions.' % len(versions.keys()))
 
     for version in versions.keys():
         print('[>] Extracting wordlist for cacti version %s' % version)
 
-        if not os.path.exists('./versions/%s/' % (version)):
-            os.makedirs('./versions/%s/' % (version), exist_ok=True)
+        if not os.path.exists('./versions/%s/' % version):
+            os.makedirs('./versions/%s/' % version, exist_ok=True)
 
         dl_url = versions[version]
 
