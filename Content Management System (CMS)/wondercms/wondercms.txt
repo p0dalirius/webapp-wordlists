@@ -27,4 +27,13 @@
 /themes/essence/summary
 /themes/essence/theme.php
 /themes/essence/version
+/themes/sky
+/themes/sky/css
+/themes/sky/css/fonts
+/themes/sky/css/fonts/catamaran-v7-latin-ext_latin-700.woff2
+/themes/sky/css/fonts/catamaran-v7-latin-ext_latin-regular.woff2
+/themes/sky/css/style.css
+/themes/sky/summary
+/themes/sky/theme.php
+/themes/sky/version
 /version

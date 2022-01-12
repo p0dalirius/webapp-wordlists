@@ -5,3 +5,6 @@
 /themes/default/css
 /themes/essence
 /themes/essence/css
+/themes/sky
+/themes/sky/css
+/themes/sky/css/fonts
