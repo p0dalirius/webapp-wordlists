@@ -675,6 +675,7 @@
 /core/misc/icon-ok.png
 /core/misc/icon-question.png
 /core/misc/icon-warning.png
+/core/misc/jquery.color.js
 /core/misc/jquery.cookie.js
 /core/misc/jquery-extend-3.4.0.js
 /core/misc/jquery.form.js
@@ -819,6 +820,7 @@
 /core/misc/ui/i18n/datepicker-cs.js
 /core/misc/ui/i18n/datepicker-cy-GB.js
 /core/misc/ui/i18n/datepicker-da.js
+/core/misc/ui/i18n/datepicker-de-AT.js
 /core/misc/ui/i18n/datepicker-de.js
 /core/misc/ui/i18n/datepicker-el.js
 /core/misc/ui/i18n/datepicker-en-AU.js
@@ -945,6 +947,8 @@
 /core/misc/ui/jquery.ui.form.min.js
 /core/misc/ui/jquery.ui.form-reset-mixin.min.js
 /core/misc/ui/jquery.ui.ie.min.js
+/core/misc/ui/jquery.ui.jquery-patch.min.js
+/core/misc/ui/jquery.ui.jquery-var-for-color.min.js
 /core/misc/ui/jquery.ui.keycode.min.js
 /core/misc/ui/jquery.ui.labels.min.js
 /core/misc/ui/jquery.ui.menu.css
@@ -1328,7 +1332,9 @@
 /core/modules/entity/entity.module
 /core/modules/entity/entity.query.inc
 /core/modules/entity/entity.tests.info
+/core/modules/entity/entity.theme.inc
 /core/modules/entity/entity.tokens.inc
+/core/modules/entity/templates/entity.tpl.php
 /core/modules/entity/tests/entity_cache_test_dependency/entity_cache_test_dependency.info
 /core/modules/entity/tests/entity_cache_test_dependency/entity_cache_test_dependency.module
 /core/modules/entity/tests/entity_cache_test/entity_cache_test.info
@@ -2174,6 +2180,7 @@
 /core/modules/taxonomy/views/views_handler_field_taxonomy.inc
 /core/modules/taxonomy/views/views_handler_field_term_link_edit.inc
 /core/modules/taxonomy/views/views_handler_field_term_node_tid.inc
+/core/modules/taxonomy/views/views_handler_field_term_path.inc
 /core/modules/taxonomy/views/views_handler_field_vocabulary.inc
 /core/modules/taxonomy/views/views_handler_filter_term_node_tid_depth.inc
 /core/modules/taxonomy/views/views_handler_filter_term_node_tid.inc

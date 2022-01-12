@@ -164,6 +164,7 @@
 /core/modules/email/tests
 /core/modules/entity
 /core/modules/entity/config
+/core/modules/entity/templates
 /core/modules/entity/tests
 /core/modules/entity/tests/entity_cache_test
 /core/modules/entity/tests/entity_cache_test_dependency
