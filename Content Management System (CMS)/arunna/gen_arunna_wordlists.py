@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
     os.chdir(os.path.dirname(__file__))
 
-    versions = get_releases_from_github("backdrop", "backdrop")
+    versions = get_releases_from_github("arunna", "arunna")
 
     for version in versions.keys():
         print('[>] Extracting wordlist for backdrop version %s' % version)

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# File name          : get_drupal_paths.py
+# File name          : gen_croogo_wordlists.py
 # Author             : Podalirius (@podalirius_)
-# Date created       : 21 Nov 2021
+# Date created       : 20 Dec 2021
 
 
 import json
@@ -35,68 +35,57 @@ if __name__ == '__main__':
 
     os.chdir(os.path.dirname(__file__))
 
-    source_url = "https://www.drupal.org/project/drupal/releases"
-    r = requests.get(source_url)
+    r = requests.get("https://downloads.croogo.org/")
     soup = BeautifulSoup(r.content.decode('utf-8'), 'lxml')
 
-    last_page_link = soup.find('a', attrs={"title": "Go to last page"})
-    last_page_num = int(last_page_link['href'].split('?page=')[1])
-    print(last_page_num)
+    print("[+] Loading croogo versions ... ")
+    croogo_versions = {}
+    for a in soup.findAll("a"):
+        if "sig" not in a['href']:
+            version = a['href'].split('/v')[1].rstrip('.zip')
+            croogo_versions[version] = "https://downloads.croogo.org/" + a['href']
 
-    print("[+] Loading drupal versions ... ")
-    drupal_versions = {}
-    for page_k in range(0, last_page_num + 1):
+    for version in sorted(croogo_versions.keys()):
+        print('   [>] Extracting wordlist of croogo version %s ...' % version)
+
+        dl_url = croogo_versions[version]
+        if not os.path.exists('./versions/%s/' % version):
+            os.makedirs('./versions/%s/' % version, exist_ok=True)
+
         if options.verbose:
-            print('   [>] Parsing page %d' % page_k)
-        r = requests.get("https://www.drupal.org/project/drupal/releases?page=%d" % page_k)
-        soup = BeautifulSoup(r.content.decode('utf-8'), 'lxml')
-        for a in soup.findAll('a'):
-            if a['href'].startswith('/project/drupal/releases/'):
-                drupal_versions[a['href'].split('/project/drupal/releases/')[1]] = "https://www.drupal.org/" + a['href']
-    print("Done.")
-    sys.stdout.flush()
-    print('[>] Loaded %d drupal versions.' % len(drupal_versions.keys()))
+            print("      [>] Create dir ...")
+        os.system('rm -rf /tmp/paths_croogo_extract/; mkdir -p /tmp/paths_croogo_extract/')
+        if options.verbose:
+            print("      [>] Getting file ...")
+            print('wget -q --show-progress "%s" -O /tmp/paths_croogo_extract/croogo.zip' % dl_url)
+            os.system('wget -q --show-progress "%s" -O /tmp/paths_croogo_extract/croogo.zip' % dl_url)
+        else:
+            os.popen('wget -q "%s" -O /tmp/paths_croogo_extract/croogo.zip' % dl_url).read()
+        if options.verbose:
+            print("      [>] Unzipping archive ...")
+        os.system('cd /tmp/paths_croogo_extract/; unzip croogo.zip 1>/dev/null; rm croogo.zip')
 
-    for version in sorted(drupal_versions.keys()):
-        print('   [>] Extracting wordlist of drupal version %s ...' % version)
+        if options.verbose:
+            print("      [>] Getting wordlist ...")
+        if version in ["1.1"]:
+            save_wordlist(os.popen('cd /tmp/paths_croogo_extract/; find .').read(), version, filename="croogo.txt")
+            save_wordlist(os.popen('cd /tmp/paths_croogo_extract/; find . -type f').read(), version, filename="croogo_files.txt")
+            save_wordlist(os.popen('cd /tmp/paths_croogo_extract/; find . -type d').read(), version, filename="croogo_dirs.txt")
+        else:
+            save_wordlist(os.popen('cd /tmp/paths_croogo_extract/croogo*/; find .').read(), version, filename="croogo.txt")
+            save_wordlist(os.popen('cd /tmp/paths_croogo_extract/croogo*/; find . -type f').read(), version, filename="croogo_files.txt")
+            save_wordlist(os.popen('cd /tmp/paths_croogo_extract/croogo*/; find . -type d').read(), version, filename="croogo_dirs.txt")
 
-        r = requests.get(drupal_versions[version])
-        soup = BeautifulSoup(r.content.decode('utf-8'), 'lxml')
-        dl_url = [a['href'] for a in soup.findAll('a', attrs={"class": "download"}) if a['href'].endswith(".zip")]
-
-        if len(dl_url) != 0:
-            dl_url = dl_url[0]
-            if not os.path.exists('./versions/%s/' % version):
-                os.makedirs('./versions/%s/' % version, exist_ok=True)
-
-            if options.verbose:
-                print("      [>] Create dir ...")
-            os.system('rm -rf /tmp/paths_drupal_extract/; mkdir -p /tmp/paths_drupal_extract/')
-            if options.verbose:
-                print("      [>] Getting file ...")
-                os.system('wget -q --show-progress "%s" -O /tmp/paths_drupal_extract/drupal.zip' % dl_url)
-            else:
-                os.popen('wget -q "%s" -O /tmp/paths_drupal_extract/drupal.zip' % dl_url).read()
-            if options.verbose:
-                print("      [>] Unzipping archive ...")
-            os.system('cd /tmp/paths_drupal_extract/; unzip drupal.zip 1>/dev/null')
-
-            if options.verbose:
-                print("      [>] Getting wordlist ...")
-            save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find .').read(), version, filename="drupal.txt")
-            save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find . -type f').read(), version, filename="drupal_files.txt")
-            save_wordlist(os.popen('cd /tmp/paths_drupal_extract/drupal*/; find . -type d').read(), version, filename="drupal_dirs.txt")
-
-            if options.verbose:
-                print("      [>] Committing results ...")
-                os.system('git add ./versions/%s/; git commit -m "Added wordlists for drupal version %s";' % (version, version))
-            else:
-                os.popen('git add ./versions/%s/; git commit -m "Added wordlists for drupal version %s";' % (version, version)).read()
+        if options.verbose:
+            print("      [>] Committing results ...")
+            os.system('git add ./versions/%s/; git commit -m "Added wordlists for croogo version %s";' % (version, version))
+        else:
+            os.popen('git add ./versions/%s/; git commit -m "Added wordlists for croogo version %s";' % (version, version)).read()
 
     if options.verbose:
         print("      [>] Creating common wordlists ...")
-    os.system('find ./versions/ -type f -name "drupal.txt" -exec cat {} \\; | sort -u > drupal.txt')
-    os.system('find ./versions/ -type f -name "drupal_files.txt" -exec cat {} \\; | sort -u > drupal_files.txt')
-    os.system('find ./versions/ -type f -name "drupal_dirs.txt" -exec cat {} \\; | sort -u > drupal_dirs.txt')
+    os.system('find ./versions/ -type f -name "croogo.txt" -exec cat {} \\; | sort -u > croogo.txt')
+    os.system('find ./versions/ -type f -name "croogo_files.txt" -exec cat {} \\; | sort -u > croogo_files.txt')
+    os.system('find ./versions/ -type f -name "croogo_dirs.txt" -exec cat {} \\; | sort -u > croogo_dirs.txt')
 
-    os.system('git add *.txt; git commit -m "Added general wordlists for drupal";')
+    os.system('git add *.txt; git commit -m "Added general wordlists for croogo";')

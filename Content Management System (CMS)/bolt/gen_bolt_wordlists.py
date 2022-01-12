@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# File name          : get_wbce-cms_paths.py
+# File name          : get_bolt_paths.py
 # Author             : Podalirius (@podalirius_)
 # Date created       : 22 Nov 2021
 
@@ -60,58 +60,58 @@ if __name__ == '__main__':
 
     os.chdir(os.path.dirname(__file__))
 
-    versions = get_releases_from_github("WBCE", "WBCE_CMS")
+    versions = get_releases_from_github("bolt", "bolt")
 
     for version in versions.keys():
-        print('[>] Extracting wordlist for wbce-cms version %s' % version)
+        print('[>] Extracting wordlist for bolt version %s' % version)
 
-        if not os.path.exists('./versions/%s/' % version):
-            os.makedirs('./versions/%s/' % version, exist_ok=True)
+        if not os.path.exists('./versions/%s/' % (version)):
+            os.makedirs('./versions/%s/' % (version), exist_ok=True)
 
         dl_url = versions[version]
 
         if options.verbose:
             print("      [>] Create dir ...")
-            os.system('rm -rf /tmp/paths_wbce-cms_extract/; mkdir -p /tmp/paths_wbce-cms_extract/')
+            os.system('rm -rf /tmp/paths_bolt_extract/; mkdir -p /tmp/paths_bolt_extract/')
         else:
-            os.popen('rm -rf /tmp/paths_wbce-cms_extract/; mkdir -p /tmp/paths_wbce-cms_extract/').read()
+            os.popen('rm -rf /tmp/paths_bolt_extract/; mkdir -p /tmp/paths_bolt_extract/').read()
         if options.verbose:
             print("      [>] Getting file ...")
-            print('wget -q --show-progress "%s" -O /tmp/paths_wbce-cms_extract/wbce-cms.zip' % dl_url)
-            os.system('wget -q --show-progress "%s" -O /tmp/paths_wbce-cms_extract/wbce-cms.zip' % dl_url)
+            print('wget -q --show-progress "%s" -O /tmp/paths_bolt_extract/bolt.zip' % dl_url)
+            os.system('wget -q --show-progress "%s" -O /tmp/paths_bolt_extract/bolt.zip' % dl_url)
         else:
-            os.popen('wget -q "%s" -O /tmp/paths_wbce-cms_extract/wbce-cms.zip' % dl_url).read()
+            os.popen('wget -q "%s" -O /tmp/paths_bolt_extract/bolt.zip' % dl_url).read()
         if options.verbose:
             print("      [>] Unzipping archive ...")
-            os.system('cd /tmp/paths_wbce-cms_extract/; unzip wbce-cms.zip 1>/dev/null')
+            os.system('cd /tmp/paths_bolt_extract/; unzip bolt.zip 1>/dev/null')
         else:
-            os.popen('cd /tmp/paths_wbce-cms_extract/; unzip wbce-cms.zip 1>/dev/null').read()
+            os.popen('cd /tmp/paths_bolt_extract/; unzip bolt.zip 1>/dev/null; rm bolt.zip').read()
 
         if options.verbose:
             print("      [>] Getting wordlist ...")
-        save_wordlist(os.popen('cd /tmp/paths_wbce-cms_extract/*/; find .').read(), version, filename="wbce-cms.txt")
-        save_wordlist(os.popen('cd /tmp/paths_wbce-cms_extract/*/; find . -type f').read(), version, filename="wbce-cms_files.txt")
-        save_wordlist(os.popen('cd /tmp/paths_wbce-cms_extract/*/; find . -type d').read(), version, filename="wbce-cms_dirs.txt")
+        save_wordlist(os.popen('cd /tmp/paths_bolt_extract/; find .').read(), version, filename="bolt.txt")
+        save_wordlist(os.popen('cd /tmp/paths_bolt_extract/; find . -type f').read(), version, filename="bolt_files.txt")
+        save_wordlist(os.popen('cd /tmp/paths_bolt_extract/; find . -type d').read(), version, filename="bolt_dirs.txt")
         
         if not options.no_commit:
             if os.path.exists("./versions/"):
                 if options.verbose:
                     print("      [>] Committing results ...")
-                    os.system('git add ./versions/%s/*; git commit -m "Added wordlists for wbce-cms version %s";' % (version, version))
+                    os.system('git add ./versions/%s/*; git commit -m "Added wordlists for bolt version %s";' % (version, version))
                 else:
-                    os.popen('git add ./versions/%s/*; git commit -m "Added wordlists for wbce-cms version %s";' % (version, version)).read()
+                    os.popen('git add ./versions/%s/*; git commit -m "Added wordlists for bolt version %s";' % (version, version)).read()
 
     if os.path.exists("./versions/"):
         if options.verbose:
             print("      [>] Creating common wordlists ...")
-        os.system('find ./versions/ -type f -name "wbce-cms.txt" -exec cat {} \\; | sort -u > wbce-cms.txt')
-        os.system('find ./versions/ -type f -name "wbce-cms_files.txt" -exec cat {} \\; | sort -u > wbce-cms_files.txt')
-        os.system('find ./versions/ -type f -name "wbce-cms_dirs.txt" -exec cat {} \\; | sort -u > wbce-cms_dirs.txt')
+        os.system('find ./versions/ -type f -name "bolt.txt" -exec cat {} \\; | sort -u > bolt.txt')
+        os.system('find ./versions/ -type f -name "bolt_files.txt" -exec cat {} \\; | sort -u > bolt_files.txt')
+        os.system('find ./versions/ -type f -name "bolt_dirs.txt" -exec cat {} \\; | sort -u > bolt_dirs.txt')
     
         if not options.no_commit:
             if options.verbose:
                 print("      [>] Committing results ...")
-                os.system('git add *.txt; git commit -m "Added general wordlists for wbce-cms";')
+                os.system('git add *.txt; git commit -m "Added general wordlists for bolt";')
             else:
-                os.popen('git add *.txt; git commit -m "Added general wordlists for wbce-cms";').read()
+                os.popen('git add *.txt; git commit -m "Added general wordlists for bolt";').read()
             

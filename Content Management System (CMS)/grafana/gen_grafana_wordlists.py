@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# File name          : get_backdrop_paths.py
+# File name          : gen_grafana_wordlists.py
 # Author             : Podalirius (@podalirius_)
-# Date created       : 22 Nov 2021
+# Date created       : 20 Dec 2021
+
 
 import json
 import os
@@ -60,10 +61,10 @@ if __name__ == '__main__':
 
     os.chdir(os.path.dirname(__file__))
 
-    versions = get_releases_from_github("arunna", "arunna")
+    versions = get_releases_from_github("grafana", "grafana")
 
     for version in versions.keys():
-        print('[>] Extracting wordlist for backdrop version %s' % version)
+        print('[>] Extracting wordlist for grafana version %s' % version)
 
         if not os.path.exists('./versions/%s/' % (version)):
             os.makedirs('./versions/%s/' % (version), exist_ok=True)
@@ -72,46 +73,51 @@ if __name__ == '__main__':
 
         if options.verbose:
             print("      [>] Create dir ...")
-            os.system('rm -rf /tmp/paths_backdrop_extract/; mkdir -p /tmp/paths_backdrop_extract/')
+            os.system('rm -rf /tmp/paths_grafana_extract/; mkdir -p /tmp/paths_grafana_extract/')
         else:
-            os.popen('rm -rf /tmp/paths_backdrop_extract/; mkdir -p /tmp/paths_backdrop_extract/').read()
+            os.popen('rm -rf /tmp/paths_grafana_extract/; mkdir -p /tmp/paths_grafana_extract/').read()
         if options.verbose:
             print("      [>] Getting file ...")
-            print('wget -q --show-progress "%s" -O /tmp/paths_backdrop_extract/backdrop.zip' % dl_url)
-            os.system('wget -q --show-progress "%s" -O /tmp/paths_backdrop_extract/backdrop.zip' % dl_url)
+            print('wget -q --show-progress "%s" -O /tmp/paths_grafana_extract/grafana.zip' % dl_url)
+            os.system('wget -q --show-progress "%s" -O /tmp/paths_grafana_extract/grafana.zip' % dl_url)
         else:
-            os.popen('wget -q "%s" -O /tmp/paths_backdrop_extract/backdrop.zip' % dl_url).read()
+            os.popen('wget -q "%s" -O /tmp/paths_grafana_extract/grafana.zip' % dl_url).read()
         if options.verbose:
             print("      [>] Unzipping archive ...")
-            os.system('cd /tmp/paths_backdrop_extract/; unzip backdrop.zip 1>/dev/null')
+            os.system('cd /tmp/paths_grafana_extract/; unzip grafana.zip 1>/dev/null')
         else:
-            os.popen('cd /tmp/paths_backdrop_extract/; unzip backdrop.zip 1>/dev/null').read()
+            os.popen('cd /tmp/paths_grafana_extract/; unzip grafana.zip 1>/dev/null').read()
 
         if options.verbose:
             print("      [>] Getting wordlist ...")
-        save_wordlist(os.popen('cd /tmp/paths_backdrop_extract/*/; find .').read(), version, filename="backdrop.txt")
-        save_wordlist(os.popen('cd /tmp/paths_backdrop_extract/*/; find . -type f').read(), version, filename="backdrop_files.txt")
-        save_wordlist(os.popen('cd /tmp/paths_backdrop_extract/*/; find . -type d').read(), version, filename="backdrop_dirs.txt")
-        
+        if version in ["1.0", "1.0.1", "1.0.2", "1.0.3", "1.0.4", "1.1.0", "1.2.0", "1.3.0", "1.4.0", "1.5.0", "1.5.1", "1.5.2", "1.5.3", "1.5.4", "1.6.0", "1.6.1", "1.7.0", "1.7.0-rc1", "1.8.0-rc1", "1.8.0", "1.8.1", "1.9.0-rc1", "1.9.0", "1.9.1"]:
+            save_wordlist(os.popen('cd /tmp/paths_grafana_extract/grafana*/; find .').read(), version, filename="grafana.txt")
+            save_wordlist(os.popen('cd /tmp/paths_grafana_extract/grafana*/; find . -type f').read(), version, filename="grafana_files.txt")
+            save_wordlist(os.popen('cd /tmp/paths_grafana_extract/grafana*/; find . -type d').read(), version, filename="grafana_dirs.txt")
+        else:
+            save_wordlist(os.popen('cd /tmp/paths_grafana_extract/grafana*/public/; find .').read(), version, filename="grafana.txt")
+            save_wordlist(os.popen('cd /tmp/paths_grafana_extract/grafana*/public/; find . -type f').read(), version, filename="grafana_files.txt")
+            save_wordlist(os.popen('cd /tmp/paths_grafana_extract/grafana*/public/; find . -type d').read(), version, filename="grafana_dirs.txt")
+
         if not options.no_commit:
             if os.path.exists("./versions/"):
                 if options.verbose:
                     print("      [>] Committing results ...")
-                    os.system('git add ./versions/%s/*; git commit -m "Added wordlists for backdrop version %s";' % (version, version))
+                    os.system('git add ./versions/%s/*; git commit -m "Added wordlists for grafana version %s";' % (version, version))
                 else:
-                    os.popen('git add ./versions/%s/*; git commit -m "Added wordlists for backdrop version %s";' % (version, version)).read()
+                    os.popen('git add ./versions/%s/*; git commit -m "Added wordlists for grafana version %s";' % (version, version)).read()
 
     if os.path.exists("./versions/"):
         if options.verbose:
             print("      [>] Creating common wordlists ...")
-        os.system('find ./versions/ -type f -name "backdrop.txt" -exec cat {} \\; | sort -u > backdrop.txt')
-        os.system('find ./versions/ -type f -name "backdrop_files.txt" -exec cat {} \\; | sort -u > backdrop_files.txt')
-        os.system('find ./versions/ -type f -name "backdrop_dirs.txt" -exec cat {} \\; | sort -u > backdrop_dirs.txt')
+        os.system('find ./versions/ -type f -name "grafana.txt" -exec cat {} \\; | sort -u > grafana.txt')
+        os.system('find ./versions/ -type f -name "grafana_files.txt" -exec cat {} \\; | sort -u > grafana_files.txt')
+        os.system('find ./versions/ -type f -name "grafana_dirs.txt" -exec cat {} \\; | sort -u > grafana_dirs.txt')
     
         if not options.no_commit:
             if options.verbose:
                 print("      [>] Committing results ...")
-                os.system('git add *.txt; git commit -m "Added general wordlists for backdrop";')
+                os.system('git add *.txt; git commit -m "Added general wordlists for grafana";')
             else:
-                os.popen('git add *.txt; git commit -m "Added general wordlists for backdrop";').read()
+                os.popen('git add *.txt; git commit -m "Added general wordlists for grafana";').read()
             
