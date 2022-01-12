@@ -1,0 +1,12 @@
+/lang
+/libraries
+/libraries/auth
+/libraries/transformations
+/libraries/export
+/libraries/dbg
+/libraries/fpdf
+/libraries/fpdf/font
+/scripts
+/images
+/css
+/docSQL
