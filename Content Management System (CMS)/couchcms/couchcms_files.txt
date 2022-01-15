@@ -70,6 +70,18 @@
 /couch/addons/nicedit/nicedit.js
 /couch/addons/nicedit/nicEditorIcons.gif
 /couch/addons/nicedit/nicedit.php
+/couch/addons/page-builder/edit-mosaic-ex.php
+/couch/addons/page-builder/edit-page-builder.php
+/couch/addons/page-builder/page-builder.php
+/couch/addons/page-builder/theme/checkered-dark.png
+/couch/addons/page-builder/theme/checkered-light.png
+/couch/addons/page-builder/theme/field_pagebuilder.html
+/couch/addons/page-builder/theme/lazyload.min.js
+/couch/addons/page-builder/theme/pb_create_tile.html
+/couch/addons/page-builder/theme/pb_list_tiles.html
+/couch/addons/page-builder/theme/pb_repeatable_assets.html
+/couch/addons/page-builder/theme/pb_tile.html
+/couch/addons/page-builder/theme/pb_wrapper.html
 /couch/addons/phpmailer/config.example.php
 /couch/addons/phpmailer/PHPMailer/class.phpmailer.php
 /couch/addons/phpmailer/PHPMailer/class.smtp.php
@@ -839,6 +851,7 @@
 /couch/parser/BBParser.php
 /couch/parser/HTMLParser.php
 /couch/parser/parser.php
+/couch/restore_dump.php
 /couch/route.php
 /couch/search.php
 /couch/snippets/.htaccess

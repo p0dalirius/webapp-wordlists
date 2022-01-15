@@ -21,6 +21,8 @@
 /couch/addons/mosaic/theme
 /couch/addons/mosaic/theme/fields
 /couch/addons/nicedit
+/couch/addons/page-builder
+/couch/addons/page-builder/theme
 /couch/addons/phpmailer
 /couch/addons/phpmailer/PHPMailer
 /couch/addons/recaptcha
