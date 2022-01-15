@@ -377,6 +377,7 @@
 /src/base/FrontendTemplateInterface.php
 /src/base/FrontendTemplate.php
 /src/base/FrontendTemplateTrait.php
+/src/base/GqlSeoElementInterface.php
 /src/base/InheritableSettingsModel.php
 /src/base/MetaContainerInterface.php
 /src/base/MetaContainer.php
