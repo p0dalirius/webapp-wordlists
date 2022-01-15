@@ -35,6 +35,8 @@ def save_wordlist(result, version, filename):
 if __name__ == '__main__':
     options = parseArgs()
 
+    print("[+] Extracting wordlists for drupal ... ")
+
     os.chdir(os.path.dirname(__file__))
 
     source_url = "https://www.drupal.org/project/drupal/releases"
@@ -44,7 +46,7 @@ if __name__ == '__main__':
     last_page_link = soup.find('a', attrs={"title": "Go to last page"})
     last_page_num = int(last_page_link['href'].split('?page=')[1])
 
-    print("[+] Loading drupal versions ... ")
+    print("   [+] Loading drupal versions ... ")
     drupal_versions = {}
     for page_k in range(0, last_page_num + 1):
         if options.verbose:
@@ -54,8 +56,7 @@ if __name__ == '__main__':
         for a in soup.findAll('a'):
             if a['href'].startswith('/project/drupal/releases/'):
                 drupal_versions[a['href'].split('/project/drupal/releases/')[1]] = "https://www.drupal.org/" + a['href']
-    sys.stdout.flush()
-    print('[>] Loaded %d drupal versions.' % len(drupal_versions.keys()))
+    print('   [>] Loaded %d drupal versions.' % len(drupal_versions.keys()))
 
     for version in sorted(drupal_versions.keys()):
 
@@ -73,7 +74,7 @@ if __name__ == '__main__':
             elif options.force:
                 generate = True
             elif options.verbose:
-                print('[>] Ignoring drupal version %s (local wordlists exists)' % version)
+                print('   [>] Ignoring drupal version %s (local wordlists exists)' % version)
 
             if generate:
                 print('   [>] Extracting wordlist of drupal version %s ...' % version)

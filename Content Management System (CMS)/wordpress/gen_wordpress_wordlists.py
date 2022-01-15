@@ -35,32 +35,28 @@ def save_wordlist(result, version, lang, filename):
 if __name__ == '__main__':
     options = parseArgs()
 
+    print("[+] Extracting wordlists for wordpress ... ")
+
     os.chdir(os.path.dirname(__file__))
 
+    print("   [>] Loading wordpress languages ... ")
     source_url = "https://fr.wordpress.org/download/releases/"
-
     r = requests.get(source_url)
-
     htmldata = r.content.decode('utf-8')
     soup = BeautifulSoup(htmldata, 'lxml')
-
-    print("[+] Loading langs ... ", end="")
-    sys.stdout.flush()
     sourcelangs = {}
     for linkrel in soup.findAll("link", attrs={"rel": "alternate"}):
         if "href" in linkrel.attrs.keys() and "hreflang" in linkrel.attrs.keys():
             if linkrel["href"].endswith("/download/releases/"):
                 sourcelangs[linkrel["hreflang"]] = linkrel["href"]
-    print("Done.")
-    sys.stdout.flush()
     if options.verbose:
-        print('[>] Loaded %d source languages.' % len(sourcelangs.keys()))
+        print('   [+] Loaded %d wordpress languages.' % len(sourcelangs.keys()))
 
     versions = {}
     for lang in sourcelangs.keys():
         if lang != "x-default":
             if options.verbose:
-                print('[>] Parsing lang %s at "%s"' % (lang, sourcelangs[lang]))
+                print('   [>] Parsing lang %s at "%s"' % (lang, sourcelangs[lang]))
             url = sourcelangs[lang]
 
             r = requests.get(url)
@@ -79,9 +75,7 @@ if __name__ == '__main__':
                     versions[version][lang] = dllink
 
     for version in versions.keys():
-
         for lang in versions[version].keys():
-            print('   [>] Extracting wordlist of version %s lang %s ...' % (version, lang))
 
             generate = False
             if not os.path.exists('./versions/%s/%s/' % (version, lang)):
@@ -90,49 +84,47 @@ if __name__ == '__main__':
             elif options.force:
                 generate = True
             elif options.verbose:
-                print('[>] Ignoring wordpress version %s-%s (local wordlists exists)' % (version, lang))
+                print('      [>] Ignoring wordpress version %s-%s (local wordlists exists)' % (version, lang))
 
             if generate:
-                print('[>] Extracting wordlists for wordpress version %s-%s' % (version, lang))
-
+                print('      [>] Extracting wordlists for wordpress version %s-%s' % (version, lang))
                 dl_url = versions[version][lang]
-
                 if options.verbose:
-                    print("      [>] Create dir ...")
+                    print("         [>] Create dir ...")
                     os.system('rm -rf /tmp/paths_wordpress_extract/; mkdir -p /tmp/paths_wordpress_extract/')
                 else:
                     os.popen('rm -rf /tmp/paths_wordpress_extract/; mkdir -p /tmp/paths_wordpress_extract/').read()
                 if options.verbose:
-                    print("      [>] Getting file ...")
+                    print("         [>] Getting file ...")
                     os.system('wget -q --show-progress "%s" -O /tmp/paths_wordpress_extract/wordpress.zip' % dl_url)
                 else:
                     os.popen('wget -q "%s" -O /tmp/paths_wordpress_extract/wordpress.zip' % dl_url).read()
                 if options.verbose:
-                    print("      [>] Unzipping archive ...")
+                    print("         [>] Unzipping archive ...")
                     os.system('cd /tmp/paths_wordpress_extract/; unzip wordpress.zip 1>/dev/null')
                 else:
                     os.popen('cd /tmp/paths_wordpress_extract/; unzip wordpress.zip 1>/dev/null').read()
 
                 if options.verbose:
-                    print("      [>] Getting wordlist ...")
+                    print("         [>] Getting wordlist ...")
                 save_wordlist(os.popen('cd /tmp/paths_wordpress_extract/wordpress/; find .').read(), version, lang, filename="wordpress.txt")
                 save_wordlist(os.popen('cd /tmp/paths_wordpress_extract/wordpress/; find . -type f').read(), version, lang, filename="wordpress_files.txt")
                 save_wordlist(os.popen('cd /tmp/paths_wordpress_extract/wordpress/; find . -type d').read(), version, lang, filename="wordpress_dirs.txt")
 
                 if options.verbose:
-                    print("      [>] Committing results ...")
+                    print("         [>] Committing results ...")
                     os.system('git add ./versions/%s/%s/*; git commit -m "Added wordlists for wordpress version %s lang %s";' % (version, lang, version, lang))
                 else:
                     os.popen('git add ./versions/%s/%s/*; git commit -m "Added wordlists for wordpress version %s lang %s";' % (version, lang, version, lang)).read()
 
     if options.verbose:
-        print("      [>] Creating common wordlists ...")
+        print("         [>] Creating common wordlists ...")
     os.system('find ./versions/ -type f -name "wordpress.txt" -exec cat {} \\; | sort -u > wordpress.txt')
     os.system('find ./versions/ -type f -name "wordpress_files.txt" -exec cat {} \\; | sort -u > wordpress_files.txt')
     os.system('find ./versions/ -type f -name "wordpress_dirs.txt" -exec cat {} \\; | sort -u > wordpress_dirs.txt')
 
     if options.verbose:
-        print("      [>] Committing results ...")
+        print("         [>] Committing results ...")
         os.system('git add *.txt; git commit -m "Added general wordlists for wordpress";')
     else:
         os.popen('git add *.txt; git commit -m "Added general wordlists for wordpress";').read()

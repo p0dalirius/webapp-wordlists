@@ -54,8 +54,6 @@ if __name__ == '__main__':
         for a in soup.findAll('a'):
             if a.text.strip() == "View files":
                 joomla_versions[a['href'].split('/')[-1]] = "https://downloads.joomla.org" + a['href']
-    print("Done.")
-    sys.stdout.flush()
     print('[>] Loaded %d joomla versions.' % len(joomla_versions.keys()))
 
     for version in sorted(joomla_versions.keys()):

@@ -84,8 +84,6 @@ if __name__ == '__main__':
             print('[>] Ignoring couchcms version %s (local wordlists exists)' % str_version)
 
         if generate:
-            print('[>] Extracting wordlists for couchcms version %s' % str_version)
-
             dl_url = versions[version]
 
             if options.verbose:
