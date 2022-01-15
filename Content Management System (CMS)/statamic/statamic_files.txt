@@ -1748,6 +1748,7 @@
 /src/Http/Controllers/CP/Assets/FolderActionController.php
 /src/Http/Controllers/CP/Assets/FoldersController.php
 /src/Http/Controllers/CP/Assets/RedirectsToFirstAssetContainer.php
+/src/Http/Controllers/CP/Assets/SvgController.php
 /src/Http/Controllers/CP/Assets/ThumbnailController.php
 /src/Http/Controllers/CP/Auth/CsrfTokenController.php
 /src/Http/Controllers/CP/Auth/ExtendSessionController.php
@@ -2164,6 +2165,7 @@
 /src/Tags/Concerns/GetsFormSession.php
 /src/Tags/Concerns/GetsPipedArrayValues.php
 /src/Tags/Concerns/GetsQueryResults.php
+/src/Tags/Concerns/GetsQuerySelectKeys.php
 /src/Tags/Concerns/GetsRedirects.php
 /src/Tags/Concerns/OutputsItems.php
 /src/Tags/Concerns/QueriesConditions.php
