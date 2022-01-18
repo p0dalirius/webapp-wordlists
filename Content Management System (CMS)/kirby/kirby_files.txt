@@ -178,6 +178,7 @@
 /config/urls.php
 /dependencies/parsedown-extra/ParsedownExtra.php
 /dependencies/parsedown/Parsedown.php
+/dependencies/spyc/Spyc.php
 /.editorconfig
 /i18n/rules/ar.json
 /i18n/rules/az.json
@@ -505,6 +506,7 @@
 /src/Toolkit/Component.php
 /src/Toolkit/Config.php
 /src/Toolkit/Controller.php
+/src/Toolkit/Date.php
 /src/Toolkit/Dir.php
 /src/Toolkit/Dom.php
 /src/Toolkit/Escape.php

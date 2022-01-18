@@ -229,6 +229,8 @@
 /dependencies/parsedown-extra
 /dependencies/parsedown-extra/ParsedownExtra.php
 /dependencies/parsedown/Parsedown.php
+/dependencies/spyc
+/dependencies/spyc/Spyc.php
 /.editorconfig
 /i18n
 /i18n/rules
@@ -591,6 +593,7 @@
 /src/Toolkit/Component.php
 /src/Toolkit/Config.php
 /src/Toolkit/Controller.php
+/src/Toolkit/Date.php
 /src/Toolkit/Dir.php
 /src/Toolkit/Dom.php
 /src/Toolkit/Escape.php

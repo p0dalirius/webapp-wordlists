@@ -49,6 +49,7 @@
 /dependencies
 /dependencies/parsedown
 /dependencies/parsedown-extra
+/dependencies/spyc
 /i18n
 /i18n/rules
 /i18n/translations
