@@ -285,6 +285,7 @@
 /administrator/components/com_admin/sql/updates/mysql/4.0.0-2021-08-17.sql
 /administrator/components/com_admin/sql/updates/mysql/4.0.3-2021-09-04.sql
 /administrator/components/com_admin/sql/updates/mysql/4.0.3-2021-09-05.sql
+/administrator/components/com_admin/sql/updates/mysql/4.0.6-2021-12-23.sql
 /administrator/components/com_admin/sql/updates/mysql/index.html
 /administrator/components/com_admin/sql/updates/postgresql/3.0.0.sql
 /administrator/components/com_admin/sql/updates/postgresql/3.0.1.sql
@@ -436,6 +437,7 @@
 /administrator/components/com_admin/sql/updates/postgresql/4.0.0-2021-08-17.sql
 /administrator/components/com_admin/sql/updates/postgresql/4.0.3-2021-09-04.sql
 /administrator/components/com_admin/sql/updates/postgresql/4.0.3-2021-09-05.sql
+/administrator/components/com_admin/sql/updates/postgresql/4.0.6-2021-12-23.sql
 /administrator/components/com_admin/sql/updates/postgresql/index.html
 /administrator/components/com_admin/sql/updates/sqlazure/2.5.10.sql
 /administrator/components/com_admin/sql/updates/sqlazure/2.5.11.sql
@@ -9203,6 +9205,7 @@
 /layouts/joomla/html/batch/workflowstage.php
 /layouts/joomla/html/formbehavior/ajaxchosen.php
 /layouts/joomla/html/formbehavior/chosen.php
+/layouts/joomla/html/image.php
 /layouts/joomla/html/sortablelist.php
 /layouts/joomla/html/tag.php
 /layouts/joomla/html/treeprefix.php
@@ -12518,12 +12521,18 @@
 /libraries/vendor/paragonie/sodium_compat/autoload-fast.php
 /libraries/vendor/paragonie/sodium_compat/autoload-pedantic.php
 /libraries/vendor/paragonie/sodium_compat/autoload.php
+/libraries/vendor/paragonie/sodium_compat/autoload-php7.php
+/libraries/vendor/paragonie/sodium_compat/autoload-phpunit.php
+/libraries/vendor/paragonie/sodium_compat/composer-php52.json
 /libraries/vendor/paragonie/sodium_compat/dist/box.json
 /libraries/vendor/paragonie/sodium_compat/dist/Makefile
 /libraries/vendor/paragonie/sodium_compat/lib/constants.php
 /libraries/vendor/paragonie/sodium_compat/lib/namespaced.php
+/libraries/vendor/paragonie/sodium_compat/lib/php72compat_const.php
 /libraries/vendor/paragonie/sodium_compat/lib/php72compat.php
+/libraries/vendor/paragonie/sodium_compat/lib/ristretto255.php
 /libraries/vendor/paragonie/sodium_compat/lib/sodium_compat.php
+/libraries/vendor/paragonie/sodium_compat/lib/stream-xchacha20.php
 /libraries/vendor/paragonie/sodium_compat/LICENSE
 /libraries/vendor/paragonie/sodium_compat/namespaced/Compat.php
 /libraries/vendor/paragonie/sodium_compat/namespaced/Core/BLAKE2b.php
@@ -12551,6 +12560,8 @@
 /libraries/vendor/paragonie/sodium_compat/namespaced/Core/Xsalsa20.php
 /libraries/vendor/paragonie/sodium_compat/namespaced/Crypto.php
 /libraries/vendor/paragonie/sodium_compat/namespaced/File.php
+/libraries/vendor/paragonie/sodium_compat/psalm-above-3.xml
+/libraries/vendor/paragonie/sodium_compat/psalm-below-3.xml
 /libraries/vendor/paragonie/sodium_compat/src/Compat.php
 /libraries/vendor/paragonie/sodium_compat/src/Core32/BLAKE2b.php
 /libraries/vendor/paragonie/sodium_compat/src/Core32/ChaCha20/Ctx.php
@@ -12573,11 +12584,15 @@
 /libraries/vendor/paragonie/sodium_compat/src/Core32/Poly1305.php
 /libraries/vendor/paragonie/sodium_compat/src/Core32/Poly1305/State.php
 /libraries/vendor/paragonie/sodium_compat/src/Core32/Salsa20.php
+/libraries/vendor/paragonie/sodium_compat/src/Core32/SecretStream/State.php
 /libraries/vendor/paragonie/sodium_compat/src/Core32/SipHash.php
 /libraries/vendor/paragonie/sodium_compat/src/Core32/Util.php
 /libraries/vendor/paragonie/sodium_compat/src/Core32/X25519.php
 /libraries/vendor/paragonie/sodium_compat/src/Core32/XChaCha20.php
 /libraries/vendor/paragonie/sodium_compat/src/Core32/XSalsa20.php
+/libraries/vendor/paragonie/sodium_compat/src/Core/Base64/Common.php
+/libraries/vendor/paragonie/sodium_compat/src/Core/Base64/Original.php
+/libraries/vendor/paragonie/sodium_compat/src/Core/Base64/UrlSafe.php
 /libraries/vendor/paragonie/sodium_compat/src/Core/BLAKE2b.php
 /libraries/vendor/paragonie/sodium_compat/src/Core/ChaCha20/Ctx.php
 /libraries/vendor/paragonie/sodium_compat/src/Core/ChaCha20/IetfCtx.php
@@ -12595,7 +12610,9 @@
 /libraries/vendor/paragonie/sodium_compat/src/Core/HSalsa20.php
 /libraries/vendor/paragonie/sodium_compat/src/Core/Poly1305.php
 /libraries/vendor/paragonie/sodium_compat/src/Core/Poly1305/State.php
+/libraries/vendor/paragonie/sodium_compat/src/Core/Ristretto255.php
 /libraries/vendor/paragonie/sodium_compat/src/Core/Salsa20.php
+/libraries/vendor/paragonie/sodium_compat/src/Core/SecretStream/State.php
 /libraries/vendor/paragonie/sodium_compat/src/Core/SipHash.php
 /libraries/vendor/paragonie/sodium_compat/src/Core/Util.php
 /libraries/vendor/paragonie/sodium_compat/src/Core/X25519.php
@@ -12605,6 +12622,7 @@
 /libraries/vendor/paragonie/sodium_compat/src/Crypto32.php
 /libraries/vendor/paragonie/sodium_compat/src/Crypto.php
 /libraries/vendor/paragonie/sodium_compat/src/File.php
+/libraries/vendor/paragonie/sodium_compat/src/PHP52/SplFixedArray.php
 /libraries/vendor/paragonie/sodium_compat/src/SodiumException.php
 /libraries/vendor/php-http/message-factory/LICENSE
 /libraries/vendor/php-http/message-factory/puli.json

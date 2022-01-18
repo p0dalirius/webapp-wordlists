@@ -3067,10 +3067,14 @@
 /libraries/vendor/paragonie/sodium_compat/src/Core32/Curve25519
 /libraries/vendor/paragonie/sodium_compat/src/Core32/Curve25519/Ge
 /libraries/vendor/paragonie/sodium_compat/src/Core32/Poly1305
+/libraries/vendor/paragonie/sodium_compat/src/Core32/SecretStream
+/libraries/vendor/paragonie/sodium_compat/src/Core/Base64
 /libraries/vendor/paragonie/sodium_compat/src/Core/ChaCha20
 /libraries/vendor/paragonie/sodium_compat/src/Core/Curve25519
 /libraries/vendor/paragonie/sodium_compat/src/Core/Curve25519/Ge
 /libraries/vendor/paragonie/sodium_compat/src/Core/Poly1305
+/libraries/vendor/paragonie/sodium_compat/src/Core/SecretStream
+/libraries/vendor/paragonie/sodium_compat/src/PHP52
 /libraries/vendor/php-http
 /libraries/vendor/php-http/message-factory
 /libraries/vendor/php-http/message-factory/src
