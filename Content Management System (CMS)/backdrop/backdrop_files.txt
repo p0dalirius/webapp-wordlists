@@ -2803,6 +2803,7 @@
 /files/README.md
 /.gitattributes
 /.github/misc/default.conf
+/.github/misc/settings.local.php
 /.github/misc/setup-php-fpm.sh
 /.github/workflows/functional-tests.yml
 /.gitignore

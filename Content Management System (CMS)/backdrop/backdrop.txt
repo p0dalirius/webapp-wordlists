@@ -3235,6 +3235,7 @@
 /.github
 /.github/misc
 /.github/misc/default.conf
+/.github/misc/settings.local.php
 /.github/misc/setup-php-fpm.sh
 /.github/workflows
 /.github/workflows/functional-tests.yml
