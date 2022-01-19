@@ -37188,13 +37188,16 @@
 /misc/ui/jquery.ui.button.min.js
 /misc/ui/jquery.ui.core.css
 /misc/ui/jquery.ui.core.min.js
+/misc/ui/jquery.ui.datepicker-1.13.0-backport.js
 /misc/ui/jquery.ui.datepicker.css
 /misc/ui/jquery.ui.datepicker.min.js
+/misc/ui/jquery.ui.dialog-1.13.0-backport.js
 /misc/ui/jquery.ui.dialog.css
 /misc/ui/jquery.ui.dialog.min.js
 /misc/ui/jquery.ui.draggable.min.js
 /misc/ui/jquery.ui.droppable.min.js
 /misc/ui/jquery.ui.mouse.min.js
+/misc/ui/jquery.ui.position-1.13.0-backport.js
 /misc/ui/jquery.ui.position.min.js
 /misc/ui/jquery.ui.progressbar.css
 /misc/ui/jquery.ui.progressbar.min.js
