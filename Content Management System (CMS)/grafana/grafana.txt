@@ -1096,6 +1096,8 @@
 /app/features/alerting/unified/AmRoutes.tsx
 /app/features/alerting/unified/api
 /app/features/alerting/unified/api/alertmanager.ts
+/app/features/alerting/unified/api/annotations.test.ts
+/app/features/alerting/unified/api/annotations.ts
 /app/features/alerting/unified/api/grafana.ts
 /app/features/alerting/unified/api/preview.ts
 /app/features/alerting/unified/api/prometheus.ts
@@ -1234,6 +1236,7 @@
 /app/features/alerting/unified/components/rules/RuleState.tsx
 /app/features/alerting/unified/components/rules/RuleStats.tsx
 /app/features/alerting/unified/components/rules/RuleTableRow.tsx
+/app/features/alerting/unified/components/rules/StateHistory.tsx
 /app/features/alerting/unified/components/rules/SystemOrApplicationRules.tsx
 /app/features/alerting/unified/components/rules/ThresholdRules.tsx
 /app/features/alerting/unified/components/rule-viewer
@@ -1270,9 +1273,12 @@
 /app/features/alerting/unified/hooks/useGroupedAlerts.ts
 /app/features/alerting/unified/hooks/useHasRuler.ts
 /app/features/alerting/unified/hooks/useIsRuleEditable.ts
+/app/features/alerting/unified/hooks/useManagedAlertStateHistory.ts
 /app/features/alerting/unified/hooks/usePanelCombinedRules.ts
 /app/features/alerting/unified/hooks/useRuleSourcesWithRuler.ts
+/app/features/alerting/unified/hooks/useStateHistoryModal.tsx
 /app/features/alerting/unified/hooks/useUnifiedAlertingSelector.ts
+/app/features/alerting/unified/hooks/useURLSearchParams.ts
 /app/features/alerting/unified/hooks/useVizHeight.ts
 /app/features/alerting/unified/mocks
 /app/features/alerting/unified/mocks/grafana-notifiers.ts
@@ -1318,6 +1324,7 @@
 /app/features/alerting/unified/utils/constants.ts
 /app/features/alerting/unified/utils/datasource.ts
 /app/features/alerting/unified/utils/dynamicTable.ts
+/app/features/alerting/unified/utils/matchers.test.ts
 /app/features/alerting/unified/utils/matchers.ts
 /app/features/alerting/unified/utils/misc.test.ts
 /app/features/alerting/unified/utils/misc.ts
@@ -2417,6 +2424,7 @@
 /app/features/manage-dashboards/SnapshotListCtrl.ts
 /app/features/manage-dashboards/SnapshotListPage.tsx
 /app/features/manage-dashboards/state
+/app/features/manage-dashboards/state/actions.test.ts
 /app/features/manage-dashboards/state/actions.ts
 /app/features/manage-dashboards/state/reducers.test.ts
 /app/features/manage-dashboards/state/reducers.ts
@@ -3229,6 +3237,8 @@
 /app/features/variables/state/actions.test.ts
 /app/features/variables/state/actions.ts
 /app/features/variables/state/helpers.ts
+/app/features/variables/state/initVariableTransaction.test.ts
+/app/features/variables/state/migrateVariablesDatasourceNameToRef.test.ts
 /app/features/variables/state/onTimeRangeUpdated.test.ts
 /app/features/variables/state/processVariable.test.ts
 /app/features/variables/state/reducers.test.ts
@@ -4201,6 +4211,7 @@
 /app/plugins/datasource/influxdb/components/VariableQueryEditor.tsx
 /app/plugins/datasource/influxdb/components/VisualInfluxQLEditor
 /app/plugins/datasource/influxdb/components/VisualInfluxQLEditor/AddButton.tsx
+/app/plugins/datasource/influxdb/components/VisualInfluxQLEditor/Editor.tags.test.tsx
 /app/plugins/datasource/influxdb/components/VisualInfluxQLEditor/Editor.test.tsx
 /app/plugins/datasource/influxdb/components/VisualInfluxQLEditor/Editor.tsx
 /app/plugins/datasource/influxdb/components/VisualInfluxQLEditor/FormatAsSection.tsx
@@ -4488,6 +4499,7 @@
 /app/plugins/datasource/opentsdb/types.ts
 /app/plugins/datasource/postgres
 /app/plugins/datasource/postgres/config_ctrl.ts
+/app/plugins/datasource/postgres/datasource.test.ts
 /app/plugins/datasource/postgres/datasource.ts
 /app/plugins/datasource/postgres/img
 /app/plugins/datasource/postgres/img/postgresql_logo.svg
