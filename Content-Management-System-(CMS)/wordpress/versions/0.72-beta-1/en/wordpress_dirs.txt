@@ -1,0 +1,6 @@
+/wp-admin
+/wp-links
+/wp-links/links-images
+/b2-include
+/b2-img
+/b2-img/smilies

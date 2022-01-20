@@ -1,0 +1,16 @@
+/themes
+/themes/default
+/themes/default/summary
+/themes/default/theme.php
+/themes/default/version
+/themes/default/css
+/themes/default/css/style.css
+/license
+/README.md
+/index.php
+/.gitignore
+/.htaccess
+/CONTRIBUTING.md
+/version
+/tests
+/tests/WcmsTest.php

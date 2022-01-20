@@ -1,4 +1,0 @@
-/themes
-/themes/default
-/themes/default/css
-/tests

@@ -1,0 +1,14 @@
+/themes/essence/summary
+/themes/essence/theme.php
+/themes/essence/version
+/themes/essence/css/style.css
+/license
+/index.php
+/.gitignore
+/.htaccess
+/.github/README.md
+/.github/SECURITY.md
+/.github/FUNDING.yml
+/.github/CONTRIBUTING.md
+/version
+/tests/WcmsTest.php

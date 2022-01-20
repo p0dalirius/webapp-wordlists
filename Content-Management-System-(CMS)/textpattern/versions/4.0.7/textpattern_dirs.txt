@@ -1,0 +1,11 @@
+/rpc
+/textpattern
+/textpattern/txp_img
+/textpattern/lib
+/textpattern/lang
+/textpattern/publish
+/textpattern/include
+/textpattern/include/import
+/textpattern/update
+/textpattern/setup
+/images

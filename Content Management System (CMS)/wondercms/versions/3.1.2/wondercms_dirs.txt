@@ -1,5 +1,0 @@
-/themes
-/themes/essence
-/themes/essence/css
-/.github
-/tests

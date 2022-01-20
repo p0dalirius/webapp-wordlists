@@ -1,3 +1,0 @@
-/mc-files
-/mc-files/theme
-/mc-admin

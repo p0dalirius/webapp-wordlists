@@ -1,0 +1,4 @@
+/mc-files
+/mc-files/theme
+/mc-files/theme/prettify
+/mc-admin

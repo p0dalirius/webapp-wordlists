@@ -1,0 +1,8 @@
+/wbce-cms.txt
+/versions/1.5.2/wbce-cms.txt
+/versions/1.5.2/wbce-cms_files.txt
+/versions/1.5.2/wbce-cms_dirs.txt
+/versions/1.5.1/wbce-cms.txt
+/wbce-cms_files.txt
+/gen_wbcecms_wordlists.py
+/wbce-cms_dirs.txt
