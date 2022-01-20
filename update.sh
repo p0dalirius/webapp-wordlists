@@ -18,7 +18,7 @@ github_api_wait() {
   fi
 }
 
-generate=0
+generate=1
 if [ ${generate} -eq 1 ]; then
   log "Updating wordlists ..."
   while read script; do
