@@ -4520,6 +4520,9 @@ Fonts
 /include/SearchForm/tpls/SearchFormGeneric.tpl
 /include/SearchForm/tpls/SubpanelSearchFormGeneric.tpl
 /include/SearchForm/tpls/SugarSpot.tpl
+/include/Services/Batch/BatchJob.php
+/include/Services/NormalizeRecords/NormalizeRecords.php
+/include/Services/NormalizeRecords/NormalizeRecordsSchedulerJob.php
 /include/Smarty/Config_File.class.php
 /include/Smarty/COPYING.lib
 /include/Smarty/debug.tpl
@@ -7022,6 +7025,7 @@ License.txt
 /modules/Administration/repairSelectModule.php
 /modules/Administration/repairUniSearch.php
 /modules/Administration/RepairUploadFolder.php
+/modules/Administration/RepairUtfEncoding.php
 /modules/Administration/RepairXSS.php
 /modules/Administration/Save.php
 /modules/Administration/Search/ajaxSubmit.js
@@ -7057,6 +7061,9 @@ License.txt
 /modules/Administration/templates/RebuildConfig.tpl
 /modules/Administration/templates/RebuildSprites.tpl
 /modules/Administration/templates/RepairDatabase.tpl
+/modules/Administration/templates/RepairUtfEncodingStatus.tpl
+/modules/Administration/templates/RepairUtfEncodingSyncStatus.tpl
+/modules/Administration/templates/RepairUtfEncoding.tpl
 /modules/Administration/templates/RepairXSS.tpl
 /modules/Administration/templates/ShortcutBar.tpl
 /modules/Administration/templates/SyncInboundEmailAccounts.tpl

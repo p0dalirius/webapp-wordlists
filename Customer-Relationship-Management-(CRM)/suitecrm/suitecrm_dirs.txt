@@ -959,6 +959,9 @@
 /include/resource/Observers
 /include/SearchForm
 /include/SearchForm/tpls
+/include/Services
+/include/Services/Batch
+/include/Services/NormalizeRecords
 /include/Smarty
 /include/Smarty/internals
 /include/Smarty/plugins
