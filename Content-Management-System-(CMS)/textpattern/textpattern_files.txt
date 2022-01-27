@@ -27,6 +27,7 @@
 /SECURITY.md
 /sites/README.txt
 /sites/site1/admin/index.php
+/sites/site1/admin/plugins/.htaccess-dist
 /sites/site1/admin/setup/index.php
 /sites/site1/admin/setup/setup-multisite.css
 /sites/site1/admin/textpattern.js

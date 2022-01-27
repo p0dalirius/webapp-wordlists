@@ -5,6 +5,7 @@
 /sites
 /sites/site1
 /sites/site1/admin
+/sites/site1/admin/plugins
 /sites/site1/admin/setup
 /sites/site1/private
 /sites/site1/public

@@ -36,6 +36,8 @@
 /sites/site1/admin/admin-themes
 /sites/site1/admin/index.php
 /sites/site1/admin/jquery.js
+/sites/site1/admin/plugins
+/sites/site1/admin/plugins/.htaccess-dist
 /sites/site1/admin/setup
 /sites/site1/admin/setup/index.php
 /sites/site1/admin/setup/setup-multisite.css
