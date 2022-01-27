@@ -230,6 +230,7 @@
 /dependencies/parsedown-extra/ParsedownExtra.php
 /dependencies/parsedown/Parsedown.php
 /dependencies/spyc
+/dependencies/spyc/COPYING
 /dependencies/spyc/Spyc.php
 /.editorconfig
 /i18n
@@ -252,6 +253,7 @@
 /i18n/rules/hy.json
 /i18n/rules/is_IS.json
 /i18n/rules/it.json
+/i18n/rules/iu.json
 /i18n/rules/ja.json
 /i18n/rules/ka.json
 /i18n/rules/ko.json
@@ -321,6 +323,7 @@
 /panel/.prettierrc.json
 /panel/vite.config.custom.js
 /panel/vite.config.js
+/panel/vitest.setup.js
 /.php_cs
 /phpstan.neon.dist
 /README.md
