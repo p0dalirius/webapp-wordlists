@@ -491,6 +491,8 @@
 /core/vendor/composer/composer/src/Composer/Downloader
 /core/vendor/composer/composer/src/Composer/EventDispatcher
 /core/vendor/composer/composer/src/Composer/Exception
+/core/vendor/composer/composer/src/Composer/Filter
+/core/vendor/composer/composer/src/Composer/Filter/PlatformRequirementFilter
 /core/vendor/composer/composer/src/Composer/Installer
 /core/vendor/composer/composer/src/Composer/IO
 /core/vendor/composer/composer/src/Composer/Json
@@ -887,6 +889,7 @@
 /core/vendor/nesbot/carbon/.github
 /core/vendor/nesbot/carbon/lazy
 /core/vendor/nesbot/carbon/lazy/Carbon
+/core/vendor/nesbot/carbon/lazy/Carbon/PHPStan
 /core/vendor/nesbot/carbon/src
 /core/vendor/nesbot/carbon/src/Carbon
 /core/vendor/nesbot/carbon/src/Carbon/Cli
@@ -1305,6 +1308,7 @@
 /core/vendor/tracy/tracy/src/Tracy/Dumper/assets
 /core/vendor/tracy/tracy/src/Tracy/Logger
 /core/vendor/tracy/tracy/src/Tracy/OutputDebugger
+/core/vendor/tracy/tracy/src/Tracy/Session
 /core/vendor/tracy/tracy/src/Tracy/TableSort
 /core/vendor/tracy/tracy/src/Tracy/Toggle
 /core/vendor/tracy/tracy/tools

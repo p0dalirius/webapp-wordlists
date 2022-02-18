@@ -2833,6 +2833,7 @@
 /core/vendor/composer/composer/doc/articles/aliases.md
 /core/vendor/composer/composer/doc/articles/authentication-for-private-packages.md
 /core/vendor/composer/composer/doc/articles/autoloader-optimization.md
+/core/vendor/composer/composer/doc/articles/composer-platform-dependencies.md
 /core/vendor/composer/composer/doc/articles/custom-installers.md
 /core/vendor/composer/composer/doc/articles/handling-private-packages.md
 /core/vendor/composer/composer/doc/articles/handling-private-packages-with-satis.md
@@ -2948,6 +2949,7 @@
 /core/vendor/composer/composer/src/Composer/DependencyResolver/Operation/UpdateOperation.php
 /core/vendor/composer/composer/src/Composer/DependencyResolver/PolicyInterface.php
 /core/vendor/composer/composer/src/Composer/DependencyResolver/PoolBuilder.php
+/core/vendor/composer/composer/src/Composer/DependencyResolver/PoolOptimizer.php
 /core/vendor/composer/composer/src/Composer/DependencyResolver/Pool.php
 /core/vendor/composer/composer/src/Composer/DependencyResolver/Problem.php
 /core/vendor/composer/composer/src/Composer/DependencyResolver/Request.php
@@ -2997,6 +2999,13 @@
 /core/vendor/composer/composer/src/Composer/Exception/IrrecoverableDownloadException.php
 /core/vendor/composer/composer/src/Composer/Exception/NoSslException.php
 /core/vendor/composer/composer/src/Composer/Factory.php
+/core/vendor/composer/composer/src/Composer/Filter
+/core/vendor/composer/composer/src/Composer/Filter/PlatformRequirementFilter
+/core/vendor/composer/composer/src/Composer/Filter/PlatformRequirementFilter/IgnoreAllPlatformRequirementFilter.php
+/core/vendor/composer/composer/src/Composer/Filter/PlatformRequirementFilter/IgnoreListPlatformRequirementFilter.php
+/core/vendor/composer/composer/src/Composer/Filter/PlatformRequirementFilter/IgnoreNothingPlatformRequirementFilter.php
+/core/vendor/composer/composer/src/Composer/Filter/PlatformRequirementFilter/PlatformRequirementFilterFactory.php
+/core/vendor/composer/composer/src/Composer/Filter/PlatformRequirementFilter/PlatformRequirementFilterInterface.php
 /core/vendor/composer/composer/src/Composer/InstalledVersions.php
 /core/vendor/composer/composer/src/Composer/Installer
 /core/vendor/composer/composer/src/Composer/Installer/BinaryInstaller.php
@@ -3849,6 +3858,7 @@
 /core/vendor/doctrine/lexer/lib/Doctrine/Common/Lexer
 /core/vendor/doctrine/lexer/lib/Doctrine/Common/Lexer/AbstractLexer.php
 /core/vendor/doctrine/lexer/LICENSE
+/core/vendor/doctrine/lexer/psalm.xml
 /core/vendor/doctrine/lexer/README.md
 /core/vendor/egulias
 /core/vendor/egulias/email-validator
@@ -4278,6 +4288,7 @@
 /core/vendor/illuminate/console/Scheduling/EventMutex.php
 /core/vendor/illuminate/console/Scheduling/Event.php
 /core/vendor/illuminate/console/Scheduling/ManagesFrequencies.php
+/core/vendor/illuminate/console/Scheduling/ScheduleClearCacheCommand.php
 /core/vendor/illuminate/console/Scheduling/ScheduleFinishCommand.php
 /core/vendor/illuminate/console/Scheduling/ScheduleListCommand.php
 /core/vendor/illuminate/console/Scheduling/Schedule.php
@@ -4515,6 +4526,7 @@
 /core/vendor/illuminate/database/Eloquent/Casts/AsEncryptedArrayObject.php
 /core/vendor/illuminate/database/Eloquent/Casts/AsEncryptedCollection.php
 /core/vendor/illuminate/database/Eloquent/Casts/AsStringable.php
+/core/vendor/illuminate/database/Eloquent/Casts/Attribute.php
 /core/vendor/illuminate/database/Eloquent/Collection.php
 /core/vendor/illuminate/database/Eloquent/Concerns
 /core/vendor/illuminate/database/Eloquent/Concerns/GuardsAttributes.php
@@ -4528,6 +4540,7 @@
 /core/vendor/illuminate/database/Eloquent/Factories
 /core/vendor/illuminate/database/Eloquent/Factories/BelongsToManyRelationship.php
 /core/vendor/illuminate/database/Eloquent/Factories/BelongsToRelationship.php
+/core/vendor/illuminate/database/Eloquent/Factories/CrossJoinSequence.php
 /core/vendor/illuminate/database/Eloquent/Factories/Factory.php
 /core/vendor/illuminate/database/Eloquent/Factories/HasFactory.php
 /core/vendor/illuminate/database/Eloquent/Factories/Relationship.php
@@ -4576,6 +4589,7 @@
 /core/vendor/illuminate/database/Events/MigrationEnded.php
 /core/vendor/illuminate/database/Events/MigrationEvent.php
 /core/vendor/illuminate/database/Events/MigrationsEnded.php
+/core/vendor/illuminate/database/Events/MigrationsEvent.php
 /core/vendor/illuminate/database/Events/MigrationsStarted.php
 /core/vendor/illuminate/database/Events/MigrationStarted.php
 /core/vendor/illuminate/database/Events/ModelsPruned.php
@@ -4783,6 +4797,7 @@
 /core/vendor/illuminate/redis/composer.json
 /core/vendor/illuminate/redis/Connections
 /core/vendor/illuminate/redis/Connections/Connection.php
+/core/vendor/illuminate/redis/Connections/PacksPhpRedisValues.php
 /core/vendor/illuminate/redis/Connections/PhpRedisClusterConnection.php
 /core/vendor/illuminate/redis/Connections/PhpRedisConnection.php
 /core/vendor/illuminate/redis/Connections/PredisClusterConnection.php
@@ -4953,6 +4968,7 @@
 /core/vendor/illuminate/support/LICENSE.md
 /core/vendor/illuminate/support/Manager.php
 /core/vendor/illuminate/support/MessageBag.php
+/core/vendor/illuminate/support/MultipleInstanceManager.php
 /core/vendor/illuminate/support/NamespacedItemResolver.php
 /core/vendor/illuminate/support/Optional.php
 /core/vendor/illuminate/support/Pluralizer.php
@@ -5516,6 +5532,9 @@
 /core/vendor/nesbot/carbon/.github/ISSUE_TEMPLATE.md
 /core/vendor/nesbot/carbon/lazy
 /core/vendor/nesbot/carbon/lazy/Carbon
+/core/vendor/nesbot/carbon/lazy/Carbon/PHPStan
+/core/vendor/nesbot/carbon/lazy/Carbon/PHPStan/MacroStrongType.php
+/core/vendor/nesbot/carbon/lazy/Carbon/PHPStan/MacroWeakType.php
 /core/vendor/nesbot/carbon/lazy/Carbon/TranslatorStrongType.php
 /core/vendor/nesbot/carbon/lazy/Carbon/TranslatorWeakType.php
 /core/vendor/nesbot/carbon/LICENSE
@@ -6407,6 +6426,7 @@
 /core/vendor/nesbot/carbon/src/Carbon/List/languages.php
 /core/vendor/nesbot/carbon/src/Carbon/List/regions.php
 /core/vendor/nesbot/carbon/src/Carbon/PHPStan
+/core/vendor/nesbot/carbon/src/Carbon/PHPStan/AbstractMacro.php
 /core/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php
 /core/vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php
 /core/vendor/nesbot/carbon/src/Carbon/PHPStan/MacroScanner.php
@@ -9026,7 +9046,14 @@
 /core/vendor/tracy/tracy/src/Tracy/assets/Dumper
 /core/vendor/tracy/tracy/src/Tracy/assets/Dumper/dumper.css
 /core/vendor/tracy/tracy/src/Tracy/assets/Dumper/dumper.js
+/core/vendor/tracy/tracy/src/Tracy/assets/reset.css
+/core/vendor/tracy/tracy/src/Tracy/assets/table-sort.css
+/core/vendor/tracy/tracy/src/Tracy/assets/table-sort.js
+/core/vendor/tracy/tracy/src/Tracy/assets/tabs.css
+/core/vendor/tracy/tracy/src/Tracy/assets/tabs.js
 /core/vendor/tracy/tracy/src/Tracy/assets/Toggle
+/core/vendor/tracy/tracy/src/Tracy/assets/toggle.css
+/core/vendor/tracy/tracy/src/Tracy/assets/toggle.js
 /core/vendor/tracy/tracy/src/Tracy/assets/Toggle/toggle.css
 /core/vendor/tracy/tracy/src/Tracy/assets/Toggle/toggle.js
 /core/vendor/tracy/tracy/src/Tracy/Bar
@@ -9053,13 +9080,27 @@
 /core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/bluescreen.js
 /core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/content.phtml
 /core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/page.phtml
+/core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/section-cli.phtml
+/core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/section-environment.phtml
+/core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/section-exception-callStack.phtml
+/core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/section-exception-causedBy.phtml
+/core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/section-exception-exception.phtml
+/core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/section-exception.phtml
+/core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/section-exception-sourceFile.phtml
+/core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/section-exception-variables.phtml
+/core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/section-header.phtml
+/core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/section-http.phtml
+/core/vendor/tracy/tracy/src/Tracy/BlueScreen/assets/section-lastMutedError.phtml
 /core/vendor/tracy/tracy/src/Tracy/BlueScreen/BlueScreen.php
 /core/vendor/tracy/tracy/src/Tracy/BlueScreen.php
 /core/vendor/tracy/tracy/src/Tracy/Debugger
 /core/vendor/tracy/tracy/src/Tracy/Debugger/assets
 /core/vendor/tracy/tracy/src/Tracy/Debugger/assets/error.500.phtml
 /core/vendor/tracy/tracy/src/Tracy/Debugger/Debugger.php
+/core/vendor/tracy/tracy/src/Tracy/Debugger/DeferredContent.php
+/core/vendor/tracy/tracy/src/Tracy/Debugger/DevelopmentStrategy.php
 /core/vendor/tracy/tracy/src/Tracy/Debugger.php
+/core/vendor/tracy/tracy/src/Tracy/Debugger/ProductionStrategy.php
 /core/vendor/tracy/tracy/src/Tracy/DefaultBarPanel.php
 /core/vendor/tracy/tracy/src/Tracy/Dumper
 /core/vendor/tracy/tracy/src/Tracy/Dumper/assets
@@ -9087,6 +9128,10 @@
 /core/vendor/tracy/tracy/src/Tracy/OutputDebugger/OutputDebugger.php
 /core/vendor/tracy/tracy/src/Tracy/OutputDebugger.php
 /core/vendor/tracy/tracy/src/tracy.php
+/core/vendor/tracy/tracy/src/Tracy/Session
+/core/vendor/tracy/tracy/src/Tracy/Session/FileSession.php
+/core/vendor/tracy/tracy/src/Tracy/Session/NativeSession.php
+/core/vendor/tracy/tracy/src/Tracy/Session/SessionStorage.php
 /core/vendor/tracy/tracy/src/Tracy/shortcuts.php
 /core/vendor/tracy/tracy/src/Tracy/TableSort
 /core/vendor/tracy/tracy/src/Tracy/TableSort/table-sort.css
@@ -9391,6 +9436,7 @@
 /core/vendor/voku/portable-ascii/src/voku/helper/data/x1d6.php
 /core/vendor/voku/portable-ascii/src/voku/helper/data/x1d7.php
 /core/vendor/voku/portable-ascii/src/voku/helper/data/x1f1.php
+/core/vendor/voku/portable-ascii/.whitesource
 /core/vendor/wikimedia
 /core/vendor/wikimedia/composer-merge-plugin
 /core/vendor/wikimedia/composer-merge-plugin/composer.json
