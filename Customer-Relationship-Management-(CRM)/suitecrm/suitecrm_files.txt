@@ -6817,6 +6817,7 @@ License.txt
 /mobile/lib/mobiscroll/mobiscroll-2.5.custom.min.js
 /mobile/lib/modernizr.js
 /mobile/plugins/index.html
+/ModuleInstall/ExtensionManager.php
 /ModuleInstall/extensions.php
 /ModuleInstall/ModuleInstaller.php
 /ModuleInstall/ModuleScanner.php

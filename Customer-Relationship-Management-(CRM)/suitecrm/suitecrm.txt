@@ -8209,6 +8209,7 @@ License.txt
 /mobile/plugins
 /mobile/plugins/index.html
 /ModuleInstall
+/ModuleInstall/ExtensionManager.php
 /ModuleInstall/extensions.php
 /ModuleInstall/ModuleInstaller.php
 /ModuleInstall/ModuleScanner.php
