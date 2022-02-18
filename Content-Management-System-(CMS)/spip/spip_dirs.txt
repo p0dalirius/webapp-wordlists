@@ -847,6 +847,7 @@
 /versions/3.2.10
 /versions/3.2.11
 /versions/3.2.12
+/versions/3.2.13
 /versions/3.2.2
 /versions/3.2.3
 /versions/3.2.4
@@ -859,3 +860,5 @@
 /versions/4.0.0
 /versions/4.0.1
 /versions/4.0.2
+/versions/4.0.3
+/versions/4.0.4
