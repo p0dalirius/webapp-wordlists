@@ -2457,9 +2457,13 @@
 /core/modules/system/tests/deprecated_redirect_test
 /core/modules/system/tests/deprecated_redirect_test/deprecated_redirect_test.info
 /core/modules/system/tests/deprecated_redirect_test/deprecated_redirect_test.module
+/core/modules/system/tests/system_cron_test
 /core/modules/system/tests/system_cron_test.info
 /core/modules/system/tests/system_cron_test.module
+/core/modules/system/tests/system_cron_test/system_cron_test.info
+/core/modules/system/tests/system_cron_test/system_cron_test.module
 /core/modules/system/tests/system.test
+/core/modules/system/tests/system.tests.info
 /core/modules/system/theme.api.php
 /core/modules/system/views
 /core/modules/system/views/system.views.inc
@@ -2627,6 +2631,9 @@
 /core/modules/user/templates/user-picture.tpl.php
 /core/modules/user/templates/user-profile.tpl.php
 /core/modules/user/tests
+/core/modules/user/tests/user_flood_test
+/core/modules/user/tests/user_flood_test/user_flood_test.info
+/core/modules/user/tests/user_flood_test/user_flood_test.module
 /core/modules/user/tests/user_form_test
 /core/modules/user/tests/user_form_test/user_form_test.info
 /core/modules/user/tests/user_form_test/user_form_test.module
