@@ -26,4 +26,5 @@
 /themes/sky/summary
 /themes/sky/theme.php
 /themes/sky/version
+/themes/sky/wcms-modules.json
 /version
