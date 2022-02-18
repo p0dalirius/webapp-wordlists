@@ -569,6 +569,12 @@
 /resources/lang/nl/messages.php
 /resources/lang/nl/permissions.php
 /resources/lang/nl/validation.php
+/resources/lang/pl/fieldtypes.php
+/resources/lang/pl.json
+/resources/lang/pl/markdown.php
+/resources/lang/pl/messages.php
+/resources/lang/pl/permissions.php
+/resources/lang/pl/validation.php
 /resources/lang/pt/fieldtypes.php
 /resources/lang/pt.json
 /resources/lang/pt/markdown.php
@@ -1066,9 +1072,11 @@
 /src/Assets/Asset.php
 /src/Assets/AssetReferenceUpdater.php
 /src/Assets/AssetRepository.php
+/src/Assets/Attributes.php
 /src/Assets/AugmentedAssetContainer.php
 /src/Assets/AugmentedAsset.php
 /src/Assets/Dimensions.php
+/src/Assets/ExtractInfo.php
 /src/Assets/QueryBuilder.php
 /src/Auth/AugmentedUser.php
 /src/Auth/CorePermissions.php

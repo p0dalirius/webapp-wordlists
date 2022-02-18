@@ -75,6 +75,7 @@
 /resources/lang/id
 /resources/lang/it
 /resources/lang/nl
+/resources/lang/pl
 /resources/lang/pt
 /resources/lang/ru
 /resources/lang/sl
