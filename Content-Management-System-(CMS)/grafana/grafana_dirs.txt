@@ -26,6 +26,7 @@
 /app/core
 /app/core/actions
 /app/core/components
+/app/core/components/AccessControl
 /app/core/components/AlertBox
 /app/core/components/Animations
 /app/core/components/AppNotifications
@@ -115,6 +116,8 @@
 /app/core/components/TransformersUI/lookupGazetteer
 /app/core/components/TransformersUI/prepareTimeSeries
 /app/core/components/TransformersUI/rowsToFields
+/app/core/components/TransformersUI/spatial
+/app/core/components/Upgrade
 /app/core/components/wizard
 /app/core/controllers
 /app/core/copy
@@ -262,6 +265,8 @@
 /app/features/datasources/utils
 /app/features/dimensions
 /app/features/dimensions/editors
+/app/features/dimensions/editors/ThresholdsEditor
+/app/features/dimensions/editors/ValueMappingsEditor
 /app/features/explore
 /app/features/explore/flotgraph
 /app/features/explore/__mocks__
@@ -283,6 +288,11 @@
 /app/features/folders/services
 /app/features/folders/__snapshots__
 /app/features/folders/state
+/app/features/geo
+/app/features/geo/editor
+/app/features/geo/format
+/app/features/geo/gazetteer
+/app/features/geo/utils
 /app/features/inspector
 /app/features/library-panels
 /app/features/library-panels/components
@@ -302,6 +312,7 @@
 /app/features/live
 /app/features/live/centrifuge
 /app/features/live/dashboard
+/app/features/live/data
 /app/features/live/measurements
 /app/features/live/pages
 /app/features/live/pipeline
@@ -366,6 +377,8 @@
 /app/features/search/components
 /app/features/search/hooks
 /app/features/search/reducers
+/app/features/serviceaccounts
+/app/features/serviceaccounts/state
 /app/features/snapshot
 /app/features/snapshot/partials
 /app/features/styleguide
@@ -463,9 +476,15 @@
 /app/plugins/datasource/cloudwatch/components/ui
 /app/plugins/datasource/cloudwatch/dashboards
 /app/plugins/datasource/cloudwatch/img
+/app/plugins/datasource/cloudwatch/metric-math
+/app/plugins/datasource/cloudwatch/metric-math/completion
 /app/plugins/datasource/cloudwatch/__mocks__
 /app/plugins/datasource/cloudwatch/__mocks__/cloudwatch-sql
+/app/plugins/datasource/cloudwatch/__mocks__/cloudwatch-sql-test-data
 /app/plugins/datasource/cloudwatch/__mocks__/cloudwatch-sql/test-data
+/app/plugins/datasource/cloudwatch/__mocks__/metric-math-test-data
+/app/plugins/datasource/cloudwatch/__mocks__/monarch
+/app/plugins/datasource/cloudwatch/monarch
 /app/plugins/datasource/cloudwatch/partials
 /app/plugins/datasource/cloudwatch/specs
 /app/plugins/datasource/cloudwatch/utils
@@ -567,6 +586,8 @@
 /app/plugins/datasource/loki/img
 /app/plugins/datasource/loki/importing
 /app/plugins/datasource/loki/partials
+/app/plugins/datasource/loki/querybuilder
+/app/plugins/datasource/loki/querybuilder/components
 /app/plugins/datasource/mixed
 /app/plugins/datasource/mssql
 /app/plugins/datasource/mssql/img
@@ -595,6 +616,9 @@
 /app/plugins/datasource/prometheus/dashboards
 /app/plugins/datasource/prometheus/img
 /app/plugins/datasource/prometheus/partials
+/app/plugins/datasource/prometheus/querybuilder
+/app/plugins/datasource/prometheus/querybuilder/components
+/app/plugins/datasource/prometheus/querybuilder/shared
 /app/plugins/datasource/prometheus/snippets
 /app/plugins/datasource/prometheus/specs
 /app/plugins/datasource/sql
@@ -624,6 +648,7 @@
 /app/plugins/panel/alertGroups/img
 /app/plugins/panel/alertlist
 /app/plugins/panel/alertlist/img
+/app/plugins/panel/alertlist/unified-alerting
 /app/plugins/panel/annolist
 /app/plugins/panel/annolist/img
 /app/plugins/panel/barchart
@@ -797,6 +822,11 @@
 /less
 /lib
 /lib/monaco-languages
+/locales
+/locales/en
+/locales/es
+/locales/fr
+/locales/pseudo-LOCALE
 /maps
 /sample
 /sass
