@@ -304,6 +304,7 @@
 /src/Cms/Core.php
 /src/Cms/Dir.php
 /src/Cms/Email.php
+/src/Cms/Environment.php
 /src/Cms/Event.php
 /src/Cms/Field.php
 /src/Cms/Fieldset.php
