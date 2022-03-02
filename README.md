@@ -75,8 +75,13 @@ This repository contains **73065** wordlists!
    + [yona-cms](./Content-Management-System-(CMS)/yona-cms)
    + [yzmcms](./Content-Management-System-(CMS)/yzmcms)
    + [zenario](./Content-Management-System-(CMS)/zenario)
+   
+ + [IT Asset Management](./IT-Asset-Management)
+   + [glpi](./IT-Asset-Management/glpi/)
+   
  + [Customer Relationship Management (CRM)](./Customer-Relationship-Management-(CRM))
    + [suitecrm](./Customer-Relationship-Management-(CRM)/suitecrm/)
+   
  + [Other](./Other/)
    + [cacti](./Other/cacti/)
    + [phpmyadmin](./Other/phpmyadmin/)
