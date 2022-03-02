@@ -8128,6 +8128,7 @@ space/foo.txt
 /typo3/sysext/core/Documentation/Changelog/11.5.x/Deprecation-95800-GeneratingPublicURLForPrivateAssetFiles.rst
 /typo3/sysext/core/Documentation/Changelog/11.5.x/Important-92020-NewAPIEntryPointAvailableAtHttpsgettypo3orgapi.rst
 /typo3/sysext/core/Documentation/Changelog/11.5.x/Important-93635-AddMailConfigurationForSettingSmtpDomain.rst
+/typo3/sysext/core/Documentation/Changelog/11.5.x/Important-96332-ExtbaseValidatorsCanUseDependencyInjection.rst
 /typo3/sysext/core/Documentation/Changelog/11.5.x/Index.rst
 /typo3/sysext/core/Documentation/Changelog-11.rst
 /typo3/sysext/core/Documentation/Changelog/7.0/Breaking-19737-PreferRootTemplate.rst
@@ -44394,6 +44395,12 @@ space/foo.txt
 /versions/10.4.22/typo3_dirs.txt
 /versions/10.4.22/typo3_files.txt
 /versions/10.4.22/typo3.txt
+/versions/10.4.23/typo3_dirs.txt
+/versions/10.4.23/typo3_files.txt
+/versions/10.4.23/typo3.txt
+/versions/10.4.24/typo3_dirs.txt
+/versions/10.4.24/typo3_files.txt
+/versions/10.4.24/typo3.txt
 /versions/10.4.2/typo3_dirs.txt
 /versions/10.4.2/typo3_files.txt
 /versions/10.4.2/typo3.txt
@@ -44460,6 +44467,12 @@ space/foo.txt
 /versions/11.5.4/typo3_dirs.txt
 /versions/11.5.4/typo3_files.txt
 /versions/11.5.4/typo3.txt
+/versions/11.5.5/typo3_dirs.txt
+/versions/11.5.5/typo3_files.txt
+/versions/11.5.5/typo3.txt
+/versions/11.5.6/typo3_dirs.txt
+/versions/11.5.6/typo3_files.txt
+/versions/11.5.6/typo3.txt
 /versions/4.0.13/typo3_dirs.txt
 /versions/4.0.13/typo3_files.txt
 /versions/4.0.13/typo3.txt
@@ -44709,6 +44722,9 @@ space/foo.txt
 /versions/7.6.55/typo3_dirs.txt
 /versions/7.6.55/typo3_files.txt
 /versions/7.6.55/typo3.txt
+/versions/7.6.56/typo3_dirs.txt
+/versions/7.6.56/typo3_files.txt
+/versions/7.6.56/typo3.txt
 /versions/7.6.5/typo3_dirs.txt
 /versions/7.6.5/typo3_files.txt
 /versions/7.6.5/typo3.txt
@@ -44889,6 +44905,9 @@ space/foo.txt
 /versions/8.7.44/typo3_dirs.txt
 /versions/8.7.44/typo3_files.txt
 /versions/8.7.44/typo3.txt
+/versions/8.7.45/typo3_dirs.txt
+/versions/8.7.45/typo3_files.txt
+/versions/8.7.45/typo3.txt
 /versions/8.7.4/typo3_dirs.txt
 /versions/8.7.4/typo3_files.txt
 /versions/8.7.4/typo3.txt
@@ -45012,6 +45031,7 @@ space/foo.txt
 /versions/9.5.32/typo3_dirs.txt
 /versions/9.5.32/typo3_files.txt
 /versions/9.5.32/typo3.txt
+/versions/9.5.33/typo3.txt
 /versions/9.5.3/typo3_dirs.txt
 /versions/9.5.3/typo3_files.txt
 /versions/9.5.3/typo3.txt
