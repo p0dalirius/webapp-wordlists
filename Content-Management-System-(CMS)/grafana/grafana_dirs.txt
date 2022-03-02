@@ -107,6 +107,7 @@
 /app/core/components/ToggleButtonGroup
 /app/core/components/Tooltip
 /app/core/components/Tooltip/__snapshots__
+/app/core/components/TraceToLogs
 /app/core/components/TransformersUI
 /app/core/components/TransformersUI/configFromQuery
 /app/core/components/TransformersUI/extractFields

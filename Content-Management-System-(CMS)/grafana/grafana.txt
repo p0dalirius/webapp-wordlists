@@ -557,7 +557,10 @@
 /app/core/components/Tooltip/Tooltip.test.tsx
 /app/core/components/Tooltip/Tooltip.tsx
 /app/core/components/Tooltip/withTooltip.tsx
+/app/core/components/TraceToLogs
+/app/core/components/TraceToLogs/KeyValueInput.tsx
 /app/core/components/TraceToLogsSettings.tsx
+/app/core/components/TraceToLogs/TraceToLogsSettings.tsx
 /app/core/components/TransformersUI
 /app/core/components/TransformersUI/CalculateFieldTransformerEditor.tsx
 /app/core/components/TransformersUI/ConcatenateTransformerEditor.tsx
