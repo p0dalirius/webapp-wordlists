@@ -161,6 +161,7 @@
 /package-lock.json
 /postcss.config.js
 /README.md
+/rector.php
 /resources
 /resources/img
 /resources/img/craft-cms-logo.png
@@ -1405,6 +1406,8 @@
 /src/models/jsonld/Saturday.php
 /src/models/jsonld/ScheduleAction.php
 /src/models/jsonld/Schedule.php
+/src/models/jsonld/Schema_3DModel.php
+/src/models/jsonld/Schema_Class.php
 /src/models/jsonld/ScholarlyArticle.php
 /src/models/jsonld/SchoolDistrict.php
 /src/models/jsonld/School.php

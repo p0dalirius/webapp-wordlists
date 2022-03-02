@@ -141,6 +141,7 @@
 /package-lock.json
 /postcss.config.js
 /README.md
+/rector.php
 /resources/img/craft-cms-logo.png
 /resources/img/moz-logo-blue.png
 /resources/img/nys-logo.png
@@ -1346,6 +1347,8 @@
 /src/models/jsonld/Saturday.php
 /src/models/jsonld/ScheduleAction.php
 /src/models/jsonld/Schedule.php
+/src/models/jsonld/Schema_3DModel.php
+/src/models/jsonld/Schema_Class.php
 /src/models/jsonld/ScholarlyArticle.php
 /src/models/jsonld/SchoolDistrict.php
 /src/models/jsonld/School.php
