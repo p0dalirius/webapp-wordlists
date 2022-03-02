@@ -5,12 +5,12 @@
   <br>
   <img src="https://badges.pufler.dev/visits/p0dalirius/webapp-wordlists/"/>
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/p0dalirius/webapp-wordlists">
-  <img alt="GitHub repo size" src="https://img.shields.io/badge/wordlists-72846-brightgreen">
+  <img alt="GitHub repo size" src="https://img.shields.io/badge/wordlists-73065-brightgreen">
   <a href="https://twitter.com/intent/follow?screen_name=podalirius_" title="Follow"><img src="https://img.shields.io/twitter/follow/podalirius_?label=Podalirius&style=social"></a>
   <br>
 </p>
 
-This repository contains **72846** wordlists!
+This repository contains **73065** wordlists!
 
 ## Table of wordlists
 
