@@ -1,0 +1,4 @@
+/templates
+/templates/pages
+/src
+/images
