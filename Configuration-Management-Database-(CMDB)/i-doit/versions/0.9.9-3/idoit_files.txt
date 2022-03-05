@@ -1,0 +1,16 @@
+/style.css
+/index.php
+/templates/index.tpl
+/templates/pages/licences.tpl
+/templates/pages/licence_list.tpl
+/templates/pages/main.tpl
+/templates/pages/mandator_list.tpl
+/templates/pages/mandator.tpl
+/templates/pages/help.tpl
+/templates/pages/login.tpl
+/templates/pages/mandator_edit.tpl
+/src/mandator.inc.php
+/src/licences.inc.php
+/images/delete.png
+/images/edit.png
+/nav-hover.gif
