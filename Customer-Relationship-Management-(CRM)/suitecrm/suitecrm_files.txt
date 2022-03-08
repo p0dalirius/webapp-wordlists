@@ -4973,6 +4973,7 @@ Fonts
 /include/SugarObjects/templates/basic/metadata/quickcreatedefs.php
 /include/SugarObjects/templates/basic/metadata/searchdefs.php
 /include/SugarObjects/templates/basic/metadata/SearchFields.php
+/include/SugarObjects/templates/basic/metadata/subpaneldefs.php
 /include/SugarObjects/templates/basic/metadata/subpanels/default.php
 /include/SugarObjects/templates/basic/vardefs.php
 /include/SugarObjects/templates/company/Company.php
@@ -5000,6 +5001,7 @@ Fonts
 /include/SugarObjects/templates/company/metadata/quickcreatedefs.php
 /include/SugarObjects/templates/company/metadata/searchdefs.php
 /include/SugarObjects/templates/company/metadata/SearchFields.php
+/include/SugarObjects/templates/company/metadata/subpaneldefs.php
 /include/SugarObjects/templates/company/metadata/subpanels/default.php
 /include/SugarObjects/templates/company/vardefs.php
 /include/SugarObjects/templates/file/controller.php
@@ -5027,6 +5029,7 @@ Fonts
 /include/SugarObjects/templates/file/metadata/quickcreatedefs.php
 /include/SugarObjects/templates/file/metadata/searchdefs.php
 /include/SugarObjects/templates/file/metadata/SearchFields.php
+/include/SugarObjects/templates/file/metadata/subpaneldefs.php
 /include/SugarObjects/templates/file/metadata/subpanels/default.php
 /include/SugarObjects/templates/file/vardefs.php
 /include/SugarObjects/templates/file/views/view.edit.php
@@ -5056,6 +5059,7 @@ Fonts
 /include/SugarObjects/templates/issue/metadata/quickcreatedefs.php
 /include/SugarObjects/templates/issue/metadata/searchdefs.php
 /include/SugarObjects/templates/issue/metadata/SearchFields.php
+/include/SugarObjects/templates/issue/metadata/subpaneldefs.php
 /include/SugarObjects/templates/issue/metadata/subpanels/default.php
 /include/SugarObjects/templates/issue/vardefs.php
 /include/SugarObjects/templates/person/config.php
@@ -5080,6 +5084,7 @@ Fonts
 /include/SugarObjects/templates/person/metadata/quickcreatedefs.php
 /include/SugarObjects/templates/person/metadata/searchdefs.php
 /include/SugarObjects/templates/person/metadata/SearchFields.php
+/include/SugarObjects/templates/person/metadata/subpaneldefs.php
 /include/SugarObjects/templates/person/metadata/subpanels/default.php
 /include/SugarObjects/templates/person/Person.php
 /include/SugarObjects/templates/person/vardefs.php
@@ -5112,6 +5117,7 @@ Fonts
 /include/SugarObjects/templates/sale/metadata/quickcreatedefs.php
 /include/SugarObjects/templates/sale/metadata/searchdefs.php
 /include/SugarObjects/templates/sale/metadata/SearchFields.php
+/include/SugarObjects/templates/sale/metadata/subpaneldefs.php
 /include/SugarObjects/templates/sale/metadata/subpanels/default.php
 /include/SugarObjects/templates/sale/Sale.php
 /include/SugarObjects/templates/sale/vardefs.php
