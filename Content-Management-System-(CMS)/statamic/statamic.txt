@@ -1240,6 +1240,7 @@
 /src/Assets/AugmentedAsset.php
 /src/Assets/Dimensions.php
 /src/Assets/ExtractInfo.php
+/src/Assets/OrderedQueryBuilder.php
 /src/Assets/QueryBuilder.php
 /src/Auth
 /src/Auth/AugmentedUser.php
@@ -1331,6 +1332,7 @@
 /src/Console/Commands/StarterKitExport.php
 /src/Console/Commands/StarterKitInstall.php
 /src/Console/Commands/StaticClear.php
+/src/Console/Commands/StaticWarmJob.php
 /src/Console/Commands/StaticWarm.php
 /src/Console/Commands/stubs
 /src/Console/Commands/stubs/action.php.stub
@@ -1434,6 +1436,8 @@
 /src/Contracts/Imaging/UrlBuilder.php
 /src/Contracts/Query
 /src/Contracts/Query/Builder.php
+/src/Contracts/Query/ContainsQueryableValues.php
+/src/Contracts/Query/QueryableValue.php
 /src/Contracts/Revisions
 /src/Contracts/Revisions/Revision.php
 /src/Contracts/Revisions/RevisionRepository.php
@@ -2262,6 +2266,7 @@
 /src/Modifiers/ModifierNotFoundException.php
 /src/Modifiers/Modifier.php
 /src/Modifiers/Modify.php
+/src/namespaced_helpers.php
 /src/Notifications
 /src/Notifications/ActivateAccount.php
 /src/Notifications/PasswordReset.php
@@ -2316,6 +2321,7 @@
 /src/Query/ItemQueryBuilder.php
 /src/Query/IteratorBuilder.php
 /src/Query/OrderBy.php
+/src/Query/OrderedQueryBuilder.php
 /src/Query/ResolveValue.php
 /src/Query/Scopes
 /src/Query/Scopes/Filter.php
