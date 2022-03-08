@@ -43,6 +43,13 @@
 /database/migrations
 /database/seeders
 /database/seeds
+/lang
+/lang/ar
+/lang/en
+/lang/fa
+/lang/fr
+/lang/nl
+/lang/zh
 /packages
 /public
 /public/assets
@@ -69,6 +76,7 @@
 /resources/assets/lang
 /resources/assets/lang/en
 /resources/assets/sass
+/resources/css
 /resources/js
 /resources/js/components
 /resources/lang
