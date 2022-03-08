@@ -4454,6 +4454,7 @@
 /app/plugins/datasource/jaeger/components/AdvancedOptions.tsx
 /app/plugins/datasource/jaeger/components/ConfigEditor.tsx
 /app/plugins/datasource/jaeger/components/QueryEditor.tsx
+/app/plugins/datasource/jaeger/components/SearchForm.test.tsx
 /app/plugins/datasource/jaeger/components/SearchForm.tsx
 /app/plugins/datasource/jaeger/ConfigEditor.tsx
 /app/plugins/datasource/jaeger/datasource.test.ts
