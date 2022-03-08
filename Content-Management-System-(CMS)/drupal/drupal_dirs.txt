@@ -1154,6 +1154,7 @@
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalelementstyle
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupallinkmedia
+/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/mediaimagetextalternative
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/mediaimagetextalternative/ui
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/ui

@@ -2989,6 +2989,7 @@
 /core/lib/Drupal/Core/Entity/Exception/EntityTypeIdLengthException.php
 /core/lib/Drupal/Core/Entity/Exception/FieldStorageDefinitionUpdateForbiddenException.php
 /core/lib/Drupal/Core/Entity/Exception/InvalidLinkTemplateException.php
+/core/lib/Drupal/Core/Entity/Exception/MissingBundleClassException.php
 /core/lib/Drupal/Core/Entity/Exception/NoCorrespondingEntityClassException.php
 /core/lib/Drupal/Core/Entity/Exception/UndefinedLinkTemplateException.php
 /core/lib/Drupal/Core/Entity/Exception/UnsupportedEntityTypeDefinitionException.php
@@ -6344,6 +6345,10 @@
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupallinkmedia/drupallinkmediaediting.js
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupallinkmedia/drupallinkmedia.js
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupallinkmedia/drupallinkmediaui.js
+/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption/drupalmediacaptioncommand.js
+/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption/drupalmediacaptionediting.js
+/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption/drupalmediacaptionui.js
+/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption.js
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediaediting.js
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediageneralhtmlsupport.js
 /core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmedia.js
@@ -6441,12 +6446,14 @@
 /core/modules/ckeditor5/tests/src/FunctionalJavascript/CKEditor5TestBase.php
 /core/modules/ckeditor5/tests/src/FunctionalJavascript/CKEditor5Test.php
 /core/modules/ckeditor5/tests/src/FunctionalJavascript/CKEditor5ToolbarTest.php
+/core/modules/ckeditor5/tests/src/FunctionalJavascript/EmphasisTest.php
 /core/modules/ckeditor5/tests/src/FunctionalJavascript/ImageTest.php
 /core/modules/ckeditor5/tests/src/FunctionalJavascript/JSTranslationTest.php
 /core/modules/ckeditor5/tests/src/FunctionalJavascript/LanguageTest.php
 /core/modules/ckeditor5/tests/src/FunctionalJavascript/MediaLibraryTest.php
 /core/modules/ckeditor5/tests/src/FunctionalJavascript/MediaTest.php
 /core/modules/ckeditor5/tests/src/FunctionalJavascript/QuickEditIntegrationTest.php
+/core/modules/ckeditor5/tests/src/FunctionalJavascript/SourceEditingTest.php
 /core/modules/ckeditor5/tests/src/Functional/MediaEntityMetadataApiTest.php
 /core/modules/ckeditor5/tests/src/Functional/MediaImageTest.php
 /core/modules/ckeditor5/tests/src/Kernel/CKEditor4to5UpgradeCompletenessTest.php
@@ -11265,6 +11272,7 @@
 /core/modules/jsonapi/tests/src/Functional/WorkflowTest.php
 /core/modules/jsonapi/tests/src/Kernel/Context/FieldResolverTest.php
 /core/modules/jsonapi/tests/src/Kernel/Controller/EntityResourceTest.php
+/core/modules/jsonapi/tests/src/Kernel/Controller/TemporaryJsonapiFileFieldUploaderTest.php
 /core/modules/jsonapi/tests/src/Kernel/EventSubscriber/ResourceObjectNormalizerCacherTest.php
 /core/modules/jsonapi/tests/src/Kernel/JsonapiKernelTestBase.php
 /core/modules/jsonapi/tests/src/Kernel/Normalizer/EntityReferenceFieldNormalizerTest.php
@@ -22456,6 +22464,7 @@
 /core/modules/user/tests/src/FunctionalJavascript/PasswordWidgetThemeFunctionTest.php
 /core/modules/user/tests/src/FunctionalJavascript/RegistrationWithUserFieldsTest.php
 /core/modules/user/tests/src/FunctionalJavascript/UserPasswordResetTest.php
+/core/modules/user/tests/src/Functional/Mysql8RequirePrimaryKeyUpdateTest.php
 /core/modules/user/tests/src/Functional/RestRegisterUserTest.php
 /core/modules/user/tests/src/Functional/Rest/RoleJsonAnonTest.php
 /core/modules/user/tests/src/Functional/Rest/RoleJsonBasicAuthTest.php
@@ -38700,8 +38709,12 @@
 /modules/simpletest/tests/system_incompatible_module_version_dependencies_test.module
 /modules/simpletest/tests/system_incompatible_module_version_test.info
 /modules/simpletest/tests/system_incompatible_module_version_test.module
+/modules/simpletest/tests/system_null_version_test.info
+/modules/simpletest/tests/system_null_version_test.module
 /modules/simpletest/tests/system_project_namespace_test.info
 /modules/simpletest/tests/system_project_namespace_test.module
+/modules/simpletest/tests/system_requires_null_version_test.info
+/modules/simpletest/tests/system_requires_null_version_test.module
 /modules/simpletest/tests/system_test.info
 /modules/simpletest/tests/system_test.install
 /modules/simpletest/tests/system_test.module
