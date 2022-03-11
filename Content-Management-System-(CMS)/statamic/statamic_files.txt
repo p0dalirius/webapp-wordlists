@@ -1564,6 +1564,7 @@
 /src/Fields/Section.php
 /src/Fields/Validator.php
 /src/Fields/Value.php
+/src/Fields/Values.php
 /src/Fieldtypes/Arr.php
 /src/Fieldtypes/AssetContainer.php
 /src/Fieldtypes/AssetFolder.php
