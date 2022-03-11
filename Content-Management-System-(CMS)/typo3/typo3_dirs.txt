@@ -3574,11 +3574,15 @@ space
 /typo3/sysext/form/Documentation/Configuration/Rules/Uri
 /typo3/sysext/form/Documentation/Configuration/Rules/ValidationAttributes
 /typo3/sysext/form/Documentation/E
+/typo3/sysext/form/Documentation/E/FormElements
+/typo3/sysext/form/Documentation/E/FormElements/Images
 /typo3/sysext/form/Documentation/E/Tutorials
 /typo3/sysext/form/Documentation/E/Tutorials/BasicForm
 /typo3/sysext/form/Documentation/E/Tutorials/BasicForm/Images
 /typo3/sysext/form/Documentation/E/Tutorials/PhotoContest
 /typo3/sysext/form/Documentation/E/Tutorials/PhotoContest/Images
+/typo3/sysext/form/Documentation/E/Validators
+/typo3/sysext/form/Documentation/E/Validators/Images
 /typo3/sysext/form/Documentation/FAQ
 /typo3/sysext/form/Documentation/I
 /typo3/sysext/form/Documentation/I/ApiReference
