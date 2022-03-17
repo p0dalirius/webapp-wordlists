@@ -697,6 +697,7 @@
 /admin/tool/behat/tests/behat/edit_permissions.feature
 /admin/tool/behat/tests/behat/fixtures
 /admin/tool/behat/tests/behat/fixtures/environment.php
+/admin/tool/behat/tests/behat_form_text_test.php
 /admin/tool/behat/tests/behat/get_and_set_fields.feature
 /admin/tool/behat/tests/behat/get_and_set_fields_in_containers.feature
 /admin/tool/behat/tests/behat/i_am_on_page.feature
@@ -1645,6 +1646,8 @@
 /admin/tool/dataprivacy/tests/privacy
 /admin/tool/dataprivacy/tests/privacy/provider_test.php
 /admin/tool/dataprivacy/tests/privacy_provider_test.php
+/admin/tool/dataprivacy/tests/task
+/admin/tool/dataprivacy/tests/task/task_test.php
 /admin/tool/dataprivacy/tests/task_test.php
 /admin/tool/dataprivacy/tests/user_deleted_observer_test.php
 /admin/tool/dataprivacy/version.php
@@ -2640,6 +2643,7 @@
 /admin/tool/oauth2/tests
 /admin/tool/oauth2/tests/behat
 /admin/tool/oauth2/tests/behat/basic_settings.feature
+/admin/tool/oauth2/tests/behat/email_verification.feature
 /admin/tool/oauth2/userfieldmappings.php
 /admin/tool/oauth2/version.php
 /admin/tool/phpunit
@@ -5163,6 +5167,7 @@
 /badges/backpack_form.php
 /badges/backpack.js
 /badges/backpacks.php
+/badges/badgeclass.php
 /badges/badge_json.php
 /badges/badge.php
 /badges/classes
@@ -5200,6 +5205,7 @@
 /badges/classes/observer.php
 /badges/classes/output
 /badges/classes/output/badge_alignments.php
+/badges/classes/output/badgeclass.php
 /badges/classes/output/badge_collection.php
 /badges/classes/output/badge_management.php
 /badges/classes/output/badge_recipients.php
@@ -6833,6 +6839,7 @@ box.jpg
 /cache/stores/apcu/settings.php
 /cache/stores/apcu/tests
 /cache/stores/apcu/tests/apcu_test.php
+/cache/stores/apcu/tests/store_test.php
 /cache/stores/apcu/version.php
 /cache/stores/file
 /cache/stores/file/addinstanceform.php
@@ -6848,6 +6855,7 @@ box.jpg
 /cache/stores/file/tests
 /cache/stores/file/tests/asyncpurge_test.php
 /cache/stores/file/tests/file_test.php
+/cache/stores/file/tests/store_test.php
 /cache/stores/file/version.php
 /cache/stores/memcache
 /cache/stores/memcache/addinstanceform.php
@@ -6866,6 +6874,7 @@ box.jpg
 /cache/stores/memcached/settings.php
 /cache/stores/memcached/tests
 /cache/stores/memcached/tests/memcached_test.php
+/cache/stores/memcached/tests/store_test.php
 /cache/stores/memcached/version.php
 /cache/stores/memcache/lang
 /cache/stores/memcache/lang/en
@@ -6982,6 +6991,7 @@ box.jpg
 /cache/stores/mongodb/settings.php
 /cache/stores/mongodb/tests
 /cache/stores/mongodb/tests/mongodb_test.php
+/cache/stores/mongodb/tests/store_test.php
 /cache/stores/mongodb/thirdpartylibs.xml
 /cache/stores/mongodb/version.php
 /cache/stores/redis
@@ -7002,6 +7012,7 @@ box.jpg
 /cache/stores/redis/tests
 /cache/stores/redis/tests/compressor_test.php
 /cache/stores/redis/tests/redis_test.php
+/cache/stores/redis/tests/store_test.php
 /cache/stores/redis/tests/ttl_test.php
 /cache/stores/redis/version.php
 /cache/stores/session
@@ -7014,6 +7025,7 @@ box.jpg
 /cache/stores/session/lib.php
 /cache/stores/session/tests
 /cache/stores/session/tests/session_test.php
+/cache/stores/session/tests/store_test.php
 /cache/stores/session/version.php
 /cache/stores/static
 /cache/stores/static/classes
@@ -7025,6 +7037,7 @@ box.jpg
 /cache/stores/static/lib.php
 /cache/stores/static/tests
 /cache/stores/static/tests/static_test.php
+/cache/stores/static/tests/store_test.php
 /cache/stores/static/version.php
 /cache/templates
 /cache/templates/usage.mustache
@@ -7402,6 +7415,7 @@ Charting
 /cohort/tests/fixtures/uploadcohorts3.csv
 /cohort/tests/fixtures/uploadcohorts4.csv
 /cohort/tests/fixtures/uploadcohorts_test.csv
+/cohort/tests/lib_test.php
 /cohort/tests/privacy
 /cohort/tests/privacy/provider_test.php
 /cohort/tests/privacy_test.php
@@ -7491,6 +7505,8 @@ Charting
 /competency/tests/course_competency_settings_test.php
 /competency/tests/course_competency_test.php
 /competency/tests/course_module_competency_test.php
+/competency/tests/event
+/competency/tests/event/events_test.php
 /competency/tests/event_test.php
 /competency/tests/exporter_test.php
 /competency/tests/external
@@ -7507,6 +7523,8 @@ Charting
 /competency/tests/privacy
 /competency/tests/privacy/provider_test.php
 /competency/tests/privacy_test.php
+/competency/tests/task
+/competency/tests/task/task_test.php
 /competency/tests/task_test.php
 /competency/tests/template_test.php
 /competency/tests/user_evidence_competency_test.php
@@ -8325,6 +8343,10 @@ Charting
 /course/templates/placeholder-course.mustache
 /course/templates/view-cards.mustache
 /course/tests
+/course/tests/analytics
+/course/tests/analytics/indicators_test.php
+/course/tests/backup
+/course/tests/backup/restore_test.php
 /course/tests/behat
 /course/tests/behat/activities_edit_completion.feature
 /course/tests/behat/activities_edit_name.feature
@@ -8860,6 +8882,7 @@ Charting
 /enrol/cohort/tests/behat/enrolcohorts.feature
 /enrol/cohort/tests/behat/unenrolactionsuspendonly.feature
 /enrol/cohort/tests/cohortlib_test.php
+/enrol/cohort/tests/lib_test.php
 /enrol/cohort/tests/privacy
 /enrol/cohort/tests/privacy/provider_test.php
 /enrol/cohort/tests/privacy_test.php
@@ -10145,6 +10168,8 @@ Charting
 /grade/export/ods/lang/en
 /grade/export/ods/lang/en/gradeexport_ods.php
 /grade/export/ods/tests
+/grade/export/ods/tests/event
+/grade/export/ods/tests/event/events_test.php
 /grade/export/ods/tests/logging_test.php
 /grade/export/ods/version.php
 /grade/export/txt
@@ -10165,6 +10190,8 @@ Charting
 /grade/export/txt/tests
 /grade/export/txt/tests/behat
 /grade/export/txt/tests/behat/export.feature
+/grade/export/txt/tests/event
+/grade/export/txt/tests/event/events_test.php
 /grade/export/txt/tests/logging_test.php
 /grade/export/txt/version.php
 /grade/export/upgrade.txt
@@ -10184,6 +10211,8 @@ Charting
 /grade/export/xls/lang/en
 /grade/export/xls/lang/en/gradeexport_xls.php
 /grade/export/xls/tests
+/grade/export/xls/tests/event
+/grade/export/xls/tests/event/events_test.php
 /grade/export/xls/tests/logging_test.php
 /grade/export/xls/version.php
 /grade/export/xml
@@ -10204,6 +10233,8 @@ Charting
 /grade/export/xml/tests
 /grade/export/xml/tests/behat
 /grade/export/xml/tests/behat/export.feature
+/grade/export/xml/tests/event
+/grade/export/xml/tests/event/events_test.php
 /grade/export/xml/tests/logging_test.php
 /grade/export/xml/version.php
 /grade/externallib.php
@@ -10390,6 +10421,7 @@ Charting
 /grade/grading/tests/grading_manager_test.php
 /grade/grading/tests/lib_test.php
 /grade/grading/tests/privacy
+/grade/grading/tests/privacy/legacy_polyfill_test.php
 /grade/grading/tests/privacy_legacy_polyfill_test.php
 /grade/grading/tests/privacy/provider_test.php
 /grade/grading/tests/privacy_test.php
@@ -11036,6 +11068,7 @@ Charting
 /h5p/h5plib/v124/joubel/editor/ckeditor
 /h5p/h5plib/v124/joubel/editor/ckeditor/adapters
 /h5p/h5plib/v124/joubel/editor/ckeditor/adapters/jquery.js
+/h5p/h5plib/v124/joubel/editor/ckeditor/bender-runner.config.json
 /h5p/h5plib/v124/joubel/editor/ckeditor/build-config.js
 /h5p/h5plib/v124/joubel/editor/ckeditor/CHANGES.md
 /h5p/h5plib/v124/joubel/editor/ckeditor/ckeditor.js
@@ -11283,6 +11316,7 @@ Charting
 /h5p/h5plib/v124/joubel/editor/ckeditor/plugins/pastetools
 /h5p/h5plib/v124/joubel/editor/ckeditor/plugins/pastetools/filter
 /h5p/h5plib/v124/joubel/editor/ckeditor/plugins/pastetools/filter/common.js
+/h5p/h5plib/v124/joubel/editor/ckeditor/plugins/pastetools/filter/image.js
 /h5p/h5plib/v124/joubel/editor/ckeditor/plugins/removeRedundantNBSP
 /h5p/h5plib/v124/joubel/editor/ckeditor/plugins/removeRedundantNBSP/plugin.js
 /h5p/h5plib/v124/joubel/editor/ckeditor/plugins/specialchar
@@ -11359,6 +11393,7 @@ Charting
 /h5p/h5plib/v124/joubel/editor/ckeditor/plugins/widget
 /h5p/h5plib/v124/joubel/editor/ckeditor/plugins/widget/images
 /h5p/h5plib/v124/joubel/editor/ckeditor/plugins/widget/images/handle.png
+/h5p/h5plib/v124/joubel/editor/ckeditor/README.md
 /h5p/h5plib/v124/joubel/editor/ckeditor/samples
 /h5p/h5plib/v124/joubel/editor/ckeditor/samples/css
 /h5p/h5plib/v124/joubel/editor/ckeditor/samples/css/samples.css
@@ -11452,6 +11487,7 @@ Charting
 /h5p/h5plib/v124/joubel/editor/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css
 /h5p/h5plib/v124/joubel/editor/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css
 /h5p/h5plib/v124/joubel/editor/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js
+/h5p/h5plib/v124/joubel/editor/ckeditor/SECURITY.md
 /h5p/h5plib/v124/joubel/editor/ckeditor/skins
 /h5p/h5plib/v124/joubel/editor/ckeditor/skins/bootstrapck
 /h5p/h5plib/v124/joubel/editor/ckeditor/skins/bootstrapck/dialog.css
@@ -36801,6 +36837,7 @@ History.html
 /lib/phpmailer/language/phpmailer.lang-se.php
 /lib/phpmailer/language/phpmailer.lang-sk.php
 /lib/phpmailer/language/phpmailer.lang-sl.php
+/lib/phpmailer/language/phpmailer.lang-sr_latn.php
 /lib/phpmailer/language/phpmailer.lang-sr.php
 /lib/phpmailer/language/phpmailer.lang-sv.php
 /lib/phpmailer/language/phpmailer.lang-tl.php
@@ -39275,6 +39312,8 @@ Libraries.txt
 /lib/tests/admintree_test.php
 /lib/tests/ajaxlib_test.php
 /lib/tests/analysers_test.php
+/lib/tests/analytics
+/lib/tests/analytics/indicators_test.php
 /lib/tests/antivirus_test.php
 /lib/tests/authlib_test.php
 /lib/tests/behat
@@ -39347,6 +39386,7 @@ Libraries.txt
 /lib/tests/encryption_test.php
 /lib/tests/environment_test.php
 /lib/tests/event
+/lib/tests/event/base_test.php
 /lib/tests/event/contentbank_content_created_test.php
 /lib/tests/event/contentbank_content_deleted_test.php
 /lib/tests/event/contentbank_content_updated_test.php
@@ -63676,6 +63716,7 @@ Libraries.txt
 /mod/assign/feedback/comments/tests/behat/feedback_comments.feature
 /mod/assign/feedback/comments/tests/behat/preserve_changes_on_validation_failure.feature
 /mod/assign/feedback/comments/tests/comments_test.php
+/mod/assign/feedback/comments/tests/feedback_test.php
 /mod/assign/feedback/comments/tests/privacy
 /mod/assign/feedback/comments/tests/privacy/provider_test.php
 /mod/assign/feedback/comments/tests/privacy_test.php
@@ -63859,6 +63900,7 @@ Libraries.txt
 /mod/assign/feedback/editpdf/tests/behat/group_annotations.feature
 /mod/assign/feedback/editpdf/tests/behat/view_previous_annotations.feature
 /mod/assign/feedback/editpdf/tests/editpdf_test.php
+/mod/assign/feedback/editpdf/tests/feedback_test.php
 /mod/assign/feedback/editpdf/tests/fixtures
 /mod/assign/feedback/editpdf/tests/fixtures/submission.pdf
 /mod/assign/feedback/editpdf/tests/fixtures/testgs.pdf
@@ -63928,6 +63970,7 @@ Libraries.txt
 /mod/assign/feedback/file/tests
 /mod/assign/feedback/file/tests/behat
 /mod/assign/feedback/file/tests/behat/feedback_file.feature
+/mod/assign/feedback/file/tests/feedback_test.php
 /mod/assign/feedback/file/tests/file_test.php
 /mod/assign/feedback/file/tests/fixtures
 /mod/assign/feedback/file/tests/fixtures/feedback.txt
@@ -67158,6 +67201,7 @@ Libraries.txt
 /mod/lesson/tests
 /mod/lesson/tests/backup
 /mod/lesson/tests/backup/restore_date_test.php
+/mod/lesson/tests/backup/restore_override_test.php
 /mod/lesson/tests/behat
 /mod/lesson/tests/behat/all_other_answers_catch.feature
 /mod/lesson/tests/behat/behat_mod_lesson_behat.php
@@ -67791,6 +67835,8 @@ Libraries.txt
 /mod/quiz/accessrule/seb/tests/behat
 /mod/quiz/accessrule/seb/tests/behat/edit_form.feature
 /mod/quiz/accessrule/seb/tests/config_key_test.php
+/mod/quiz/accessrule/seb/tests/event
+/mod/quiz/accessrule/seb/tests/event/events_test.php
 /mod/quiz/accessrule/seb/tests/event_test.php
 /mod/quiz/accessrule/seb/tests/fixtures
 /mod/quiz/accessrule/seb/tests/fixtures/encrypted.seb
@@ -71809,6 +71855,8 @@ on
 /plagiarism/classes/privacy/provider.php
 /plagiarism/lib.php
 /plagiarism/tests
+/plagiarism/tests/privacy
+/plagiarism/tests/privacy/legacy_polyfill_test.php
 /plagiarism/tests/privacy_legacy_polyfill_test.php
 /plagiarism/upgrade.txt
 /pluginfile.php
@@ -71920,6 +71968,7 @@ plus.jpg
 /portfolio/picasa/version.php
 /portfolio/tests
 /portfolio/tests/privacy
+/portfolio/tests/privacy/legacy_polyfill_test.php
 /portfolio/tests/privacy_legacy_polyfill_test.php
 /portfolio/tests/privacy/provider_test.php
 /portfolio/tests/privacy_provider_test.php
@@ -72547,6 +72596,7 @@ plus.jpg
 /question/behaviour/adaptive/simpletest
 /question/behaviour/adaptive/simpletest/testwalkthrough.php
 /question/behaviour/adaptive/tests
+/question/behaviour/adaptive/tests/behaviour_type_test.php
 /question/behaviour/adaptive/tests/behaviourtype_test.php
 /question/behaviour/adaptive/tests/mark_display_test.php
 /question/behaviour/adaptive/tests/walkthrough_test.php
@@ -72567,6 +72617,7 @@ plus.jpg
 /question/behaviour/deferredcbm/simpletest/testwalkthrough.php
 /question/behaviour/deferredcbm/styles.css
 /question/behaviour/deferredcbm/tests
+/question/behaviour/deferredcbm/tests/behaviour_type_test.php
 /question/behaviour/deferredcbm/tests/behaviourtype_test.php
 /question/behaviour/deferredcbm/tests/question_cbm_test.php
 /question/behaviour/deferredcbm/tests/walkthrough_test.php
@@ -72584,6 +72635,7 @@ plus.jpg
 /question/behaviour/deferredfeedback/simpletest
 /question/behaviour/deferredfeedback/simpletest/testwalkthrough.php
 /question/behaviour/deferredfeedback/tests
+/question/behaviour/deferredfeedback/tests/behaviour_type_test.php
 /question/behaviour/deferredfeedback/tests/behaviourtype_test.php
 /question/behaviour/deferredfeedback/tests/walkthrough_test.php
 /question/behaviour/deferredfeedback/version.php
@@ -72600,6 +72652,7 @@ plus.jpg
 /question/behaviour/immediatecbm/simpletest
 /question/behaviour/immediatecbm/simpletest/testwalkthrough.php
 /question/behaviour/immediatecbm/tests
+/question/behaviour/immediatecbm/tests/behaviour_type_test.php
 /question/behaviour/immediatecbm/tests/behaviourtype_test.php
 /question/behaviour/immediatecbm/tests/walkthrough_test.php
 /question/behaviour/immediatecbm/version.php
@@ -72616,6 +72669,7 @@ plus.jpg
 /question/behaviour/immediatefeedback/simpletest
 /question/behaviour/immediatefeedback/simpletest/testwalkthrough.php
 /question/behaviour/immediatefeedback/tests
+/question/behaviour/immediatefeedback/tests/behaviour_type_test.php
 /question/behaviour/immediatefeedback/tests/behaviourtype_test.php
 /question/behaviour/immediatefeedback/tests/walkthrough_test.php
 /question/behaviour/immediatefeedback/version.php
@@ -72632,6 +72686,7 @@ plus.jpg
 /question/behaviour/informationitem/simpletest
 /question/behaviour/informationitem/simpletest/testwalkthrough.php
 /question/behaviour/informationitem/tests
+/question/behaviour/informationitem/tests/behaviour_type_test.php
 /question/behaviour/informationitem/tests/behaviourtype_test.php
 /question/behaviour/informationitem/tests/walkthrough_test.php
 /question/behaviour/informationitem/version.php
@@ -72654,6 +72709,7 @@ plus.jpg
 /question/behaviour/interactivecountback/simpletest
 /question/behaviour/interactivecountback/simpletest/testwalkthrough.php
 /question/behaviour/interactivecountback/tests
+/question/behaviour/interactivecountback/tests/behaviour_type_test.php
 /question/behaviour/interactivecountback/tests/behaviourtype_test.php
 /question/behaviour/interactivecountback/tests/walkthrough_test.php
 /question/behaviour/interactivecountback/version.php
@@ -72664,6 +72720,7 @@ plus.jpg
 /question/behaviour/interactive/simpletest
 /question/behaviour/interactive/simpletest/testwalkthrough.php
 /question/behaviour/interactive/tests
+/question/behaviour/interactive/tests/behaviour_type_test.php
 /question/behaviour/interactive/tests/behaviourtype_test.php
 /question/behaviour/interactive/tests/walkthrough_test.php
 /question/behaviour/interactive/version.php
@@ -72683,6 +72740,7 @@ plus.jpg
 /question/behaviour/manualgraded/simpletest
 /question/behaviour/manualgraded/simpletest/testwalkthrough.php
 /question/behaviour/manualgraded/tests
+/question/behaviour/manualgraded/tests/behaviour_type_test.php
 /question/behaviour/manualgraded/tests/behaviourtype_test.php
 /question/behaviour/manualgraded/tests/walkthrough_test.php
 /question/behaviour/manualgraded/version.php
@@ -72699,6 +72757,7 @@ plus.jpg
 /question/behaviour/missing/simpletest
 /question/behaviour/missing/simpletest/testmissingbehaviour.php
 /question/behaviour/missing/tests
+/question/behaviour/missing/tests/behaviour_type_test.php
 /question/behaviour/missing/tests/behaviourtype_test.php
 /question/behaviour/missing/tests/missingbehaviour_test.php
 /question/behaviour/missing/version.php
@@ -73218,6 +73277,7 @@ plus.jpg
 /question/type/calculatedmulti/tests/helper.php
 /question/type/calculatedmulti/tests/question_test.php
 /question/type/calculatedmulti/tests/upgradelibnewqe_test.php
+/question/type/calculatedmulti/tests/upgrade_old_attempt_data_test.php
 /question/type/calculatedmulti/tests/walkthrough_test.php
 /question/type/calculatedmulti/version.php
 /question/type/calculated/pix
@@ -73259,8 +73319,10 @@ plus.jpg
 /question/type/calculatedsimple/tests
 /question/type/calculatedsimple/tests/helper.php
 /question/type/calculatedsimple/tests/question_test.php
+/question/type/calculatedsimple/tests/question_type_test.php
 /question/type/calculatedsimple/tests/questiontype_test.php
 /question/type/calculatedsimple/tests/upgradelibnewqe_test.php
+/question/type/calculatedsimple/tests/upgrade_old_attempt_data_test.php
 /question/type/calculatedsimple/tests/walkthrough_test.php
 /question/type/calculated/simpletest/testquestion.php
 /question/type/calculated/simpletest/testquestiontype.php
@@ -73272,8 +73334,10 @@ plus.jpg
 /question/type/calculated/tests/formula_validation_test.php
 /question/type/calculated/tests/helper.php
 /question/type/calculated/tests/question_test.php
+/question/type/calculated/tests/question_type_test.php
 /question/type/calculated/tests/questiontype_test.php
 /question/type/calculated/tests/upgradelibnewqe_test.php
+/question/type/calculated/tests/upgrade_old_attempt_data_test.php
 /question/type/calculated/tests/variablesubstituter_test.php
 /question/type/calculated/tests/walkthrough_test.php
 /question/type/calculated/version.php
@@ -73334,11 +73398,14 @@ plus.jpg
 /question/type/ddimageortext/tests/fixtures/oceanflooranswer.jpg
 /question/type/ddimageortext/tests/fixtures/oceanfloorbase.jpg
 /question/type/ddimageortext/tests/fixtures/testquestion.moodle.xml
+/question/type/ddimageortext/tests/form
+/question/type/ddimageortext/tests/form/edit_form_test.php
 /question/type/ddimageortext/tests/helper.php
 /question/type/ddimageortext/tests/privacy
 /question/type/ddimageortext/tests/privacy/provider_test.php
 /question/type/ddimageortext/tests/privacy_provider_test.php
 /question/type/ddimageortext/tests/question_test.php
+/question/type/ddimageortext/tests/question_type_test.php
 /question/type/ddimageortext/tests/questiontype_test.php
 /question/type/ddimageortext/tests/walkthrough_test.php
 /question/type/ddimageortext/version.php
@@ -73418,11 +73485,14 @@ plus.jpg
 /question/type/ddmarker/tests/fixtures
 /question/type/ddmarker/tests/fixtures/mkmap.png
 /question/type/ddmarker/tests/fixtures/testquestion.moodle.xml
+/question/type/ddmarker/tests/form
+/question/type/ddmarker/tests/form/edit_form_test.php
 /question/type/ddmarker/tests/helper.php
 /question/type/ddmarker/tests/privacy
 /question/type/ddmarker/tests/privacy/provider_test.php
 /question/type/ddmarker/tests/privacy_provider_test.php
 /question/type/ddmarker/tests/question_test.php
+/question/type/ddmarker/tests/question_type_test.php
 /question/type/ddmarker/tests/questiontype_test.php
 /question/type/ddmarker/tests/shapes_test.php
 /question/type/ddmarker/tests/walkthrough_test.php
@@ -73490,11 +73560,14 @@ plus.jpg
 /question/type/ddwtos/tests/edit_form_test.php
 /question/type/ddwtos/tests/fixtures
 /question/type/ddwtos/tests/fixtures/testquestion.moodle.xml
+/question/type/ddwtos/tests/form
+/question/type/ddwtos/tests/form/edit_form_test.php
 /question/type/ddwtos/tests/helper.php
 /question/type/ddwtos/tests/privacy
 /question/type/ddwtos/tests/privacy/provider_test.php
 /question/type/ddwtos/tests/privacy_provider_test.php
 /question/type/ddwtos/tests/question_test.php
+/question/type/ddwtos/tests/question_type_test.php
 /question/type/ddwtos/tests/questiontype_test.php
 /question/type/ddwtos/tests/walkthrough_test.php
 /question/type/ddwtos/version.php
@@ -73548,8 +73621,10 @@ plus.jpg
 /question/type/description/tests/fixtures
 /question/type/description/tests/fixtures/testquestion.moodle.xml
 /question/type/description/tests/helper.php
+/question/type/description/tests/question_type_test.php
 /question/type/description/tests/questiontype_test.php
 /question/type/description/tests/upgradelibnewqe_test.php
+/question/type/description/tests/upgrade_old_attempt_data_test.php
 /question/type/description/tests/walkthrough_test.php
 /question/type/description/version.php
 /question/type/editquestionend.html
@@ -73608,14 +73683,18 @@ plus.jpg
 /question/type/essay/tests/edit_form_test.php
 /question/type/essay/tests/fixtures
 /question/type/essay/tests/fixtures/testquestion.moodle.xml
+/question/type/essay/tests/form
+/question/type/essay/tests/form/edit_form_test.php
 /question/type/essay/tests/helper.php
 /question/type/essay/tests/privacy
 /question/type/essay/tests/privacy/provider_test.php
 /question/type/essay/tests/privacy_provider_test.php
 /question/type/essay/tests/question_test.php
+/question/type/essay/tests/question_type_test.php
 /question/type/essay/tests/questiontype_test.php
 /question/type/essay/tests/restore_test.php
 /question/type/essay/tests/upgradelibnewqe_test.php
+/question/type/essay/tests/upgrade_old_attempt_data_test.php
 /question/type/essay/tests/walkthrough_test.php
 /question/type/essay/version.php
 /question/type/gapselect
@@ -73653,11 +73732,14 @@ plus.jpg
 /question/type/gapselect/tests/edit_form_test.php
 /question/type/gapselect/tests/fixtures
 /question/type/gapselect/tests/fixtures/testquestion.moodle.xml
+/question/type/gapselect/tests/form
+/question/type/gapselect/tests/form/edit_form_test.php
 /question/type/gapselect/tests/helper.php
 /question/type/gapselect/tests/privacy
 /question/type/gapselect/tests/privacy/provider_test.php
 /question/type/gapselect/tests/privacy_provider_test.php
 /question/type/gapselect/tests/question_test.php
+/question/type/gapselect/tests/question_type_test.php
 /question/type/gapselect/tests/questiontype_test.php
 /question/type/gapselect/tests/walkthrough_test.php
 /question/type/gapselect/version.php
@@ -73717,8 +73799,10 @@ plus.jpg
 /question/type/match/tests/privacy/provider_test.php
 /question/type/match/tests/privacy_provider_test.php
 /question/type/match/tests/question_test.php
+/question/type/match/tests/question_type_test.php
 /question/type/match/tests/questiontype_test.php
 /question/type/match/tests/upgradelibnewqe_test.php
+/question/type/match/tests/upgrade_old_attempt_data_test.php
 /question/type/match/tests/walkthrough_test.php
 /question/type/match/version.php
 /question/type/missingtype
@@ -73790,8 +73874,10 @@ plus.jpg
 /question/type/multianswer/tests/behat/add.feature
 /question/type/multianswer/tests/helper.php
 /question/type/multianswer/tests/question_test.php
+/question/type/multianswer/tests/question_type_test.php
 /question/type/multianswer/tests/questiontype_test.php
 /question/type/multianswer/tests/upgradelibnewqe_test.php
+/question/type/multianswer/tests/upgrade_old_attempt_data_test.php
 /question/type/multianswer/tests/walkthrough_test.php
 /question/type/multianswer/version.php
 /question/type/multichoice
@@ -73864,8 +73950,10 @@ plus.jpg
 /question/type/multichoice/tests/question_multi_test.php
 /question/type/multichoice/tests/question_single_test.php
 /question/type/multichoice/tests/question_test.php
+/question/type/multichoice/tests/question_type_test.php
 /question/type/multichoice/tests/questiontype_test.php
 /question/type/multichoice/tests/upgradelibnewqe_test.php
+/question/type/multichoice/tests/upgrade_old_attempt_data_test.php
 /question/type/multichoice/tests/walkthrough_test.php
 /question/type/multichoice/upgrade.txt
 /question/type/multichoice/version.php
@@ -73931,8 +74019,10 @@ plus.jpg
 /question/type/numerical/tests/privacy/provider_test.php
 /question/type/numerical/tests/privacy_provider_test.php
 /question/type/numerical/tests/question_test.php
+/question/type/numerical/tests/question_type_test.php
 /question/type/numerical/tests/questiontype_test.php
 /question/type/numerical/tests/upgradelibnewqe_test.php
+/question/type/numerical/tests/upgrade_old_attempt_data_test.php
 /question/type/numerical/tests/walkthrough_test.php
 /question/type/numerical/version.php
 /question/type/questionbase.php
@@ -74000,6 +74090,7 @@ plus.jpg
 /question/type/randomsamatch/tests/helper.php
 /question/type/randomsamatch/tests/question_test.php
 /question/type/randomsamatch/tests/upgradelibnewqe_test.php
+/question/type/randomsamatch/tests/upgrade_old_attempt_data_test.php
 /question/type/randomsamatch/tests/walkthrough_test.php
 /question/type/randomsamatch/version.php
 /question/type/random/simpletest
@@ -74007,8 +74098,10 @@ plus.jpg
 /question/type/random/tests
 /question/type/random/tests/cleanup_task_test.php
 /question/type/random/tests/helper.php
+/question/type/random/tests/question_type_test.php
 /question/type/random/tests/questiontype_test.php
 /question/type/random/tests/upgradelibnewqe_test.php
+/question/type/random/tests/upgrade_old_attempt_data_test.php
 /question/type/random/version.php
 /question/type/rendererbase.php
 /question/type/rqp
@@ -74083,9 +74176,11 @@ plus.jpg
 /question/type/shortanswer/tests/privacy/provider_test.php
 /question/type/shortanswer/tests/privacy_provider_test.php
 /question/type/shortanswer/tests/question_test.php
+/question/type/shortanswer/tests/question_type_test.php
 /question/type/shortanswer/tests/questiontype_test.php
 /question/type/shortanswer/tests/tupgradelibnewqe_test.php
 /question/type/shortanswer/tests/upgradelibnewqe_test.php
+/question/type/shortanswer/tests/upgrade_old_attempt_data_test.php
 /question/type/shortanswer/version.php
 /question/type/simpletest
 /question/type/simpletest/testquestionbase.php
@@ -74096,6 +74191,7 @@ plus.jpg
 /question/type/tests/question_definition_test.php
 /question/type/tests/question_first_matching_answer_grading_strategy_test.php
 /question/type/tests/question_hint_test.php
+/question/type/tests/question_type_test.php
 /question/type/tests/questiontype_test.php
 /question/type/truefalse
 /question/type/truefalse/backup
@@ -74150,8 +74246,10 @@ plus.jpg
 /question/type/truefalse/tests/fixtures/testquestion.moodle.xml
 /question/type/truefalse/tests/helper.php
 /question/type/truefalse/tests/question_test.php
+/question/type/truefalse/tests/question_type_test.php
 /question/type/truefalse/tests/questiontype_test.php
 /question/type/truefalse/tests/upgradelibnewqe_test.php
+/question/type/truefalse/tests/upgrade_old_attempt_data_test.php
 /question/type/truefalse/tests/walkthrough_test.php
 /question/type/truefalse/version.php
 /question/type/upgrade.txt

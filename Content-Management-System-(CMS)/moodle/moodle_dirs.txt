@@ -325,6 +325,7 @@
 /admin/tool/dataprivacy/tests/external
 /admin/tool/dataprivacy/tests/generator
 /admin/tool/dataprivacy/tests/privacy
+/admin/tool/dataprivacy/tests/task
 /admin/tool/dbtransfer
 /admin/tool/dbtransfer/classes
 /admin/tool/dbtransfer/classes/privacy
@@ -1991,9 +1992,11 @@
 /competency/classes/external
 /competency/classes/privacy
 /competency/tests
+/competency/tests/event
 /competency/tests/external
 /competency/tests/generator
 /competency/tests/privacy
+/competency/tests/task
 /completion
 /completion/classes
 /completion/classes/external
@@ -2179,6 +2182,8 @@
 /course/templates/local
 /course/templates/local/activitychooser
 /course/tests
+/course/tests/analytics
+/course/tests/backup
 /course/tests/behat
 /course/tests/event
 /course/tests/fixtures
@@ -2742,6 +2747,7 @@
 /grade/export/ods/lang
 /grade/export/ods/lang/en
 /grade/export/ods/tests
+/grade/export/ods/tests/event
 /grade/export/txt
 /grade/export/txt/classes
 /grade/export/txt/classes/event
@@ -2751,6 +2757,7 @@
 /grade/export/txt/lang/en
 /grade/export/txt/tests
 /grade/export/txt/tests/behat
+/grade/export/txt/tests/event
 /grade/export/xls
 /grade/export/xls/classes
 /grade/export/xls/classes/event
@@ -2759,6 +2766,7 @@
 /grade/export/xls/lang
 /grade/export/xls/lang/en
 /grade/export/xls/tests
+/grade/export/xls/tests/event
 /grade/export/xml
 /grade/export/xml/classes
 /grade/export/xml/classes/event
@@ -2768,6 +2776,7 @@
 /grade/export/xml/lang/en
 /grade/export/xml/tests
 /grade/export/xml/tests/behat
+/grade/export/xml/tests/event
 /grade/grading
 /grade/grading/classes
 /grade/grading/classes/privacy
@@ -7132,6 +7141,7 @@
 /lib/testing/generator
 /lib/testing/tests
 /lib/tests
+/lib/tests/analytics
 /lib/tests/behat
 /lib/tests/content
 /lib/tests/content/export
@@ -13371,6 +13381,7 @@
 /mod/quiz/accessrule/seb/lang/en
 /mod/quiz/accessrule/seb/tests
 /mod/quiz/accessrule/seb/tests/behat
+/mod/quiz/accessrule/seb/tests/event
 /mod/quiz/accessrule/seb/tests/fixtures
 /mod/quiz/accessrule/seb/tests/generator
 /mod/quiz/accessrule/seb/tests/privacy
@@ -13943,6 +13954,7 @@
 /plagiarism/classes
 /plagiarism/classes/privacy
 /plagiarism/tests
+/plagiarism/tests/privacy
 /portfolio
 /portfolio/boxnet
 /portfolio/boxnet/classes
@@ -14468,6 +14480,7 @@
 /question/type/ddimageortext/tests
 /question/type/ddimageortext/tests/behat
 /question/type/ddimageortext/tests/fixtures
+/question/type/ddimageortext/tests/form
 /question/type/ddimageortext/tests/privacy
 /question/type/ddimageortext/yui
 /question/type/ddimageortext/yui/build
@@ -14495,6 +14508,7 @@
 /question/type/ddmarker/tests
 /question/type/ddmarker/tests/behat
 /question/type/ddmarker/tests/fixtures
+/question/type/ddmarker/tests/form
 /question/type/ddmarker/tests/privacy
 /question/type/ddmarker/yui
 /question/type/ddmarker/yui/build
@@ -14522,6 +14536,7 @@
 /question/type/ddwtos/tests
 /question/type/ddwtos/tests/behat
 /question/type/ddwtos/tests/fixtures
+/question/type/ddwtos/tests/form
 /question/type/ddwtos/tests/privacy
 /question/type/ddwtos/yui
 /question/type/ddwtos/yui/build
@@ -14557,6 +14572,7 @@
 /question/type/essay/tests
 /question/type/essay/tests/behat
 /question/type/essay/tests/fixtures
+/question/type/essay/tests/form
 /question/type/essay/tests/privacy
 /question/type/gapselect
 /question/type/gapselect/backup
@@ -14570,6 +14586,7 @@
 /question/type/gapselect/tests
 /question/type/gapselect/tests/behat
 /question/type/gapselect/tests/fixtures
+/question/type/gapselect/tests/form
 /question/type/gapselect/tests/privacy
 /question/type/match
 /question/type/match/backup
