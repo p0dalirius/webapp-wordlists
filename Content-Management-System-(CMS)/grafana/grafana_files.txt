@@ -1087,6 +1087,7 @@
 /app/features/alerting/unified/components/rules/RuleDetailsAnnotations.tsx
 /app/features/alerting/unified/components/rules/RuleDetailsDataSources.tsx
 /app/features/alerting/unified/components/rules/RuleDetailsExpression.tsx
+/app/features/alerting/unified/components/rules/RuleDetailsFederatedSources.tsx
 /app/features/alerting/unified/components/rules/RuleDetailsMatchingInstances.tsx
 /app/features/alerting/unified/components/rules/RuleDetails.tsx
 /app/features/alerting/unified/components/rules/RuleHealth.tsx
