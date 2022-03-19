@@ -2226,6 +2226,7 @@
 /src/Imaging/GuzzleAdapter.php
 /src/Imaging/ImageGenerator.php
 /src/Imaging/ImageUrlBuilder.php
+/src/Imaging/LegacyGuzzleAdapter.php
 /src/Imaging/Manager.php
 /src/Imaging/PresetGenerator.php
 /src/Imaging/ResponseFactory.php
