@@ -876,6 +876,12 @@
 /resources/svg/relationship.svg
 /resources/svg/replicator.svg
 /resources/svg/revealer.svg
+/resources/svg/search-drivers/algolia.svg
+/resources/svg/search-drivers/elasticsearch.svg
+/resources/svg/search-drivers/local.svg
+/resources/svg/search-drivers/meilisearch.svg
+/resources/svg/search-drivers/opensearch.svg
+/resources/svg/search-drivers/typesense.svg
 /resources/svg/search.svg
 /resources/svg/search-utility.svg
 /resources/svg/section.svg

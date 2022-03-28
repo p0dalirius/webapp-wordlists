@@ -96,6 +96,7 @@
 /resources/svg/empty
 /resources/svg/filetypes
 /resources/svg/marketing
+/resources/svg/search-drivers
 /resources/users
 /resources/views
 /resources/views/addons
