@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# File name          : get_evolution_paths.py
+# File name          : get_ezplatform_paths.py
 # Author             : Podalirius (@podalirius_)
 # Date created       : 22 Nov 2021
 
@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
     os.chdir(os.path.dirname(__file__))
 
-    versions = get_releases_from_github("evolution-cms", "evolution")
+    versions = get_releases_from_github("ezsystems", "ezplatform")
 
     for version in versions.keys():
         str_version = version
@@ -73,55 +73,55 @@ if __name__ == '__main__':
         elif options.force:
             generate = True
         elif options.verbose:
-            print('[>] Ignoring evolution version %s (local wordlists exists)' % str_version)
+            print('[>] Ignoring ezplatform version %s (local wordlists exists)' % str_version)
 
         if generate:
-            print('[>] Extracting wordlists for evolution version %s' % str_version)
+            print('[>] Extracting wordlists for ezplatform version %s' % str_version)
 
             dl_url = versions[version]
 
             if options.verbose:
                 print("      [>] Create dir ...")
-                os.system('rm -rf /tmp/paths_evolution_extract/; mkdir -p /tmp/paths_evolution_extract/')
+                os.system('rm -rf /tmp/paths_ezplatform_extract/; mkdir -p /tmp/paths_ezplatform_extract/')
             else:
-                os.popen('rm -rf /tmp/paths_evolution_extract/; mkdir -p /tmp/paths_evolution_extract/').read()
+                os.popen('rm -rf /tmp/paths_ezplatform_extract/; mkdir -p /tmp/paths_ezplatform_extract/').read()
             if options.verbose:
                 print("      [>] Getting file ...")
-                print('wget -q --show-progress "%s" -O /tmp/paths_evolution_extract/evolution.zip' % dl_url)
-                os.system('wget -q --show-progress "%s" -O /tmp/paths_evolution_extract/evolution.zip' % dl_url)
+                print('wget -q --show-progress "%s" -O /tmp/paths_ezplatform_extract/ezplatform.zip' % dl_url)
+                os.system('wget -q --show-progress "%s" -O /tmp/paths_ezplatform_extract/ezplatform.zip' % dl_url)
             else:
-                os.popen('wget -q "%s" -O /tmp/paths_evolution_extract/evolution.zip' % dl_url).read()
+                os.popen('wget -q "%s" -O /tmp/paths_ezplatform_extract/ezplatform.zip' % dl_url).read()
             if options.verbose:
                 print("      [>] Unzipping archive ...")
-                os.system('cd /tmp/paths_evolution_extract/; unzip evolution.zip 1>/dev/null')
+                os.system('cd /tmp/paths_ezplatform_extract/; unzip ezplatform.zip 1>/dev/null')
             else:
-                os.popen('cd /tmp/paths_evolution_extract/; unzip evolution.zip 1>/dev/null').read()
+                os.popen('cd /tmp/paths_ezplatform_extract/; unzip ezplatform.zip 1>/dev/null').read()
 
             if options.verbose:
                 print("      [>] Getting wordlist ...")
-            save_wordlist(os.popen('cd /tmp/paths_evolution_extract/*/; find .').read(), version, filename="evolution.txt")
-            save_wordlist(os.popen('cd /tmp/paths_evolution_extract/*/; find . -type f').read(), version, filename="evolution_files.txt")
-            save_wordlist(os.popen('cd /tmp/paths_evolution_extract/*/; find . -type d').read(), version, filename="evolution_dirs.txt")
+            save_wordlist(os.popen('cd /tmp/paths_ezplatform_extract/*/; find .').read(), version, filename="ezplatform.txt")
+            save_wordlist(os.popen('cd /tmp/paths_ezplatform_extract/*/; find . -type f').read(), version, filename="ezplatform_files.txt")
+            save_wordlist(os.popen('cd /tmp/paths_ezplatform_extract/*/; find . -type d').read(), version, filename="ezplatform_dirs.txt")
 
             if not options.no_commit:
                 if os.path.exists("./versions/"):
                     if options.verbose:
                         print("      [>] Committing results ...")
-                        os.system('git add ./versions/%s/*; git commit -m "Added wordlists for evolution version %s";' % (version, version))
+                        os.system('git add ./versions/%s/*; git commit -m "Added wordlists for ezplatform version %s";' % (version, version))
                     else:
-                        os.popen('git add ./versions/%s/*; git commit -m "Added wordlists for evolution version %s";' % (version, version)).read()
+                        os.popen('git add ./versions/%s/*; git commit -m "Added wordlists for ezplatform version %s";' % (version, version)).read()
 
     if os.path.exists("./versions/"):
         if options.verbose:
             print("      [>] Creating common wordlists ...")
-        os.system('find ./versions/ -type f -name "evolution.txt" -exec cat {} \\; | sort -u > evolution.txt')
-        os.system('find ./versions/ -type f -name "evolution_files.txt" -exec cat {} \\; | sort -u > evolution_files.txt')
-        os.system('find ./versions/ -type f -name "evolution_dirs.txt" -exec cat {} \\; | sort -u > evolution_dirs.txt')
+        os.system('find ./versions/ -type f -name "ezplatform.txt" -exec cat {} \\; | sort -u > ezplatform.txt')
+        os.system('find ./versions/ -type f -name "ezplatform_files.txt" -exec cat {} \\; | sort -u > ezplatform_files.txt')
+        os.system('find ./versions/ -type f -name "ezplatform_dirs.txt" -exec cat {} \\; | sort -u > ezplatform_dirs.txt')
     
         if not options.no_commit:
             if options.verbose:
                 print("      [>] Committing results ...")
-                os.system('git add *.txt; git commit -m "Added general wordlists for evolution";')
+                os.system('git add *.txt; git commit -m "Added general wordlists for ezplatform";')
             else:
-                os.popen('git add *.txt; git commit -m "Added general wordlists for evolution";').read()
+                os.popen('git add *.txt; git commit -m "Added general wordlists for ezplatform";').read()
             
