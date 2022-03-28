@@ -726,6 +726,7 @@ APS
 /htdocs/core/modules/fichinter
 /htdocs/core/modules/fichinter/doc
 /htdocs/core/modules/holiday
+/htdocs/core/modules/hrm
 /htdocs/core/modules/import
 /htdocs/core/modules/livraison
 /htdocs/core/modules/livraison/doc
@@ -862,7 +863,11 @@ APS
 /htdocs/hrm
 /htdocs/hrm/admin
 /htdocs/hrm/class
+/htdocs/hrm/core
+/htdocs/hrm/core/tpl
+/htdocs/hrm/css
 /htdocs/hrm/establishment
+/htdocs/hrm/lib
 /htdocs/imports
 /htdocs/imports/class
 /htdocs/includes
@@ -2241,10 +2246,12 @@ APS
 /htdocs/langs/sr_RS
 /htdocs/langs/sv_SE
 /htdocs/langs/sw_SW
+/htdocs/langs/ta_IN
 /htdocs/langs/tg_TJ
 /htdocs/langs/th_TH
 /htdocs/langs/tr_TR
 /htdocs/langs/uk_UA
+/htdocs/langs/ur_PK
 /htdocs/langs/uz_UZ
 /htdocs/langs/vi_VN
 /htdocs/langs/zh_CN
@@ -2371,6 +2378,7 @@ APS
 /htdocs/public/members
 /htdocs/public/onlinesign
 /htdocs/public/opensurvey
+/htdocs/public/partnership
 /htdocs/public/paybox
 /htdocs/public/payment
 /htdocs/public/paypal
@@ -2401,6 +2409,7 @@ APS
 /htdocs/resource/img
 /htdocs/salaries
 /htdocs/salaries/admin
+/htdocs/salaries/ajax
 /htdocs/salaries/class
 /htdocs/salaries/payment_salary
 /htdocs/salaries/stats
