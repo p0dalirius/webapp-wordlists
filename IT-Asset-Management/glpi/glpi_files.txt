@@ -46,6 +46,7 @@
 /ajax/fuzzysearch.php
 /ajax/gantt.php
 /ajax/genericdate.php
+/ajax/getAbstractRightDropdownValue.php
 /ajax/getDropdownConnect.php
 /ajax/getDropdownFindNum.php
 /ajax/getDropdownNetpoint.php
@@ -58,6 +59,7 @@
 /ajax/getKnowbaseItemAnswer.php
 /ajax/getMapPoint.php
 /ajax/getRightDropdownValue.php
+/ajax/getShareDashboardDropdownValue.php
 /ajax/getUserPicture.php
 /ajax/helpdesk_observer.php
 /ajax/impact.php
@@ -4766,6 +4768,7 @@
 /pics/impact/computer.png
 /pics/impact/contract.png
 /pics/impact/crontask.png
+/pics/impact/databaseinstance.png
 /pics/impact/database.png
 /pics/impact/datacenter.png
 /pics/impact/dcroom.png
@@ -6004,6 +6007,7 @@
 /tests/emails-tests/26-illegal-char-in-body.eml
 /tests/emails-tests/27-autoreply.eml
 /tests/emails-tests/28-multiple-attachments-no-extension.eml
+/tests/emails-tests/30-subject-with-special-char.eml
 /tests/enable-apcu.ini
 /tests/enable-ldap.ini
 /tests/EntityTest.php
@@ -6238,6 +6242,7 @@
 /tests/InventoryTestCase.php
 /tests/js/bootstrap.js
 /tests/js/jest.config.js
+/tests/js/jest-setup.js
 /tests/js/Search/GenericView.test.js
 /tests/js/Search/ResultsView.test.js
 /tests/js/Search/Table.test.js
@@ -6390,6 +6395,7 @@
 /tests/units/SavedSearch_User.php
 /tests/units/Search.php
 /tests/units/Session.php
+/tests/units/ShareDashboardDropdown.php
 /tests/units/Slm.php
 /tests/units/SoftwareLicense.php
 /tests/units/Software.php
