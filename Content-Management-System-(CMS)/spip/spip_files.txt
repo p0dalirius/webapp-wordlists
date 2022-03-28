@@ -8236,8 +8236,11 @@ USE
 /versions/4.0.4/spip_dirs.txt
 /versions/4.0.4/spip_files.txt
 /versions/4.0.4/spip.txt
+/versions/4.0.5/spip_dirs.txt
+/versions/4.0.5/spip_files.txt
 /versions/4.0.5/spip.txt
 /versions/4.0/spip_dirs.txt
 /versions/4.0/spip_files.txt
 /versions/4.0/spip.txt
+/versions/4.1.0/spip.txt
 /win_png.htc
