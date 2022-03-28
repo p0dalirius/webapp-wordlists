@@ -315,6 +315,8 @@ picture/team
 /src/MicroweberPackages/App/resources
 /src/MicroweberPackages/App/resources/views
 /src/MicroweberPackages/App/resources/views/email
+/src/MicroweberPackages/App/resources/views/public
+/src/MicroweberPackages/App/resources/views/public/partials
 /src/MicroweberPackages/App/resources/views/rss
 /src/MicroweberPackages/App/resources/views/sitemap
 /src/MicroweberPackages/App/routes
@@ -410,6 +412,7 @@ picture/team
 /src/MicroweberPackages/Comment/Http
 /src/MicroweberPackages/Comment/Http/Controllers
 /src/MicroweberPackages/Comment/Http/Controllers/Admin
+/src/MicroweberPackages/Comment/Http/Middleware
 /src/MicroweberPackages/Comment/Models
 /src/MicroweberPackages/Comment/Notifications
 /src/MicroweberPackages/Comment/resources
@@ -422,6 +425,7 @@ picture/team
 /src/MicroweberPackages/Comment/tests
 /src/MicroweberPackages/Config
 /src/MicroweberPackages/Config/helpers
+/src/MicroweberPackages/Config/routes
 /src/MicroweberPackages/Config/tests
 /src/MicroweberPackages/Console
 /src/MicroweberPackages/Console/Commands
@@ -446,6 +450,7 @@ picture/team
 /src/MicroweberPackages/Content/Http/Controllers
 /src/MicroweberPackages/Content/Http/Controllers/Admin
 /src/MicroweberPackages/Content/Http/Controllers/Api
+/src/MicroweberPackages/Content/Http/Controllers/Requests
 /src/MicroweberPackages/Content/migrations
 /src/MicroweberPackages/Content/Models
 /src/MicroweberPackages/Content/Models/ModelFilters
@@ -600,6 +605,7 @@ picture/team
 /src/MicroweberPackages/Module/Facades
 /src/MicroweberPackages/Module/Http
 /src/MicroweberPackages/Module/Http/Controllers
+/src/MicroweberPackages/Module/Http/Controllers/Api
 /src/MicroweberPackages/Module/Repositories
 /src/MicroweberPackages/Module/routes
 /src/MicroweberPackages/Module/slow_tests
@@ -668,10 +674,15 @@ picture/team
 /src/MicroweberPackages/Option/Console/Commands
 /src/MicroweberPackages/Option/Facades
 /src/MicroweberPackages/Option/helpers
+/src/MicroweberPackages/Option/Http
+/src/MicroweberPackages/Option/Http/Controllers
+/src/MicroweberPackages/Option/Http/Controllers/Api
+/src/MicroweberPackages/Option/Http/Requests
 /src/MicroweberPackages/Option/migrations
 /src/MicroweberPackages/Option/Models
 /src/MicroweberPackages/Option/Providers
 /src/MicroweberPackages/Option/Repositories
+/src/MicroweberPackages/Option/routes
 /src/MicroweberPackages/Option/tests
 /src/MicroweberPackages/Option/Traits
 /src/MicroweberPackages/Option/TranslateTables
@@ -787,6 +798,7 @@ picture/team
 /src/MicroweberPackages/Role/resources/views/admin
 /src/MicroweberPackages/Role/resources/views/admin/roles
 /src/MicroweberPackages/Role/routes
+/src/MicroweberPackages/Security
 /src/MicroweberPackages/Shipping
 /src/MicroweberPackages/Shipping/Http
 /src/MicroweberPackages/Shipping/Http/Controllers
@@ -825,6 +837,9 @@ picture/team
 /src/MicroweberPackages/Template/Adapters
 /src/MicroweberPackages/Template/Adapters/RenderHelpers
 /src/MicroweberPackages/Template/helpers
+/src/MicroweberPackages/Template/Http
+/src/MicroweberPackages/Template/Http/Controllers
+/src/MicroweberPackages/Template/Http/Controllers/Api
 /src/MicroweberPackages/Template/routes
 /src/MicroweberPackages/Template/tests
 /src/MicroweberPackages/Translation
@@ -891,6 +906,8 @@ picture/team
 /src/MicroweberPackages/Utils/Media/Adapters
 /src/MicroweberPackages/Utils/Misc
 /src/MicroweberPackages/Utils/System
+/src/MicroweberPackages/Utils/tests
+/src/MicroweberPackages/Utils/tests/mockery
 /src/MicroweberPackages/Utils/ThirdPartyLibs
 /src/MicroweberPackages/Utils/ThirdPartyLibs/geoip_lite
 /src/MicroweberPackages/Utils/ThirdPartyLibs/JShrink
@@ -1006,6 +1023,7 @@ picture/team
 /userfiles/modules/admin/mail_templates
 /userfiles/modules/admin/mail_templates/src
 /userfiles/modules/admin/mail_templates/src/Models
+/userfiles/modules/admin/mail_templates/src/routes
 /userfiles/modules/admin/mics
 /userfiles/modules/admin/mics/queue
 /userfiles/modules/admin/modules
@@ -1601,6 +1619,7 @@ picture/team
 /userfiles/modules/shop/coupons/css
 /userfiles/modules/shop/coupons/js
 /userfiles/modules/shop/coupons/src
+/userfiles/modules/shop/coupons/src/routes
 /userfiles/modules/shop/coupons/templates
 /userfiles/modules/shop/customers
 /userfiles/modules/shop/invoices
