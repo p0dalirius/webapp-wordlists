@@ -176,6 +176,7 @@
 /config/templates.php
 /config/tests.php
 /config/urls.php
+/CONTRIBUTING.md
 /dependencies/parsedown-extra/ParsedownExtra.php
 /dependencies/parsedown/Parsedown.php
 /dependencies/spyc/COPYING
@@ -248,6 +249,7 @@
 /i18n/translations/sv_SE.json
 /i18n/translations/tr.json
 /kirby.pub
+/LICENSE.md
 /panel/dist/apple-touch-icon.png
 /panel/dist/css/app.css
 /panel/dist/css/style.css
