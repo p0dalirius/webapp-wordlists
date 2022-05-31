@@ -2740,6 +2740,7 @@
 /src/classes/modules/cmdb/src/Component/AttributeDataCollector/CollectorTypes/AbstractCollector.php
 /src/classes/modules/cmdb/src/Component/AttributeDataCollector/CollectorTypes/BrowserLocation.php
 /src/classes/modules/cmdb/src/Component/AttributeDataCollector/CollectorTypes/BrowserObject.php
+/src/classes/modules/cmdb/src/Component/AttributeDataCollector/CollectorTypes/DialogCallbackData.php
 /src/classes/modules/cmdb/src/Component/AttributeDataCollector/CollectorTypes/DialogData.php
 /src/classes/modules/cmdb/src/Component/AttributeDataCollector/CollectorTypes/DialogList.php
 /src/classes/modules/cmdb/src/Component/AttributeDataCollector/CollectorTypes/Dialog.php
@@ -3906,6 +3907,10 @@
 /src/classes/modules/tts/init.php
 /src/classes/modules/tts/isys_module_tts_autoload.class.php
 /src/classes/modules/tts/isys_module_tts.class.php
+/src/classes/modules/tts/src/Interfaces/FormatTicketsInterface.php
+/src/classes/modules/tts/src/Interfaces/ProvidesCreateTemplateInterface.php
+/src/classes/modules/tts/src/Interfaces/ProvidesObjectTemplateInterface.php
+/src/classes/modules/tts/src/Interfaces/ProvidesWorkstationTemplateInterface.php
 /src/classes/modules/user_settings/isys_module_user_settings.class.php
 /src/classes/modules/wiring/auth/isys_auth_wiring.class.php
 /src/classes/modules/wiring/init.php
@@ -4777,7 +4782,10 @@
 /src/themes/default/smarty/templates/content/bottom/content/catg__virtual_object.tpl
 /src/themes/default/smarty/templates/content/bottom/content/catg__virtual_supernet.tpl
 /src/themes/default/smarty/templates/content/bottom/content/catg__virtual_switch.tpl
+/src/themes/default/smarty/templates/content/bottom/content/catg__virtual_tickets_create_ticket.tpl
+/src/themes/default/smarty/templates/content/bottom/content/catg__virtual_tickets_object.tpl
 /src/themes/default/smarty/templates/content/bottom/content/catg__virtual_tickets.tpl
+/src/themes/default/smarty/templates/content/bottom/content/catg__virtual_tickets_workstation.tpl
 /src/themes/default/smarty/templates/content/bottom/content/catg__voip_phone_line.tpl
 /src/themes/default/smarty/templates/content/bottom/content/catg__voip_phone.tpl
 /src/themes/default/smarty/templates/content/bottom/content/catg__voip.tpl
@@ -6402,6 +6410,13 @@
 /updates/versions/v1.17/update_data.xml
 /updates/versions/v1.17/update_files.xml
 /updates/versions/v1.17/update_sys.xml
+/updates/versions/v1.18.1/CHANGELOG
+/updates/versions/v1.18.1/config_template.inc.php
+/updates/versions/v1.18.1/migration/.gitkeep
+/updates/versions/v1.18.1/migration/reset_ports_foreign_key.php
+/updates/versions/v1.18.1/update_data.xml
+/updates/versions/v1.18.1/update_files.xml
+/updates/versions/v1.18.1/update_sys.xml
 /updates/versions/v1.18/CHANGELOG
 /updates/versions/v1.18/config_template.inc.php
 /updates/versions/v1.18/migration/auth-own-object-right.php
@@ -7654,6 +7669,8 @@
 /vendor/nesbot/carbon/composer.json
 /vendor/nesbot/carbon/extension.neon
 /vendor/nesbot/carbon/.github/FUNDING.yml
+/vendor/nesbot/carbon/lazy/Carbon/PHPStan/MacroStrongType.php
+/vendor/nesbot/carbon/lazy/Carbon/PHPStan/MacroWeakType.php
 /vendor/nesbot/carbon/lazy/Carbon/TranslatorStrongType.php
 /vendor/nesbot/carbon/lazy/Carbon/TranslatorWeakType.php
 /vendor/nesbot/carbon/LICENSE
@@ -8535,6 +8552,7 @@
 /vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php
 /vendor/nesbot/carbon/src/Carbon/List/languages.php
 /vendor/nesbot/carbon/src/Carbon/List/regions.php
+/vendor/nesbot/carbon/src/Carbon/PHPStan/AbstractMacro.php
 /vendor/nesbot/carbon/src/Carbon/PHPStan/MacroExtension.php
 /vendor/nesbot/carbon/src/Carbon/PHPStan/Macro.php
 /vendor/nesbot/carbon/src/Carbon/PHPStan/MacroScanner.php
@@ -9469,6 +9487,7 @@
 /vendor/phpseclib/phpseclib/phpseclib/System/SSH/Agent/Identity.php
 /vendor/phpseclib/phpseclib/phpseclib/System/SSH/Agent.php
 /vendor/phpseclib/phpseclib/phpseclib/System/SSH/Common/Traits/ReadBytes.php
+/vendor/phpseclib/phpseclib/psalm.xml
 /vendor/pimple/pimple/composer.json
 /vendor/pimple/pimple/ext/pimple/config.m4
 /vendor/pimple/pimple/ext/pimple/config.w32

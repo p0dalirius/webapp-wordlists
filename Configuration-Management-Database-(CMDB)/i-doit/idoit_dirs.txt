@@ -648,6 +648,8 @@
 /src/classes/modules/templates/lang
 /src/classes/modules/tts
 /src/classes/modules/tts/dao
+/src/classes/modules/tts/src
+/src/classes/modules/tts/src/Interfaces
 /src/classes/modules/user_settings
 /src/classes/modules/wiring
 /src/classes/modules/wiring/auth
@@ -1026,6 +1028,8 @@
 /updates/versions/v1.17.2/migration
 /updates/versions/v1.17/migration
 /updates/versions/v1.18
+/updates/versions/v1.18.1
+/updates/versions/v1.18.1/migration
 /updates/versions/v1.18/migration
 /upload
 /upload/files
@@ -1337,6 +1341,7 @@
 /vendor/nesbot/carbon/.github
 /vendor/nesbot/carbon/lazy
 /vendor/nesbot/carbon/lazy/Carbon
+/vendor/nesbot/carbon/lazy/Carbon/PHPStan
 /vendor/nesbot/carbon/src
 /vendor/nesbot/carbon/src/Carbon
 /vendor/nesbot/carbon/src/Carbon/Cli
