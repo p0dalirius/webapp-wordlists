@@ -105,9 +105,16 @@
 /include/themes/dark/images
 /include/themes/dark/images/128
 /include/themes/midwinter
+/include/themes/midwinter/css
+/include/themes/midwinter/css/media
+/include/themes/midwinter/css/pre
 /include/themes/midwinter/default
 /include/themes/midwinter/images
 /include/themes/midwinter/images/128
+/include/themes/midwinter/vendor
+/include/themes/midwinter/vendor/hotkeys
+/include/themes/midwinter/vendor/mark
+/include/themes/midwinter/vendor/ua-parser
 /include/themes/modern
 /include/themes/modern/default
 /include/themes/modern/images
