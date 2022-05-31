@@ -16174,6 +16174,7 @@ Riyaz.ttf
 /themes/SuiteP/css/suitep-base/swal.scss
 /themes/SuiteP/css/suitep-base/tabs.scss
 /themes/SuiteP/css/suitep-base/tinemce.scss
+/themes/SuiteP/css/suitep-base/tinymce.scss
 /themes/SuiteP/css/suitep-base/yui.scss
 /themes/SuiteP/css/suitepicon.eot
 /themes/SuiteP/css/suitepicon-glyphs.scss
