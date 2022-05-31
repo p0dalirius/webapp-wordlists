@@ -173,6 +173,7 @@
 /modules/org.opencms.base/static/editors/codemirror/dist/bin
 /modules/org.opencms.base/static/editors/codemirror/dist/demo
 /modules/org.opencms.base/static/editors/codemirror/dist/doc
+/modules/org.opencms.base/static/editors/codemirror/dist/doc/logos
 /modules/org.opencms.base/static/editors/codemirror/dist/keymap
 /modules/org.opencms.base/static/editors/codemirror/dist/lib
 /modules/org.opencms.base/static/editors/codemirror/dist/mode
@@ -291,6 +292,7 @@
 /modules/org.opencms.base/static/editors/codemirror/dist/mode/verilog
 /modules/org.opencms.base/static/editors/codemirror/dist/mode/vhdl
 /modules/org.opencms.base/static/editors/codemirror/dist/mode/vue
+/modules/org.opencms.base/static/editors/codemirror/dist/mode/wast
 /modules/org.opencms.base/static/editors/codemirror/dist/mode/webidl
 /modules/org.opencms.base/static/editors/codemirror/dist/mode/xml
 /modules/org.opencms.base/static/editors/codemirror/dist/mode/xquery
@@ -299,6 +301,8 @@
 /modules/org.opencms.base/static/editors/codemirror/dist/mode/yaml-frontmatter
 /modules/org.opencms.base/static/editors/codemirror/dist/mode/z80
 /modules/org.opencms.base/static/editors/codemirror/dist/src
+/modules/org.opencms.base/static/editors/codemirror/dist/src/addon
+/modules/org.opencms.base/static/editors/codemirror/dist/src/addon/runmode
 /modules/org.opencms.base/static/editors/codemirror/dist/src/display
 /modules/org.opencms.base/static/editors/codemirror/dist/src/edit
 /modules/org.opencms.base/static/editors/codemirror/dist/src/input
@@ -313,6 +317,8 @@
 /modules/org.opencms.base/static/editors/tinymce
 /modules/org.opencms.base/static/editors/tinymce/jscripts
 /modules/org.opencms.base/static/editors/tinymce/jscripts/tinymce
+/modules/org.opencms.base/static/editors/tinymce/jscripts/tinymce/icons
+/modules/org.opencms.base/static/editors/tinymce/jscripts/tinymce/icons/default
 /modules/org.opencms.base/static/editors/tinymce/jscripts/tinymce/langs
 /modules/org.opencms.base/static/editors/tinymce/jscripts/tinymce/plugins
 /modules/org.opencms.base/static/editors/tinymce/jscripts/tinymce/plugins/advlist
@@ -1181,6 +1187,7 @@
 /modules/org.opencms.legacy.tools/resources/system/workplace/resources/components/js_calendar/lang
 /modules/org.opencms.legacy.tools/resources/system/workplace/resources/components/js_colorpicker
 /modules/org.opencms.legacy.tools/resources/system/workplace/resources/components/widgets
+/modules/org.opencms.legacy.tools/resources/system/workplace/resources/explorer
 /modules/org.opencms.legacy.tools/resources/system/workplace/resources/filetypes
 /modules/org.opencms.legacy.tools/resources/system/workplace/resources/jquery
 /modules/org.opencms.legacy.tools/resources/system/workplace/resources/jquery/css
@@ -2747,6 +2754,7 @@
 /src-gwt/org/opencms/ade/sitemap/client/ui/css
 /src-gwt/org/opencms/ade/upload
 /src-gwt/org/opencms/ade/upload/client
+/src-gwt/org/opencms/ade/upload/client/lists
 /src-gwt/org/opencms/ade/upload/client/ui
 /src-gwt/org/opencms/ade/upload/client/ui/css
 /src-gwt/org/opencms/gwt
@@ -2881,6 +2889,7 @@
 /src/org/opencms/ade
 /src/org/opencms/ade/configuration
 /src/org/opencms/ade/configuration/formatters
+/src/org/opencms/ade/configuration/plugins
 /src/org/opencms/ade/containerpage
 /src/org/opencms/ade/containerpage/inherited
 /src/org/opencms/ade/containerpage/shared
