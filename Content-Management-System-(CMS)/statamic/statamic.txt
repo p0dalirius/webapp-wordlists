@@ -30,6 +30,7 @@
 /package.json
 /package-lock.json
 /.php_cs.dist
+/.php-cs-fixer.dist.php
 /README.md
 /resources
 /resources/audio
@@ -208,6 +209,7 @@
 /resources/js/components/blueprints/Section.vue
 /resources/js/components/Breadcrumbs.vue
 /resources/js/components/Breadcrumb.vue
+/resources/js/components/Callbacks.js
 /resources/js/components/collections
 /resources/js/components/collections/BlueprintListing.vue
 /resources/js/components/collections/CreateForm.vue
@@ -272,6 +274,7 @@
 /resources/js/components/field-conditions/Converter.js
 /resources/js/components/field-conditions/FieldConditions.js
 /resources/js/components/FieldConditions.js
+/resources/js/components/field-conditions/Omitter.js
 /resources/js/components/field-conditions/Validator.js
 /resources/js/components/field-conditions/ValidatorMixin.js
 /resources/js/components/field-default.js
@@ -314,6 +317,7 @@
 /resources/js/components/fieldtypes/bard/RemoveFormat.js
 /resources/js/components/fieldtypes/bard/Set.js
 /resources/js/components/fieldtypes/bard/Set.vue
+/resources/js/components/fieldtypes/bard/Small.js
 /resources/js/components/fieldtypes/bard/Source.vue
 /resources/js/components/fieldtypes/bard/Subscript.js
 /resources/js/components/fieldtypes/bard/Superscript.js
@@ -563,6 +567,7 @@
 /resources/js/store.js
 /resources/js/tests
 /resources/js/tests/FieldConditionsConverter.test.js
+/resources/js/tests/FieldConditionsOmitter.test.js
 /resources/js/tests/FieldConditionsValidator.test.js
 /resources/js/tests/Frontend
 /resources/js/tests/Frontend/FieldConditionsTest.test.js
@@ -658,6 +663,13 @@
 /resources/lang/ms/messages.php
 /resources/lang/ms/permissions.php
 /resources/lang/ms/validation.php
+/resources/lang/nb
+/resources/lang/nb/fieldtypes.php
+/resources/lang/nb.json
+/resources/lang/nb/markdown.php
+/resources/lang/nb/messages.php
+/resources/lang/nb/permissions.php
+/resources/lang/nb/validation.php
 /resources/lang/nl
 /resources/lang/nl/fieldtypes.php
 /resources/lang/nl.json
@@ -700,6 +712,13 @@
 /resources/lang/sv/messages.php
 /resources/lang/sv/permissions.php
 /resources/lang/sv/validation.php
+/resources/lang/zh_CN
+/resources/lang/zh_CN/fieldtypes.php
+/resources/lang/zh_CN.json
+/resources/lang/zh_CN/markdown.php
+/resources/lang/zh_CN/messages.php
+/resources/lang/zh_CN/permissions.php
+/resources/lang/zh_CN/validation.php
 /resources/lang/zh-TW
 /resources/lang/zh_TW
 /resources/lang/zh-TW/fieldtypes.php
@@ -833,6 +852,7 @@
 /resources/svg/book-open.svg
 /resources/svg/book-pages.svg
 /resources/svg/browser-com.svg
+/resources/svg/bullet.svg
 /resources/svg/burger.svg
 /resources/svg/button_group.svg
 /resources/svg/cache.svg
@@ -858,7 +878,9 @@
 /resources/svg/delete-col.svg
 /resources/svg/delete-row.svg
 /resources/svg/delete-table.svg
+/resources/svg/delete-x.svg
 /resources/svg/download.svg
+/resources/svg/drag-dots.svg
 /resources/svg/drawer-file.svg
 /resources/svg/duplicate-ids.svg
 /resources/svg/earth.svg
@@ -995,6 +1017,7 @@
 /resources/svg/shrink-vertical.svg
 /resources/svg/sites.svg
 /resources/svg/slug.svg
+/resources/svg/small.svg
 /resources/svg/sort-numeric.svg
 /resources/svg/statamic-logo-contained-horizontal.svg
 /resources/svg/statamic-logo-contained-stacked.svg
@@ -1092,6 +1115,7 @@
 /resources/views/extend/forms/fields/select.antlers.html
 /resources/views/extend/forms/fields/text.antlers.html
 /resources/views/extend/forms/fields/textarea.antlers.html
+/resources/views/extend/forms/fields/toggle.antlers.html
 /resources/views/fields
 /resources/views/fieldsets
 /resources/views/fieldsets/create.blade.php
@@ -1213,6 +1237,8 @@
 /src/Actions
 /src/Actions/Action.php
 /src/Actions/ActionRepository.php
+/src/Actions/CopyAssetUrl.php
+/src/Actions/CopyPasswordResetLink.php
 /src/Actions/DeleteMultisiteEntry.php
 /src/Actions/Delete.php
 /src/Actions/MoveAssetFolder.php
@@ -1735,6 +1761,7 @@
 /src/Facades/Folder.php
 /src/Facades/Form.php
 /src/Facades/Git.php
+/src/Facades/Glide.php
 /src/Facades/GlobalSet.php
 /src/Facades/GraphQL.php
 /src/Facades/Image.php
@@ -1801,6 +1828,8 @@
 /src/Fieldtypes/Bard/Buttons.php
 /src/Fieldtypes/Bard/ImageNode.php
 /src/Fieldtypes/Bard/LinkMark.php
+/src/Fieldtypes/Bard/Marks
+/src/Fieldtypes/Bard/Marks/Small.php
 /src/Fieldtypes/Bard.php
 /src/Fieldtypes/Bard/SetNode.php
 /src/Fieldtypes/Bard/StatamicImageNode.php
@@ -2227,7 +2256,9 @@
 /src/Ignition/Value.php
 /src/Imaging
 /src/Imaging/AssetNotFoundException.php
+/src/Imaging/Attributes.php
 /src/Imaging/GlideImageManipulator.php
+/src/Imaging/GlideManager.php
 /src/Imaging/GlideServer.php
 /src/Imaging/GlideUrlBuilder.php
 /src/Imaging/GuzzleAdapter.php
@@ -2308,6 +2339,7 @@
 /src/Providers/ApiServiceProvider.php
 /src/Providers/AppServiceProvider.php
 /src/Providers/AuthServiceProvider.php
+/src/Providers/BardServiceProvider.php
 /src/Providers/BroadcastServiceProvider.php
 /src/Providers/CacheServiceProvider.php
 /src/Providers/CollectionsServiceProvider.php
@@ -2780,6 +2812,7 @@
 /src/View/Antlers/Language/Parser
 /src/View/Antlers/Language/Parser/AntlersNodeParser.php
 /src/View/Antlers/Language/Parser/DocumentParser.php
+/src/View/Antlers/Language/Parser/DocumentTransformer.php
 /src/View/Antlers/Language/Parser/LanguageKeywords.php
 /src/View/Antlers/Language/Parser/LanguageParser.php
 /src/View/Antlers/Language/Parser/PathParser.php

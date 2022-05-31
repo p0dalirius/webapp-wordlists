@@ -78,12 +78,14 @@
 /resources/lang/id
 /resources/lang/it
 /resources/lang/ms
+/resources/lang/nb
 /resources/lang/nl
 /resources/lang/pl
 /resources/lang/pt
 /resources/lang/ru
 /resources/lang/sl
 /resources/lang/sv
+/resources/lang/zh_CN
 /resources/lang/zh-TW
 /resources/lang/zh_TW
 /resources/sass
@@ -210,6 +212,7 @@
 /src/Fieldtypes
 /src/Fieldtypes/Assets
 /src/Fieldtypes/Bard
+/src/Fieldtypes/Bard/Marks
 /src/Fieldtypes/Concerns
 /src/Filesystem
 /src/Forms
