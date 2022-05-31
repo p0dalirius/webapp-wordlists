@@ -255,6 +255,7 @@
 /Build/Resources/Public/Less/Webfont
 /Build/Resources/Public/Less/Webfont/share.less
 /ChangeLog
+/CODE_OF_CONDUCT.md
 /composer.json
 /composer.lock
 /CONTRIBUTING.md
@@ -4167,6 +4168,7 @@ space/foo.txt
 /typo3/sysext/aboutmodules/Resources/Public/Icons/module-aboutmodules.svg
 /typo3/sysext/aboutmodules/Resources/Public/Styles
 /typo3/sysext/aboutmodules/Resources/Public/Styles/styles.css
+/typo3/sysext/about/README.rst
 /typo3/sysext/about/Resources
 /typo3/sysext/about/Resources/Private
 /typo3/sysext/about/Resources/Private/.htaccess
@@ -4294,6 +4296,7 @@ space/foo.txt
 /typo3/sysext/adminpanel/Documentation/Configuration/Index.rst
 /typo3/sysext/adminpanel/Documentation/Extending
 /typo3/sysext/adminpanel/Documentation/Extending/Index.rst
+/typo3/sysext/adminpanel/Documentation/genindex.rst
 /typo3/sysext/adminpanel/Documentation/Images
 /typo3/sysext/adminpanel/Documentation/Images/EventDetails.png
 /typo3/sysext/adminpanel/Documentation/Images/Events.png
@@ -4307,6 +4310,7 @@ space/foo.txt
 /typo3/sysext/adminpanel/Documentation/Images/TSTreeSettings.png
 /typo3/sysext/adminpanel/Documentation/Images/UIAdminPanelBar.png
 /typo3/sysext/adminpanel/Documentation/Images/UIAdminPanel.png
+/typo3/sysext/adminpanel/Documentation/Includes.rst.txt
 /typo3/sysext/adminpanel/Documentation/Includes.txt
 /typo3/sysext/adminpanel/Documentation/Index.rst
 /typo3/sysext/adminpanel/Documentation/Inspecting
@@ -5461,6 +5465,7 @@ space/foo.txt
 /typo3/sysext/backend/Modules/Wizards/TableWizard
 /typo3/sysext/backend/Modules/Wizards/TableWizard/conf.php
 /typo3/sysext/backend/Modules/Wizards/TableWizard/index.php
+/typo3/sysext/backend/README.rst
 /typo3/sysext/backend/Resources
 /typo3/sysext/backend/Resources/Private
 /typo3/sysext/backend/Resources/Private/Language
@@ -6544,6 +6549,7 @@ space/foo.txt
 /typo3/sysext/belog/mod/locallang_mod.xml
 /typo3/sysext/belog/mod/locallang.xml
 /typo3/sysext/belog/mod/log.gif
+/typo3/sysext/belog/README.rst
 /typo3/sysext/belog/Resources
 /typo3/sysext/belog/Resources/Private
 /typo3/sysext/belog/Resources/Private/.htaccess
@@ -6668,6 +6674,7 @@ space/foo.txt
 /typo3/sysext/beuser/mod/locallang_mod.xlf
 /typo3/sysext/beuser/mod/locallang_mod.xml
 /typo3/sysext/beuser/mod/locallang.xlf
+/typo3/sysext/beuser/README.rst
 /typo3/sysext/beuser/Resources
 /typo3/sysext/beuser/Resources/Private
 /typo3/sysext/beuser/Resources/Private/.htaccess
@@ -8231,6 +8238,7 @@ space/foo.txt
 /typo3/sysext/core/Classes/Log/Exception/InvalidLogProcessorConfigurationException.php
 /typo3/sysext/core/Classes/Log/Exception/InvalidLogWriterConfigurationException.php
 /typo3/sysext/core/Classes/Log/Exception.php
+/typo3/sysext/core/Classes/Log/LogDataTrait.php
 /typo3/sysext/core/Classes/Log/Logger.php
 /typo3/sysext/core/Classes/Log/LogLevel.php
 /typo3/sysext/core/Classes/Log/LogManagerInterface.php
@@ -11472,6 +11480,8 @@ space/foo.txt
 /typo3/sysext/core/Documentation/Changelog/master/Important-89764-IncompatibleEnvironmentRelatedDependencyInjectionServicesHaveBeenRemoved.rst
 /typo3/sysext/core/Documentation/Changelog/master/Important-93854-AddDisabledOptionForAllowedAspectRatios.rst
 /typo3/sysext/core/Documentation/Changelog/master/Index.rst
+/typo3/sysext/core/Documentation/genindex.rst
+/typo3/sysext/core/Documentation/Includes.rst.txt
 /typo3/sysext/core/Documentation/Includes.txt
 /typo3/sysext/core/Documentation/Index.rst
 /typo3/sysext/core/Documentation/Master.rst
@@ -11479,6 +11489,7 @@ space/foo.txt
 /typo3/sysext/core/Documentation/Settings.yml
 /typo3/sysext/core/Documentation/Sitemap
 /typo3/sysext/core/Documentation/Sitemap/Index.rst
+/typo3/sysext/core/Documentation/Sitemap.rst
 /typo3/sysext/core/ext_autoload.php
 /typo3/sysext/core/ext_emconf.php
 /typo3/sysext/core/ext_icon.png
@@ -11493,6 +11504,7 @@ space/foo.txt
 /typo3/sysext/core/Migrations/Code/LegacyClassesForIde001.php
 /typo3/sysext/core/Migrations/Code/LegacyClassesForIde002.php
 /typo3/sysext/core/Migrations/Code/LegacyClassesForIde.php
+/typo3/sysext/core/README.rst
 /typo3/sysext/core/Resources
 /typo3/sysext/core/Resources/PHP
 /typo3/sysext/core/Resources/PHP/ClassMapGenerator.php
@@ -16598,6 +16610,7 @@ space/foo.txt
 /typo3/sysext/dashboard/Documentation/Developer/WidgetImplementation.rst
 /typo3/sysext/dashboard/Documentation/Editor
 /typo3/sysext/dashboard/Documentation/Editor/Index.rst
+/typo3/sysext/dashboard/Documentation/genindex.rst
 /typo3/sysext/dashboard/Documentation/Images
 /typo3/sysext/dashboard/Documentation/Images/AccessRestriction.png
 /typo3/sysext/dashboard/Documentation/Images/AddWidget.png
@@ -16607,6 +16620,7 @@ space/foo.txt
 /typo3/sysext/dashboard/Documentation/Images/WidgetDelete.png
 /typo3/sysext/dashboard/Documentation/Images/WidgetMove.png
 /typo3/sysext/dashboard/Documentation/Images/WidgetWizard.png
+/typo3/sysext/dashboard/Documentation/Includes.rst.txt
 /typo3/sysext/dashboard/Documentation/Includes.txt
 /typo3/sysext/dashboard/Documentation/Index.rst
 /typo3/sysext/dashboard/Documentation/Installation
@@ -16616,6 +16630,7 @@ space/foo.txt
 /typo3/sysext/dashboard/Documentation/Settings.cfg
 /typo3/sysext/dashboard/Documentation/Shared
 /typo3/sysext/dashboard/Documentation/Shared/DifferenceRegistrationAndImplementation.rst.txt
+/typo3/sysext/dashboard/Documentation/Sitemap.rst
 /typo3/sysext/dashboard/Documentation/Widgets
 /typo3/sysext/dashboard/Documentation/Widgets/BarChartWidget.rst
 /typo3/sysext/dashboard/Documentation/Widgets/CTAButtonWidget.rst
@@ -17827,6 +17842,7 @@ space/foo.txt
 /typo3/sysext/extbase/Migrations/Code
 /typo3/sysext/extbase/Migrations/Code/ClassAliasMap.php
 /typo3/sysext/extbase/Migrations/Code/LegacyClassesForIde.php
+/typo3/sysext/extbase/README.rst
 /typo3/sysext/extbase/Resources
 /typo3/sysext/extbase/Resources/Private
 /typo3/sysext/extbase/Resources/Private/.htaccess
@@ -18371,6 +18387,7 @@ space/foo.txt
 /typo3/sysext/extensionmanager/Migrations
 /typo3/sysext/extensionmanager/Migrations/Code
 /typo3/sysext/extensionmanager/Migrations/Code/ClassAliasMap.php
+/typo3/sysext/extensionmanager/README.rst
 /typo3/sysext/extensionmanager/Resources
 /typo3/sysext/extensionmanager/Resources/Private
 /typo3/sysext/extensionmanager/Resources/Private/.htaccess
@@ -18665,6 +18682,7 @@ space/foo.txt
 /typo3/sysext/felogin/Documentation/Events/Index.rst
 /typo3/sysext/felogin/Documentation/Examples
 /typo3/sysext/felogin/Documentation/Examples/Index.rst
+/typo3/sysext/felogin/Documentation/genindex.rst
 /typo3/sysext/felogin/Documentation/.gitignore
 /typo3/sysext/felogin/Documentation/Hooks
 /typo3/sysext/felogin/Documentation/Hooks/Index.rst
@@ -18675,6 +18693,7 @@ space/foo.txt
 /typo3/sysext/felogin/Documentation/Images/RedirectConfiguration.png
 /typo3/sysext/felogin/Documentation/Images/UserGroupRedirection.png
 /typo3/sysext/felogin/Documentation/Images/UserRedirection.png
+/typo3/sysext/felogin/Documentation/Includes.rst.txt
 /typo3/sysext/felogin/Documentation/Includes.txt
 /typo3/sysext/felogin/Documentation/Index.rst
 /typo3/sysext/felogin/Documentation/Introduction
@@ -18691,6 +18710,7 @@ space/foo.txt
 /typo3/sysext/felogin/Documentation/LoginMechanism/RedirectModes/Index.rst
 /typo3/sysext/felogin/Documentation/Settings.cfg
 /typo3/sysext/felogin/Documentation/Settings.yml
+/typo3/sysext/felogin/Documentation/Sitemap.rst
 /typo3/sysext/felogin/Documentation/Targets.rst
 /typo3/sysext/felogin/Documentation/UsersManual
 /typo3/sysext/felogin/Documentation/UsersManual/Index.rst
@@ -18807,6 +18827,7 @@ space/foo.txt
 /typo3/sysext/filelist/Modules
 /typo3/sysext/filelist/Modules/Filelist
 /typo3/sysext/filelist/Modules/Filelist/index.php
+/typo3/sysext/filelist/README.rst
 /typo3/sysext/filelist/Resources
 /typo3/sysext/filelist/Resources/Private
 /typo3/sysext/filelist/Resources/Private/Language
@@ -18856,6 +18877,7 @@ space/foo.txt
 /typo3/sysext/filemetadata/ext_localconf.php
 /typo3/sysext/filemetadata/ext_tables.sql
 /typo3/sysext/filemetadata/LICENSE.txt
+/typo3/sysext/filemetadata/README.rst
 /typo3/sysext/filemetadata/Resources
 /typo3/sysext/filemetadata/Resources/Private
 /typo3/sysext/filemetadata/Resources/Private/Language
@@ -19329,6 +19351,7 @@ space/foo.txt
 /typo3/sysext/fluid_styled_content/Documentation/FirstSteps/Index.rst
 /typo3/sysext/fluid_styled_content/Documentation/FrequentlyAskedQuestions
 /typo3/sysext/fluid_styled_content/Documentation/FrequentlyAskedQuestions/Index.rst
+/typo3/sysext/fluid_styled_content/Documentation/genindex.rst
 /typo3/sysext/fluid_styled_content/Documentation/Images
 /typo3/sysext/fluid_styled_content/Documentation/Images/AutomaticScreenshots
 /typo3/sysext/fluid_styled_content/Documentation/Images/AutomaticScreenshots/ContentElements
@@ -23919,6 +23942,48 @@ space/foo.txt
 /typo3/sysext/form/Documentation/Configuration/Rules/Uri/Index.rst
 /typo3/sysext/form/Documentation/Configuration/Rules/ValidationAttributes
 /typo3/sysext/form/Documentation/Configuration/Rules/ValidationAttributes/Index.rst
+/typo3/sysext/form/Documentation/D
+/typo3/sysext/form/Documentation/D/FinisherOptions
+/typo3/sysext/form/Documentation/D/FinisherOptions/Index.rst
+/typo3/sysext/form/Documentation/D/FormEditor
+/typo3/sysext/form/Documentation/D/FormEditor/Index.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractRenderable
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractRenderable/getRootForm.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractRenderable/setIdentifier.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractRenderable/setLabel.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractRenderable/setOptions.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractSection
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractSection/addElement.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractSection/getElementsRecursively.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractSection/getElements.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractSection/moveElementAfter.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractSection/moveElementBefore.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractSection/removeElement.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface/addValidator.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface/createValidator.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface/getDefaultValue.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface/getProperties.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface/getUniqueIdentifier.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface/initializeFormElement.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface/isRequired.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface/setDataType.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface/setDefaultValue.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface/setProperty.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface/setRenderingOption.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/Index.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/RenderableInterface
+/typo3/sysext/form/Documentation/D/FrontendRendering/RenderableInterface/getParentRenderable.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/RenderableInterface/getTemplateName.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/RenderableInterface/setParentRenderable.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/RootRenderableInterface
+/typo3/sysext/form/Documentation/D/FrontendRendering/RootRenderableInterface/getIdentifier.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/RootRenderableInterface/getLabel.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/RootRenderableInterface/getRendererClassName.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/RootRenderableInterface/getRenderingOptions.rst
+/typo3/sysext/form/Documentation/D/FrontendRendering/RootRenderableInterface/getType.rst
+/typo3/sysext/form/Documentation/D/Index.rst
 /typo3/sysext/form/Documentation/E
 /typo3/sysext/form/Documentation/E/FormElements
 /typo3/sysext/form/Documentation/E/FormElements/Images
@@ -24048,6 +24113,7 @@ space/foo.txt
 /typo3/sysext/form/Documentation/E/Validators/Index.rst
 /typo3/sysext/form/Documentation/FAQ
 /typo3/sysext/form/Documentation/FAQ/Index.rst
+/typo3/sysext/form/Documentation/genindex.rst
 /typo3/sysext/form/Documentation/.gitignore
 /typo3/sysext/form/Documentation/I
 /typo3/sysext/form/Documentation/I/ApiReference
@@ -25336,6 +25402,7 @@ space/foo.txt
 /typo3/sysext/form/Documentation/Settings.yml
 /typo3/sysext/form/Documentation/Sitemap
 /typo3/sysext/form/Documentation/Sitemap/Index.rst
+/typo3/sysext/form/Documentation/Sitemap.rst
 /typo3/sysext/form/Documentation/Targets.rst
 /typo3/sysext/form/Documentation/Tests
 /typo3/sysext/form/Documentation/Tests/Attributes
@@ -26443,6 +26510,7 @@ space/foo.txt
 /typo3/sysext/frontend/Migrations
 /typo3/sysext/frontend/Migrations/Code
 /typo3/sysext/frontend/Migrations/Code/ClassAliasMap.php
+/typo3/sysext/frontend/README.rst
 /typo3/sysext/frontend/Resources
 /typo3/sysext/frontend/Resources/PHP
 /typo3/sysext/frontend/Resources/PHP/Eid
@@ -26843,6 +26911,7 @@ space/foo.txt
 /typo3/sysext/impexp/doc
 /typo3/sysext/impexp/doc/TODO.txt
 /typo3/sysext/impexp/Documentation
+/typo3/sysext/impexp/Documentation/genindex.rst
 /typo3/sysext/impexp/Documentation/Images
 /typo3/sysext/impexp/Documentation/Images/AutomaticScreenshots
 /typo3/sysext/impexp/Documentation/Images/AutomaticScreenshots/CheckAndPerformImport.png
@@ -27404,6 +27473,7 @@ space/foo.txt
 /typo3/sysext/indexed_search/Documentation/DatabaseTables/IndexSection/Index.rst
 /typo3/sysext/indexed_search/Documentation/DatabaseTables/IndexWordsIndexRel
 /typo3/sysext/indexed_search/Documentation/DatabaseTables/IndexWordsIndexRel/Index.rst
+/typo3/sysext/indexed_search/Documentation/genindex.rst
 /typo3/sysext/indexed_search/Documentation/.gitignore
 /typo3/sysext/indexed_search/Documentation/Images
 /typo3/sysext/indexed_search/Documentation/Images/AdvancedSearchOptions.png
@@ -27442,6 +27512,7 @@ space/foo.txt
 /typo3/sysext/indexed_search/Documentation/Images/ViewResultsGrouped.png
 /typo3/sysext/indexed_search/Documentation/Images/ViewResultsLocalized.png
 /typo3/sysext/indexed_search/Documentation/Images/ViewResultsOrdered.png
+/typo3/sysext/indexed_search/Documentation/Includes.rst.txt
 /typo3/sysext/indexed_search/Documentation/Includes.txt
 /typo3/sysext/indexed_search/Documentation/IndexingConfigurations
 /typo3/sysext/indexed_search/Documentation/IndexingConfigurations/Configurations
@@ -27472,6 +27543,7 @@ space/foo.txt
 /typo3/sysext/indexed_search/Documentation/KnownProblems/Index.rst
 /typo3/sysext/indexed_search/Documentation/Settings.cfg
 /typo3/sysext/indexed_search/Documentation/Settings.yml
+/typo3/sysext/indexed_search/Documentation/Sitemap.rst
 /typo3/sysext/indexed_search/Documentation/Targets.rst
 /typo3/sysext/indexed_search/Documentation/TechnicalDetails
 /typo3/sysext/indexed_search/Documentation/TechnicalDetails/AccessRestrictedPages
@@ -27721,6 +27793,7 @@ space/foo.txt
 /typo3/sysext/info_pagetsconfig/Resources/Public/Images/cshimages/img_3.png
 /typo3/sysext/info_pagetsconfig/Resources/Public/Images/cshimages/img_4.png
 /typo3/sysext/info_pagetsconfig/Resources/Public/Images/cshimages/img_5.png
+/typo3/sysext/info/README.rst
 /typo3/sysext/info/Resources
 /typo3/sysext/info/Resources/Private
 /typo3/sysext/info/Resources/Private/Language
@@ -28262,6 +28335,7 @@ space/foo.txt
 /typo3/sysext/install/mod/locallang_mod.xml
 /typo3/sysext/install/mod/mod_styles.css
 /typo3/sysext/install/mod/mod_template.html
+/typo3/sysext/install/README.rst
 /typo3/sysext/install/report
 /typo3/sysext/install/report/class.tx_install_report_installstatus.php
 /typo3/sysext/install/report/locallang.xlf
@@ -29573,6 +29647,7 @@ space/foo.txt
 /typo3/sysext/linkvalidator/Documentation/Development/Index.rst
 /typo3/sysext/linkvalidator/Documentation/Editors
 /typo3/sysext/linkvalidator/Documentation/Editors/Index.rst
+/typo3/sysext/linkvalidator/Documentation/genindex.rst
 /typo3/sysext/linkvalidator/Documentation/.gitignore
 /typo3/sysext/linkvalidator/Documentation/Images
 /typo3/sysext/linkvalidator/Documentation/Images/ActivateLinkValidator.png
@@ -29582,6 +29657,7 @@ space/foo.txt
 /typo3/sysext/linkvalidator/Documentation/Images/EditorReports.png
 /typo3/sysext/linkvalidator/Documentation/Images/ReportsTab.png
 /typo3/sysext/linkvalidator/Documentation/Images/SchedulerTask.png
+/typo3/sysext/linkvalidator/Documentation/Includes.rst.txt
 /typo3/sysext/linkvalidator/Documentation/Includes.txt
 /typo3/sysext/linkvalidator/Documentation/Index.rst
 /typo3/sysext/linkvalidator/Documentation/Introduction
@@ -29592,6 +29668,7 @@ space/foo.txt
 /typo3/sysext/linkvalidator/Documentation/NextSteps/Index.rst
 /typo3/sysext/linkvalidator/Documentation/Settings.cfg
 /typo3/sysext/linkvalidator/Documentation/Settings.yml
+/typo3/sysext/linkvalidator/Documentation/Sitemap.rst
 /typo3/sysext/linkvalidator/Documentation/Targets.rst
 /typo3/sysext/linkvalidator/ext_autoload.php
 /typo3/sysext/linkvalidator/ext_emconf.php
@@ -29750,6 +29827,8 @@ space/foo.txt
 /typo3/sysext/lowlevel/doc
 /typo3/sysext/lowlevel/doc/TODO.txt
 /typo3/sysext/lowlevel/Documentation
+/typo3/sysext/lowlevel/Documentation/Includes.rst.txt
+/typo3/sysext/lowlevel/Documentation/Index.rst
 /typo3/sysext/lowlevel/Documentation/Settings.cfg
 /typo3/sysext/lowlevel/ext_emconf.php
 /typo3/sysext/lowlevel/ext_icon.gif
@@ -30039,6 +30118,7 @@ space/foo.txt
 /typo3/sysext/opendocs/opendocs.css
 /typo3/sysext/opendocs/opendocs.js
 /typo3/sysext/opendocs/opendocs.png
+/typo3/sysext/opendocs/README.rst
 /typo3/sysext/opendocs/registerToolbarItem.php
 /typo3/sysext/opendocs/Resources
 /typo3/sysext/opendocs/Resources/Private
@@ -30290,6 +30370,7 @@ space/foo.txt
 /typo3/sysext/recordlist/Modules/Wizards/ElementBrowserWizard
 /typo3/sysext/recordlist/Modules/Wizards/ElementBrowserWizard/conf.php
 /typo3/sysext/recordlist/Modules/Wizards/ElementBrowserWizard/index.php
+/typo3/sysext/recordlist/README.rst
 /typo3/sysext/recordlist/Resources
 /typo3/sysext/recordlist/Resources/Private
 /typo3/sysext/recordlist/Resources/Private/Language
@@ -30388,15 +30469,18 @@ space/foo.txt
 /typo3/sysext/recycler/Documentation
 /typo3/sysext/recycler/Documentation/Configuration
 /typo3/sysext/recycler/Documentation/Configuration/Index.rst
+/typo3/sysext/recycler/Documentation/genindex.rst
 /typo3/sysext/recycler/Documentation/.gitignore
 /typo3/sysext/recycler/Documentation/Images
 /typo3/sysext/recycler/Documentation/Images/RecyclerMainScreen.jpg
+/typo3/sysext/recycler/Documentation/Includes.rst.txt
 /typo3/sysext/recycler/Documentation/Includes.txt
 /typo3/sysext/recycler/Documentation/Index.rst
 /typo3/sysext/recycler/Documentation/Introduction
 /typo3/sysext/recycler/Documentation/Introduction/Index.rst
 /typo3/sysext/recycler/Documentation/Settings.cfg
 /typo3/sysext/recycler/Documentation/Settings.yml
+/typo3/sysext/recycler/Documentation/Sitemap.rst
 /typo3/sysext/recycler/Documentation/Targets.rst
 /typo3/sysext/recycler/ext_emconf.php
 /typo3/sysext/recycler/ext_icon.gif
@@ -30537,6 +30621,7 @@ space/foo.txt
 /typo3/sysext/redirects/Documentation/Basics/Index.rst
 /typo3/sysext/redirects/Documentation/BestPractices
 /typo3/sysext/redirects/Documentation/BestPractices/Index.rst
+/typo3/sysext/redirects/Documentation/genindex.rst
 /typo3/sysext/redirects/Documentation/Images
 /typo3/sysext/redirects/Documentation/Images/EditAction.png
 /typo3/sysext/redirects/Documentation/Images/RedirectActionButtons.png
@@ -30644,6 +30729,7 @@ space/foo.txt
 /typo3/sysext/reports/mod/mod_styles.css
 /typo3/sysext/reports/mod/mod_template.html
 /typo3/sysext/reports/mod/moduleicon.gif
+/typo3/sysext/reports/README.rst
 /typo3/sysext/reports/reports
 /typo3/sysext/reports/reports/class.tx_reports_reports_status.php
 /typo3/sysext/reports/reports/locallang.xlf
@@ -30878,6 +30964,8 @@ space/foo.txt
 /typo3/sysext/rte_ckeditor/Documentation/.editorconfig
 /typo3/sysext/rte_ckeditor/Documentation/GeneralConcepts
 /typo3/sysext/rte_ckeditor/Documentation/GeneralConcepts/Index.rst
+/typo3/sysext/rte_ckeditor/Documentation/genindex.rst
+/typo3/sysext/rte_ckeditor/Documentation/Includes.rst.txt
 /typo3/sysext/rte_ckeditor/Documentation/Includes.txt
 /typo3/sysext/rte_ckeditor/Documentation/Index.rst
 /typo3/sysext/rte_ckeditor/Documentation/Installation
@@ -39323,6 +39411,7 @@ space/foo.txt
 /typo3/sysext/scheduler/Documentation/DevelopersGuide/Index.rst
 /typo3/sysext/scheduler/Documentation/DevelopersGuide/SchedulerApi
 /typo3/sysext/scheduler/Documentation/DevelopersGuide/SchedulerApi/Index.rst
+/typo3/sysext/scheduler/Documentation/genindex.rst
 /typo3/sysext/scheduler/Documentation/.gitignore
 /typo3/sysext/scheduler/Documentation/Images
 /typo3/sysext/scheduler/Documentation/Images/AddingATask.png
@@ -39339,6 +39428,7 @@ space/foo.txt
 /typo3/sysext/scheduler/Documentation/Images/StoppingATask.png
 /typo3/sysext/scheduler/Documentation/Images/TableGarbageCollectionTaskConfiguration.png
 /typo3/sysext/scheduler/Documentation/Images/TaskConfigurationSelectClass.png
+/typo3/sysext/scheduler/Documentation/Includes.rst.txt
 /typo3/sysext/scheduler/Documentation/Includes.txt
 /typo3/sysext/scheduler/Documentation/Index.rst
 /typo3/sysext/scheduler/Documentation/Installation
@@ -39363,6 +39453,7 @@ space/foo.txt
 /typo3/sysext/scheduler/Documentation/Overview/Index.rst
 /typo3/sysext/scheduler/Documentation/Settings.cfg
 /typo3/sysext/scheduler/Documentation/Settings.yml
+/typo3/sysext/scheduler/Documentation/Sitemap.rst
 /typo3/sysext/scheduler/Documentation/Targets.rst
 /typo3/sysext/scheduler/Documentation/To-doList
 /typo3/sysext/scheduler/Documentation/To-doList/Index.rst
@@ -39532,6 +39623,7 @@ space/foo.txt
 /typo3/sysext/seo/Documentation/Editor/Index.rst
 /typo3/sysext/seo/Documentation/GeneralRecommendations
 /typo3/sysext/seo/Documentation/GeneralRecommendations/Index.rst
+/typo3/sysext/seo/Documentation/genindex.rst
 /typo3/sysext/seo/Documentation/Images
 /typo3/sysext/seo/Documentation/Images/em.png
 /typo3/sysext/seo/Documentation/Images/google-preview.png
@@ -39542,6 +39634,7 @@ space/foo.txt
 /typo3/sysext/seo/Documentation/Images/tab-meta-data.png
 /typo3/sysext/seo/Documentation/Images/tab-seo.png
 /typo3/sysext/seo/Documentation/Images/tab-social-media.png
+/typo3/sysext/seo/Documentation/Includes.rst.txt
 /typo3/sysext/seo/Documentation/Includes.txt
 /typo3/sysext/seo/Documentation/Index.rst
 /typo3/sysext/seo/Documentation/Installation
@@ -39549,6 +39642,7 @@ space/foo.txt
 /typo3/sysext/seo/Documentation/Introduction
 /typo3/sysext/seo/Documentation/Introduction/Index.rst
 /typo3/sysext/seo/Documentation/Settings.cfg
+/typo3/sysext/seo/Documentation/Sitemap.rst
 /typo3/sysext/seo/ext_emconf.php
 /typo3/sysext/seo/ext_localconf.php
 /typo3/sysext/seo/ext_tables.sql
@@ -39615,6 +39709,7 @@ space/foo.txt
 /typo3/sysext/setup/Modules
 /typo3/sysext/setup/Modules/Setup
 /typo3/sysext/setup/Modules/Setup/index.php
+/typo3/sysext/setup/README.rst
 /typo3/sysext/setup/Resources
 /typo3/sysext/setup/Resources/Private
 /typo3/sysext/setup/Resources/Private/Language
@@ -40217,6 +40312,7 @@ space/foo.txt
 /typo3/sysext/sys_note/locallang_tca.xlf
 /typo3/sysext/sys_note/locallang_tca.xml
 /typo3/sysext/sys_note/locallang.xlf
+/typo3/sysext/sys_note/README.rst
 /typo3/sysext/sys_note/Resources
 /typo3/sysext/sys_note/Resources/Private
 /typo3/sysext/sys_note/Resources/Private/Language
@@ -40299,6 +40395,7 @@ space/foo.txt
 /typo3/sysext/t3editor/Documentation/Developer/Extend.rst
 /typo3/sysext/t3editor/Documentation/Developer/Index.rst
 /typo3/sysext/t3editor/Documentation/Developer/TCA.rst
+/typo3/sysext/t3editor/Documentation/genindex.rst
 /typo3/sysext/t3editor/Documentation/Images
 /typo3/sysext/t3editor/Documentation/Images/AutomaticScreenshots
 /typo3/sysext/t3editor/Documentation/Images/AutomaticScreenshots/T3editor1.png
@@ -44178,6 +44275,7 @@ space/foo.txt
 /typo3/sysext/tstemplate_objbrowser/Migrations
 /typo3/sysext/tstemplate_objbrowser/Migrations/Code
 /typo3/sysext/tstemplate_objbrowser/Migrations/Code/ClassAliasMap.php
+/typo3/sysext/tstemplate/README.rst
 /typo3/sysext/tstemplate/Resources
 /typo3/sysext/tstemplate/Resources/Private
 /typo3/sysext/tstemplate/Resources/Private/Language
@@ -44372,6 +44470,7 @@ space/foo.txt
 /typo3/sysext/viewpage/ext_icon.png
 /typo3/sysext/viewpage/ext_tables.php
 /typo3/sysext/viewpage/LICENSE.txt
+/typo3/sysext/viewpage/README.rst
 /typo3/sysext/viewpage/Resources
 /typo3/sysext/viewpage/Resources/Private
 /typo3/sysext/viewpage/Resources/Private/Language
@@ -44619,6 +44718,7 @@ space/foo.txt
 /typo3/sysext/workspaces/Documentation/Administration/Workspaces/Index.rst
 /typo3/sysext/workspaces/Documentation/CustomWorkspace
 /typo3/sysext/workspaces/Documentation/CustomWorkspace/Index.rst
+/typo3/sysext/workspaces/Documentation/genindex.rst
 /typo3/sysext/workspaces/Documentation/.gitignore
 /typo3/sysext/workspaces/Documentation/Images
 /typo3/sysext/workspaces/Documentation/Images/ChangeInTheNextStage.png
@@ -44656,6 +44756,7 @@ space/foo.txt
 /typo3/sysext/workspaces/Documentation/Images/WorkspaceModuleOverview.png
 /typo3/sysext/workspaces/Documentation/Images/WorkspacePreviewIcon.png
 /typo3/sysext/workspaces/Documentation/Images/WorkspaceSplitPreview.png
+/typo3/sysext/workspaces/Documentation/Includes.rst.txt
 /typo3/sysext/workspaces/Documentation/Includes.txt
 /typo3/sysext/workspaces/Documentation/Index.rst
 /typo3/sysext/workspaces/Documentation/Introduction
@@ -44665,6 +44766,7 @@ space/foo.txt
 /typo3/sysext/workspaces/Documentation/manual.sxw
 /typo3/sysext/workspaces/Documentation/Settings.cfg
 /typo3/sysext/workspaces/Documentation/Settings.yml
+/typo3/sysext/workspaces/Documentation/Sitemap.rst
 /typo3/sysext/workspaces/Documentation/Targets.rst
 /typo3/sysext/workspaces/Documentation/UsersGuide
 /typo3/sysext/workspaces/Documentation/UsersGuide/Index.rst
@@ -47085,6 +47187,7 @@ space/foo.txt
 /vendor/doctrine/instantiator/phpmd.xml.dist
 /vendor/doctrine/instantiator/phpstan.neon.dist
 /vendor/doctrine/instantiator/phpunit.xml.dist
+/vendor/doctrine/instantiator/psalm.xml
 /vendor/doctrine/instantiator/README.md
 /vendor/doctrine/instantiator/.scrutinizer.yml
 /vendor/doctrine/instantiator/src
@@ -47506,6 +47609,8 @@ space/foo.txt
 /vendor/guzzlehttp/psr7/composer.json
 /vendor/guzzlehttp/psr7/.editorconfig
 /vendor/guzzlehttp/psr7/.github
+/vendor/guzzlehttp/psr7/.github/FUNDING.yml
+/vendor/guzzlehttp/psr7/.github/stale.yml
 /vendor/guzzlehttp/psr7/.github/workflows
 /vendor/guzzlehttp/psr7/.github/workflows/bc.yml
 /vendor/guzzlehttp/psr7/.github/workflows/ci.yml
@@ -47521,6 +47626,8 @@ space/foo.txt
 /vendor/guzzlehttp/psr7/src/BufferStream.php
 /vendor/guzzlehttp/psr7/src/CachingStream.php
 /vendor/guzzlehttp/psr7/src/DroppingStream.php
+/vendor/guzzlehttp/psr7/src/Exception
+/vendor/guzzlehttp/psr7/src/Exception/MalformedUriException.php
 /vendor/guzzlehttp/psr7/src/FnStream.php
 /vendor/guzzlehttp/psr7/src/functions_include.php
 /vendor/guzzlehttp/psr7/src/functions.php
@@ -48444,13 +48551,27 @@ space/foo.txt
 /vendor/phpdocumentor/type-resolver/src/FqsenResolver.php
 /vendor/phpdocumentor/type-resolver/src/PseudoType.php
 /vendor/phpdocumentor/type-resolver/src/PseudoTypes
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/CallableString.php
 /vendor/phpdocumentor/type-resolver/src/PseudoTypes/False_.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/HtmlEscapedString.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/IntegerRange.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/List_.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/LiteralString.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/LowercaseString.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NegativeInteger.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NonEmptyLowercaseString.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NonEmptyString.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/Numeric_.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/NumericString.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/PositiveInteger.php
+/vendor/phpdocumentor/type-resolver/src/PseudoTypes/TraitString.php
 /vendor/phpdocumentor/type-resolver/src/PseudoTypes/True_.php
 /vendor/phpdocumentor/type-resolver/src/Type.php
 /vendor/phpdocumentor/type-resolver/src/TypeResolver.php
 /vendor/phpdocumentor/type-resolver/src/Types
 /vendor/phpdocumentor/type-resolver/src/Types/AbstractList.php
 /vendor/phpdocumentor/type-resolver/src/Types/AggregatedType.php
+/vendor/phpdocumentor/type-resolver/src/Types/ArrayKey.php
 /vendor/phpdocumentor/type-resolver/src/Types/Array_.php
 /vendor/phpdocumentor/type-resolver/src/Types/Boolean.php
 /vendor/phpdocumentor/type-resolver/src/Types/Callable_.php
@@ -48462,9 +48583,11 @@ space/foo.txt
 /vendor/phpdocumentor/type-resolver/src/Types/Expression.php
 /vendor/phpdocumentor/type-resolver/src/Types/Float_.php
 /vendor/phpdocumentor/type-resolver/src/Types/Integer.php
+/vendor/phpdocumentor/type-resolver/src/Types/InterfaceString.php
 /vendor/phpdocumentor/type-resolver/src/Types/Intersection.php
 /vendor/phpdocumentor/type-resolver/src/Types/Iterable_.php
 /vendor/phpdocumentor/type-resolver/src/Types/Mixed_.php
+/vendor/phpdocumentor/type-resolver/src/Types/Never_.php
 /vendor/phpdocumentor/type-resolver/src/Types/Nullable.php
 /vendor/phpdocumentor/type-resolver/src/Types/Null_.php
 /vendor/phpdocumentor/type-resolver/src/Types/Object_.php
@@ -51702,10 +51825,12 @@ space/foo.txt
 /vendor/symfony/polyfill-php80/composer.json
 /vendor/symfony/polyfill-php80/LICENSE
 /vendor/symfony/polyfill-php80/Php80.php
+/vendor/symfony/polyfill-php80/PhpToken.php
 /vendor/symfony/polyfill-php80/README.md
 /vendor/symfony/polyfill-php80/Resources
 /vendor/symfony/polyfill-php80/Resources/stubs
 /vendor/symfony/polyfill-php80/Resources/stubs/Attribute.php
+/vendor/symfony/polyfill-php80/Resources/stubs/PhpToken.php
 /vendor/symfony/polyfill-php80/Resources/stubs/Stringable.php
 /vendor/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php
 /vendor/symfony/polyfill-php80/Resources/stubs/ValueError.php
@@ -51905,6 +52030,7 @@ space/foo.txt
 /vendor/symfony/service-contracts
 /vendor/symfony/service-contracts/Attribute
 /vendor/symfony/service-contracts/Attribute/Required.php
+/vendor/symfony/service-contracts/Attribute/SubscribedService.php
 /vendor/symfony/service-contracts/CHANGELOG.md
 /vendor/symfony/service-contracts/composer.json
 /vendor/symfony/service-contracts/LICENSE
@@ -52548,6 +52674,14 @@ space/foo.txt
 /versions/10.4.24/typo3_dirs.txt
 /versions/10.4.24/typo3_files.txt
 /versions/10.4.24/typo3.txt
+/versions/10.4.25
+/versions/10.4.25/typo3_dirs.txt
+/versions/10.4.25/typo3_files.txt
+/versions/10.4.25/typo3.txt
+/versions/10.4.26
+/versions/10.4.26/typo3_dirs.txt
+/versions/10.4.26/typo3_files.txt
+/versions/10.4.26/typo3.txt
 /versions/10.4.2/typo3_dirs.txt
 /versions/10.4.2/typo3_files.txt
 /versions/10.4.2/typo3.txt
@@ -52643,6 +52777,14 @@ space/foo.txt
 /versions/11.5.6/typo3_dirs.txt
 /versions/11.5.6/typo3_files.txt
 /versions/11.5.6/typo3.txt
+/versions/11.5.7
+/versions/11.5.7/typo3_dirs.txt
+/versions/11.5.7/typo3_files.txt
+/versions/11.5.7/typo3.txt
+/versions/11.5.8
+/versions/11.5.8/typo3_dirs.txt
+/versions/11.5.8/typo3_files.txt
+/versions/11.5.8/typo3.txt
 /versions/4.0.13
 /versions/4.0.13/typo3_dirs.txt
 /versions/4.0.13/typo3_files.txt
@@ -53224,6 +53366,10 @@ space/foo.txt
 /versions/8.7.45/typo3_dirs.txt
 /versions/8.7.45/typo3_files.txt
 /versions/8.7.45/typo3.txt
+/versions/8.7.46
+/versions/8.7.46/typo3_dirs.txt
+/versions/8.7.46/typo3_files.txt
+/versions/8.7.46/typo3.txt
 /versions/8.7.4/typo3_dirs.txt
 /versions/8.7.4/typo3_files.txt
 /versions/8.7.4/typo3.txt
@@ -53389,6 +53535,10 @@ space/foo.txt
 /versions/9.5.32/typo3_files.txt
 /versions/9.5.32/typo3.txt
 /versions/9.5.33
+/versions/9.5.33/typo3_dirs.txt
+/versions/9.5.33/typo3_files.txt
+/versions/9.5.33/typo3.txt
+/versions/9.5.34
 /versions/9.5.3/typo3_dirs.txt
 /versions/9.5.3/typo3_files.txt
 /versions/9.5.3/typo3.txt

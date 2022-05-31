@@ -3573,6 +3573,15 @@ space
 /typo3/sysext/form/Documentation/Configuration/Rules/Required
 /typo3/sysext/form/Documentation/Configuration/Rules/Uri
 /typo3/sysext/form/Documentation/Configuration/Rules/ValidationAttributes
+/typo3/sysext/form/Documentation/D
+/typo3/sysext/form/Documentation/D/FinisherOptions
+/typo3/sysext/form/Documentation/D/FormEditor
+/typo3/sysext/form/Documentation/D/FrontendRendering
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractRenderable
+/typo3/sysext/form/Documentation/D/FrontendRendering/AbstractSection
+/typo3/sysext/form/Documentation/D/FrontendRendering/FormElementInterface
+/typo3/sysext/form/Documentation/D/FrontendRendering/RenderableInterface
+/typo3/sysext/form/Documentation/D/FrontendRendering/RootRenderableInterface
 /typo3/sysext/form/Documentation/E
 /typo3/sysext/form/Documentation/E/FormElements
 /typo3/sysext/form/Documentation/E/FormElements/Images
@@ -7472,6 +7481,7 @@ space
 /vendor/guzzlehttp/psr7/.github
 /vendor/guzzlehttp/psr7/.github/workflows
 /vendor/guzzlehttp/psr7/src
+/vendor/guzzlehttp/psr7/src/Exception
 /vendor/guzzlehttp/psr7/vendor-bin
 /vendor/guzzlehttp/psr7/vendor-bin/php-cs-fixer
 /vendor/guzzlehttp/psr7/vendor-bin/phpstan
@@ -8083,6 +8093,8 @@ space
 /versions/10.4.22
 /versions/10.4.23
 /versions/10.4.24
+/versions/10.4.25
+/versions/10.4.26
 /versions/10.4.3
 /versions/10.4.4
 /versions/10.4.5
@@ -8106,6 +8118,8 @@ space
 /versions/11.5.4
 /versions/11.5.5
 /versions/11.5.6
+/versions/11.5.7
+/versions/11.5.8
 /versions/4.0.13
 /versions/6.0.0
 /versions/6.0.0alpha1
@@ -8252,6 +8266,7 @@ space
 /versions/8.7.43
 /versions/8.7.44
 /versions/8.7.45
+/versions/8.7.46
 /versions/8.7.5
 /versions/8.7.6
 /versions/8.7.7
@@ -8294,6 +8309,7 @@ space
 /versions/9.5.31
 /versions/9.5.32
 /versions/9.5.33
+/versions/9.5.34
 /versions/9.5.4
 /versions/9.5.5
 /versions/9.5.6
