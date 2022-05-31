@@ -1014,6 +1014,7 @@
 /core/modules/admin_bar/images/icon_users.png
 /core/modules/admin_bar/images/info-circle--white--64.png
 /core/modules/admin_bar/images/layer-group--white--64.png
+/core/modules/admin_bar/images/page--white--64.png
 /core/modules/admin_bar/images/palette--white--64.png
 /core/modules/admin_bar/images/pencil-alt--white--64.png
 /core/modules/admin_bar/images/pencil--white--64.png
@@ -1388,6 +1389,7 @@
 /core/modules/field/modules/number/number.module
 /core/modules/field/modules/number/number.test
 /core/modules/field/modules/number/number.tests.info
+/core/modules/field/modules/number/tests/number_settings.test
 /core/modules/field/modules/number/tests/number.test
 /core/modules/field/modules/number/tests/number.tests.info
 /core/modules/field/modules/options/css/options.css
@@ -2600,8 +2602,14 @@
 /core/profiles/minimal/minimal.install
 /core/profiles/minimal/minimal.profile
 /core/profiles/README.md
+/core/profiles/standard/config/field.instance.node.card.body.json
+/core/profiles/standard/config/image.style.card.json
 /core/profiles/standard/config/layout.layout.home.json
 /core/profiles/standard/config/layout.menu_item.home.json
+/core/profiles/standard/config/views.view.promoted_cards.json
+/core/profiles/standard/images/card1-layout.png
+/core/profiles/standard/images/card2-card.png
+/core/profiles/standard/images/card3-organize.png
 /core/profiles/standard/standard.info
 /core/profiles/standard/standard.install
 /core/profiles/standard/standard.profile
@@ -2658,6 +2666,7 @@
 /core/themes/basis/css/component/backdrop-form.css
 /core/themes/basis/css/component/breadcrumb.css
 /core/themes/basis/css/component/caption.css
+/core/themes/basis/css/component/cards.css
 /core/themes/basis/css/component/comment.css
 /core/themes/basis/css/component/dialog.css
 /core/themes/basis/css/component/fieldset.css
@@ -2810,6 +2819,7 @@
 /.github/misc/default.conf
 /.github/misc/settings.local.php
 /.github/misc/setup-php-fpm.sh
+/.github/pull_request_template.md
 /.github/workflows/functional-tests.yml
 /.gitignore
 /.htaccess
@@ -2850,4 +2860,5 @@
 /.tugboat/config.yml
 /.tugboat/delete-comments.sh
 /.tugboat/post-comment.sh
+/.tugboat/set-expiry.sh
 /.tugboat/settings.local.php

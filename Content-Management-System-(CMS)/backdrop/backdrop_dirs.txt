@@ -402,6 +402,7 @@
 /core/profiles/minimal
 /core/profiles/standard
 /core/profiles/standard/config
+/core/profiles/standard/images
 /core/profiles/testing
 /core/profiles/testing/modules
 /core/profiles/testing/modules/backdrop_system_listing_compatible_test
