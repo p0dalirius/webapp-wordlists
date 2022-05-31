@@ -194,6 +194,7 @@
 /css/includes/components/itilobject/_timeline.scss
 /css/includes/components/_kanban.scss
 /css/includes/components/_mini-tabs.scss
+/css/includes/components/_networkport.scss
 /css/includes/components/_pictures.scss
 /css/includes/components/_racks.scss
 /css/includes/components/_richtext.scss
@@ -1862,6 +1863,7 @@
 /install/migrations/update_9.5.x_to_10.0.0/savedsearch_alert.php
 /install/migrations/update_9.5.x_to_10.0.0/savedsearch.php
 /install/migrations/update_9.5.x_to_10.0.0/schema_fixes.php
+/install/migrations/update_9.5.x_to_10.0.0/slm.php
 /install/migrations/update_9.5.x_to_10.0.0/softwares.php
 /install/migrations/update_9.5.x_to_10.0.0/stock_thresholds.php
 /install/migrations/update_9.5.x_to_10.0.0/supplier.php
@@ -5645,6 +5647,11 @@
 /src/Console/Maintenance
 /src/Console/Maintenance/DisableMaintenanceModeCommand.php
 /src/Console/Maintenance/EnableMaintenanceModeCommand.php
+/src/Console/Marketplace
+/src/Console/Marketplace/AbstractMarketplaceCommand.php
+/src/Console/Marketplace/DownloadCommand.php
+/src/Console/Marketplace/InfoCommand.php
+/src/Console/Marketplace/SearchCommand.php
 /src/Console/Migration
 /src/Console/Migration/AbstractPluginToCoreCommand.php
 /src/Console/Migration/AppliancesPluginToCoreCommand.php
@@ -6330,6 +6337,7 @@
 /src/Timer.php
 /src/Toolbox
 /src/Toolbox/DataExport.php
+/src/Toolbox/FrontEnd.php
 /src/Toolbox/MarkdownBuilder.php
 /src/Toolbox.php
 /src/Toolbox/Sanitizer.php
@@ -6459,6 +6467,7 @@
 /templates/install/step7.html.twig
 /templates/install/step8.html.twig
 /templates/install/update.html.twig
+/templates/install/update.invalid_database.html.twig
 /templates/layout
 /templates/layout/page_card_notlogged.html.twig
 /templates/layout/parts
@@ -6628,6 +6637,7 @@
 /tests/functionnal/CommonDropdown.php
 /tests/functionnal/CommonITILRecurrent.php
 /tests/functionnal/CommonITILValidation.php
+/tests/functionnal/CommonTreeDropdown.php
 /tests/functionnal/Computer.php
 /tests/functionnal/Computer_SoftwareLicense.php
 /tests/functionnal/Computer_SoftwareVersion.php
@@ -6971,6 +6981,7 @@
 /tests/units/Glpi/System/Requirement/SessionsConfiguration.php
 /tests/units/Glpi/Toolbox
 /tests/units/Glpi/Toolbox/DataExport.php
+/tests/units/Glpi/Toolbox/FrontEnd.php
 /tests/units/Glpi/Toolbox/Sanitizer.php
 /tests/units/Glpi/Toolbox/VersionParser.php
 /tests/units/Html.php

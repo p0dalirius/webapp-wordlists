@@ -505,6 +505,7 @@
 /src/Console/Exception
 /src/Console/Ldap
 /src/Console/Maintenance
+/src/Console/Marketplace
 /src/Console/Migration
 /src/Console/Plugin
 /src/Console/Rules
