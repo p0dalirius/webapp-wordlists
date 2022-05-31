@@ -267,6 +267,11 @@
 /admin/tool/componentlibrary/content/static/library/getting-started
 /admin/tool/componentlibrary/content/static/moodle
 /admin/tool/componentlibrary/content/static/moodle/components
+/admin/tool/componentlibrary/content/static/moodle/components/activityicons
+/admin/tool/componentlibrary/content/static/moodle/components/activityicons/choice
+/admin/tool/componentlibrary/content/static/moodle/components/activityicons/lesson
+/admin/tool/componentlibrary/content/static/moodle/components/activityicons/quiz
+/admin/tool/componentlibrary/content/static/moodle/components/activityicons/wiki
 /admin/tool/componentlibrary/content/static/moodle/components/coursecards
 /admin/tool/componentlibrary/content/static/moodle/getting-started
 /admin/tool/componentlibrary/examples
@@ -2435,6 +2440,7 @@
 /enrol/lti/ims-blti
 /enrol/lti/lang
 /enrol/lti/lang/en
+/enrol/lti/pix
 /enrol/lti/templates
 /enrol/lti/templates/local
 /enrol/lti/templates/local/ltiadvantage
@@ -7147,6 +7153,7 @@
 /lib/tests/content/export
 /lib/tests/content/export/exportable_items
 /lib/tests/content/export/exporters
+/lib/tests/db
 /lib/tests/event
 /lib/tests/external
 /lib/tests/external/output
@@ -12431,6 +12438,7 @@
 /mod/assign/classes/cache
 /mod/assign/classes/completion
 /mod/assign/classes/event
+/mod/assign/classes/external
 /mod/assign/classes/grades
 /mod/assign/classes/local
 /mod/assign/classes/local/views
@@ -12597,6 +12605,7 @@
 /mod/assign/tests/backup
 /mod/assign/tests/behat
 /mod/assign/tests/event
+/mod/assign/tests/external
 /mod/assign/tests/fixtures
 /mod/assign/tests/generator
 /mod/assign/tests/privacy
@@ -12623,6 +12632,7 @@
 /mod/bigbluebuttonbn/classes/completion
 /mod/bigbluebuttonbn/classes/event
 /mod/bigbluebuttonbn/classes/external
+/mod/bigbluebuttonbn/classes/form
 /mod/bigbluebuttonbn/classes/local
 /mod/bigbluebuttonbn/classes/local/bigbluebutton
 /mod/bigbluebuttonbn/classes/local/bigbluebutton/recordings
@@ -13088,6 +13098,7 @@
 /mod/h5pactivity/classes/output
 /mod/h5pactivity/classes/output/result
 /mod/h5pactivity/classes/privacy
+/mod/h5pactivity/classes/search
 /mod/h5pactivity/classes/xapi
 /mod/h5pactivity/db
 /mod/h5pactivity/lang

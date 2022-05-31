@@ -320,6 +320,7 @@
 /admin/roles/role_schema.xml
 /admin/roles/tabs.php
 /admin/roles/tests/behat/override_roles_highlighting.feature
+/admin/roles/tests/behat/siteadmin_roles_breadcrumbs.feature
 /admin/roles/tests/preset_test.php
 /admin/roles/tests/privacy/provider_test.php
 /admin/roles/tests/privacy_test.php
@@ -360,6 +361,7 @@
 /admin/stickyblocks.php
 /admin/tasklogs.php
 /admin/teacher.php
+/admin/templates/header_search_input.mustache
 /admin/templates/local/settings/autocomplete.mustache
 /admin/templates/setting_configcheckbox.mustache
 /admin/templates/setting_configcolourpicker.mustache
@@ -410,6 +412,8 @@
 /admin/tests/behat/search_areas.feature
 /admin/tests/behat/set_admin_settings_value.feature
 /admin/tests/behat/site_administration.feature
+/admin/tests/behat/siteadmin_webservice_breadcrumbs.feature
+/admin/tests/behat/siteadmin_webservice_token_breadcrumbs.feature
 /admin/tests/behat/task_logs.feature
 /admin/tests/behat/upload_users.feature
 /admin/tests/behat/webservice_users.feature
@@ -515,6 +519,7 @@
 /admin/tool/analytics/templates/models_list.mustache
 /admin/tool/analytics/templates/restorable_models.mustache
 /admin/tool/analytics/tests/behat/restoredefault.feature
+/admin/tool/analytics/tests/behat/siteadmin_analytics_breadcrumbs.feature
 /admin/tool/analytics/tests/external/external_test.php
 /admin/tool/analytics/tests/external_test.php
 /admin/tool/analytics/version.php
@@ -848,6 +853,7 @@
 /admin/tool/brickfield/tests/registration_test.php
 /admin/tool/brickfield/tests/scheduler_test.php
 /admin/tool/brickfield/tests/tool_test.php
+/admin/tool/brickfield/upgrade.txt
 /admin/tool/brickfield/version.php
 /admin/tool/capability/classes/event/report_viewed.php
 /admin/tool/capability/classes/privacy/provider.php
@@ -991,6 +997,7 @@
 /admin/tool/componentlibrary/content/moodle/accessibility/_index.md
 /admin/tool/componentlibrary/content/moodle/accessibility/keyboard-access.md
 /admin/tool/componentlibrary/content/moodle/accessibility/links.md
+/admin/tool/componentlibrary/content/moodle/components/activityicons.md
 /admin/tool/componentlibrary/content/moodle/components/buttons.md
 /admin/tool/componentlibrary/content/moodle/components/coursecards.md
 /admin/tool/componentlibrary/content/moodle/components/dom-modal.md
@@ -1021,6 +1028,10 @@
 /admin/tool/componentlibrary/content/static/bootstrap/browserlistrc
 /admin/tool/componentlibrary/content/static/library/adding-images/wildebeest-1200.jpg
 /admin/tool/componentlibrary/content/static/library/getting-started/logo.png
+/admin/tool/componentlibrary/content/static/moodle/components/activityicons/choice/icon.svg
+/admin/tool/componentlibrary/content/static/moodle/components/activityicons/lesson/icon.svg
+/admin/tool/componentlibrary/content/static/moodle/components/activityicons/quiz/icon.svg
+/admin/tool/componentlibrary/content/static/moodle/components/activityicons/wiki/icon.svg
 /admin/tool/componentlibrary/content/static/moodle/components/coursecards/placeholder-10.txt
 /admin/tool/componentlibrary/content/static/moodle/components/coursecards/placeholder-1.txt
 /admin/tool/componentlibrary/content/static/moodle/components/coursecards/placeholder-2.txt
@@ -1132,6 +1143,7 @@
 /admin/tool/customlang/tests/behat/export.feature
 /admin/tool/customlang/tests/behat/import_files.feature
 /admin/tool/customlang/tests/behat/import_mode.feature
+/admin/tool/customlang/tests/behat/siteadmin_custom_breadcrumbs.feature
 /admin/tool/customlang/tests/fixtures/customlang.zip
 /admin/tool/customlang/tests/fixtures/mod_fakecomponent.php
 /admin/tool/customlang/tests/fixtures/moodle.php
@@ -1305,6 +1317,7 @@
 /admin/tool/dataprivacy/tests/behat/manage_purposes.feature
 /admin/tool/dataprivacy/tests/behat/my_data_requests.feature
 /admin/tool/dataprivacy/tests/behat/protecteddelete.feature
+/admin/tool/dataprivacy/tests/behat/siteadmin_privacy_breadcrumbs.feature
 /admin/tool/dataprivacy/tests/coverage.php
 /admin/tool/dataprivacy/tests/data_privacy_testcase.php
 /admin/tool/dataprivacy/tests/data_registry_test.php
@@ -1345,6 +1358,7 @@
 /admin/tool/filetypes/settings.php
 /admin/tool/filetypes/styles.css
 /admin/tool/filetypes/tests/behat/add_filetypes.feature
+/admin/tool/filetypes/tests/behat/siteadmin_filetype_breadcrumbs.feature
 /admin/tool/filetypes/tests/fixtures/frog-24.png
 /admin/tool/filetypes/tests/fixtures/frog-48.png
 /admin/tool/filetypes/tests/fixtures/test.frog
@@ -1931,6 +1945,7 @@
 /admin/tool/monitor/tests/behat/course_report_monitor.feature
 /admin/tool/monitor/tests/behat/disabled.feature
 /admin/tool/monitor/tests/behat/rule.feature
+/admin/tool/monitor/tests/behat/siteadmin_monitor_breadcrumbs.feature
 /admin/tool/monitor/tests/behat/subscription.feature
 /admin/tool/monitor/tests/event/events_test.php
 /admin/tool/monitor/tests/eventobservers_test.php
@@ -1981,6 +1996,7 @@
 /admin/tool/moodlenet/classes/profile_manager.php
 /admin/tool/moodlenet/classes/task/post_install.php
 /admin/tool/moodlenet/classes/task/send_enable_notification.php
+/admin/tool/moodlenet/classes/task/send_mnet_profiles_data_removed_notification.php
 /admin/tool/moodlenet/db/install.php
 /admin/tool/moodlenet/db/services.php
 /admin/tool/moodlenet/db/upgrade.php
@@ -2316,6 +2332,7 @@
 /admin/tool/uploadcourse/tests/fixtures/enrolment_delete.csv
 /admin/tool/uploadcourse/tests/fixtures/enrolment_disable.csv
 /admin/tool/uploadcourse/tests/fixtures/enrolment_enable.csv
+/admin/tool/uploadcourse/tests/fixtures/enrolment_role.csv
 /admin/tool/uploadcourse/tests/helper_test.php
 /admin/tool/uploadcourse/tests/processor_test.php
 /admin/tool/uploadcourse/version.php
@@ -2434,6 +2451,7 @@
 /admin/tool/usertours/tests/behat/create_tour.feature
 /admin/tool/usertours/tests/behat/duplicate_tour.feature
 /admin/tool/usertours/tests/behat/reset_tour.feature
+/admin/tool/usertours/tests/behat/siteadmin_tour_breadcrumbs.feature
 /admin/tool/usertours/tests/behat/tour_accessibility.feature
 /admin/tool/usertours/tests/behat/tour_content_type.feature
 /admin/tool/usertours/tests/behat/tour_filter.feature
@@ -5140,6 +5158,7 @@ box.jpg
 /cache/testperformance.php
 /cache/tests/administration_helper_test.php
 /cache/tests/behat/perf_info.feature
+/cache/tests/behat/siteadmin_cache_breadcrumbs.feature
 /cache/tests/behat/usage.feature
 /cache/tests/cache_test.php
 /cache/tests/config_writer_test.php
@@ -5679,6 +5698,8 @@ Charting
 /course/amd/build/downloadcontent.min.js.map
 /course/amd/build/events.min.js
 /course/amd/build/events.min.js.map
+/course/amd/build/formatchooser.min.js
+/course/amd/build/formatchooser.min.js.map
 /course/amd/build/local/activitychooser/dialogue.min.js
 /course/amd/build/local/activitychooser/dialogue.min.js.map
 /course/amd/build/local/activitychooser/repository.min.js
@@ -5700,6 +5721,7 @@ Charting
 /course/amd/src/copy_modal.js
 /course/amd/src/downloadcontent.js
 /course/amd/src/events.js
+/course/amd/src/formatchooser.js
 /course/amd/src/local/activitychooser/dialogue.js
 /course/amd/src/local/activitychooser/repository.js
 /course/amd/src/local/activitychooser/selectors.js
@@ -5755,6 +5777,7 @@ Charting
 /course/classes/output/activity_navigation.php
 /course/classes/output/bulk_activity_completion_renderer.php
 /course/classes/output/category_action_bar.php
+/course/classes/output/completion_action_bar.php
 /course/classes/output/content_export_link.php
 /course/classes/output/course_module_name.php
 /course/classes/output/manage_categories_action_bar.php
@@ -5957,6 +5980,7 @@ Charting
 /course/format/tests/behat/courseindex_keyboardnav.feature
 /course/format/tests/behat/movecm_keyboard.feature
 /course/format/tests/behat/movesection_keyboard.feature
+/course/format/tests/behat/section_visibility.feature
 /course/format/tests/external/get_state_test.php
 /course/format/tests/external/update_course_test.php
 /course/format/tests/fixtures/format_theunittest_output_course_format_invalidoutput.php
@@ -6137,6 +6161,7 @@ Charting
 /course/templates/activity_navigation.mustache
 /course/templates/bulkactivitycompletion.mustache
 /course/templates/category_actionbar.mustache
+/course/templates/completion_action_bar.mustache
 /course/templates/completion_automatic.mustache
 /course/templates/completion_manual.mustache
 /course/templates/coursecard.mustache
@@ -6213,6 +6238,7 @@ Charting
 /course/tests/behat/paged_course_navigation.feature
 /course/tests/behat/recommend_activities.feature
 /course/tests/behat/rename_roles.feature
+/course/tests/behat/report_navigation.feature
 /course/tests/behat/restrict_available_activities.feature
 /course/tests/behat/role_renaming.feature
 /course/tests/behat/search_recommended_activities.feature
@@ -6226,6 +6252,7 @@ Charting
 /course/tests/content_item_readonly_repository_test.php
 /course/tests/content_item_test.php
 /course/tests/course_delete_modules_test.php
+/course/tests/course_format_function_test.php
 /course/tests/courseformat_test.php
 /course/tests/course_image_cache_test.php
 /course/tests/courselib_test.php
@@ -6695,6 +6722,7 @@ Charting
 /enrol/lti/classes/local/ltiadvantage/entity/user.php
 /enrol/lti/classes/local/ltiadvantage/external/delete_registration_url.php
 /enrol/lti/classes/local/ltiadvantage/external/get_registration_url.php
+/enrol/lti/classes/local/ltiadvantage/form/create_registration_form.php
 /enrol/lti/classes/local/ltiadvantage/form/deployment_form.php
 /enrol/lti/classes/local/ltiadvantage/form/platform_registration_form.php
 /enrol/lti/classes/local/ltiadvantage/lib/http_client.php
@@ -6749,6 +6777,10 @@ Charting
 /enrol/lti/lib.php
 /enrol/lti/login.php
 /enrol/lti/manage_deployment.php
+/enrol/lti/pix/managedeployments.png
+/enrol/lti/pix/managedeployments.svg
+/enrol/lti/pix/platformdetails.png
+/enrol/lti/pix/platformdetails.svg
 /enrol/lti/proxy.php
 /enrol/lti/register.php
 /enrol/lti/register_platform.php
@@ -6756,8 +6788,12 @@ Charting
 /enrol/lti/styles.css
 /enrol/lti/templates/copy_grid.mustache
 /enrol/lti/templates/local/ltiadvantage/content_select.mustache
+/enrol/lti/templates/local/ltiadvantage/deployments.mustache
+/enrol/lti/templates/local/ltiadvantage/platform_details.mustache
 /enrol/lti/templates/local/ltiadvantage/registered_deployments.mustache
 /enrol/lti/templates/local/ltiadvantage/registered_platforms.mustache
+/enrol/lti/templates/local/ltiadvantage/registration_view.mustache
+/enrol/lti/templates/local/ltiadvantage/tool_details.mustache
 /enrol/lti/templates/local/ltiadvantage/tool_endpoints.mustache
 /enrol/lti/templates/proxy_registration.mustache
 /enrol/lti/tests/behat/basic_settings.feature
@@ -7816,6 +7852,8 @@ Charting
 /grade/tests/behat/grade_to_pass.feature
 /grade/tests/behat/grade_UI_settings.feature
 /grade/tests/behat/grade_view.feature
+/grade/tests/behat/siteadmin_grades_outcomes_breadcrumbs.feature
+/grade/tests/behat/siteadmin_grades_scale_breadcrumbs.feature
 /grade/tests/component_gradeitems_test.php
 /grade/tests/component_gradeitem_test.php
 /grade/tests/coverage.php
@@ -32128,6 +32166,7 @@ Libraries.txt
 /lib/templates/popover_region.mustache
 /lib/templates/preferences_groups.mustache
 /lib/templates/progress_bar.mustache
+/lib/templates/report_link_page.mustache
 /lib/templates/search_input_auto.mustache
 /lib/templates/search_input.mustache
 /lib/templates/search_input_navbar.mustache
@@ -32189,6 +32228,7 @@ Libraries.txt
 /lib/tests/behat/behat_permissions.php
 /lib/tests/behat/behat_transformations.php
 /lib/tests/behat/datetime_any.feature
+/lib/tests/behat/enabledashboard.feature
 /lib/tests/behat/largeforms.feature
 /lib/tests/behat_lib_test.php
 /lib/tests/behat/locking.feature
@@ -32218,6 +32258,7 @@ Libraries.txt
 /lib/tests/content/export/exporters/course_exporter_test.php
 /lib/tests/content/export/zipwriter_test.php
 /lib/tests/content_test.php
+/lib/tests/context_block_test.php
 /lib/tests/core_media_player_native.php
 /lib/tests/core_media_player_native_test.php
 /lib/tests/core_renderer_template_exploit_test.php
@@ -32233,6 +32274,7 @@ Libraries.txt
 /lib/tests/datalib_update_with_unique_index_test.php
 /lib/tests/date_legacy_test.php
 /lib/tests/date_test.php
+/lib/tests/db/upgradelib_test.php
 /lib/tests/editorlib_test.php
 /lib/tests/encryption_test.php
 /lib/tests/environment_test.php
@@ -51209,6 +51251,8 @@ Libraries.txt
 /mod/assign/classes/event/user_override_deleted.php
 /mod/assign/classes/event/user_override_updated.php
 /mod/assign/classes/event/workflow_state_updated.php
+/mod/assign/classes/external/external_api.php
+/mod/assign/classes/external/start_submission.php
 /mod/assign/classes/grades/gradeitems.php
 /mod/assign/classes/group_observers.php
 /mod/assign/classes/local/views/secondary.php
@@ -51542,6 +51586,8 @@ Libraries.txt
 /mod/assignment/pix/icon.gif
 /mod/assignment/pix/icon.png
 /mod/assignment/pix/icon.svg
+/mod/assignment/pix/monologo.png
+/mod/assignment/pix/monologo.svg
 /mod/assignment/renderer.php
 /mod/assignment/restorelib.php
 /mod/assignment/settings.php
@@ -51616,6 +51662,8 @@ Libraries.txt
 /mod/assign/pix/layout-expand-left.svg
 /mod/assign/pix/layout-expand-right.png
 /mod/assign/pix/layout-expand-right.svg
+/mod/assign/pix/monologo.png
+/mod/assign/pix/monologo.svg
 /mod/assign/portfolio_callback.php
 /mod/assign/quickgradingform.php
 /mod/assign/renderable.php
@@ -51746,7 +51794,9 @@ Libraries.txt
 /mod/assign/tests/event/events_test.php
 /mod/assign/tests/events_test.php
 /mod/assign/tests/event_test.php
+/mod/assign/tests/externallib_advanced_testcase.php
 /mod/assign/tests/externallib_test.php
+/mod/assign/tests/external/start_submission_test.php
 /mod/assign/tests/feedback_test.php
 /mod/assign/tests/fixtures/event_mod_assign_fixtures.php
 /mod/assign/tests/fixtures/testable_assign.php
@@ -51800,6 +51850,8 @@ Libraries.txt
 /mod/attendance/viewall.php
 /mod/attendance/view.php
 /mod/attendance/viewweek.php
+/mod/bigbluebuttonbn/amd/build/accept_dpa.min.js
+/mod/bigbluebuttonbn/amd/build/accept_dpa.min.js.map
 /mod/bigbluebuttonbn/amd/build/actions.min.js
 /mod/bigbluebuttonbn/amd/build/actions.min.js.map
 /mod/bigbluebuttonbn/amd/build/events.min.js
@@ -51816,6 +51868,7 @@ Libraries.txt
 /mod/bigbluebuttonbn/amd/build/rooms.min.js.map
 /mod/bigbluebuttonbn/amd/build/roomupdater.min.js
 /mod/bigbluebuttonbn/amd/build/roomupdater.min.js.map
+/mod/bigbluebuttonbn/amd/src/accept_dpa.js
 /mod/bigbluebuttonbn/amd/src/actions.js
 /mod/bigbluebuttonbn/amd/src/events.js
 /mod/bigbluebuttonbn/amd/src/index.js
@@ -51862,6 +51915,7 @@ Libraries.txt
 /mod/bigbluebuttonbn/classes/external/meeting_info.php
 /mod/bigbluebuttonbn/classes/external/update_recording.php
 /mod/bigbluebuttonbn/classes/external/view_bigbluebuttonbn.php
+/mod/bigbluebuttonbn/classes/form/accept_dpa.php
 /mod/bigbluebuttonbn/classes/instance.php
 /mod/bigbluebuttonbn/classes/local/bigbluebutton/recordings/recording_action.php
 /mod/bigbluebuttonbn/classes/local/bigbluebutton/recordings/recording_data.php
@@ -51902,14 +51956,17 @@ Libraries.txt
 /mod/bigbluebuttonbn/classes/task/check_pending_recordings.php
 /mod/bigbluebuttonbn/classes/task/completion_update_state.php
 /mod/bigbluebuttonbn/classes/task/reset_recordings.php
+/mod/bigbluebuttonbn/classes/task/send_bigbluebutton_module_disabled_notification.php
 /mod/bigbluebuttonbn/classes/task/send_notification.php
 /mod/bigbluebuttonbn/classes/task/send_recording_ready_notification.php
 /mod/bigbluebuttonbn/classes/task/upgrade_imported_recordings.php
 /mod/bigbluebuttonbn/classes/task/upgrade_recording_base_task.php
 /mod/bigbluebuttonbn/classes/task/upgrade_recordings.php
+/mod/bigbluebuttonbn/classes/task/upgrade_recordings_task.php
 /mod/bigbluebuttonbn/classes/test/testcase_helper_trait.php
 /mod/bigbluebuttonbn/db/access.php
 /mod/bigbluebuttonbn/db/caches.php
+/mod/bigbluebuttonbn/db/install.php
 /mod/bigbluebuttonbn/db/install.xml
 /mod/bigbluebuttonbn/db/log.php
 /mod/bigbluebuttonbn/db/messages.php
@@ -51925,6 +51982,8 @@ Libraries.txt
 /mod/bigbluebuttonbn/mod_form.php
 /mod/bigbluebuttonbn/pix/icon.png
 /mod/bigbluebuttonbn/pix/icon.svg
+/mod/bigbluebuttonbn/pix/monologo.png
+/mod/bigbluebuttonbn/pix/monologo.svg
 /mod/bigbluebuttonbn/settings.php
 /mod/bigbluebuttonbn/styles.css
 /mod/bigbluebuttonbn/templates/end_session_button.mustache
@@ -51988,6 +52047,7 @@ Libraries.txt
 /mod/bigbluebuttonbn/tests/task/send_notification_test.php
 /mod/bigbluebuttonbn/tests/task/send_recording_ready_notification_test.php
 /mod/bigbluebuttonbn/tests/task/upgrade_recordings_imported_test.php
+/mod/bigbluebuttonbn/tests/task/upgrade_recordings_task_test.php
 /mod/bigbluebuttonbn/tests/task/upgrade_recordings_test.php
 /mod/bigbluebuttonbn/version.php
 /mod/bigbluebuttonbn/view.php
@@ -52037,6 +52097,8 @@ Libraries.txt
 /mod/book/pix/chapter.png
 /mod/book/pix/icon.png
 /mod/book/pix/icon.svg
+/mod/book/pix/monologo.png
+/mod/book/pix/monologo.svg
 /mod/book/pix/nav_exit.png
 /mod/book/pix/nav_exit.svg
 /mod/book/pix/nav_next_dis.png
@@ -52208,6 +52270,8 @@ Libraries.txt
 /mod/chat/pix/icon.gif
 /mod/chat/pix/icon.png
 /mod/chat/pix/icon.svg
+/mod/chat/pix/monologo.png
+/mod/chat/pix/monologo.svg
 /mod/chat/README.txt
 /mod/chat/renderer.php
 /mod/chat/report.php
@@ -52289,6 +52353,8 @@ Libraries.txt
 /mod/choice/pix/icon.gif
 /mod/choice/pix/icon.png
 /mod/choice/pix/icon.svg
+/mod/choice/pix/monologo.png
+/mod/choice/pix/monologo.svg
 /mod/choice/pix/row.png
 /mod/choice/renderer.php
 /mod/choice/report.php
@@ -52506,6 +52572,8 @@ Libraries.txt
 /mod/data/pix/icon.gif
 /mod/data/pix/icon.png
 /mod/data/pix/icon.svg
+/mod/data/pix/monologo.png
+/mod/data/pix/monologo.svg
 /mod/data/preset_class.php
 /mod/data/preset_form.php
 /mod/data/preset/imagegallery/addtemplate.html
@@ -52745,6 +52813,8 @@ Libraries.txt
 /mod/feedback/pix/icon.gif
 /mod/feedback/pix/icon.png
 /mod/feedback/pix/icon.svg
+/mod/feedback/pix/monologo.png
+/mod/feedback/pix/monologo.svg
 /mod/feedback/pix/multichoice/0.gif
 /mod/feedback/pix/multichoice/1.gif
 /mod/feedback/pix/multichoice/2.gif
@@ -52849,6 +52919,8 @@ Libraries.txt
 /mod/folder/pix/icon.gif
 /mod/folder/pix/icon.png
 /mod/folder/pix/icon.svg
+/mod/folder/pix/monologo.png
+/mod/folder/pix/monologo.svg
 /mod/folder/readme.txt
 /mod/folder/renderer.php
 /mod/folder/settings.php
@@ -53093,6 +53165,8 @@ Libraries.txt
 /mod/forum/pix/icon.svg
 /mod/forum/pix/i/pinned.png
 /mod/forum/pix/i/pinned.svg
+/mod/forum/pix/monologo.png
+/mod/forum/pix/monologo.svg
 /mod/forum/pix/no-posts.png
 /mod/forum/pix/no-posts.svg
 /mod/forum/pix/no-search-results.png
@@ -53244,6 +53318,7 @@ Libraries.txt
 /mod/forum/tests/behat/discussion_display.feature
 /mod/forum/tests/behat/discussion_lock.feature
 /mod/forum/tests/behat/discussion_navigation.feature
+/mod/forum/tests/behat/discussion_post_threshold_warning.feature
 /mod/forum/tests/behat/discussion_subscriptions.feature
 /mod/forum/tests/behat/edit_post_student.feature
 /mod/forum/tests/behat/edit_post_teacher.feature
@@ -53459,6 +53534,8 @@ Libraries.txt
 /mod/glossary/pix/icon.png
 /mod/glossary/pix/icon.svg
 /mod/glossary/pix/minus.gif
+/mod/glossary/pix/monologo.png
+/mod/glossary/pix/monologo.svg
 /mod/glossary/pix/print.gif
 /mod/glossary/print.gif
 /mod/glossary/print.php
@@ -53549,6 +53626,7 @@ Libraries.txt
 /mod/h5pactivity/classes/output/result/sequencing.php
 /mod/h5pactivity/classes/output/result/truefalse.php
 /mod/h5pactivity/classes/privacy/provider.php
+/mod/h5pactivity/classes/search/activity.php
 /mod/h5pactivity/classes/xapi/handler.php
 /mod/h5pactivity/db/access.php
 /mod/h5pactivity/db/install.xml
@@ -53561,6 +53639,8 @@ Libraries.txt
 /mod/h5pactivity/mod_form.php
 /mod/h5pactivity/pix/icon.png
 /mod/h5pactivity/pix/icon.svg
+/mod/h5pactivity/pix/monologo.png
+/mod/h5pactivity/pix/monologo.svg
 /mod/h5pactivity/report.php
 /mod/h5pactivity/templates/attempt.mustache
 /mod/h5pactivity/templates/attempts.mustache
@@ -53770,6 +53850,8 @@ Libraries.txt
 /mod/imscp/pix/icon.gif
 /mod/imscp/pix/icon.png
 /mod/imscp/pix/icon.svg
+/mod/imscp/pix/monologo.png
+/mod/imscp/pix/monologo.svg
 /mod/imscp/readme.txt
 /mod/imscp/settings.php
 /mod/imscp/style.css
@@ -53845,6 +53927,8 @@ Libraries.txt
 /mod/label/pix/icon.gif
 /mod/label/pix/icon.png
 /mod/label/pix/icon.svg
+/mod/label/pix/monologo.png
+/mod/label/pix/monologo.svg
 /mod/label/restorelib.php
 /mod/label/settings.php
 /mod/label/tests/behat/label_activity_completion.feature
@@ -53996,6 +54080,8 @@ Libraries.txt
 /mod/lesson/pix/icon.gif
 /mod/lesson/pix/icon.png
 /mod/lesson/pix/icon.svg
+/mod/lesson/pix/monologo.png
+/mod/lesson/pix/monologo.svg
 /mod/lesson/reformat.php
 /mod/lesson/renderer.php
 /mod/lesson/report.php
@@ -54188,6 +54274,8 @@ Libraries.txt
 /mod/lti/pix/icon.gif
 /mod/lti/pix/icon.png
 /mod/lti/pix/icon.svg
+/mod/lti/pix/monologo.png
+/mod/lti/pix/monologo.svg
 /mod/lti/pix/warning.png
 /mod/lti/register_form.php
 /mod/lti/register.php
@@ -54291,6 +54379,7 @@ Libraries.txt
 /mod/lti/tests/behat/lti_activity_completion.feature
 /mod/lti/tests/behat/lti_completion_pass_grade.feature
 /mod/lti/tests/behat/renametool.feature
+/mod/lti/tests/behat/siteadmin_managetool_breadcrumbs.feature
 /mod/lti/tests/behat/toolconfigure.feature
 /mod/lti/tests/behat/viewtools.feature
 /mod/lti/tests/event/unknown_service_api_called_test.php
@@ -54356,6 +54445,8 @@ Libraries.txt
 /mod/page/pix/icon.gif
 /mod/page/pix/icon.png
 /mod/page/pix/icon.svg
+/mod/page/pix/monologo.png
+/mod/page/pix/monologo.svg
 /mod/page/readme.txt
 /mod/page/settings.php
 /mod/page/tests/behat/page_activity_completion.feature
@@ -54731,6 +54822,8 @@ Libraries.txt
 /mod/quiz/pix/icon.svg
 /mod/quiz/pix/ma.gif
 /mod/quiz/pix/mc.gif
+/mod/quiz/pix/monologo.png
+/mod/quiz/pix/monologo.svg
 /mod/quiz/pix/mu.gif
 /mod/quiz/pix/navflagged.png
 /mod/quiz/pix/nu.gif
@@ -54996,6 +55089,7 @@ Libraries.txt
 /mod/quiz/tests/external/external_test.php
 /mod/quiz/tests/external_test.php
 /mod/quiz/tests/fixtures/moodle_28_quiz.mbz
+/mod/quiz/tests/fixtures/moodle_311_quiz.mbz
 /mod/quiz/tests/fixtures/moodle_logo.jpg
 /mod/quiz/tests/fixtures/question_attempts_missing_users.mbz
 /mod/quiz/tests/fixtures/questions00.csv
@@ -55157,6 +55251,8 @@ Libraries.txt
 /mod/resource/pix/icon.gif
 /mod/resource/pix/icon.png
 /mod/resource/pix/icon.svg
+/mod/resource/pix/monologo.png
+/mod/resource/pix/monologo.svg
 /mod/resource/readme.txt
 /mod/resource/restorelib.php
 /mod/resource/settings.php
@@ -55306,6 +55402,8 @@ Libraries.txt
 /mod/scorm/pix/icon.svg
 /mod/scorm/pix/incomplete.gif
 /mod/scorm/pix/minus.gif
+/mod/scorm/pix/monologo.png
+/mod/scorm/pix/monologo.svg
 /mod/scorm/pix/notattempted.gif
 /mod/scorm/pix/passed.gif
 /mod/scorm/pix/plus.gif
@@ -55506,6 +55604,8 @@ Libraries.txt
 /mod/survey/pix/icon.gif
 /mod/survey/pix/icon.png
 /mod/survey/pix/icon.svg
+/mod/survey/pix/monologo.png
+/mod/survey/pix/monologo.svg
 /mod/survey/renderer.php
 /mod/survey/report.php
 /mod/survey/restorelib.php
@@ -55515,6 +55615,7 @@ Libraries.txt
 /mod/survey/templates/response_action_bar.mustache
 /mod/survey/tests/backup/restore_date_test.php
 /mod/survey/tests/behat/survey_completion.feature
+/mod/survey/tests/behat/survey_critical_incidents.feature
 /mod/survey/tests/behat/survey_types.feature
 /mod/survey/tests/custom_completion_test.php
 /mod/survey/tests/event/events_test.php
@@ -55561,6 +55662,8 @@ Libraries.txt
 /mod/url/pix/icon.gif
 /mod/url/pix/icon.png
 /mod/url/pix/icon.svg
+/mod/url/pix/monologo.png
+/mod/url/pix/monologo.svg
 /mod/url/readme.txt
 /mod/url/settings.php
 /mod/url/simpletest/testlib.php
@@ -55747,6 +55850,8 @@ Libraries.txt
 /mod/wiki/pix/icon.gif
 /mod/wiki/pix/icon.png
 /mod/wiki/pix/icon.svg
+/mod/wiki/pix/monologo.png
+/mod/wiki/pix/monologo.svg
 /mod/wiki/prettyview.php
 /mod/wiki/README
 /mod/wiki/removepages.html
@@ -56072,6 +56177,8 @@ Libraries.txt
 /mod/workshop/pix/icon.gif
 /mod/workshop/pix/icon.png
 /mod/workshop/pix/icon.svg
+/mod/workshop/pix/monologo.png
+/mod/workshop/pix/monologo.svg
 /mod/workshop/pix/userplan/task-done.gif
 /mod/workshop/pix/userplan/task-done.png
 /mod/workshop/pix/userplan/task-done.svg
@@ -56234,11 +56341,13 @@ on
 /payment/templates/gateways_placeholder.mustache
 /payment/templates/modal_gateways.mustache
 /payment/tests/behat/accounts.feature
+/payment/tests/behat/siteadmin_accounts_breadcrumbs.feature
 /payment/tests/generator/behat_core_payment_generator.php
 /payment/tests/generator/lib.php
 /payment/tests/generator_test.php
 /payment/tests/helper_test.php
 /payment/upgrade.txt
+/.phpcs.xml.dist
 /phpunit.xml.dist
 /pix/a/add_file.png
 /pix/a/add_file.svg
@@ -57756,6 +57865,7 @@ on
 /pix/t/locktime.png
 /pix/t/locktime.svg
 /pix/t/log.gif
+/pix/t/log.svg
 /pix/t/manual_item.gif
 /pix/t/manual_item.png
 /pix/t/manual_item.svg
@@ -58625,6 +58735,7 @@ plus.jpg
 /question/format/gift/simpletest/fixtures/questions.gift.txt
 /question/format/gift/simpletest/testgiftformat.php
 /question/format/gift/tests/behat/import_export.feature
+/question/format/gift/tests/fixtures/questions_encoding_windows-1252.gift.txt
 /question/format/gift/tests/fixtures/questions.gift.txt
 /question/format/gift/tests/fixtures/questions_in_category.gift.txt
 /question/format/gift/tests/giftformat_test.php
@@ -58750,6 +58861,7 @@ plus.jpg
 /question/templates/tag_condition.mustache
 /question/tests/backup_test.php
 /question/tests/bank_view_test.php
+/question/tests/behat/behat_core_question.php
 /question/tests/behat/behat_question_base.php
 /question/tests/behat/behat_question.php
 /question/tests/behat/copy_questions.feature
@@ -61320,6 +61432,7 @@ plus.jpg
 /theme/boost/pix/mod/quiz/whitecircle.png
 /theme/boost/pix/mod/quiz/whitecircle.svg
 /theme/boost/pix/screenshot.jpg
+/theme/boost/pix/screenshot.png
 /theme/boost/pix/yui2-treeview-sprite-rtl.gif
 /theme/boost/readme_moodle.txt
 /theme/boost/scss/bootstrap/_alert.scss
@@ -61688,6 +61801,7 @@ plus.jpg
 /theme/boost/tests/behat/course_reuse.feature
 /theme/boost/tests/behat/group_conversation.feature
 /theme/boost/tests/behat/languagemenu.feature
+/theme/boost/tests/behat/mycoursesblocks.feature
 /theme/boost/tests/behat/primarynav.feature
 /theme/boost/tests/behat/regionmainsettingsmenu.feature
 /theme/boost/tests/behat/reset_tour.feature
@@ -62937,6 +63051,7 @@ plus.jpg
 /theme/classic/tests/behat/behat_theme_classic_behat_admin.php
 /theme/classic/tests/behat/behat_theme_classic_behat_blocks.php
 /theme/classic/tests/behat/behat_theme_classic_behat_completion.php
+/theme/classic/tests/behat/behat_theme_classic_behat_core_question.php
 /theme/classic/tests/behat/behat_theme_classic_behat_course.php
 /theme/classic/tests/behat/behat_theme_classic_behat_general.php
 /theme/classic/tests/behat/behat_theme_classic_behat_grade.php
@@ -62949,6 +63064,7 @@ plus.jpg
 /theme/classic/tests/behat/blacklist.json
 /theme/classic/tests/behat/category_role_assignment.feature
 /theme/classic/tests/behat/courseadministrationmenu.feature
+/theme/classic/tests/behat/mycoursesblocks.feature
 /theme/classic/tests/behat/pageadministrationmenu.feature
 /theme/classic/tests/behat/welcome_to_classicmoodle.feature
 /theme/classic/tests/scss_test.php
@@ -64412,15 +64528,18 @@ plus.jpg
 /user/tests/behat/filter_participants_showall.feature
 /user/tests/behat/filter_timecreated.feature
 /user/tests/behat/full_name_display.feature
+/user/tests/behat/hidden_user_fields.feature
 /user/tests/behat/input-purpose.feature
 /user/tests/behat/name_fields.feature
 /user/tests/behat/participants_in_group_modes.feature
 /user/tests/behat/reset_page.feature
 /user/tests/behat/set_default_homepage.feature
 /user/tests/behat/set_email_display.feature
+/user/tests/behat/siteadmin_user_breadcrumbs.feature
 /user/tests/behat/table_column_visibility.feature
 /user/tests/behat/table_sorting.feature
 /user/tests/behat/user_grade_navigation.feature
+/user/tests/behat/user_private_files.feature
 /user/tests/behat/view_full_profile.feature
 /user/tests/behat/view_participants.feature
 /user/tests/behat/view_participants_groups.feature
