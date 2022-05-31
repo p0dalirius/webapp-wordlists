@@ -58404,10 +58404,13 @@
 /wp-content/languages/bel.po
 /wp-content/languages/bg_BG-0cc31205f20441b3df1d1b46100f6b8d.json
 /wp-content/languages/bg_BG-0ce75ad2f775d1cac9696967d484808c.json
+/wp-content/languages/bg_BG-0eebe503220d4a00341eb011b92769b4.json
+/wp-content/languages/bg_BG-17179a5f2930647c89151e365f843b6e.json
 /wp-content/languages/bg_BG-1780a2033cf98d69ce13c2e5c8510004.json
 /wp-content/languages/bg_BG-1a0cd6a7128913b15c1a10dd68951869.json
 /wp-content/languages/bg_BG-1bba9045bb07c89671c88a3f328548e8.json
 /wp-content/languages/bg_BG-1c4303f02ff93b290e9faad991eeb06f.json
+/wp-content/languages/bg_BG-1d17475f620f63a92e2c5d2681c51ee8.json
 /wp-content/languages/bg_BG-28b3c3d595952907e08d98287077426c.json
 /wp-content/languages/bg_BG-2b390f85a3048c5b4255fb45960b6514.json
 /wp-content/languages/bg_BG-2c5d274ea625dd91556554ad82901529.json
@@ -58416,6 +58419,7 @@
 /wp-content/languages/bg_BG-49c6d4acf36cf3aca9f0b2a77617304f.json
 /wp-content/languages/bg_BG-4a38fe1c0c45989e44682ba6109d9f46.json
 /wp-content/languages/bg_BG-4bfa11da57ff2600004bb500368247f4.json
+/wp-content/languages/bg_BG-50278328b502f4eb3f2b8b7ab49324a1.json
 /wp-content/languages/bg_BG-5251f7623766a714c8207c7edb938628.json
 /wp-content/languages/bg_BG-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/bg_BG-569e85ef168299eb8c8f24d8ef8c8a78.json
@@ -58444,6 +58448,7 @@
 /wp-content/languages/bg_BG-ac23eee47530ac63a1178c827db28087.json
 /wp-content/languages/bg_BG-bf0f094965d3d4a95b47babcb35fc136.json
 /wp-content/languages/bg_BG-bf23b24175490c2e46aaf92ff6a0c70f.json
+/wp-content/languages/bg_BG-c31d5f185753910c14afebc6deb2ce24.json
 /wp-content/languages/bg_BG-ca28138671823450e87dfd354f7afc6b.json
 /wp-content/languages/bg_BG-daeb084aab42199d26393a56c3465bc0.json
 /wp-content/languages/bg_BG-e2791ba830489d23043be8650a22a22b.json
@@ -58599,6 +58604,7 @@
 /wp-content/languages/ca-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/ca-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/ca-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/ca-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/ca-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/ca-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/ca-7289286ed59e90a8f36ae797df62220b.json
@@ -58988,6 +58994,7 @@
 /wp-content/languages/cy-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/cy-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/cy-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/cy-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/cy-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/cy-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/cy-7289286ed59e90a8f36ae797df62220b.json
@@ -59044,6 +59051,7 @@
 /wp-content/languages/da_DK-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/da_DK-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/da_DK-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/da_DK-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/da_DK-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/da_DK-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/da_DK-7289286ed59e90a8f36ae797df62220b.json
@@ -59156,6 +59164,7 @@
 /wp-content/languages/de_CH-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/de_CH-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/de_CH-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/de_CH-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/de_CH-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/de_CH-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/de_CH-7289286ed59e90a8f36ae797df62220b.json
@@ -59212,6 +59221,7 @@
 /wp-content/languages/dsb-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/dsb-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/dsb-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/dsb-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/dsb-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/dsb-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/dsb-7289286ed59e90a8f36ae797df62220b.json
@@ -59251,6 +59261,7 @@
 /wp-content/languages/el-0cc31205f20441b3df1d1b46100f6b8d.json
 /wp-content/languages/el-0ce75ad2f775d1cac9696967d484808c.json
 /wp-content/languages/el-0eebe503220d4a00341eb011b92769b4.json
+/wp-content/languages/el-17179a5f2930647c89151e365f843b6e.json
 /wp-content/languages/el-1780a2033cf98d69ce13c2e5c8510004.json
 /wp-content/languages/el-1a0cd6a7128913b15c1a10dd68951869.json
 /wp-content/languages/el-1bba9045bb07c89671c88a3f328548e8.json
@@ -59269,6 +59280,7 @@
 /wp-content/languages/el-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/el-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/el-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/el-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/el-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/el-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/el-7289286ed59e90a8f36ae797df62220b.json
@@ -59293,6 +59305,7 @@
 /wp-content/languages/el-ac23eee47530ac63a1178c827db28087.json
 /wp-content/languages/el-bf0f094965d3d4a95b47babcb35fc136.json
 /wp-content/languages/el-bf23b24175490c2e46aaf92ff6a0c70f.json
+/wp-content/languages/el-c31d5f185753910c14afebc6deb2ce24.json
 /wp-content/languages/el-ca28138671823450e87dfd354f7afc6b.json
 /wp-content/languages/el-daeb084aab42199d26393a56c3465bc0.json
 /wp-content/languages/el-e2791ba830489d23043be8650a22a22b.json
@@ -59324,6 +59337,7 @@
 /wp-content/languages/en_AU-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/en_AU-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/en_AU-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/en_AU-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/en_AU-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/en_AU-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/en_AU-7289286ed59e90a8f36ae797df62220b.json
@@ -59380,6 +59394,7 @@
 /wp-content/languages/en_CA-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/en_CA-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/en_CA-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/en_CA-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/en_CA-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/en_CA-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/en_CA-7289286ed59e90a8f36ae797df62220b.json
@@ -59436,6 +59451,7 @@
 /wp-content/languages/en_GB-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/en_GB-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/en_GB-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/en_GB-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/en_GB-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/en_GB-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/en_GB-7289286ed59e90a8f36ae797df62220b.json
@@ -59604,6 +59620,7 @@
 /wp-content/languages/eo-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/eo-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/eo-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/eo-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/eo-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/eo-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/eo-7289286ed59e90a8f36ae797df62220b.json
@@ -59768,6 +59785,7 @@
 /wp-content/languages/es_CO-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/es_CO-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/es_CO-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/es_CO-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/es_CO-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/es_CO-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/es_CO-7289286ed59e90a8f36ae797df62220b.json
@@ -59805,6 +59823,7 @@
 /wp-content/languages/es_CR-0cc31205f20441b3df1d1b46100f6b8d.json
 /wp-content/languages/es_CR-0ce75ad2f775d1cac9696967d484808c.json
 /wp-content/languages/es_CR-0eebe503220d4a00341eb011b92769b4.json
+/wp-content/languages/es_CR-17179a5f2930647c89151e365f843b6e.json
 /wp-content/languages/es_CR-1780a2033cf98d69ce13c2e5c8510004.json
 /wp-content/languages/es_CR-1a0cd6a7128913b15c1a10dd68951869.json
 /wp-content/languages/es_CR-1bba9045bb07c89671c88a3f328548e8.json
@@ -59823,6 +59842,7 @@
 /wp-content/languages/es_CR-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/es_CR-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/es_CR-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/es_CR-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/es_CR-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/es_CR-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/es_CR-7289286ed59e90a8f36ae797df62220b.json
@@ -59847,6 +59867,7 @@
 /wp-content/languages/es_CR-ac23eee47530ac63a1178c827db28087.json
 /wp-content/languages/es_CR-bf0f094965d3d4a95b47babcb35fc136.json
 /wp-content/languages/es_CR-bf23b24175490c2e46aaf92ff6a0c70f.json
+/wp-content/languages/es_CR-c31d5f185753910c14afebc6deb2ce24.json
 /wp-content/languages/es_CR-ca28138671823450e87dfd354f7afc6b.json
 /wp-content/languages/es_CR-daeb084aab42199d26393a56c3465bc0.json
 /wp-content/languages/es_CR-e2791ba830489d23043be8650a22a22b.json
@@ -59932,6 +59953,7 @@
 /wp-content/languages/es_EC-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/es_EC-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/es_EC-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/es_EC-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/es_EC-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/es_EC-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/es_EC-7289286ed59e90a8f36ae797df62220b.json
@@ -59988,6 +60010,7 @@
 /wp-content/languages/es_ES-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/es_ES-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/es_ES-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/es_ES-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/es_ES-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/es_ES-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/es_ES-7289286ed59e90a8f36ae797df62220b.json
@@ -60059,6 +60082,7 @@
 /wp-content/languages/es_MX-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/es_MX-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/es_MX-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/es_MX-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/es_MX-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/es_MX-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/es_MX-7289286ed59e90a8f36ae797df62220b.json
@@ -60229,6 +60253,7 @@
 /wp-content/languages/es_VE-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/es_VE-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/es_VE-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/es_VE-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/es_VE-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/es_VE-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/es_VE-7289286ed59e90a8f36ae797df62220b.json
@@ -60335,6 +60360,7 @@
 /wp-content/languages/eu-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/eu-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/eu-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/eu-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/eu-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/eu-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/eu-7289286ed59e90a8f36ae797df62220b.json
@@ -60445,6 +60471,7 @@
 /wp-content/languages/fi-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/fi-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/fi-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/fi-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/fi-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/fi-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/fi-7289286ed59e90a8f36ae797df62220b.json
@@ -60554,6 +60581,7 @@
 /wp-content/languages/fr_CA-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/fr_CA-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/fr_CA-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/fr_CA-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/fr_CA-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/fr_CA-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/fr_CA-7289286ed59e90a8f36ae797df62220b.json
@@ -60610,6 +60638,7 @@
 /wp-content/languages/fr_FR-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/fr_FR-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/fr_FR-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/fr_FR-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/fr_FR-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/fr_FR-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/fr_FR-7289286ed59e90a8f36ae797df62220b.json
@@ -60670,6 +60699,7 @@
 /wp-content/languages/gl_ES-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/gl_ES-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/gl_ES-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/gl_ES-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/gl_ES-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/gl_ES-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/gl_ES-7289286ed59e90a8f36ae797df62220b.json
@@ -60728,6 +60758,7 @@
 /wp-content/languages/he_IL-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/he_IL-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/he_IL-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/he_IL-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/he_IL-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/he_IL-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/he_IL-7289286ed59e90a8f36ae797df62220b.json
@@ -60860,6 +60891,7 @@
 /wp-content/languages/hsb-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/hsb-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/hsb-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/hsb-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/hsb-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/hsb-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/hsb-7289286ed59e90a8f36ae797df62220b.json
@@ -61032,6 +61064,7 @@
 /wp-content/languages/it_IT-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/it_IT-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/it_IT-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/it_IT-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/it_IT-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/it_IT-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/it_IT-7289286ed59e90a8f36ae797df62220b.json
@@ -61089,6 +61122,7 @@
 /wp-content/languages/ja-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/ja-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/ja-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/ja-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/ja-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/ja-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/ja-7289286ed59e90a8f36ae797df62220b.json
@@ -61277,6 +61311,7 @@
 /wp-content/languages/ko_KR-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/ko_KR-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/ko_KR-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/ko_KR-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/ko_KR-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/ko_KR-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/ko_KR-7289286ed59e90a8f36ae797df62220b.json
@@ -61384,6 +61419,7 @@
 /wp-content/languages/lv-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/lv-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/lv-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/lv-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/lv-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/lv-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/lv-7289286ed59e90a8f36ae797df62220b.json
@@ -61650,6 +61686,7 @@
 /wp-content/languages/nb_NO-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/nb_NO-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/nb_NO-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/nb_NO-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/nb_NO-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/nb_NO-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/nb_NO-7289286ed59e90a8f36ae797df62220b.json
@@ -61762,6 +61799,7 @@
 /wp-content/languages/nl_BE-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/nl_BE-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/nl_BE-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/nl_BE-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/nl_BE-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/nl_BE-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/nl_BE-7289286ed59e90a8f36ae797df62220b.json
@@ -61818,6 +61856,7 @@
 /wp-content/languages/nl_NL-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/nl_NL-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/nl_NL-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/nl_NL-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/nl_NL-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/nl_NL-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/nl_NL-7289286ed59e90a8f36ae797df62220b.json
@@ -61922,6 +61961,7 @@
 /wp-content/languages/pl_PL-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/pl_PL-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/pl_PL-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/pl_PL-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/pl_PL-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/pl_PL-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/pl_PL-7289286ed59e90a8f36ae797df62220b.json
@@ -62253,6 +62293,7 @@
 /wp-content/languages/pt_BR-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/pt_BR-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/pt_BR-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/pt_BR-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/pt_BR-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/pt_BR-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/pt_BR-7289286ed59e90a8f36ae797df62220b.json
@@ -62291,6 +62332,7 @@
 /wp-content/languages/pt_PT-0cc31205f20441b3df1d1b46100f6b8d.json
 /wp-content/languages/pt_PT-0ce75ad2f775d1cac9696967d484808c.json
 /wp-content/languages/pt_PT-0eebe503220d4a00341eb011b92769b4.json
+/wp-content/languages/pt_PT-17179a5f2930647c89151e365f843b6e.json
 /wp-content/languages/pt_PT-1780a2033cf98d69ce13c2e5c8510004.json
 /wp-content/languages/pt_PT-1a0cd6a7128913b15c1a10dd68951869.json
 /wp-content/languages/pt_PT-1bba9045bb07c89671c88a3f328548e8.json
@@ -62333,6 +62375,7 @@
 /wp-content/languages/pt_PT-ac23eee47530ac63a1178c827db28087.json
 /wp-content/languages/pt_PT-bf0f094965d3d4a95b47babcb35fc136.json
 /wp-content/languages/pt_PT-bf23b24175490c2e46aaf92ff6a0c70f.json
+/wp-content/languages/pt_PT-c31d5f185753910c14afebc6deb2ce24.json
 /wp-content/languages/pt_PT-ca28138671823450e87dfd354f7afc6b.json
 /wp-content/languages/pt_PT-daeb084aab42199d26393a56c3465bc0.json
 /wp-content/languages/pt_PT-e2791ba830489d23043be8650a22a22b.json
@@ -62364,6 +62407,7 @@
 /wp-content/languages/ro_RO-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/ro_RO-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/ro_RO-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/ro_RO-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/ro_RO-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/ro_RO-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/ro_RO-7289286ed59e90a8f36ae797df62220b.json
@@ -62420,6 +62464,7 @@
 /wp-content/languages/ru_RU-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/ru_RU-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/ru_RU-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/ru_RU-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/ru_RU-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/ru_RU-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/ru_RU-7289286ed59e90a8f36ae797df62220b.json
@@ -62676,6 +62721,7 @@
 /wp-content/languages/sv_SE-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/sv_SE-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/sv_SE-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/sv_SE-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/sv_SE-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/sv_SE-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/sv_SE-7289286ed59e90a8f36ae797df62220b.json
@@ -64513,6 +64559,8 @@
 /wp-content/languages/themes/twentytwenty-tr_TR.po
 /wp-content/languages/themes/twentytwentytwo-am.mo
 /wp-content/languages/themes/twentytwentytwo-am.po
+/wp-content/languages/themes/twentytwentytwo-bg_BG.mo
+/wp-content/languages/themes/twentytwentytwo-bg_BG.po
 /wp-content/languages/themes/twentytwentytwo-bs_BA.mo
 /wp-content/languages/themes/twentytwentytwo-bs_BA.po
 /wp-content/languages/themes/twentytwentytwo-ca.mo
@@ -64529,6 +64577,8 @@
 /wp-content/languages/themes/twentytwentytwo-de_CH.po
 /wp-content/languages/themes/twentytwentytwo-dsb.mo
 /wp-content/languages/themes/twentytwentytwo-dsb.po
+/wp-content/languages/themes/twentytwentytwo-el.mo
+/wp-content/languages/themes/twentytwentytwo-el.po
 /wp-content/languages/themes/twentytwentytwo-en_AU.mo
 /wp-content/languages/themes/twentytwentytwo-en_AU.po
 /wp-content/languages/themes/twentytwentytwo-en_CA.mo
@@ -64545,6 +64595,8 @@
 /wp-content/languages/themes/twentytwentytwo-es_AR.po
 /wp-content/languages/themes/twentytwentytwo-es_CO.mo
 /wp-content/languages/themes/twentytwentytwo-es_CO.po
+/wp-content/languages/themes/twentytwentytwo-es_CR.mo
+/wp-content/languages/themes/twentytwentytwo-es_CR.po
 /wp-content/languages/themes/twentytwentytwo-es_EC.mo
 /wp-content/languages/themes/twentytwentytwo-es_EC.po
 /wp-content/languages/themes/twentytwentytwo-es_ES.mo
@@ -64597,6 +64649,8 @@
 /wp-content/languages/themes/twentytwentytwo-pl_PL.po
 /wp-content/languages/themes/twentytwentytwo-pt_BR.mo
 /wp-content/languages/themes/twentytwentytwo-pt_BR.po
+/wp-content/languages/themes/twentytwentytwo-pt_PT.mo
+/wp-content/languages/themes/twentytwentytwo-pt_PT.po
 /wp-content/languages/themes/twentytwentytwo-ro_RO.mo
 /wp-content/languages/themes/twentytwentytwo-ro_RO.po
 /wp-content/languages/themes/twentytwentytwo-ru_RU.mo
@@ -64611,6 +64665,8 @@
 /wp-content/languages/themes/twentytwentytwo-sv_SE.po
 /wp-content/languages/themes/twentytwentytwo-tr_TR.mo
 /wp-content/languages/themes/twentytwentytwo-tr_TR.po
+/wp-content/languages/themes/twentytwentytwo-uk.mo
+/wp-content/languages/themes/twentytwentytwo-uk.po
 /wp-content/languages/themes/twentytwentytwo-zh_CN.mo
 /wp-content/languages/themes/twentytwentytwo-zh_CN.po
 /wp-content/languages/themes/twentytwentytwo-zh_HK.mo
@@ -64658,6 +64714,7 @@
 /wp-content/languages/tr_TR-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/tr_TR-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/tr_TR-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/tr_TR-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/tr_TR-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/tr_TR-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/tr_TR-7289286ed59e90a8f36ae797df62220b.json
@@ -64701,6 +64758,7 @@
 /wp-content/languages/uk-0cc31205f20441b3df1d1b46100f6b8d.json
 /wp-content/languages/uk-0ce75ad2f775d1cac9696967d484808c.json
 /wp-content/languages/uk-0eebe503220d4a00341eb011b92769b4.json
+/wp-content/languages/uk-17179a5f2930647c89151e365f843b6e.json
 /wp-content/languages/uk-1780a2033cf98d69ce13c2e5c8510004.json
 /wp-content/languages/uk-1a0cd6a7128913b15c1a10dd68951869.json
 /wp-content/languages/uk-1bba9045bb07c89671c88a3f328548e8.json
@@ -64719,6 +64777,7 @@
 /wp-content/languages/uk-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/uk-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/uk-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/uk-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/uk-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/uk-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/uk-7289286ed59e90a8f36ae797df62220b.json
@@ -64743,6 +64802,7 @@
 /wp-content/languages/uk-ac23eee47530ac63a1178c827db28087.json
 /wp-content/languages/uk-bf0f094965d3d4a95b47babcb35fc136.json
 /wp-content/languages/uk-bf23b24175490c2e46aaf92ff6a0c70f.json
+/wp-content/languages/uk-c31d5f185753910c14afebc6deb2ce24.json
 /wp-content/languages/uk-ca28138671823450e87dfd354f7afc6b.json
 /wp-content/languages/uk-daeb084aab42199d26393a56c3465bc0.json
 /wp-content/languages/uk-e2791ba830489d23043be8650a22a22b.json
@@ -64960,6 +65020,7 @@
 /wp-content/languages/zh_HK-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/zh_HK-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/zh_HK-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/zh_HK-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/zh_HK-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/zh_HK-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/zh_HK-7289286ed59e90a8f36ae797df62220b.json
@@ -65016,6 +65077,7 @@
 /wp-content/languages/zh_TW-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/zh_TW-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/zh_TW-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/zh_TW-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/zh_TW-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/zh_TW-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/zh_TW-7289286ed59e90a8f36ae797df62220b.json
@@ -67291,11 +67353,32 @@
 /wp-content/themes/twentytwenty/template-parts/pagination.php
 /wp-content/themes/twentytwenty/templates/template-cover.php
 /wp-content/themes/twentytwenty/templates/template-full-width.php
+/wp-content/themes/twentytwentytwo/assets/fonts/dm-sans/DMSans-BoldItalic.ttf
+/wp-content/themes/twentytwentytwo/assets/fonts/dm-sans/DMSans-Bold.ttf
+/wp-content/themes/twentytwentytwo/assets/fonts/dm-sans/DMSans-Italic.ttf
+/wp-content/themes/twentytwentytwo/assets/fonts/dm-sans/DMSans-Regular.ttf
+/wp-content/themes/twentytwentytwo/assets/fonts/dm-sans/LICENSE.txt
+/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexMono-BoldItalic.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexMono-Bold.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexMono-TextItalic.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexMono-Text.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexSans-ExtraLightItalic.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexSans-ExtraLight.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexSans-LightItalic.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexSans-Light.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/LICENSE.txt
+/wp-content/themes/twentytwentytwo/assets/fonts/inter/Inter.ttf
+/wp-content/themes/twentytwentytwo/assets/fonts/inter/LICENSE.txt
 /wp-content/themes/twentytwentytwo/assets/fonts/LICENSE.md
 /wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Italic.otf.woff2
 /wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Italic.ttf.woff2
 /wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Roman.otf.woff2
 /wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Roman.ttf.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/LICENSE.md
+/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.otf.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.otf.woff2
+/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
 /wp-content/themes/twentytwentytwo/assets/images/bird-on-black.jpg
 /wp-content/themes/twentytwentytwo/assets/images/bird-on-gray.jpg
 /wp-content/themes/twentytwentytwo/assets/images/bird-on-green.jpg
@@ -67408,6 +67491,9 @@
 /wp-content/themes/twentytwentytwo/readme.txt
 /wp-content/themes/twentytwentytwo/screenshot.png
 /wp-content/themes/twentytwentytwo/style.css
+/wp-content/themes/twentytwentytwo/styles/blue.json
+/wp-content/themes/twentytwentytwo/styles/pink.json
+/wp-content/themes/twentytwentytwo/styles/swiss.json
 /wp-content/themes/twentytwentytwo/templates/404.html
 /wp-content/themes/twentytwentytwo/templates/archive.html
 /wp-content/themes/twentytwentytwo/templates/blank.html
@@ -67558,6 +67644,8 @@
 /wp-includes/assets/dist/wordcount.asset.php
 /wp-includes/assets/dist/wordcount.min.asset.php
 /wp-includes/assets/script-loader-packages.php
+/wp-includes/assets/script-loader-react-refresh-entry.php
+/wp-includes/assets/script-loader-react-refresh-runtime.php
 /wp-includes/atomlib.php
 /wp-includes/author-template.php
 /wp-includes/block-editor.php
@@ -67604,6 +67692,16 @@
 /wp-includes/blocks/audio/theme.min.css
 /wp-includes/blocks/audio/theme-rtl.css
 /wp-includes/blocks/audio/theme-rtl.min.css
+/wp-includes/blocks/avatar/block.json
+/wp-includes/blocks/avatar/editor.css
+/wp-includes/blocks/avatar/editor.min.css
+/wp-includes/blocks/avatar/editor-rtl.css
+/wp-includes/blocks/avatar/editor-rtl.min.css
+/wp-includes/blocks/avatar.php
+/wp-includes/blocks/avatar/style.css
+/wp-includes/blocks/avatar/style.min.css
+/wp-includes/blocks/avatar/style-rtl.css
+/wp-includes/blocks/avatar/style-rtl.min.css
 /wp-includes/blocks/block/block.json
 /wp-includes/blocks/block/editor.css
 /wp-includes/blocks/block/editor.min.css
@@ -67664,11 +67762,63 @@
 /wp-includes/blocks/columns/style.min.css
 /wp-includes/blocks/columns/style-rtl.css
 /wp-includes/blocks/columns/style-rtl.min.css
+/wp-includes/blocks/comment-author-name/block.json
+/wp-includes/blocks/comment-author-name.php
+/wp-includes/blocks/comment-content/block.json
+/wp-includes/blocks/comment-content.php
+/wp-includes/blocks/comment-content/style.css
+/wp-includes/blocks/comment-content/style.min.css
+/wp-includes/blocks/comment-content/style-rtl.css
+/wp-includes/blocks/comment-content/style-rtl.min.css
+/wp-includes/blocks/comment-date/block.json
+/wp-includes/blocks/comment-date.php
+/wp-includes/blocks/comment-edit-link/block.json
+/wp-includes/blocks/comment-edit-link.php
+/wp-includes/blocks/comment-reply-link/block.json
+/wp-includes/blocks/comment-reply-link.php
+/wp-includes/blocks/comments-pagination/block.json
+/wp-includes/blocks/comments-pagination/editor.css
+/wp-includes/blocks/comments-pagination/editor.min.css
+/wp-includes/blocks/comments-pagination/editor-rtl.css
+/wp-includes/blocks/comments-pagination/editor-rtl.min.css
+/wp-includes/blocks/comments-pagination-next/block.json
+/wp-includes/blocks/comments-pagination-next.php
+/wp-includes/blocks/comments-pagination-numbers/block.json
+/wp-includes/blocks/comments-pagination-numbers/editor.css
+/wp-includes/blocks/comments-pagination-numbers/editor.min.css
+/wp-includes/blocks/comments-pagination-numbers/editor-rtl.css
+/wp-includes/blocks/comments-pagination-numbers/editor-rtl.min.css
+/wp-includes/blocks/comments-pagination-numbers.php
+/wp-includes/blocks/comments-pagination.php
+/wp-includes/blocks/comments-pagination-previous/block.json
+/wp-includes/blocks/comments-pagination-previous.php
+/wp-includes/blocks/comments-pagination/style.css
+/wp-includes/blocks/comments-pagination/style.min.css
+/wp-includes/blocks/comments-pagination/style-rtl.css
+/wp-includes/blocks/comments-pagination/style-rtl.min.css
+/wp-includes/blocks/comments-query-loop/block.json
+/wp-includes/blocks/comments-query-loop/editor.css
+/wp-includes/blocks/comments-query-loop/editor.min.css
+/wp-includes/blocks/comments-query-loop/editor-rtl.css
+/wp-includes/blocks/comments-query-loop/editor-rtl.min.css
+/wp-includes/blocks/comments-title/block.json
+/wp-includes/blocks/comments-title/editor.css
+/wp-includes/blocks/comments-title/editor.min.css
+/wp-includes/blocks/comments-title/editor-rtl.css
+/wp-includes/blocks/comments-title/editor-rtl.min.css
+/wp-includes/blocks/comments-title.php
+/wp-includes/blocks/comment-template/block.json
+/wp-includes/blocks/comment-template.php
+/wp-includes/blocks/comment-template/style.css
+/wp-includes/blocks/comment-template/style.min.css
+/wp-includes/blocks/comment-template/style-rtl.css
+/wp-includes/blocks/comment-template/style-rtl.min.css
 /wp-includes/blocks/cover/block.json
 /wp-includes/blocks/cover/editor.css
 /wp-includes/blocks/cover/editor.min.css
 /wp-includes/blocks/cover/editor-rtl.css
 /wp-includes/blocks/cover/editor-rtl.min.css
+/wp-includes/blocks/cover.php
 /wp-includes/blocks/cover/style.css
 /wp-includes/blocks/cover/style.min.css
 /wp-includes/blocks/cover/style-rtl.css
@@ -67741,6 +67891,8 @@
 /wp-includes/blocks/heading/style.min.css
 /wp-includes/blocks/heading/style-rtl.css
 /wp-includes/blocks/heading/style-rtl.min.css
+/wp-includes/blocks/home-link/block.json
+/wp-includes/blocks/home-link.php
 /wp-includes/blocks/html/block.json
 /wp-includes/blocks/html/editor.css
 /wp-includes/blocks/html/editor.min.css
@@ -67784,6 +67936,7 @@
 /wp-includes/blocks/legacy-widget/editor-rtl.min.css
 /wp-includes/blocks/legacy-widget.php
 /wp-includes/blocks/list/block.json
+/wp-includes/blocks/list-item/block.json
 /wp-includes/blocks/list/style.css
 /wp-includes/blocks/list/style.min.css
 /wp-includes/blocks/list/style-rtl.css
@@ -67862,6 +68015,8 @@
 /wp-includes/blocks/pattern/block.json
 /wp-includes/blocks/pattern.php
 /wp-includes/blocks.php
+/wp-includes/blocks/post-author-biography/block.json
+/wp-includes/blocks/post-author-biography.php
 /wp-includes/blocks/post-author/block.json
 /wp-includes/blocks/post-author.php
 /wp-includes/blocks/post-author/style.css
@@ -67869,6 +68024,20 @@
 /wp-includes/blocks/post-author/style-rtl.css
 /wp-includes/blocks/post-author/style-rtl.min.css
 /wp-includes/blocks/post-comments/block.json
+/wp-includes/blocks/post-comments/editor.css
+/wp-includes/blocks/post-comments/editor.min.css
+/wp-includes/blocks/post-comments/editor-rtl.css
+/wp-includes/blocks/post-comments/editor-rtl.min.css
+/wp-includes/blocks/post-comments-form/block.json
+/wp-includes/blocks/post-comments-form/editor.css
+/wp-includes/blocks/post-comments-form/editor.min.css
+/wp-includes/blocks/post-comments-form/editor-rtl.css
+/wp-includes/blocks/post-comments-form/editor-rtl.min.css
+/wp-includes/blocks/post-comments-form.php
+/wp-includes/blocks/post-comments-form/style.css
+/wp-includes/blocks/post-comments-form/style.min.css
+/wp-includes/blocks/post-comments-form/style-rtl.css
+/wp-includes/blocks/post-comments-form/style-rtl.min.css
 /wp-includes/blocks/post-comments.php
 /wp-includes/blocks/post-comments/style.css
 /wp-includes/blocks/post-comments/style.min.css
@@ -67949,6 +68118,8 @@
 /wp-includes/blocks/query/editor.min.css
 /wp-includes/blocks/query/editor-rtl.css
 /wp-includes/blocks/query/editor-rtl.min.css
+/wp-includes/blocks/query-no-results/block.json
+/wp-includes/blocks/query-no-results.php
 /wp-includes/blocks/query-pagination/block.json
 /wp-includes/blocks/query-pagination/editor.css
 /wp-includes/blocks/query-pagination/editor.min.css
@@ -67985,6 +68156,12 @@
 /wp-includes/blocks/quote/theme.min.css
 /wp-includes/blocks/quote/theme-rtl.css
 /wp-includes/blocks/quote/theme-rtl.min.css
+/wp-includes/blocks/read-more/block.json
+/wp-includes/blocks/read-more.php
+/wp-includes/blocks/read-more/style.css
+/wp-includes/blocks/read-more/style.min.css
+/wp-includes/blocks/read-more/style-rtl.css
+/wp-includes/blocks/read-more/style-rtl.min.css
 /wp-includes/blocks/rss/block.json
 /wp-includes/blocks/rss/editor.css
 /wp-includes/blocks/rss/editor.min.css
@@ -68130,6 +68307,7 @@
 /wp-includes/block-supports/layout.php
 /wp-includes/block-supports/spacing.php
 /wp-includes/block-supports/typography.php
+/wp-includes/block-supports/utils.php
 /wp-includes/blocks/verse/block.json
 /wp-includes/blocks/verse/style.css
 /wp-includes/blocks/verse/style.min.css
@@ -68775,6 +68953,10 @@
 /wp-includes/js/dist/deprecated.js
 /wp-includes/js/dist/deprecated.js.map
 /wp-includes/js/dist/deprecated.min.js
+/wp-includes/js/dist/development/react-refresh-entry.js
+/wp-includes/js/dist/development/react-refresh-entry.min.js
+/wp-includes/js/dist/development/react-refresh-runtime.js
+/wp-includes/js/dist/development/react-refresh-runtime.min.js
 /wp-includes/js/dist/dom.js
 /wp-includes/js/dist/dom.js.map
 /wp-includes/js/dist/dom.min.js
@@ -68831,6 +69013,8 @@
 /wp-includes/js/dist/plugins.js
 /wp-includes/js/dist/plugins.js.map
 /wp-includes/js/dist/plugins.min.js
+/wp-includes/js/dist/preferences.js
+/wp-includes/js/dist/preferences.min.js
 /wp-includes/js/dist/primitives.js
 /wp-includes/js/dist/primitives.min.js
 /wp-includes/js/dist/priority-queue.js
@@ -70099,6 +70283,8 @@
 /wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php
 /wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php
 /wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php
+/wp-includes/rest-api/endpoints/class-wp-rest-block-pattern-categories-controller.php
+/wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php
 /wp-includes/rest-api/endpoints/class-wp-rest-block-renderer-controller.php
 /wp-includes/rest-api/endpoints/class-wp-rest-blocks-controller.php
 /wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php
