@@ -287,6 +287,8 @@
 /ez.webpack.custom.configs.js
 /features/demo.feature
 /GETTING_STARTED.md
+/.github/workflows/browser-tests.yml
+/.github/workflows/callable-browser-tests.yaml
 /.github/workflows/release_tag.yml
 /.gitignore
 /INSTALL.md

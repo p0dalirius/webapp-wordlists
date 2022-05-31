@@ -348,6 +348,8 @@
 /GETTING_STARTED.md
 /.github
 /.github/workflows
+/.github/workflows/browser-tests.yml
+/.github/workflows/callable-browser-tests.yaml
 /.github/workflows/release_tag.yml
 /.gitignore
 /INSTALL.md
