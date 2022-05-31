@@ -188,6 +188,7 @@
 /apps/dav/lib/Listener
 /apps/dav/lib/migration
 /apps/dav/lib/Migration
+/apps/dav/lib/Profiler
 /apps/dav/lib/Provisioning
 /apps/dav/lib/Provisioning/Apple
 /apps/dav/lib/Search
@@ -209,6 +210,8 @@
 /apps/dav/tests/integration
 /apps/dav/tests/integration/UserMigration
 /apps/dav/tests/integration/UserMigration/assets
+/apps/dav/tests/integration/UserMigration/assets/address_books
+/apps/dav/tests/integration/UserMigration/assets/calendars
 /apps/dav/tests/misc
 /apps/dav/tests/travis
 /apps/dav/tests/travis/caldav
@@ -779,6 +782,7 @@
 /apps/files_trashbin/lib/Migration
 /apps/files_trashbin/lib/Sabre
 /apps/files_trashbin/lib/Trash
+/apps/files_trashbin/lib/UserMigration
 /apps/files_trashbin/src
 /apps/files_trashbin/templates
 /apps/files_trashbin/tests
@@ -936,6 +940,8 @@
 /apps/settings/tests/Settings/Personal
 /apps/settings/tests/Settings/Personal/Security
 /apps/settings/tests/SetupChecks
+/apps/settings/tests/UserMigration
+/apps/settings/tests/UserMigration/assets
 /apps/sharebymail
 /apps/sharebymail/appinfo
 /apps/sharebymail/composer
@@ -1077,6 +1083,8 @@
 /apps/user_ldap/composer
 /apps/user_ldap/composer/composer
 /apps/user_ldap/css
+/apps/user_ldap/css/vendor
+/apps/user_ldap/css/vendor/ui-multiselect
 /apps/user_ldap/img
 /apps/user_ldap/js
 /apps/user_ldap/js/vendor
@@ -1088,6 +1096,7 @@
 /apps/user_ldap/lib/AppInfo
 /apps/user_ldap/lib/Command
 /apps/user_ldap/lib/Controller
+/apps/user_ldap/lib/DataCollector
 /apps/user_ldap/lib/Events
 /apps/user_ldap/lib/Exceptions
 /apps/user_ldap/lib/Handler
@@ -1504,6 +1513,7 @@
 /lib/private/Files/Cache/Wrapper
 /lib/private/files/config
 /lib/private/Files/Config
+/lib/private/Files/Lock
 /lib/private/files/mount
 /lib/private/Files/Mount
 /lib/private/files/node
@@ -1568,6 +1578,8 @@
 /lib/private/Mail
 /lib/private/memcache
 /lib/private/Memcache
+/lib/private/Metadata
+/lib/private/Metadata/Provider
 /lib/private/Migration
 /lib/private/notification
 /lib/private/Notification
@@ -1578,6 +1590,7 @@
 /lib/private/Preview/Storage
 /lib/private/Profile
 /lib/private/Profile/Actions
+/lib/private/Profiler
 /lib/private/Remote
 /lib/private/Remote/Api
 /lib/private/repair
@@ -1698,6 +1711,7 @@
 /lib/public/Dashboard/Exceptions
 /lib/public/Dashboard/Model
 /lib/public/Dashboard/Service
+/lib/public/DataCollector
 /lib/public/db
 /lib/public/DB
 /lib/public/db/querybuilder
@@ -1724,6 +1738,7 @@
 /lib/public/Files/Events/Node
 /lib/public/Files_FullTextSearch
 /lib/public/Files_FullTextSearch/Model
+/lib/public/Files/Lock
 /lib/public/files/mount
 /lib/public/Files/Mount
 /lib/public/Files/Notify
@@ -1765,6 +1780,7 @@
 /lib/public/preview
 /lib/public/Preview
 /lib/public/Profile
+/lib/public/Profiler
 /lib/public/Remote
 /lib/public/Remote/Api
 /lib/public/RichObjectStrings
@@ -2082,6 +2098,7 @@
 /tests/lib/Mail
 /tests/lib/memcache
 /tests/lib/Memcache
+/tests/lib/Metadata
 /tests/lib/Migration
 /tests/lib/notification
 /tests/lib/Notification
