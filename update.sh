@@ -19,6 +19,7 @@ github_api_wait() {
 }
 
 generate=1
+
 if [ ${generate} -eq 1 ]; then
   log "Updating wordlists ..."
   while read script; do
@@ -34,6 +35,7 @@ log "Updating README.md ..."
 NUMWORDLISTS=$(find ./ -name "*.txt" | wc -l)
 sed -i 's/This repository contains \*\*.*\*\* wordlists!/This repository contains \*\*'${NUMWORDLISTS}'\*\* wordlists!/g' ./README.md
 sed -i 's!https://img.shields.io/badge/wordlists-.*-brightgreen!https://img.shields.io/badge/wordlists-'${NUMWORDLISTS}'-brightgreen!g' ./README.md
+
 git add README.md
 git commit -m "Updated README.md"
 
