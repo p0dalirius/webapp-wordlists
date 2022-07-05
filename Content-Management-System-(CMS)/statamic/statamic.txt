@@ -383,6 +383,7 @@
 /resources/js/components/fieldtypes/TagsIndexFieldtype.vue
 /resources/js/components/fieldtypes/TaxonomyFieldtype.vue
 /resources/js/components/fieldtypes/TemplateFieldtype.vue
+/resources/js/components/fieldtypes/TemplateFolderFieldtype.vue
 /resources/js/components/fieldtypes/TextareaFieldtype.vue
 /resources/js/components/fieldtypes/TextFieldtype.vue
 /resources/js/components/fieldtypes/TimeFieldtype.vue
@@ -1710,6 +1711,7 @@
 /src/Exceptions/UnauthorizedHttpException.php
 /src/Exceptions/UrlNotFoundException.php
 /src/Exceptions/UuidExistsException.php
+/src/Exceptions/ValidationException.php
 /src/Extend
 /src/Extend/AddonInstaller.php
 /src/Extend/Addon.php
@@ -1874,6 +1876,7 @@
 /src/Fieldtypes/Tags.php
 /src/Fieldtypes/Taxonomies.php
 /src/Fieldtypes/Taxonomy.php
+/src/Fieldtypes/TemplateFolder.php
 /src/Fieldtypes/Template.php
 /src/Fieldtypes/Terms.php
 /src/Fieldtypes/Textarea.php
@@ -2100,6 +2103,7 @@
 /src/Http/Controllers/CP/Fieldtypes/MarkdownFieldtypeController.php
 /src/Http/Controllers/CP/Fieldtypes/RelationshipFieldtypeController.php
 /src/Http/Controllers/CP/Forms
+/src/Http/Controllers/CP/Forms/ActionController.php
 /src/Http/Controllers/CP/Forms/FormBlueprintController.php
 /src/Http/Controllers/CP/Forms/FormExportController.php
 /src/Http/Controllers/CP/Forms/FormsController.php
@@ -2165,6 +2169,7 @@
 /src/Http/Controllers/ResetPasswordController.php
 /src/Http/Controllers/UserController.php
 /src/Http/Middleware
+/src/Http/Middleware/AddViewPaths.php
 /src/Http/Middleware/API
 /src/Http/Middleware/API/SwapExceptionHandler.php
 /src/Http/Middleware/AuthGuard.php
@@ -2593,6 +2598,8 @@
 /src/Tags/Markdown.php
 /src/Tags/Member.php
 /src/Tags/Mix.php
+/src/Tags/Mount.php
+/src/Tags/MountUrl.php
 /src/Tags/Nav.php
 /src/Tags/NotFound.php
 /src/Tags/Obfuscate.php
@@ -2630,6 +2637,7 @@
 /src/Tags/TransChoice.php
 /src/Tags/Trans.php
 /src/Tags/Users.php
+/src/Tags/Vite.php
 /src/Tags/Widont.php
 /src/Tags/Yields.php
 /src/Taxonomies
