@@ -25349,6 +25349,7 @@
 /plugins/system/debug/src/DataCollector/SessionCollector.php
 /plugins/system/debug/src/DataFormatter.php
 /plugins/system/debug/src/JavascriptRenderer.php
+/plugins/system/debug/src/JoomlaHttpDriver.php
 /plugins/system/debug/src/Storage
 /plugins/system/debug/src/Storage/FileStorage.php
 /plugins/system/debug.xml
