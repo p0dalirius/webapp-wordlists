@@ -508,6 +508,7 @@ picture/team
 /src/MicroweberPackages/Database/Casts
 /src/MicroweberPackages/Database/Eloquent
 /src/MicroweberPackages/Database/Eloquent/Builder
+/src/MicroweberPackages/Database/functions
 /src/MicroweberPackages/Database/Observers
 /src/MicroweberPackages/Database/Query
 /src/MicroweberPackages/Database/tests
@@ -597,6 +598,7 @@ picture/team
 /src/MicroweberPackages/Menu/Http/Controllers/Api
 /src/MicroweberPackages/Menu/Http/Requests
 /src/MicroweberPackages/Menu/Listeners
+/src/MicroweberPackages/Menu/migrations
 /src/MicroweberPackages/Menu/Providers
 /src/MicroweberPackages/Menu/Repositories
 /src/MicroweberPackages/Menu/routes
@@ -1577,6 +1579,7 @@ picture/team
 /userfiles/modules/microweber/toolbar/editor_tools/editor_toolbar
 /userfiles/modules/microweber/toolbar/editor_tools/embed
 /userfiles/modules/microweber/toolbar/editor_tools/file_picker
+/userfiles/modules/microweber/toolbar/editor_tools/gradient_picker
 /userfiles/modules/microweber/toolbar/editor_tools/imageeditor
 /userfiles/modules/microweber/toolbar/editor_tools/link_editor
 /userfiles/modules/microweber/toolbar/editor_tools/link_editor_v2

@@ -2741,6 +2741,7 @@ Session
 /src/MicroweberPackages/App/functions/filesystem.php
 /src/MicroweberPackages/App/functions/lang.php
 /src/MicroweberPackages/App/functions/laravel.php
+/src/MicroweberPackages/App/functions/mail.php
 /src/MicroweberPackages/App/functions/other.php
 /src/MicroweberPackages/App/functions/paths.php
 /src/MicroweberPackages/App/functions/plupload.php
@@ -2772,6 +2773,7 @@ Session
 /src/MicroweberPackages/App/Http/Middleware/AuthenticateSessionForUser.php
 /src/MicroweberPackages/App/Http/Middleware/CheckForMaintenanceMode.php
 /src/MicroweberPackages/App/Http/Middleware/EncryptCookies.php
+/src/MicroweberPackages/App/Http/Middleware/IsAjaxMiddleware.php
 /src/MicroweberPackages/App/Http/Middleware/RedirectIfAuthenticated.php
 /src/MicroweberPackages/App/Http/Middleware/RemoveHtml.php
 /src/MicroweberPackages/App/Http/Middleware/SameSiteRefererMiddleware.php
@@ -3445,6 +3447,8 @@ Session
 /src/MicroweberPackages/Database/Eloquent/Builder
 /src/MicroweberPackages/Database/Eloquent/Builder/CachedBuilder.php
 /src/MicroweberPackages/Database/Filter.php
+/src/MicroweberPackages/Database/functions
+/src/MicroweberPackages/Database/functions/helpers.php
 /src/MicroweberPackages/Database/.gitignore
 /src/MicroweberPackages/Database/helpers.php
 /src/MicroweberPackages/Database/Observers
@@ -3771,6 +3775,8 @@ Session
 /src/MicroweberPackages/Menu/Listeners/ModifyMenuPageTrait.php
 /src/MicroweberPackages/Menu/MenuManager.php
 /src/MicroweberPackages/Menu/Menu.php
+/src/MicroweberPackages/Menu/migrations
+/src/MicroweberPackages/Menu/migrations/2022_07_04_130209_create_menus_table.php
 /src/MicroweberPackages/Menu/Providers
 /src/MicroweberPackages/Menu/Providers/MenuEventServiceProvider.php
 /src/MicroweberPackages/Menu/Providers/MenuServiceProvider.php
@@ -4385,6 +4391,7 @@ Session
 /src/MicroweberPackages/Template/Adapters/ElementsConfigReader.php
 /src/MicroweberPackages/Template/Adapters/MicroweberTemplate.php
 /src/MicroweberPackages/Template/Adapters/RenderHelpers
+/src/MicroweberPackages/Template/Adapters/RenderHelpers/CsrfTokenRequestInlineJsScriptGenerator.js
 /src/MicroweberPackages/Template/Adapters/RenderHelpers/CsrfTokenRequestInlineJsScriptGenerator.php
 /src/MicroweberPackages/Template/Adapters/RenderHelpers/TemplateMetaTagsRenderer.php
 /src/MicroweberPackages/Template/Adapters/RenderHelpers/TemplateOptimizeLoadingHelper.php
@@ -5078,6 +5085,7 @@ Templates.md
 /tests/Browser/SlowTests/AdminSettingsPagesAdvancedCheckTest.php
 /tests/Browser/SlowTests/AdminViewDashboardTest.php
 /tests/Browser/SlowTests/AdminXssTest.php
+/tests/Browser/SlowTests/BrowseMarketplaceDemosTest.php
 /tests/Browser/SlowTests/BrowsePagesForBrokenTagsTest.php
 /tests/Browser/source
 /tests/Browser/source/.gitignore
@@ -8776,6 +8784,7 @@ User
 /userfiles/modules/microweber/api/libs/mw-ui/assets/ui/plugins/fonts/materialdesignicons-webfont.woff2
 /userfiles/modules/microweber/api/libs/mw-ui/assets/ui/plugins/js
 /userfiles/modules/microweber/api/libs/mw-ui/assets/ui/plugins/js/jquery-3.4.1.min.js
+/userfiles/modules/microweber/api/libs/mw-ui/assets/ui/plugins/js/jquery-3.6.0.min.js
 /userfiles/modules/microweber/api/libs/mw-ui/assets/ui/plugins/js/plugins.js
 /userfiles/modules/microweber/api/libs/mw-ui/assets/ui/plugins/webfonts
 /userfiles/modules/microweber/api/libs/mw-ui/assets/ui/plugins/webfonts/fa-brands-400.eot
@@ -9118,6 +9127,7 @@ User
 /userfiles/modules/microweber/api/libs/mw-ui/grunt/plugins/cookie
 /userfiles/modules/microweber/api/libs/mw-ui/grunt/plugins/cookie/jquery.cookie.js
 /userfiles/modules/microweber/api/libs/mw-ui/grunt/plugins/jquery-3.4.1.min.js
+/userfiles/modules/microweber/api/libs/mw-ui/grunt/plugins/jquery-3.6.0.min.js
 /userfiles/modules/microweber/api/libs/mw-ui/grunt/plugins/popper
 /userfiles/modules/microweber/api/libs/mw-ui/grunt/plugins/popper/popper.min.js
 /userfiles/modules/microweber/api/libs/mw-ui/grunt/plugins/tags
@@ -10093,6 +10103,9 @@ User
 /userfiles/modules/microweber/toolbar/editor_tools/embed/index.php
 /userfiles/modules/microweber/toolbar/editor_tools/file_picker
 /userfiles/modules/microweber/toolbar/editor_tools/file_picker/index.php
+/userfiles/modules/microweber/toolbar/editor_tools/gradient_picker
+/userfiles/modules/microweber/toolbar/editor_tools/gradient_picker/index2.php
+/userfiles/modules/microweber/toolbar/editor_tools/gradient_picker/index.php
 /userfiles/modules/microweber/toolbar/editor_tools/.htaccess
 /userfiles/modules/microweber/toolbar/editor_tools/imageeditor
 /userfiles/modules/microweber/toolbar/editor_tools/imageeditor/cropper.min.css
@@ -10993,6 +11006,7 @@ User
 /userfiles/modules/site_stats/dashboard_recent_orders.php
 /userfiles/modules/site_stats/dashboard_users_online.php
 /userfiles/modules/site_stats/functions.php
+/userfiles/modules/site_stats/icon_ref_direct_16x16.png
 /userfiles/modules/site_stats/index.php
 /userfiles/modules/site_stats/install.sql
 /userfiles/modules/site_stats/morris.min.js
@@ -11217,6 +11231,10 @@ User
 /userfiles/modules/twitter_feed/index.php
 /userfiles/modules/twitter_feed/templates
 /userfiles/modules/twitter_feed/templates/default.php
+/userfiles/modules/twitter_feed/templates/default_settings.php
+/userfiles/modules/twitter_feed/templates/masonry.php
+/userfiles/modules/twitter_feed/templates/masonry_settings.php
+/userfiles/modules/twitter_feed/templates/skin-1.php
 /userfiles/modules/twitter_feed/TwitterAPIExchange.php
 /userfiles/modules/twitter_feed/twitter_feed.svg
 /userfiles/modules/updates
