@@ -515,6 +515,7 @@
 /app/plugins/datasource/cloudwatch/components/ui
 /app/plugins/datasource/cloudwatch/components/VariableQueryEditor
 /app/plugins/datasource/cloudwatch/dashboards
+/app/plugins/datasource/cloudwatch/dynamic-labels
 /app/plugins/datasource/cloudwatch/img
 /app/plugins/datasource/cloudwatch/metric-math
 /app/plugins/datasource/cloudwatch/metric-math/completion
@@ -523,6 +524,7 @@
 /app/plugins/datasource/cloudwatch/__mocks__/cloudwatch-sql
 /app/plugins/datasource/cloudwatch/__mocks__/cloudwatch-sql-test-data
 /app/plugins/datasource/cloudwatch/__mocks__/cloudwatch-sql/test-data
+/app/plugins/datasource/cloudwatch/__mocks__/dynamic-label-test-data
 /app/plugins/datasource/cloudwatch/__mocks__/metric-math-test-data
 /app/plugins/datasource/cloudwatch/__mocks__/monarch
 /app/plugins/datasource/cloudwatch/monarch

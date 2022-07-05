@@ -8,6 +8,8 @@
 /app/angular/array_join.ts
 /app/angular/autofill_event_fix.ts
 /app/angular/bridgeReactAngularRouting.ts
+/app/angular/bsTooltip.ts
+/app/angular/bsTypeahead.ts
 /app/angular/components/code_editor/brace.d.ts
 /app/angular/components/code_editor/code_editor.ts
 /app/angular/components/code_editor/theme-grafana-dark.js
@@ -275,12 +277,15 @@
 /app/core/components/NavBar/NavBarItemWithoutMenu.tsx
 /app/core/components/NavBar/NavBarMenuItem.test.tsx
 /app/core/components/NavBar/NavBarMenuItem.tsx
+/app/core/components/NavBar/NavBarMenuPortalContainer.tsx
 /app/core/components/NavBar/NavBarMenu.test.tsx
 /app/core/components/NavBar/NavBarMenu.tsx
 /app/core/components/NavBar/NavBarNext.test.tsx
 /app/core/components/NavBar/NavBarNext.tsx
+/app/core/components/NavBar/NavBarScrollContainer.tsx
 /app/core/components/NavBar/NavBarSection.tsx
 /app/core/components/NavBar/NavBar.test.tsx
+/app/core/components/NavBar/NavBarToggle.tsx
 /app/core/components/navbar/navbar.ts
 /app/core/components/NavBar/NavBar.tsx
 /app/core/components/NavBar/NavFeatureHighlight.tsx
@@ -362,6 +367,7 @@
 /app/core/components/QueryOperationRow/OperationRowHelp.tsx
 /app/core/components/QueryOperationRow/QueryOperationAction.test.tsx
 /app/core/components/QueryOperationRow/QueryOperationAction.tsx
+/app/core/components/QueryOperationRow/QueryOperationRowHeader.tsx
 /app/core/components/QueryOperationRow/QueryOperationRow.test.tsx
 /app/core/components/QueryOperationRow/QueryOperationRow.tsx
 /app/core/components/query_part/query_part_editor.ts
@@ -1099,6 +1105,7 @@
 /app/features/alerting/unified/components/rule-editor/CloudConditionsStep.tsx
 /app/features/alerting/unified/components/rule-editor/CloudEvaluationBehavior.tsx
 /app/features/alerting/unified/components/rule-editor/CloudRulesSourcePicker.tsx
+/app/features/alerting/unified/components/rule-editor/ConditionField.test.tsx
 /app/features/alerting/unified/components/rule-editor/ConditionField.tsx
 /app/features/alerting/unified/components/rule-editor/ConditionsStep.tsx
 /app/features/alerting/unified/components/rule-editor/DetailsStep.tsx
@@ -1149,6 +1156,7 @@
 /app/features/alerting/unified/components/rules/RuleDetailsDataSources.tsx
 /app/features/alerting/unified/components/rules/RuleDetailsExpression.tsx
 /app/features/alerting/unified/components/rules/RuleDetailsFederatedSources.tsx
+/app/features/alerting/unified/components/rules/RuleDetailsMatchingInstances.test.tsx
 /app/features/alerting/unified/components/rules/RuleDetailsMatchingInstances.tsx
 /app/features/alerting/unified/components/rules/RuleDetails.test.tsx
 /app/features/alerting/unified/components/rules/RuleDetails.tsx
@@ -1254,6 +1262,7 @@
 /app/features/alerting/unified/utils/alertmanager-config.ts
 /app/features/alerting/unified/utils/alertmanager.test.ts
 /app/features/alerting/unified/utils/alertmanager.ts
+/app/features/alerting/unified/utils/amroutes.test.ts
 /app/features/alerting/unified/utils/amroutes.ts
 /app/features/alerting/unified/utils/cloud-alertmanager-notifier-types.ts
 /app/features/alerting/unified/utils/config.ts
@@ -1346,6 +1355,7 @@
 /app/features/canvas/runtime/root.tsx
 /app/features/canvas/runtime/scene.tsx
 /app/features/canvas/types.ts
+/app/features/commandPalette/actions/alerting.static.actions.ts
 /app/features/commandPalette/actions/dashboard.nav.actions.ts
 /app/features/commandPalette/actions/global.static.actions.ts
 /app/features/commandPalette/CommandPalette.tsx
@@ -1385,6 +1395,7 @@
 /app/features/dashboard/components/DashboardSettings/AutoRefreshIntervals.test.tsx
 /app/features/dashboard/components/DashboardSettings/AutoRefreshIntervals.tsx
 /app/features/dashboard/components/DashboardSettings/DashboardSettingsHeader.tsx
+/app/features/dashboard/components/DashboardSettings/DashboardSettings.test.tsx
 /app/features/dashboard/components/DashboardSettings/DashboardSettings.tsx
 /app/features/dashboard/components/DashboardSettings/GeneralSettings.test.tsx
 /app/features/dashboard/components/DashboardSettings/GeneralSettings.tsx
@@ -2759,6 +2770,7 @@
 /app/features/search/hooks/useDashboardSearch.ts
 /app/features/search/hooks/useManageDashboards.test.ts
 /app/features/search/hooks/useManageDashboards.ts
+/app/features/search/hooks/useSearchKeyboardSelection.ts
 /app/features/search/hooks/useSearchQuery.ts
 /app/features/search/hooks/useSearch.ts
 /app/features/search/hooks/useShowDashboardPreviews.ts
@@ -2770,6 +2782,7 @@
 /app/features/search/page/components/ConfirmDeleteModal.tsx
 /app/features/search/page/components/FolderSection.tsx
 /app/features/search/page/components/FolderView.tsx
+/app/features/search/page/components/ManageActions.test.tsx
 /app/features/search/page/components/ManageActions.tsx
 /app/features/search/page/components/MoveToFolderModal.test.tsx
 /app/features/search/page/components/MoveToFolderModal.tsx
@@ -2794,6 +2807,7 @@
 /app/features/search/service/minisearcher.ts
 /app/features/search/service/searcher.test.ts
 /app/features/search/service/searcher.ts
+/app/features/search/service/sql.ts
 /app/features/search/service/types.ts
 /app/features/search/testData.ts
 /app/features/search/types.ts
@@ -3419,6 +3433,7 @@
 /app/plugins/datasource/cloudwatch/components/Dimensions/FilterItem.tsx
 /app/plugins/datasource/cloudwatch/components/Dimensions.test.tsx
 /app/plugins/datasource/cloudwatch/components/Dimensions.tsx
+/app/plugins/datasource/cloudwatch/components/DynamicLabelsField.tsx
 /app/plugins/datasource/cloudwatch/components/Forms.tsx
 /app/plugins/datasource/cloudwatch/components/index.ts
 /app/plugins/datasource/cloudwatch/components/LogsCheatSheet.tsx
@@ -3503,6 +3518,10 @@
 /app/plugins/datasource/cloudwatch/datasource.test.ts
 /app/plugins/datasource/cloudwatch/datasource.ts
 /app/plugins/datasource/cloudwatch/directives.js
+/app/plugins/datasource/cloudwatch/dynamic-labels/CompletionItemProvider.test.ts
+/app/plugins/datasource/cloudwatch/dynamic-labels/CompletionItemProvider.ts
+/app/plugins/datasource/cloudwatch/dynamic-labels/definition.ts
+/app/plugins/datasource/cloudwatch/dynamic-labels/language.ts
 /app/plugins/datasource/cloudwatch/expressions.ts
 /app/plugins/datasource/cloudwatch/guards.ts
 /app/plugins/datasource/cloudwatch/hooks.ts
@@ -3541,6 +3560,9 @@
 /app/plugins/datasource/cloudwatch/__mocks__/cloudwatch-sql-test-data/singleLineTwoQueries.ts
 /app/plugins/datasource/cloudwatch/__mocks__/cloudwatch-sql/test-data/singleLineTwoQueries.ts
 /app/plugins/datasource/cloudwatch/__mocks__/cloudwatch-sql/TextModel.ts
+/app/plugins/datasource/cloudwatch/__mocks__/dynamic-label-test-data/afterLabelValue.ts
+/app/plugins/datasource/cloudwatch/__mocks__/dynamic-label-test-data/index.ts
+/app/plugins/datasource/cloudwatch/__mocks__/dynamic-label-test-data/insideLabelValue.ts
 /app/plugins/datasource/cloudwatch/__mocks__/metric-math-test-data/afterFunctionQuery.ts
 /app/plugins/datasource/cloudwatch/__mocks__/metric-math-test-data/index.ts
 /app/plugins/datasource/cloudwatch/__mocks__/metric-math-test-data/secondArgAfterSearchQuery.ts
@@ -3550,6 +3572,7 @@
 /app/plugins/datasource/cloudwatch/__mocks__/metric-math-test-data/withinStringQuery.ts
 /app/plugins/datasource/cloudwatch/__mocks__/monarch/Monaco.ts
 /app/plugins/datasource/cloudwatch/__mocks__/monarch/TextModel.ts
+/app/plugins/datasource/cloudwatch/__mocks__/queries.ts
 /app/plugins/datasource/cloudwatch/__mocks__/sqlUtils.ts
 /app/plugins/datasource/cloudwatch/module.ts
 /app/plugins/datasource/cloudwatch/module.tsx
@@ -3752,6 +3775,8 @@
 /app/plugins/datasource/grafana-azure-monitor-datasource/azure_log_analytics/response_parser.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/azureMetadata/index.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/azureMetadata/locations.ts
+/app/plugins/datasource/grafana-azure-monitor-datasource/azureMetadata/logsResourceTypes.ts
+/app/plugins/datasource/grafana-azure-monitor-datasource/azureMetadata/metricNamespaces.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/azureMetadata/resourceTypes.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/azure_monitor/azure_monitor_datasource.test.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/azure_monitor/azure_monitor_datasource.ts
@@ -3800,6 +3825,7 @@
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/LogsQueryEditor/useMigrations.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/LogsQueryEditor/WorkspaceField.tsx
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/AggregationField.tsx
+/app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/asyncDataHooks.test.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/dataHooks.test.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/dataHooks.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/DimensionFields.test.tsx
@@ -3812,9 +3838,11 @@
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/MetricsQueryEditor.test.tsx
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/MetricsQueryEditor.tsx
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/NamespaceField.tsx
+/app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/NewDimensionFields.tsx
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/ResourceGroupsField.tsx
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/ResourceNameField.tsx
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/ResourceTypeField.tsx
+/app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/setQueryValue.test.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/setQueryValue.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/TimeGrainField.tsx
 /app/plugins/datasource/grafana-azure-monitor-datasource/components/MetricsQueryEditor/TopField.tsx
@@ -3873,6 +3901,7 @@
 /app/plugins/datasource/grafana-azure-monitor-datasource/dashboards/v1Alerts.json
 /app/plugins/datasource/grafana-azure-monitor-datasource/dashboards/vMInsightsRG.json
 /app/plugins/datasource/grafana-azure-monitor-datasource/dashboards/vMInsightsWorkspace.json
+/app/plugins/datasource/grafana-azure-monitor-datasource/datasource.test.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/datasource.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/editor/editor_component.tsx
 /app/plugins/datasource/grafana-azure-monitor-datasource/editor/kusto/kusto.ts
@@ -3909,6 +3938,7 @@
 /app/plugins/datasource/grafana-azure-monitor-datasource/__mocks__/resourcePickerData.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/__mocks__/resourcePickerRows.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/__mocks__/sdk.ts
+/app/plugins/datasource/grafana-azure-monitor-datasource/__mocks__/utils.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/__mocks__/variables.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/module.ts
 /app/plugins/datasource/grafana-azure-monitor-datasource/module.tsx
@@ -3955,6 +3985,7 @@
 /app/plugins/datasource/grafana/components/AnnotationQueryEditor.test.tsx
 /app/plugins/datasource/grafana/components/AnnotationQueryEditor.tsx
 /app/plugins/datasource/grafana/components/QueryEditor.tsx
+/app/plugins/datasource/grafana/components/SearchEditor.tsx
 /app/plugins/datasource/grafana/datasource.js
 /app/plugins/datasource/grafana/datasource.test.ts
 /app/plugins/datasource/grafana/datasource.ts
@@ -4416,6 +4447,7 @@
 /app/plugins/datasource/prometheus/add_label_to_query.test.ts
 /app/plugins/datasource/prometheus/add_label_to_query.ts
 /app/plugins/datasource/prometheus/completer.ts
+/app/plugins/datasource/prometheus/components/AnnotationQueryEditor.tsx
 /app/plugins/datasource/prometheus/components/Label.tsx
 /app/plugins/datasource/prometheus/components/monaco-query-field/getOverrideServices.ts
 /app/plugins/datasource/prometheus/components/monaco-query-field/monaco-completion-provider/completions.ts
@@ -4546,6 +4578,7 @@
 /app/plugins/datasource/prometheus/querybuilder/shared/QueryEditorModeToggle.tsx
 /app/plugins/datasource/prometheus/querybuilder/shared/QueryHeaderSwitch.tsx
 /app/plugins/datasource/prometheus/querybuilder/shared/QueryOptionGroup.tsx
+/app/plugins/datasource/prometheus/querybuilder/shared/RawQuery.tsx
 /app/plugins/datasource/prometheus/querybuilder/shared/types.ts
 /app/plugins/datasource/prometheus/querybuilder/state.test.ts
 /app/plugins/datasource/prometheus/querybuilder/state.ts
@@ -5065,6 +5098,7 @@
 /app/plugins/panel/heatmap-new/HeatmapHoverView.tsx
 /app/plugins/panel/heatmap-new/HeatmapPanel.tsx
 /app/plugins/panel/heatmap-new/img/heatmap.svg
+/app/plugins/panel/heatmap-new/img/icn-heatmap-panel.svg
 /app/plugins/panel/heatmap-new/migrations.test.ts
 /app/plugins/panel/heatmap-new/migrations.ts
 /app/plugins/panel/heatmap-new/models.cue
@@ -6613,6 +6647,7 @@
 /testdata/population_by_state.csv
 /testdata/weight_height.csv
 /test/global-jquery-shim.ts
+/test/helpers/asserts.ts
 /test/helpers/convertToStoreState.ts
 /test/helpers/createFetchResponse.ts
 /test/helpers/fieldConfig.ts
@@ -6621,6 +6656,7 @@
 /test/helpers/getTemplateSrvDependencies.ts
 /test/helpers/initTemplateSrv.ts
 /test/helpers/observableTester.ts
+/test/helpers/selectOptionInTest.ts
 /test/helpers/TestProvider.tsx
 /test/helpers/typeAsJestMock.ts
 /test/index.ts
