@@ -63,6 +63,7 @@
 /app/Http/Middleware/Authenticate.php
 /app/Http/Middleware/EncryptCookies.php
 /app/Http/Middleware/Log.php
+/app/Http/Middleware/PreventRequestsDuringMaintenance.php
 /app/Http/Middleware/RedirectIfAuthenticated.php
 /app/Http/Middleware/TrimStrings.php
 /app/Http/Middleware/TrustProxies.php
@@ -173,6 +174,9 @@
 /database/factories/AdminUserFactory.php
 /database/factories/EntityFactory.php
 /database/factories/MenuFactory.php
+/database/factories/Model
+/database/factories/Model/Admin
+/database/factories/Model/Admin/CategoryFactory.php
 /database/factories/UserFactory.php
 /database/.gitignore
 /database/migrations
@@ -202,6 +206,9 @@
 /database/migrations/2021_08_20_154052_add_list_sort_to_entity_fields_table.php
 /database/migrations/2021_08_20_172715_add_searchable_fields_to_entity_fields_table.php
 /database/migrations/2021_12_06_114147_add_category_entity_id_to_entity_fields_table.php
+/database/migrations/2022_03_21_104916_add_identity_to_categories_table.php
+/database/migrations/2022_03_21_163923_add_is_nav_to_categories_table.php
+/database/migrations/2022_03_22_085941_add_url_to_categories_table.php
 /database/seeds
 /database/seeds/AdminUsersTableSeeder.php
 /database/seeds/CategoriesTableSeeder.php
@@ -214,6 +221,9 @@
 /database/seeds/SensitiveWordsTableSeeder.php
 /.env.example
 /.gitattributes
+/.github
+/.github/workflows
+/.github/workflows/laravel.yml
 /.gitignore
 /LICENSE
 /package.json
@@ -2683,6 +2693,7 @@
 /tests/Feature
 /tests/Feature/Admin
 /tests/Feature/Admin/AuthorizationTest.php
+/tests/Feature/Admin/CategoryTest.php
 /tests/Feature/Admin/EntityControllerTest.php
 /tests/Feature/Admin/EntityFieldControllerTest.php
 /tests/Feature/Admin/MenuControllerTest.php

@@ -31,8 +31,12 @@
 /config
 /database
 /database/factories
+/database/factories/Model
+/database/factories/Model/Admin
 /database/migrations
 /database/seeds
+/.github
+/.github/workflows
 /public
 /public/public
 /public/public/admin
