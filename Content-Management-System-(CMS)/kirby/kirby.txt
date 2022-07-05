@@ -188,6 +188,7 @@
 /config/fields/text.php
 /config/fields/time.php
 /config/fields/toggle.php
+/config/fields/toggles.php
 /config/fields/url.php
 /config/fields/users.php
 /config/fields/writer.php
@@ -204,6 +205,7 @@
 /config/sections/files.php
 /config/sections/info.php
 /config/sections/mixins
+/config/sections/mixins/details.php
 /config/sections/mixins/empty.php
 /config/sections/mixins/headline.php
 /config/sections/mixins/help.php
@@ -212,7 +214,10 @@
 /config/sections/mixins/min.php
 /config/sections/mixins/pagination.php
 /config/sections/mixins/parent.php
+/config/sections/mixins/search.php
+/config/sections/mixins/sort.php
 /config/sections/pages.php
+/config/sections/stats.php
 /config/setup.php
 /config/snippets.php
 /config/tags.php
@@ -393,6 +398,7 @@
 /src/Cms/HasFiles.php
 /src/Cms/HasMethods.php
 /src/Cms/HasSiblings.php
+/src/Cms/Helpers.php
 /src/Cms/Html.php
 /src/Cms/Ingredients.php
 /src/Cms/Item.php
@@ -514,6 +520,7 @@
 /src/Form/Validations.php
 /src/Http
 /src/Http/Cookie.php
+/src/Http/Environment.php
 /src/Http/Exceptions
 /src/Http/Exceptions/NextRouteException.php
 /src/Http/Header.php
@@ -526,6 +533,8 @@
 /src/Http/Request/Auth
 /src/Http/Request/Auth/BasicAuth.php
 /src/Http/Request/Auth/BearerAuth.php
+/src/Http/Request/Auth.php
+/src/Http/Request/Auth/SessionAuth.php
 /src/Http/Request/Body.php
 /src/Http/Request/Data.php
 /src/Http/Request/Files.php
@@ -818,6 +827,7 @@
 /vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php
 /vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php
 /vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php
+/vendor/phpmailer/phpmailer/language/phpmailer.lang-mn.php
 /vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php
 /vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php
 /vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php
@@ -841,6 +851,7 @@
 /vendor/phpmailer/phpmailer/src
 /vendor/phpmailer/phpmailer/src/Exception.php
 /vendor/phpmailer/phpmailer/src/OAuth.php
+/vendor/phpmailer/phpmailer/src/OAuthTokenProvider.php
 /vendor/phpmailer/phpmailer/src/PHPMailer.php
 /vendor/phpmailer/phpmailer/src/POP3.php
 /vendor/phpmailer/phpmailer/src/SMTP.php
