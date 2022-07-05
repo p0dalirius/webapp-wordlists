@@ -7172,6 +7172,7 @@ space/foo.txt
 /typo3/sysext/core/Classes/Resource/FileRepository.php
 /typo3/sysext/core/Classes/Resource/Filter/FileExtensionFilter.php
 /typo3/sysext/core/Classes/Resource/Filter/FileNameFilter.php
+/typo3/sysext/core/Classes/Resource/Filter/ImportExportFilter.php
 /typo3/sysext/core/Classes/Resource/FolderInterface.php
 /typo3/sysext/core/Classes/Resource/Folder.php
 /typo3/sysext/core/Classes/Resource/Hook/FileDumpEIDHookInterface.php
@@ -44588,6 +44589,12 @@ space/foo.txt
 /versions/10.4.26/typo3_dirs.txt
 /versions/10.4.26/typo3_files.txt
 /versions/10.4.26/typo3.txt
+/versions/10.4.27/typo3_dirs.txt
+/versions/10.4.27/typo3_files.txt
+/versions/10.4.27/typo3.txt
+/versions/10.4.28/typo3_dirs.txt
+/versions/10.4.28/typo3_files.txt
+/versions/10.4.28/typo3.txt
 /versions/10.4.2/typo3_dirs.txt
 /versions/10.4.2/typo3_files.txt
 /versions/10.4.2/typo3.txt
@@ -44642,6 +44649,9 @@ space/foo.txt
 /versions/11.5.0/typo3_dirs.txt
 /versions/11.5.0/typo3_files.txt
 /versions/11.5.0/typo3.txt
+/versions/11.5.10/typo3_dirs.txt
+/versions/11.5.10/typo3_files.txt
+/versions/11.5.10/typo3.txt
 /versions/11.5.1/typo3_dirs.txt
 /versions/11.5.1/typo3_files.txt
 /versions/11.5.1/typo3.txt
@@ -44666,6 +44676,9 @@ space/foo.txt
 /versions/11.5.8/typo3_dirs.txt
 /versions/11.5.8/typo3_files.txt
 /versions/11.5.8/typo3.txt
+/versions/11.5.9/typo3_dirs.txt
+/versions/11.5.9/typo3_files.txt
+/versions/11.5.9/typo3.txt
 /versions/4.0.13/typo3_dirs.txt
 /versions/4.0.13/typo3_files.txt
 /versions/4.0.13/typo3.txt
@@ -44918,6 +44931,9 @@ space/foo.txt
 /versions/7.6.56/typo3_dirs.txt
 /versions/7.6.56/typo3_files.txt
 /versions/7.6.56/typo3.txt
+/versions/7.6.57/typo3_dirs.txt
+/versions/7.6.57/typo3_files.txt
+/versions/7.6.57/typo3.txt
 /versions/7.6.5/typo3_dirs.txt
 /versions/7.6.5/typo3_files.txt
 /versions/7.6.5/typo3.txt
@@ -45104,6 +45120,9 @@ space/foo.txt
 /versions/8.7.46/typo3_dirs.txt
 /versions/8.7.46/typo3_files.txt
 /versions/8.7.46/typo3.txt
+/versions/8.7.47/typo3_dirs.txt
+/versions/8.7.47/typo3_files.txt
+/versions/8.7.47/typo3.txt
 /versions/8.7.4/typo3_dirs.txt
 /versions/8.7.4/typo3_files.txt
 /versions/8.7.4/typo3.txt
@@ -45230,7 +45249,13 @@ space/foo.txt
 /versions/9.5.33/typo3_dirs.txt
 /versions/9.5.33/typo3_files.txt
 /versions/9.5.33/typo3.txt
+/versions/9.5.34/typo3_dirs.txt
+/versions/9.5.34/typo3_files.txt
 /versions/9.5.34/typo3.txt
+/versions/9.5.35/typo3.txt
+/versions/9.5.36/typo3_dirs.txt
+/versions/9.5.36/typo3_files.txt
+/versions/9.5.36/typo3.txt
 /versions/9.5.3/typo3_dirs.txt
 /versions/9.5.3/typo3_files.txt
 /versions/9.5.3/typo3.txt
