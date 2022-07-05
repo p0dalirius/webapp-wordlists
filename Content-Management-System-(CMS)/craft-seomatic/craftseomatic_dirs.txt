@@ -36,6 +36,7 @@
 /src/assetbundles/seomatic/src/img
 /src/assetbundles/seomatic/src/js
 /src/assetbundles/seomatic/src/vue
+/src/autocompletes
 /src/base
 /src/console
 /src/console/controllers
