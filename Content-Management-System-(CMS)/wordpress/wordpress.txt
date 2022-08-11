@@ -78330,6 +78330,7 @@
 /wp-content/languages/bg_BG-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/bg_BG-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/bg_BG-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/bg_BG-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/bg_BG-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/bg_BG-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/bg_BG-7289286ed59e90a8f36ae797df62220b.json
@@ -78436,6 +78437,7 @@
 /wp-content/languages/bo.po
 /wp-content/languages/bs_BA-0cc31205f20441b3df1d1b46100f6b8d.json
 /wp-content/languages/bs_BA-0ce75ad2f775d1cac9696967d484808c.json
+/wp-content/languages/bs_BA-17179a5f2930647c89151e365f843b6e.json
 /wp-content/languages/bs_BA-1780a2033cf98d69ce13c2e5c8510004.json
 /wp-content/languages/bs_BA-1a0cd6a7128913b15c1a10dd68951869.json
 /wp-content/languages/bs_BA-1bba9045bb07c89671c88a3f328548e8.json
@@ -78454,6 +78456,7 @@
 /wp-content/languages/bs_BA-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/bs_BA-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/bs_BA-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/bs_BA-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/bs_BA-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/bs_BA-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/bs_BA-7289286ed59e90a8f36ae797df62220b.json
@@ -79586,6 +79589,7 @@
 /wp-content/languages/es_AR-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/es_AR-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/es_AR-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/es_AR-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/es_AR-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/es_AR-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/es_AR-7289286ed59e90a8f36ae797df62220b.json
@@ -80306,6 +80310,7 @@
 /wp-content/languages/fa_AF-0cc31205f20441b3df1d1b46100f6b8d.json
 /wp-content/languages/fa_AF-0ce75ad2f775d1cac9696967d484808c.json
 /wp-content/languages/fa_AF-0eebe503220d4a00341eb011b92769b4.json
+/wp-content/languages/fa_AF-17179a5f2930647c89151e365f843b6e.json
 /wp-content/languages/fa_AF-1780a2033cf98d69ce13c2e5c8510004.json
 /wp-content/languages/fa_AF-1a0cd6a7128913b15c1a10dd68951869.json
 /wp-content/languages/fa_AF-1bba9045bb07c89671c88a3f328548e8.json
@@ -80324,6 +80329,7 @@
 /wp-content/languages/fa_AF-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/fa_AF-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/fa_AF-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/fa_AF-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/fa_AF-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/fa_AF-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/fa_AF-7289286ed59e90a8f36ae797df62220b.json
@@ -80348,6 +80354,7 @@
 /wp-content/languages/fa_AF-ac23eee47530ac63a1178c827db28087.json
 /wp-content/languages/fa_AF-bf0f094965d3d4a95b47babcb35fc136.json
 /wp-content/languages/fa_AF-bf23b24175490c2e46aaf92ff6a0c70f.json
+/wp-content/languages/fa_AF-c31d5f185753910c14afebc6deb2ce24.json
 /wp-content/languages/fa_AF-ca28138671823450e87dfd354f7afc6b.json
 /wp-content/languages/fa_AF-daeb084aab42199d26393a56c3465bc0.json
 /wp-content/languages/fa_AF-e2791ba830489d23043be8650a22a22b.json
@@ -80913,6 +80920,7 @@
 /wp-content/languages/id_ID-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/id_ID-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/id_ID-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/id_ID-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/id_ID-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/id_ID-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/id_ID-7289286ed59e90a8f36ae797df62220b.json
@@ -84534,6 +84542,8 @@
 /wp-content/languages/themes/twentytwentytwo-es_VE.po
 /wp-content/languages/themes/twentytwentytwo-eu.mo
 /wp-content/languages/themes/twentytwentytwo-eu.po
+/wp-content/languages/themes/twentytwentytwo-fa_AF.mo
+/wp-content/languages/themes/twentytwentytwo-fa_AF.po
 /wp-content/languages/themes/twentytwentytwo-fi.mo
 /wp-content/languages/themes/twentytwentytwo-fi.po
 /wp-content/languages/themes/twentytwentytwo-fr_CA.mo
@@ -84890,6 +84900,7 @@
 /wp-content/languages/zh_CN-529362903a5a05b34b06b5e793fb4cf8.json
 /wp-content/languages/zh_CN-569e85ef168299eb8c8f24d8ef8c8a78.json
 /wp-content/languages/zh_CN-6025add6bde16aaeb12787d250f9b414.json
+/wp-content/languages/zh_CN-60d06fac6f98e8e8f0ec5a945738b660.json
 /wp-content/languages/zh_CN-68f2cec7514bf8563c723a4d675fcfe6.json
 /wp-content/languages/zh_CN-7233008897033de5ee0d14f86a42a65a.json
 /wp-content/languages/zh_CN-7289286ed59e90a8f36ae797df62220b.json
