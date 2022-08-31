@@ -7024,6 +7024,7 @@ License.txt
 /modules/Administration/RebuildSprites.php
 /modules/Administration/RepairActivities.php
 /modules/Administration/repairDatabase.php
+/modules/Administration/RepairESIndex.php
 /modules/Administration/RepairFieldCasing.php
 /modules/Administration/RepairIE.php
 /modules/Administration/RepairIndex.php
@@ -8737,6 +8738,7 @@ License.txt
 /modules/DocumentRevisions/Menu.php
 /modules/DocumentRevisions/metadata/detailviewdefs.php
 /modules/DocumentRevisions/metadata/editviewdefs.php
+/modules/DocumentRevisions/metadata/listviewdefs.php
 /modules/DocumentRevisions/metadata/subpanels/default.php
 /modules/DocumentRevisions/subpanels/default.php
 /modules/DocumentRevisions/vardefs.php
@@ -16089,6 +16091,7 @@ Riyaz.ttf
 /themes/SuiteP/css/Dawn/variables.scss
 /themes/SuiteP/css/Day/color-palette.scss
 /themes/SuiteP/css/Day/icons.scss
+/themes/SuiteP/css/Day/select.ico
 /themes/SuiteP/css/Day/style.css
 /themes/SuiteP/css/Day/style.scss
 /themes/SuiteP/css/Day/variables.scss
@@ -16096,6 +16099,7 @@ Riyaz.ttf
 /themes/SuiteP/css/detailview.scss
 /themes/SuiteP/css/Dusk/color-palette.scss
 /themes/SuiteP/css/Dusk/icons.scss
+/themes/SuiteP/css/Dusk/select.ico
 /themes/SuiteP/css/Dusk/style.css
 /themes/SuiteP/css/Dusk/style.scss
 /themes/SuiteP/css/Dusk/variables.scss
@@ -16119,6 +16123,7 @@ Riyaz.ttf
 /themes/SuiteP/css/navbar.scss
 /themes/SuiteP/css/Night/color-palette.scss
 /themes/SuiteP/css/Night/icons.scss
+/themes/SuiteP/css/Night/select.ico
 /themes/SuiteP/css/Night/style.css
 /themes/SuiteP/css/Night/style.scss
 /themes/SuiteP/css/Night/variables.scss
