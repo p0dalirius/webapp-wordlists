@@ -330,16 +330,20 @@
 /fuel/codeigniter/libraries/Pagination.php
 /fuel/codeigniter/libraries/Parser.php
 /fuel/codeigniter/libraries/Profiler.php
+/fuel/codeigniter/libraries/Session/CI_Session_driver_interface.php
 /fuel/codeigniter/libraries/Session/drivers/index.html
 /fuel/codeigniter/libraries/Session/drivers/Session_database_driver.php
 /fuel/codeigniter/libraries/Session/drivers/Session_files_driver.php
 /fuel/codeigniter/libraries/Session/drivers/Session_memcached_driver.php
 /fuel/codeigniter/libraries/Session/drivers/Session_redis_driver.php
 /fuel/codeigniter/libraries/Session/index.html
+/fuel/codeigniter/libraries/Session/OldSessionWrapper.php
 /fuel/codeigniter/libraries/Session.php
+/fuel/codeigniter/libraries/Session/PHP8SessionWrapper.php
 /fuel/codeigniter/libraries/Session/Session_driver.php
 /fuel/codeigniter/libraries/Session/SessionHandlerInterface.php
 /fuel/codeigniter/libraries/Session/Session.php
+/fuel/codeigniter/libraries/Session/SessionUpdateTimestampHandlerInterface.php
 /fuel/codeigniter/libraries/Sha1.php
 /fuel/codeigniter/libraries/Table.php
 /fuel/codeigniter/libraries/Trackback.php
@@ -2356,3 +2360,4 @@
 /index.php
 /README.md
 /robots.txt
+/SECURITY.md
