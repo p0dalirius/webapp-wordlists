@@ -2654,6 +2654,7 @@ space
 /typo3/sysext/form/Classes/ConfigurationModuleProvider
 /typo3/sysext/form/Classes/ContentObject
 /typo3/sysext/form/Classes/Controller
+/typo3/sysext/form/Classes/Core
 /typo3/sysext/form/Classes/Domain
 /typo3/sysext/form/Classes/Domain/Builder
 /typo3/sysext/form/Classes/Domain/Condition
@@ -8010,6 +8011,10 @@ space
 /vendor/typo3fluid/fluid
 /vendor/typo3fluid/fluid/bin
 /vendor/typo3fluid/fluid/doc
+/vendor/typo3fluid/fluid/Documentation
+/vendor/typo3fluid/fluid/Documentation/Development
+/vendor/typo3fluid/fluid/Documentation/Installation
+/vendor/typo3fluid/fluid/Documentation/Usage
 /vendor/typo3fluid/fluid/examples
 /vendor/typo3fluid/fluid/examples/cache
 /vendor/typo3fluid/fluid/examples/include
