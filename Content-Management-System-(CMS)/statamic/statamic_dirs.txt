@@ -67,6 +67,7 @@
 /resources/js/vendor/eqcss
 /resources/js/vendor/jquery-ui
 /resources/lang
+/resources/lang/cs
 /resources/lang/da
 /resources/lang/de
 /resources/lang/de-CH
@@ -311,6 +312,8 @@
 /src/StaticCaching
 /src/StaticCaching/Cachers
 /src/StaticCaching/Middleware
+/src/StaticCaching/NoCache
+/src/StaticCaching/Replacers
 /src/Structures
 /src/Support
 /src/Support/Traits
@@ -358,5 +361,6 @@
 /src/View/Antlers/Language/Utilities
 /src/View/Debugbar
 /src/View/Events
+/src/View/State
 /src/Widgets
 /src/Yaml
