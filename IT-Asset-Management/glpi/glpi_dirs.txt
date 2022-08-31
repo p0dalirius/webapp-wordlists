@@ -83,6 +83,8 @@
 /inc/system/status
 /install
 /install/migrations
+/install/migrations/update_10.0.0_to_10.0.1
+/install/migrations/update_10.0.1_to_10.0.2
 /install/migrations/update_9.4.x_to_9.5.0
 /install/migrations/update_9.5.x_to_10.0.0
 /install/mysql
@@ -563,6 +565,7 @@
 /templates/layout/parts
 /templates/pages
 /templates/pages/admin
+/templates/pages/admin/inventory
 /templates/pages/assets
 /templates/pages/management
 /templates/pages/self-service
