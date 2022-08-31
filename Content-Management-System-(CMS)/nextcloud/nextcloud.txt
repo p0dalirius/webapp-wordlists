@@ -1029,6 +1029,8 @@
 /apps/dashboard/l10n/lt_LT.json
 /apps/dashboard/l10n/mk.js
 /apps/dashboard/l10n/mk.json
+/apps/dashboard/l10n/nb.js
+/apps/dashboard/l10n/nb.json
 /apps/dashboard/l10n/nl.js
 /apps/dashboard/l10n/nl.json
 /apps/dashboard/l10n/oc.js
@@ -1575,6 +1577,7 @@
 /apps/dav/lib/DAV/Sharing/Xml/ShareRequest.php
 /apps/dav/lib/dav/systemprincipalbackend.php
 /apps/dav/lib/DAV/SystemPrincipalBackend.php
+/apps/dav/lib/DAV/ViewOnlyPlugin.php
 /apps/dav/lib/Db
 /apps/dav/lib/Db/DirectMapper.php
 /apps/dav/lib/Db/Direct.php
@@ -1613,6 +1616,7 @@
 /apps/dav/lib/Events/SubscriptionDeletedEvent.php
 /apps/dav/lib/Events/SubscriptionUpdatedEvent.php
 /apps/dav/lib/Exception
+/apps/dav/lib/Exception/ServerMaintenanceMode.php
 /apps/dav/lib/Exception/UnsupportedLimitOnInitialSyncException.php
 /apps/dav/lib/files
 /apps/dav/lib/Files
@@ -2100,6 +2104,7 @@
 /apps/dav/tests/unit/DAV/Sharing/PluginTest.php
 /apps/dav/tests/unit/dav/systemprincipalbackendtest.php
 /apps/dav/tests/unit/DAV/SystemPrincipalBackendTest.php
+/apps/dav/tests/unit/DAV/ViewOnlyPluginTest.php
 /apps/dav/tests/unit/Direct
 /apps/dav/tests/unit/Direct/DirectFileTest.php
 /apps/dav/tests/unit/Direct/DirectHomeTest.php
@@ -2109,6 +2114,7 @@
 /apps/dav/tests/unit/Files/Sharing
 /apps/dav/tests/unit/Files/Sharing/FilesDropPluginTest.php
 /apps/dav/tests/unit/Listener
+/apps/dav/tests/unit/Listener/ActivityUpdaterListenerTest.php
 /apps/dav/tests/unit/Listener/CalendarContactInteractionListenerTest.php
 /apps/dav/tests/unit/migration
 /apps/dav/tests/unit/Migration
@@ -5612,6 +5618,7 @@
 /apps/files_sharing/lib/share/folder.php
 /apps/files_sharing/lib/updater.php
 /apps/files_sharing/lib/Updater.php
+/apps/files_sharing/lib/ViewOnly.php
 /apps/files_sharing/list.php
 /apps/files_sharing/public.php
 /apps/files_sharing/settings-admin.php
@@ -5683,6 +5690,7 @@
 /apps/files_sharing/tests/api/shareestest.php
 /apps/files_sharing/tests/API/ShareesTest.php
 /apps/files_sharing/tests/ApiTest.php
+/apps/files_sharing/tests/ApplicationTest.php
 /apps/files_sharing/tests/backend.php
 /apps/files_sharing/tests/BackendTest.php
 /apps/files_sharing/tests/cache.php
@@ -7222,6 +7230,8 @@
 /apps/settings/l10n/nb.json
 /apps/settings/l10n/nl.js
 /apps/settings/l10n/nl.json
+/apps/settings/l10n/nn_NO.js
+/apps/settings/l10n/nn_NO.json
 /apps/settings/l10n/oc.js
 /apps/settings/l10n/oc.json
 /apps/settings/l10n/pl.js
@@ -11284,6 +11294,7 @@
 /core/Migrations/Version24000Date20220202150027.php
 /core/Migrations/Version24000Date20220404230027.php
 /core/Migrations/Version24000Date20220425072957.php
+/core/Migrations/Version25000Date20220515204012.php
 /core/Notification
 /core/Notification/CoreNotifier.php
 /core/Notification/RemoveLinkSharesNotifier.php
@@ -11899,6 +11910,8 @@ filename
 /lib/l10n/ak.json
 /lib/l10n/am_ET.js
 /lib/l10n/am_ET.json
+/lib/l10n/an.js
+/lib/l10n/an.json
 /lib/l10n/ar.js
 /lib/l10n/ar.json
 /lib/l10n/ast.js
@@ -12998,6 +13011,7 @@ filename
 /lib/private/Http/CookieHelper.php
 /lib/private/httphelper.php
 /lib/private/HTTPHelper.php
+/lib/private/Http/IpUtils.php
 /lib/private/Http/WellKnown
 /lib/private/Http/WellKnown/RequestManager.php
 /lib/private/image.php
@@ -13589,6 +13603,7 @@ filename
 /lib/private/Share20/Manager.php
 /lib/private/share20/providerfactory.php
 /lib/private/Share20/ProviderFactory.php
+/lib/private/Share20/ShareAttributes.php
 /lib/private/Share20/ShareHelper.php
 /lib/private/share20/share.php
 /lib/private/Share20/Share.php
@@ -14116,8 +14131,10 @@ filename
 /lib/public/files/entitytoolargeexception.php
 /lib/public/Files/EntityTooLargeException.php
 /lib/public/Files/Events
+/lib/public/Files/Events/BeforeDirectFileDownloadEvent.php
 /lib/public/Files/Events/BeforeFileScannedEvent.php
 /lib/public/Files/Events/BeforeFolderScannedEvent.php
+/lib/public/Files/Events/BeforeZipCreatedEvent.php
 /lib/public/Files/Events/FileCacheUpdated.php
 /lib/public/Files/Events/FileScannedEvent.php
 /lib/public/Files/Events/FolderScannedEvent.php
@@ -14568,6 +14585,7 @@ filename
 /lib/public/Share/Exceptions/IllegalIDChangeException.php
 /lib/public/share/exceptions/sharenotfound.php
 /lib/public/Share/Exceptions/ShareNotFound.php
+/lib/public/Share/IAttributes.php
 /lib/public/share/imanager.php
 /lib/public/Share/IManager.php
 /lib/public/share/iproviderfactory.php
@@ -14658,6 +14676,7 @@ filename
 /lib/public/UserMigration/IExportDestination.php
 /lib/public/UserMigration/IImportSource.php
 /lib/public/UserMigration/IMigrator.php
+/lib/public/UserMigration/ISizeEstimationMigrator.php
 /lib/public/UserMigration/TMigratorBasicVersionHandling.php
 /lib/public/UserMigration/UserMigrationException.php
 /lib/public/user.php
@@ -16179,6 +16198,7 @@ Nextcloud.pdf
 /tests/lib/Lock/NonCachingDBLockingProviderTest.php
 /tests/lib/log
 /tests/lib/Log
+/tests/lib/Log/ExceptionSerializerTest.php
 /tests/lib/Log/FileTest.php
 /tests/lib/logger.php
 /tests/lib/LoggerTest.php
@@ -16417,6 +16437,7 @@ Nextcloud.pdf
 /tests/lib/Share20/LegacyHooksTest.php
 /tests/lib/share20/managertest.php
 /tests/lib/Share20/ManagerTest.php
+/tests/lib/Share20/ShareByMailProviderTest.php
 /tests/lib/Share20/ShareHelperTest.php
 /tests/lib/Share20/ShareTest.php
 /tests/lib/share/backend.php
