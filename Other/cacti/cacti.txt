@@ -43,6 +43,7 @@
 /cli/apply_automation_rules.php
 /cli/audit_database.php
 /cli/batchgapfix.php
+/cli/change_device.php
 /cli/convert_innodb.php
 /cli/convert_tables.php
 /cli/copy_user.php
@@ -77,6 +78,7 @@
 /cli/splice_rrd.php
 /cli/sqltable_to_php.php
 /cli/structure_rra_paths.php
+/cli/update_heartbeat.php
 /cli/upgrade_database.php
 /clog.php
 /clog_user.php
@@ -935,6 +937,7 @@
 /graph_templates.php
 /graph_view.php
 /graph_xport.php
+/help.php
 /host.php
 /host_templates.php
 /images
@@ -973,6 +976,7 @@
 /images/cacti_error_image.png
 /images/cacti_logo.gif
 /images/cacti_logo_new.gif
+/images/cacti_logo.png
 /images/cacti_logo.svg
 /images/calendar.gif
 /images/chart_curve_go.png
@@ -3817,6 +3821,8 @@
 /include/themes/midwinter/css/media/compact-landscape.css
 /include/themes/midwinter/css/media/compact-portrait.css
 /include/themes/midwinter/css/media/core.css
+/include/themes/midwinter/css/media/core-landscape.css
+/include/themes/midwinter/css/media/core-portrait.css
 /include/themes/midwinter/css/media/print.css
 /include/themes/midwinter/css/media/standard.css
 /include/themes/midwinter/css/media/standard-landscape.css
@@ -5187,6 +5193,7 @@
 /install/install.php
 /install/step_json.php
 /install/templates
+/install/templates/Apache_Webserver.xml.gz
 /install/templates/Cacti_Stats.xml.gz
 /install/templates/Cisco_ASA_Appliance.xml.gz
 /install/templates/Cisco_Router.xml.gz
@@ -5267,6 +5274,7 @@
 /install/upgrades/1_2_1.php
 /install/upgrades/1_2_20.php
 /install/upgrades/1_2_21.php
+/install/upgrades/1_2_22.php
 /install/upgrades/1_2_2.php
 /install/upgrades/1_2_3.php
 /install/upgrades/1_2_5.php
@@ -5470,6 +5478,7 @@
 /locales/LC_MESSAGES/japanese_japan.mo
 /locales/LC_MESSAGES/ko-KR.mo
 /locales/LC_MESSAGES/korean_korea.mo
+/locales/LC_MESSAGES/lv-LV.mo
 /locales/LC_MESSAGES/nl-NL.mo
 /locales/LC_MESSAGES/pl-PL.mo
 /locales/LC_MESSAGES/polish_poland.mo
@@ -5515,6 +5524,7 @@
 /locales/po/japanese_japan.po
 /locales/po/ko-KR.po
 /locales/po/korean_korea.po
+/locales/po/lv-LV.po
 /locales/po/nl-NL.po
 /locales/po/pl-PL.po
 /locales/po/polish_poland.po
