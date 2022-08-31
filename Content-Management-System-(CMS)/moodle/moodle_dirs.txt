@@ -1835,6 +1835,7 @@
 /blog/tests/behat
 /blog/tests/event
 /blog/tests/external
+/blog/tests/generator
 /blog/tests/privacy
 /cache
 /cache/classes
@@ -2969,6 +2970,7 @@
 /grade/tests/behat
 /grade/tests/event
 /grade/tests/external
+/grade/tests/output
 /grade/tests/privacy
 /group
 /group/classes
@@ -3116,6 +3118,7 @@
 /h5p/templates
 /h5p/tests
 /h5p/tests/behat
+/h5p/tests/event
 /h5p/tests/external
 /h5p/tests/fixtures
 /h5p/tests/generator
@@ -3410,6 +3413,7 @@
 /install/lang/vi_utf8
 /install/lang/wo
 /install/lang/xct
+/install/lang/xh
 /install/lang/yo
 /install/lang/zgh
 /install/lang/zh_cn
@@ -12371,6 +12375,7 @@
 /message/output/email/templates
 /message/output/email/tests
 /message/output/email/tests/privacy
+/message/output/email/tests/task
 /message/output/jabber
 /message/output/jabber/classes
 /message/output/jabber/classes/privacy
@@ -12399,6 +12404,7 @@
 /message/tests/external
 /message/tests/fixtures
 /message/tests/privacy
+/message/tests/task
 /message/yui
 /message/yui/build
 /message/yui/build/moodle-core_message-messenger
@@ -13254,6 +13260,7 @@
 /mod/lti/service/gradebookservices/lang/en
 /mod/lti/service/gradebookservices/tests
 /mod/lti/service/gradebookservices/tests/privacy
+/mod/lti/service/gradebookservices/tests/task
 /mod/lti/service/memberships
 /mod/lti/service/memberships/classes
 /mod/lti/service/memberships/classes/local
@@ -13306,6 +13313,7 @@
 /mod/lti/tests/fixtures
 /mod/lti/tests/generator
 /mod/lti/tests/privacy
+/mod/lti/tests/task
 /mod/page
 /mod/page/backup
 /mod/page/backup/moodle1
@@ -13903,6 +13911,7 @@
 /mod/workshop/tests/fixtures
 /mod/workshop/tests/generator
 /mod/workshop/tests/privacy
+/mod/workshop/tests/task
 /my
 /my/classes
 /my/classes/privacy

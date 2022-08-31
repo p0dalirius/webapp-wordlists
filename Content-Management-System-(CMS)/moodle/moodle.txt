@@ -1668,6 +1668,7 @@
 /admin/tool/dataprivacy/tests/task/task_test.php
 /admin/tool/dataprivacy/tests/task_test.php
 /admin/tool/dataprivacy/tests/user_deleted_observer_test.php
+/admin/tool/dataprivacy/upgrade.txt
 /admin/tool/dataprivacy/version.php
 /admin/tool/dbtransfer
 /admin/tool/dbtransfer/classes
@@ -2380,6 +2381,7 @@
 /admin/tool/lp/tests/behat/template_crud.feature
 /admin/tool/lp/tests/behat/user_evidence_comp_link.feature
 /admin/tool/lp/tests/behat/user_evidence_crud.feature
+/admin/tool/lp/tests/behat/view_competencies.feature
 /admin/tool/lp/tests/externallib_test.php
 /admin/tool/lp/upgrade.txt
 /admin/tool/lp/user_competency_in_course.php
@@ -4833,6 +4835,7 @@
 /backup/moodle2/tests/behat/import_multiple_times.feature
 /backup/moodle2/tests/fixtures
 /backup/moodle2/tests/fixtures/availability_26_format.mbz
+/backup/moodle2/tests/fixtures/format_test_cs_options.php
 /backup/moodle2/tests/fixtures/question_category_34_format.mbz
 /backup/moodle2/tests/fixtures/question_category_35_format.mbz
 /backup/moodle2/tests/fixtures/rewrite_step_backup_file_for_legacy_freeze
@@ -4919,6 +4922,7 @@
 /backup/util/helper/backup_helper.class.php
 /backup/util/helper/backup_null_iterator.class.php
 /backup/util/helper/convert_helper.class.php
+/backup/util/helper/copy_helper.class.php
 /backup/util/helper/restore_decode_content.class.php
 /backup/util/helper/restore_decode_processor.class.php
 /backup/util/helper/restore_decode_rule.class.php
@@ -4939,6 +4943,7 @@
 /backup/util/helper/tests/async_helper_test.php
 /backup/util/helper/tests/backup_encode_content_test.php
 /backup/util/helper/tests/converterhelper_test.php
+/backup/util/helper/tests/copy_helper_test.php
 /backup/util/helper/tests/cronhelper_test.php
 /backup/util/helper/tests/decode_test.php
 /backup/util/helper/tests/helper_test.php
@@ -5043,6 +5048,7 @@
 /backup/util/structure/tests/baseattribute_test.php
 /backup/util/structure/tests/basefinalelement_test.php
 /backup/util/structure/tests/basenestedelement_test.php
+/backup/util/structure/tests/baseoptigroup_test.php
 /backup/util/structure/tests/baseoptiogroup_test.php
 /backup/util/structure/tests/fixtures
 /backup/util/structure/tests/fixtures/structure_fixtures.php
@@ -6804,6 +6810,9 @@
 /blog/tests/external
 /blog/tests/external/external_test.php
 /blog/tests/external_test.php
+/blog/tests/generator
+/blog/tests/generator/behat_core_blog_generator.php
+/blog/tests/generator/lib.php
 /blog/tests/lib_test.php
 /blog/tests/privacy
 /blog/tests/privacy/provider_test.php
@@ -7537,6 +7546,7 @@ Charting
 /competency/tests/external/external_test.php
 /competency/tests/external_test.php
 /competency/tests/generator
+/competency/tests/generator/behat_core_competency_generator.php
 /competency/tests/generator/lib.php
 /competency/tests/generator_test.php
 /competency/tests/hooks_test.php
@@ -9220,6 +9230,8 @@ Charting
 /enrol/lti/login.php
 /enrol/lti/manage_deployment.php
 /enrol/lti/pix
+/enrol/lti/pix/enrolinstancewarning.png
+/enrol/lti/pix/enrolinstancewarning.svg
 /enrol/lti/pix/managedeployments.png
 /enrol/lti/pix/managedeployments.svg
 /enrol/lti/pix/platformdetails.png
@@ -10842,6 +10854,8 @@ Charting
 /grade/tests/grades_grader_gradingpanel_scale_external_store_test.php
 /grade/tests/importlib_test.php
 /grade/tests/lib_test.php
+/grade/tests/output
+/grade/tests/output/general_action_bar_test.php
 /grade/tests/privacy
 /grade/tests/privacy/provider_test.php
 /grade/tests/privacy_test.php
@@ -11766,10 +11780,13 @@ Charting
 /h5p/tests/editor_ajax_test.php
 /h5p/tests/editor_framework_test.php
 /h5p/tests/editor_test.php
+/h5p/tests/event
+/h5p/tests/event/deleted_test.php
 /h5p/tests/event_h5p_deleted.php
 /h5p/tests/event_h5p_deleted_test.php
 /h5p/tests/event_h5p_viewed.php
 /h5p/tests/event_h5p_viewed_test.php
+/h5p/tests/event/moved_test.php
 /h5p/tests/external
 /h5p/tests/external/external_test.php
 /h5p/tests/external_test.php
@@ -12675,6 +12692,7 @@ History.html
 /install/lang/th_utf8
 /install/lang/th_utf8/installer.php
 /install/lang/ti
+/install/lang/ti/admin.php
 /install/lang/ti/langconfig.php
 /install/lang/ti/moodle.php
 /install/lang/tk
@@ -12745,6 +12763,8 @@ History.html
 /install/lang/wo/langconfig.php
 /install/lang/xct
 /install/lang/xct/langconfig.php
+/install/lang/xh
+/install/lang/xh/langconfig.php
 /install/lang/yo
 /install/lang/yo/langconfig.php
 /install/lang/zgh
@@ -63302,6 +63322,8 @@ Libraries.txt
 /message/output/email/tests/privacy/provider_test.php
 /message/output/email/tests/privacy_test.php
 /message/output/email/tests/send_email_task_test.php
+/message/output/email/tests/task
+/message/output/email/tests/task/send_email_test.php
 /message/output/email/version.php
 /message/output/jabber
 /message/output/jabber/classes
@@ -63532,6 +63554,8 @@ Libraries.txt
 /message/tests/search_sent_test.php
 /message/tests/search_test_received.php
 /message/tests/search_test_sent.php
+/message/tests/task
+/message/tests/task/migrate_message_data_test.php
 /message/upgrade.txt
 /message/user.php
 /message/yui
@@ -63930,7 +63954,9 @@ Libraries.txt
 /mod/assign/feedback/editpdf/pix/pen.svg
 /mod/assign/feedback/editpdf/pix/rectangle.png
 /mod/assign/feedback/editpdf/pix/rectangle.svg
+/mod/assign/feedback/editpdf/pix/rotate_left.png
 /mod/assign/feedback/editpdf/pix/rotate_left.svg
+/mod/assign/feedback/editpdf/pix/rotate_right.png
 /mod/assign/feedback/editpdf/pix/rotate_right.svg
 /mod/assign/feedback/editpdf/pix/sad.png
 /mod/assign/feedback/editpdf/pix/select.png
@@ -64420,8 +64446,10 @@ Libraries.txt
 /mod/assign/tests/markerallocation_test.php
 /mod/assign/tests/portfolio_caller_test.php
 /mod/assign/tests/privacy
+/mod/assign/tests/privacy/feedback_legacy_polyfill_test.php
 /mod/assign/tests/privacy_feedback_legacy_polyfill_test.php
 /mod/assign/tests/privacy/provider_test.php
+/mod/assign/tests/privacy/submission_legacy_polyfill_test.php
 /mod/assign/tests/privacy_submission_legacy_polyfill_test.php
 /mod/assign/tests/privacy_test.php
 /mod/assign/tests/restore_date_test.php
@@ -64567,6 +64595,7 @@ Libraries.txt
 /mod/bigbluebuttonbn/classes/local/helpers/mod_helper.php
 /mod/bigbluebuttonbn/classes/local/helpers/reset.php
 /mod/bigbluebuttonbn/classes/local/helpers/roles.php
+/mod/bigbluebuttonbn/classes/local/helpers/user_info.php
 /mod/bigbluebuttonbn/classes/local/proxy
 /mod/bigbluebuttonbn/classes/local/proxy/bigbluebutton_proxy.php
 /mod/bigbluebuttonbn/classes/local/proxy/curl.php
@@ -64699,6 +64728,7 @@ Libraries.txt
 /mod/bigbluebuttonbn/tests/local/helpers/mod_helper_trait_test.php
 /mod/bigbluebuttonbn/tests/local/helpers/reset_test.php
 /mod/bigbluebuttonbn/tests/local/helpers/roles_test.php
+/mod/bigbluebuttonbn/tests/local/helpers/user_info_test.php
 /mod/bigbluebuttonbn/tests/local/proxy
 /mod/bigbluebuttonbn/tests/local/proxy/recording_proxy_test.php
 /mod/bigbluebuttonbn/tests/logger_test.php
@@ -65508,6 +65538,7 @@ Libraries.txt
 /mod/data/tests/fixtures/test_data_import_with_userdata.csv
 /mod/data/tests/fixtures/test_data_records.csv
 /mod/data/tests/generator
+/mod/data/tests/generator/behat_mod_data_generator.php
 /mod/data/tests/generator/lib.php
 /mod/data/tests/generator_test.php
 /mod/data/tests/import_test.php
@@ -65793,6 +65824,7 @@ Libraries.txt
 /mod/feedback/tests/form/create_template_form_test.php
 /mod/feedback/tests/form/use_template_form_test.php
 /mod/feedback/tests/generator
+/mod/feedback/tests/generator/behat_mod_feedback_generator.php
 /mod/feedback/tests/generator/lib.php
 /mod/feedback/tests/generator_test.php
 /mod/feedback/tests/lib_test.php
@@ -66343,6 +66375,7 @@ Libraries.txt
 /mod/forum/templates/social_discussion_list.mustache
 /mod/forum/tests
 /mod/forum/tests/backup
+/mod/forum/tests/backup_forum_activity_task_test.php
 /mod/forum/tests/backup_forum_activity_test.php
 /mod/forum/tests/backup/restore_date_test.php
 /mod/forum/tests/behat
@@ -67561,6 +67594,8 @@ Libraries.txt
 /mod/lti/service/gradebookservices/tests/privacy
 /mod/lti/service/gradebookservices/tests/privacy/provider_test.php
 /mod/lti/service/gradebookservices/tests/privacy_provider_test.php
+/mod/lti/service/gradebookservices/tests/task
+/mod/lti/service/gradebookservices/tests/task/cleanup_test.php
 /mod/lti/service/gradebookservices/tests/task_cleanup_test.php
 /mod/lti/service/gradebookservices/version.php
 /mod/lti/servicelib.php
@@ -67709,6 +67744,8 @@ Libraries.txt
 /mod/lti/tests/privacy_provider_test.php
 /mod/lti/tests/service_exception_handler_test.php
 /mod/lti/tests/servicelib_test.php
+/mod/lti/tests/task
+/mod/lti/tests/task/clean_access_tokens_test.php
 /mod/lti/tests/task_clean_access_tokens_test.php
 /mod/lti/tests/upgradelib_test.php
 /mod/lti/token.php
@@ -68425,6 +68462,7 @@ Libraries.txt
 /mod/quiz/report/overview/tests/behat
 /mod/quiz/report/overview/tests/behat/basic.feature
 /mod/quiz/report/overview/tests/behat/regrading.feature
+/mod/quiz/report/overview/tests/behat/regrading_not_possible.feature
 /mod/quiz/report/overview/tests/helpers.php
 /mod/quiz/report/overview/tests/privacy
 /mod/quiz/report/overview/tests/privacy/provider_test.php
@@ -68572,6 +68610,7 @@ Libraries.txt
 /mod/quiz/tests/behat/attempt.feature
 /mod/quiz/tests/behat/attempt_redo_questions.feature
 /mod/quiz/tests/behat/attempt_require_previous.feature
+/mod/quiz/tests/behat/attempt_sequential.feature
 /mod/quiz/tests/behat/backup.feature
 /mod/quiz/tests/behat/behat_mod_quiz.php
 /mod/quiz/tests/behat/completion_condition_attempts_used.feature
@@ -68593,16 +68632,19 @@ Libraries.txt
 /mod/quiz/tests/behat/editing_set_marks.feature
 /mod/quiz/tests/behat/editing_set_marks_no_attempts.feature
 /mod/quiz/tests/behat/editing_set_marks_with_attempts.feature
+/mod/quiz/tests/behat/feedback_on_override_mark.feature
 /mod/quiz/tests/behat/info_page.feature
 /mod/quiz/tests/behat/manually_mark_question.feature
 /mod/quiz/tests/behat/preview.feature
 /mod/quiz/tests/behat/quiz_activity_completion.feature
 /mod/quiz/tests/behat/quiz_activity_completion_locked.feature
+/mod/quiz/tests/behat/quiz_activity_completion_unlocked.feature
 /mod/quiz/tests/behat/quiz_group_override.feature
 /mod/quiz/tests/behat/quiz_no_calendar_capabilities.feature
 /mod/quiz/tests/behat/quiz_question_versions.feature
 /mod/quiz/tests/behat/quiz_reset.feature
 /mod/quiz/tests/behat/quiz_user_override.feature
+/mod/quiz/tests/behat/random_question.feature
 /mod/quiz/tests/behat/settings_form_fields_disableif.feature
 /mod/quiz/tests/calendar_event_modified_test.php
 /mod/quiz/tests/custom_completion_test.php
@@ -70137,6 +70179,8 @@ Libraries.txt
 /mod/workshop/tests/privacy/provider_test.php
 /mod/workshop/tests/privacy_provider_test.php
 /mod/workshop/tests/restore_date_test.php
+/mod/workshop/tests/task
+/mod/workshop/tests/task/cron_task_test.php
 /mod/workshop/todo.txt
 /mod/workshop/toolbox.php
 /mod/workshop/upgrade.txt
@@ -71221,6 +71265,7 @@ on
 /pix/i/badge.svg
 /pix/i/breadcrumbdivider.png
 /pix/i/breadcrumbdivider.svg
+/pix/i/bullhorn.png
 /pix/i/bullhorn.svg
 /pix/i/calc.gif
 /pix/i/calc.png
@@ -71910,6 +71955,7 @@ on
 /pix/t/switch_whole.gif
 /pix/t/switch_whole.png
 /pix/t/switch_whole.svg
+/pix/t/tag.png
 /pix/t/tags.png
 /pix/t/tags.svg
 /pix/t/tag.svg
@@ -74744,6 +74790,11 @@ plus.jpg
 /reportbuilder/tests/external/conditions/delete_test.php
 /reportbuilder/tests/external/conditions/reorder_test.php
 /reportbuilder/tests/external/conditions/reset_test.php
+/reportbuilder/tests/external/custom_report_card_view_exporter_test.php
+/reportbuilder/tests/external/custom_report_columns_sorting_exporter_test.php
+/reportbuilder/tests/external/custom_report_conditions_exporter_test.php
+/reportbuilder/tests/external/custom_report_exporter_test.php
+/reportbuilder/tests/external/custom_report_filters_exporter_test.php
 /reportbuilder/tests/external/filters
 /reportbuilder/tests/external/filters/add_test.php
 /reportbuilder/tests/external/filters/delete_test.php
@@ -74821,6 +74872,7 @@ plus.jpg
 /reportbuilder/tests/system_report_test.php
 /reportbuilder/tests/task
 /reportbuilder/tests/task/send_schedule_test.php
+/reportbuilder/upgrade.txt
 /reportbuilder/view.php
 /report/competency
 /report/competency/amd
@@ -74854,6 +74906,7 @@ plus.jpg
 /report/competency/templates/user_course_navigation.mustache
 /report/competency/tests
 /report/competency/tests/behat
+/report/competency/tests/behat/behat_report_competency.php
 /report/competency/tests/behat/breakdown_by_activity.feature
 /report/competency/tests/behat/course_report_competency.feature
 /report/competency/version.php
