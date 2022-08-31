@@ -1236,6 +1236,7 @@
 /core/modules/ckeditor/css
 /core/modules/ckeditor/css/plugins
 /core/modules/ckeditor/css/plugins/drupalimagecaption
+/core/modules/ckeditor/css/plugins/drupalmedia
 /core/modules/ckeditor/css/plugins/language
 /core/modules/ckeditor/js
 /core/modules/ckeditor/js/models
@@ -1247,6 +1248,7 @@
 /core/modules/ckeditor/js/plugins/drupallink
 /core/modules/ckeditor/js/plugins/drupallink/icons
 /core/modules/ckeditor/js/plugins/drupallink/icons/hidpi
+/core/modules/ckeditor/js/plugins/drupalmedia
 /core/modules/ckeditor/js/plugins/drupalmedialibrary
 /core/modules/ckeditor/js/plugins/drupalmedialibrary/icons
 /core/modules/ckeditor/js/plugins/drupalmedialibrary/icons/hidpi
@@ -1287,6 +1289,7 @@
 /core/modules/ckeditor/tests/src
 /core/modules/ckeditor/tests/src/Functional
 /core/modules/ckeditor/tests/src/FunctionalJavascript
+/core/modules/ckeditor/tests/src/Functional/Update
 /core/modules/ckeditor/tests/src/Kernel
 /core/modules/ckeditor/tests/src/Kernel/Plugin
 /core/modules/ckeditor/tests/src/Kernel/Plugin/CKEditorPlugin
@@ -2855,6 +2858,7 @@
 /core/modules/hal/tests/src/Functional/node
 /core/modules/hal/tests/src/Functional/page_cache
 /core/modules/hal/tests/src/Functional/path_alias
+/core/modules/hal/tests/src/Functional/quickedit
 /core/modules/hal/tests/src/Functional/rdf
 /core/modules/hal/tests/src/Functional/responsive_image
 /core/modules/hal/tests/src/Functional/rest
@@ -2925,6 +2929,8 @@
 /core/modules/help_topics/tests/modules/help_topics_test/src/Plugin/Deriver
 /core/modules/help_topics/tests/modules/help_topics_test/src/Plugin/HelpSection
 /core/modules/help_topics/tests/modules/help_topics_test/src/Plugin/HelpTopic
+/core/modules/help_topics/tests/modules/help_topics_twig_tester
+/core/modules/help_topics/tests/modules/help_topics_twig_tester/src
 /core/modules/help_topics/tests/src
 /core/modules/help_topics/tests/src/Functional
 /core/modules/help_topics/tests/src/Kernel
@@ -4559,6 +4565,7 @@
 /core/modules/quickedit/tests/src/Unit/Access
 /core/modules/rdf
 /core/modules/rdf/config
+/core/modules/rdf/config/optional
 /core/modules/rdf/config/schema
 /core/modules/rdf/lib
 /core/modules/rdf/lib/Drupal
@@ -5392,6 +5399,7 @@
 /core/modules/system/tests/modules/ajax_test/lib/Drupal/ajax_test/Controller
 /core/modules/system/tests/modules/ajax_test/lib/Drupal/ajax_test/Form
 /core/modules/system/tests/modules/ajax_test/src
+/core/modules/system/tests/modules/ajax_test/src/Ajax
 /core/modules/system/tests/modules/ajax_test/src/Controller
 /core/modules/system/tests/modules/ajax_test/src/Form
 /core/modules/system/tests/modules/autowire_test
@@ -5873,6 +5881,8 @@
 /core/modules/system/tests/modules/service_provider_test/lib/Drupal
 /core/modules/system/tests/modules/service_provider_test/lib/Drupal/service_provider_test
 /core/modules/system/tests/modules/service_provider_test/src
+/core/modules/system/tests/modules/services_defaults_test
+/core/modules/system/tests/modules/services_defaults_test/src
 /core/modules/system/tests/modules/session_exists_cache_context_test
 /core/modules/system/tests/modules/session_test
 /core/modules/system/tests/modules/session_test/lib
@@ -7472,6 +7482,7 @@
 /core/tests/Drupal/FunctionalTests/Core/Test
 /core/tests/Drupal/FunctionalTests/Datetime
 /core/tests/Drupal/FunctionalTests/Entity
+/core/tests/Drupal/FunctionalTests/EventSubscriber
 /core/tests/Drupal/FunctionalTests/Hal
 /core/tests/Drupal/FunctionalTests/HttpKernel
 /core/tests/Drupal/FunctionalTests/Image
@@ -10509,6 +10520,7 @@
 /vendor/laminas/laminas-diactoros/src/functions
 /vendor/laminas/laminas-diactoros/src/Request
 /vendor/laminas/laminas-diactoros/src/Response
+/vendor/laminas/laminas-diactoros/src/ServerRequestFilter
 /vendor/laminas/laminas-escaper
 /vendor/laminas/laminas-escaper/src
 /vendor/laminas/laminas-escaper/src/Exception
