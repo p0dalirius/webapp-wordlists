@@ -380,6 +380,7 @@
 /core/modules/views/tests/styles
 /core/modules/views/tests/views_test
 /core/modules/views/tests/views_test/config
+/core/modules/views/tests/views_test_entity
 /core/modules/views/tests/views_test/templates
 /core/modules/views/tests/views_test/test_plugins
 /core/modules/views/theme

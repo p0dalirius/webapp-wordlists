@@ -2837,6 +2837,7 @@
 /core/modules/views/tests/handlers/views_handler_argument_null.test
 /core/modules/views/tests/handlers/views_handler_argument_string.test
 /core/modules/views/tests/handlers/views_handler_field_boolean.test
+/core/modules/views/tests/handlers/views_handler_field_bulk_form.test
 /core/modules/views/tests/handlers/views_handler_field_counter.test
 /core/modules/views/tests/handlers/views_handler_field_custom.test
 /core/modules/views/tests/handlers/views_handler_field_date.test
@@ -2900,6 +2901,10 @@
 /core/modules/views/tests/views_test/config/views.view.test_noajax.json
 /core/modules/views/tests/views_test/config/views.view.test_rename_reset_button.json
 /core/modules/views/tests/views_test/config/views.view.test_views_groupby_save.json
+/core/modules/views/tests/views_test_entity
+/core/modules/views/tests/views_test_entity/views_test_entity.entity.inc
+/core/modules/views/tests/views_test_entity/views_test_entity.info
+/core/modules/views/tests/views_test_entity/views_test_entity.module
 /core/modules/views/tests/views.tests.info
 /core/modules/views/tests/views_test/templates
 /core/modules/views/tests/views_test/templates/views-view--frontpage.tpl.php
