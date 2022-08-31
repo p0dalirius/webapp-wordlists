@@ -440,6 +440,7 @@
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G/Contact
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G/Ip
+/src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G/NetworkPort
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G/Sla
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Check
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Popup
@@ -1030,6 +1031,8 @@
 /updates/versions/v1.18
 /updates/versions/v1.18.1
 /updates/versions/v1.18.1/migration
+/updates/versions/v1.18.2
+/updates/versions/v1.18.2/migration
 /updates/versions/v1.18/migration
 /upload
 /upload/files

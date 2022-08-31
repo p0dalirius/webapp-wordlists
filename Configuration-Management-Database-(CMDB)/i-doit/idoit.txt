@@ -3985,6 +3985,8 @@
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G/Ip/Ipv4AddressFormatter.php
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G/Ip/Ipv6AddressFormatter.php
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G/Ip/UseStandardGatewayFormatter.php
+/src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G/NetworkPort
+/src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G/NetworkPort/InterfaceFormatter.php
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G/Sla
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Category/G/Sla/DaysFormatter.php
 /src/classes/modules/multiedit/src/Component/Multiedit/Formatter/Check
@@ -5091,6 +5093,7 @@
 /src/idoit/Console/Command/Cleanup
 /src/idoit/Console/Command/Cleanup/CategoryCleanupCommand.php
 /src/idoit/Console/Command/Cleanup/CleanupAuthCommand.php
+/src/idoit/Console/Command/Cleanup/CleanupDuplicateSerialCommand.php
 /src/idoit/Console/Command/Cleanup/ClearCredentialsCommand.php
 /src/idoit/Console/Command/Cleanup/ConvertNonInnoDbTablesCommand.php
 /src/idoit/Console/Command/Cleanup/ConvertNonUtf8TablesCommand.php
@@ -7449,6 +7452,15 @@
 /updates/versions/v1.18.1/update_data.xml
 /updates/versions/v1.18.1/update_files.xml
 /updates/versions/v1.18.1/update_sys.xml
+/updates/versions/v1.18.2
+/updates/versions/v1.18.2/CHANGELOG
+/updates/versions/v1.18.2/config_template.inc.php
+/updates/versions/v1.18.2/migration
+/updates/versions/v1.18.2/migration/.gitkeep
+/updates/versions/v1.18.2/migration/reset_ports_foreign_key.php
+/updates/versions/v1.18.2/update_data.xml
+/updates/versions/v1.18.2/update_files.xml
+/updates/versions/v1.18.2/update_sys.xml
 /updates/versions/v1.18/CHANGELOG
 /updates/versions/v1.18/config_template.inc.php
 /updates/versions/v1.18/migration
