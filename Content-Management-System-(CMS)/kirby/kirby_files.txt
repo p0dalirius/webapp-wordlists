@@ -61,6 +61,7 @@
 /config/areas/languages.php
 /config/areas/languages/views.php
 /config/areas/login.php
+/config/areas/logout.php
 /config/areas/settings/dialogs.php
 /config/areas/settings.php
 /config/areas/settings/views.php
@@ -255,6 +256,7 @@
 /i18n/translations/tr.json
 /kirby.pub
 /LICENSE.md
+/panel/cypress.config.js
 /panel/dist/apple-touch-icon.png
 /panel/dist/css/app.css
 /panel/dist/css/style.css
@@ -265,6 +267,7 @@
 /panel/dist/js/index.js
 /panel/dist/js/plugins.js
 /panel/dist/js/vendor.js
+/panel/dist/js/vuedraggable.js
 /panel/.eslintrc.js
 /panel/jest.config.js
 /panel/.prettierrc.json
