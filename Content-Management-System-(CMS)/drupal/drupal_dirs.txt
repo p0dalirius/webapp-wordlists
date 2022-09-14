@@ -9941,6 +9941,8 @@
 /modules/syslog
 /modules/system
 /modules/system/tests
+/modules/system/tests/fixtures
+/modules/system/tests/fixtures/HtaccessTest
 /modules/taxonomy
 /modules/throttle
 /modules/toolbar
