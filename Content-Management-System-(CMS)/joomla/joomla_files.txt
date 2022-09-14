@@ -21304,6 +21304,7 @@
 /plugins/system/updatenotification/postinstall/updatecachetime.php
 /plugins/system/updatenotification/updatenotification.php
 /plugins/system/updatenotification/updatenotification.xml
+/plugins/system/webauthn/fido.jwt
 /plugins/system/webauthn/forms/webauthn.xml
 /plugins/system/webauthn/services/provider.php
 /plugins/system/webauthn/src/Authentication.php

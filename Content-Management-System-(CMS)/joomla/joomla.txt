@@ -26371,6 +26371,7 @@
 /plugins/system/updatenotification/updatenotification.php
 /plugins/system/updatenotification/updatenotification.xml
 /plugins/system/webauthn
+/plugins/system/webauthn/fido.jwt
 /plugins/system/webauthn/forms
 /plugins/system/webauthn/forms/webauthn.xml
 /plugins/system/webauthn/services
