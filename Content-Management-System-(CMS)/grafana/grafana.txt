@@ -3078,6 +3078,7 @@
 /app/features/plugins/admin/components/PluginListItemRow.tsx
 /app/features/plugins/admin/components/PluginListItem.test.tsx
 /app/features/plugins/admin/components/PluginListItem.tsx
+/app/features/plugins/admin/components/PluginList.test.tsx
 /app/features/plugins/admin/components/PluginList.tsx
 /app/features/plugins/admin/components/PluginLogo.tsx
 /app/features/plugins/admin/components/PluginSignatureDetailsBadge.tsx
