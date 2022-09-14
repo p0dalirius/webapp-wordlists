@@ -164,10 +164,19 @@
 /core/modules/email/tests
 /core/modules/entity
 /core/modules/entity/config
+/core/modules/entityreference
+/core/modules/entityreference/css
+/core/modules/entityreference/includes
+/core/modules/entityreference/plugins
+/core/modules/entityreference/plugins/behavior
+/core/modules/entityreference/plugins/selection
+/core/modules/entityreference/tests
+/core/modules/entityreference/views
 /core/modules/entity/templates
 /core/modules/entity/tests
 /core/modules/entity/tests/entity_cache_test
 /core/modules/entity/tests/entity_cache_test_dependency
+/core/modules/entity/tests/entity_caching_test
 /core/modules/entity/tests/entity_crud_hook_test
 /core/modules/entity/tests/entity_query_access_test
 /core/modules/entity/tests/entity_test
@@ -332,6 +341,7 @@
 /core/modules/taxonomy/css
 /core/modules/taxonomy/includes
 /core/modules/taxonomy/js
+/core/modules/taxonomy/layout
 /core/modules/taxonomy/templates
 /core/modules/taxonomy/tests
 /core/modules/taxonomy/views
