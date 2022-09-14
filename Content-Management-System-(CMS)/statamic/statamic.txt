@@ -1249,10 +1249,14 @@
 /src/Actions
 /src/Actions/Action.php
 /src/Actions/ActionRepository.php
+/src/Actions/Concerns
+/src/Actions/Concerns/MakesZips.php
 /src/Actions/CopyAssetUrl.php
 /src/Actions/CopyPasswordResetLink.php
 /src/Actions/DeleteMultisiteEntry.php
 /src/Actions/Delete.php
+/src/Actions/DownloadAssetFolder.php
+/src/Actions/DownloadAsset.php
 /src/Actions/MoveAssetFolder.php
 /src/Actions/MoveAsset.php
 /src/Actions/Publish.php
@@ -1564,6 +1568,7 @@
 /src/Events/AssetDeleted.php
 /src/Events/AssetFolderDeleted.php
 /src/Events/AssetFolderSaved.php
+/src/Events/AssetReferencesUpdated.php
 /src/Events/AssetSaved.php
 /src/Events/AssetUploaded.php
 /src/Events/BlueprintCreated.php
@@ -1677,6 +1682,7 @@
 /src/Events/SubmissionDeleted.php
 /src/Events/SubmissionSaved.php
 /src/Events/SubmissionSaving.php
+/src/Events/Subscriber.php
 /src/Events/TaxonomyCreated.php
 /src/Events/TaxonomyDeleted.php
 /src/Events/TaxonomySaved.php
@@ -1684,6 +1690,7 @@
 /src/Events/TermBlueprintFound.php
 /src/Events/TermCreated.php
 /src/Events/TermDeleted.php
+/src/Events/TermReferencesUpdated.php
 /src/Events/TermSaved.php
 /src/Events/TermSaving.php
 /src/Events/UserBlueprintFound.php
@@ -2367,6 +2374,7 @@
 /src/Policies/TermPolicy.php
 /src/Policies/UserPolicy.php
 /src/Preferences
+/src/Preferences/DefaultPreferences.php
 /src/Preferences/HasPreferencesInProperty.php
 /src/Preferences/HasPreferences.php
 /src/Preferences/Preferences.php
