@@ -1987,6 +1987,7 @@
 /cohort/tests/privacy
 /cohort/tests/reportbuilder
 /cohort/tests/reportbuilder/audience
+/cohort/tests/reportbuilder/datasource
 /comment
 /comment/classes
 /comment/classes/external
@@ -2194,6 +2195,8 @@
 /course/tests/event
 /course/tests/fixtures
 /course/tests/privacy
+/course/tests/reportbuilder
+/course/tests/reportbuilder/datasource
 /course/tests/search
 /course/yui
 /course/yui/build
@@ -7250,6 +7253,7 @@
 /lib/tests/output
 /lib/tests/performance
 /lib/tests/plugininfo
+/lib/tests/task
 /lib/typo3
 /lib/typo3/csconvtbl
 /lib/typo3/unidata
@@ -12650,6 +12654,7 @@
 /mod/bigbluebuttonbn/classes/search
 /mod/bigbluebuttonbn/classes/task
 /mod/bigbluebuttonbn/classes/test
+/mod/bigbluebuttonbn/cli
 /mod/bigbluebuttonbn/db
 /mod/bigbluebuttonbn/lang
 /mod/bigbluebuttonbn/lang/en
@@ -15916,6 +15921,8 @@
 /user/tests/behat
 /user/tests/fixtures
 /user/tests/privacy
+/user/tests/reportbuilder
+/user/tests/reportbuilder/datasource
 /user/tests/search
 /user/tests/table
 /webservice
