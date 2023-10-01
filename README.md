@@ -1,4 +1,4 @@
-# webapp-wordlists
+![](./.github/banner.png)
 
 <p align="center">
   This repository contains wordlists for each versions of common web applications and content management systems (CMS). Each version contains a wordlist of all the files directories for this version.
