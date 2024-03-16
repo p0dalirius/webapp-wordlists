@@ -1470,6 +1470,8 @@
 /data/themes/oldstyle/style.css
 /data/themes/oldstyle/theme.php
 /data/trash
+/data/trash/files
+/data/trash/files/.htaccess
 /data/trash/.trash
 /docs
 /docs/CHANGES
@@ -1489,3 +1491,4 @@
 /README.md
 /requirements.php
 /robots.txt
+/SECURITY.md

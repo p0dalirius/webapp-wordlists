@@ -202,6 +202,7 @@
 /data/themes/default/img
 /data/themes/oldstyle
 /data/trash
+/data/trash/files
 /docs
 /files
 /images
