@@ -8497,6 +8497,10 @@ Logo.svg
 /src/Backend/Modules/Users/Actions/Index.php
 /src/Backend/Modules/Users/Actions/UndoDelete.php
 /src/Backend/Modules/Users/Config.php
+/src/Backend/Modules/Users/Console
+/src/Backend/Modules/Users/Console/ResetPasswordCommand.php
+/src/Backend/Modules/Users/DependencyInjection
+/src/Backend/Modules/Users/DependencyInjection/UsersExtension.php
 /src/Backend/Modules/Users/Engine
 /src/Backend/Modules/Users/Engine/Model.php
 /src/Backend/Modules/Users/info.xml
@@ -8518,6 +8522,9 @@ Logo.svg
 /src/Backend/Modules/Users/Layout/Widgets
 /src/Backend/Modules/Users/Layout/Widgets/Statistics.html.twig
 /src/Backend/Modules/Users/Layout/Widgets/Statistics.tpl
+/src/Backend/Modules/Users/Resources
+/src/Backend/Modules/Users/Resources/config
+/src/Backend/Modules/Users/Resources/config/services.yml
 /src/Backend/Modules/Users/Widgets
 /src/Backend/Modules/Users/Widgets/Statistics.php
 /src/Common
@@ -8705,10 +8712,14 @@ Logo.svg
 /src/ForkCMS/Google/TagManager
 /src/ForkCMS/Google/TagManager/DataLayer.php
 /src/ForkCMS/Google/TagManager/TagManager.php
+/src/ForkCMS/Imagine
 /src/ForkCMS/ImagineController.php
+/src/ForkCMS/Imagine/Service
+/src/ForkCMS/Imagine/Service/FilterService.php
 /src/ForkCMS/Privacy
 /src/ForkCMS/Privacy/ConsentDialog.php
 /src/ForkCMS/Utility
+/src/ForkCMS/Utility/Akismet.php
 /src/ForkCMS/Utility/Csv
 /src/ForkCMS/Utility/Csv/Reader.php
 /src/ForkCMS/Utility/Csv/Writer.php
@@ -9350,6 +9361,7 @@ Logo.svg
 /src/Frontend/Modules/Tags/Widgets/TagCloud.php
 /src/Frontend/Themes
 /src/Frontend/Themes/Fork
+/src/Frontend/Themes/Fork/apple-touch-icon.png
 /src/Frontend/Themes/Fork/Core
 /src/Frontend/Themes/Fork/Core/Layout
 /src/Frontend/Themes/Fork/Core/Layout/Css

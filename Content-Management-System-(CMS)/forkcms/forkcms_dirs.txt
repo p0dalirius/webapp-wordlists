@@ -1502,6 +1502,8 @@
 /src/Backend/Modules/Tags/Tests/Engine
 /src/Backend/Modules/Users
 /src/Backend/Modules/Users/Actions
+/src/Backend/Modules/Users/Console
+/src/Backend/Modules/Users/DependencyInjection
 /src/Backend/Modules/Users/Engine
 /src/Backend/Modules/Users/Installer
 /src/Backend/Modules/Users/Installer/Data
@@ -1509,6 +1511,8 @@
 /src/Backend/Modules/Users/Layout
 /src/Backend/Modules/Users/Layout/Templates
 /src/Backend/Modules/Users/Layout/Widgets
+/src/Backend/Modules/Users/Resources
+/src/Backend/Modules/Users/Resources/config
 /src/Backend/Modules/Users/Widgets
 /src/Common
 /src/Common/Cache
@@ -1571,6 +1575,8 @@
 /src/ForkCMS/Bundle/InstallerBundle/Tests/Controller
 /src/ForkCMS/Google
 /src/ForkCMS/Google/TagManager
+/src/ForkCMS/Imagine
+/src/ForkCMS/Imagine/Service
 /src/ForkCMS/Privacy
 /src/ForkCMS/Utility
 /src/ForkCMS/Utility/Csv
