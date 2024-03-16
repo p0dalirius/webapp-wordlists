@@ -154,6 +154,14 @@
 /include/vendor/flag-icon-css/flags/4x3
 /include/vendor/flag-icon-css/less
 /include/vendor/flag-icon-css/sass
+/include/vendor/flag-icons
+/include/vendor/flag-icons/assets
+/include/vendor/flag-icons/css
+/include/vendor/flag-icons/flags
+/include/vendor/flag-icons/flags/1x1
+/include/vendor/flag-icons/flags/4x3
+/include/vendor/flag-icons/less
+/include/vendor/flag-icons/sass
 /include/vendor/gettext
 /include/vendor/gettext/src
 /include/vendor/gettext/src/Extractors
@@ -174,6 +182,11 @@
 /include/vendor/gettext/tests/assets/po3
 /include/vendor/gettext/tests/assets/twig
 /include/vendor/gettext/tests/assets/vuejs
+/include/vendor/phpdiff
+/include/vendor/phpdiff/example
+/include/vendor/phpdiff/Renderer
+/include/vendor/phpdiff/Renderer/Html
+/include/vendor/phpdiff/Renderer/Text
 /include/vendor/phpgettext
 /include/vendor/phpmailer
 /include/vendor/phpmailer/language
