@@ -4,13 +4,13 @@
   This repository contains wordlists for each versions of common web applications and content management systems (CMS). Each version contains a wordlist of all the files directories for this version.
   <br>
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/p0dalirius/webapp-wordlists">
-  <img alt="GitHub repo size" src="https://img.shields.io/badge/wordlists-83625-brightgreen">
+  <img alt="GitHub repo size" src="https://img.shields.io/badge/wordlists-105339-brightgreen">
   <a href="https://twitter.com/intent/follow?screen_name=podalirius_" title="Follow"><img src="https://img.shields.io/twitter/follow/podalirius_?label=Podalirius&style=social"></a>
   <a href="https://www.youtube.com/c/Podalirius_?sub_confirmation=1" title="Subscribe"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCF_x5O7CSfr82AfNVTKOv_A?style=social"></a>
   <br>
 </p>
 
-This repository contains **83625** wordlists!
+This repository contains **105339** wordlists!
 
 ## Table of wordlists
 
