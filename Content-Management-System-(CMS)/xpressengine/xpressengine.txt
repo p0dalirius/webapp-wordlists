@@ -217,6 +217,7 @@ API/DropTarget.md
 /app/Http/Controllers/Auth/RegisterController.php
 /app/Http/Controllers/CaptchaController.php
 /app/Http/Controllers/CategoryController.php
+/app/Http/Controllers/CategoryItemController.php
 /app/Http/Controllers/Controller.php
 /app/Http/Controllers/DashboardController.php
 /app/Http/Controllers/DraftController.php
@@ -292,6 +293,7 @@ API/DropTarget.md
 /app/Http/Middleware/TrimStrings.php
 /app/Http/Middleware/TrustProxies.php
 /app/Http/Middleware/VerifyCsrfToken.php
+/app/Http/Middleware/XeThrottleRequests.php
 /app/Http/Requests
 /app/Http/Requests/Request.php
 /app/Http/routes.php
@@ -4106,6 +4108,7 @@ Backends/Test.md
 /config/debugbar.php
 /config/filesystems.php
 /config/.gitignore
+/config/logging.php
 /config/mail.php
 /config/production
 /config/production/.gitignore
@@ -6132,6 +6135,7 @@ Quick
 /resources/views/captcha
 /resources/views/captcha/naver.blade.php
 /resources/views/category
+/resources/views/category/index.blade.php
 /resources/views/category/show.blade.php
 /resources/views/common
 /resources/views/common/alert.blade.php
@@ -6590,6 +6594,8 @@ State/DropTargetMonitor.md
 /storage/debugbar/.gitignore
 /storage/framework
 /storage/framework/cache
+/storage/framework/cache/data
+/storage/framework/cache/data/.gitignore
 /storage/framework/cache/.gitignore
 /storage/framework/.gitignore
 /storage/framework/htmlpurifier

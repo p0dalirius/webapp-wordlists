@@ -1363,6 +1363,7 @@ State
 /storage/debugbar
 /storage/framework
 /storage/framework/cache
+/storage/framework/cache/data
 /storage/framework/htmlpurifier
 /storage/framework/htmlpurifier/middleware
 /storage/framework/htmlpurifier/support
