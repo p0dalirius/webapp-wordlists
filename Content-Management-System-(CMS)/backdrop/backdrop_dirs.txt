@@ -106,6 +106,24 @@
 /core/modules/book/tests
 /core/modules/book/views
 /core/modules/ckeditor
+/core/modules/ckeditor5
+/core/modules/ckeditor5/css
+/core/modules/ckeditor5/icons
+/core/modules/ckeditor5/js
+/core/modules/ckeditor5/js/plugins
+/core/modules/ckeditor5/js/plugins/backdrop-basic-styles
+/core/modules/ckeditor5/js/plugins/backdrop-html-engine
+/core/modules/ckeditor5/js/plugins/backdrop-image
+/core/modules/ckeditor5/js/plugins/backdrop-link
+/core/modules/ckeditor5/js/plugins/backdrop-maximize
+/core/modules/ckeditor5/lib
+/core/modules/ckeditor5/lib/ckeditor5
+/core/modules/ckeditor5/lib/ckeditor5/build
+/core/modules/ckeditor5/lib/ckeditor5/build/translations
+/core/modules/ckeditor5/lib/scripts
+/core/modules/ckeditor5/tests
+/core/modules/ckeditor5/tests/ckeditor5_upgrade_test
+/core/modules/ckeditor5/tests/ckeditor5_upgrade_test/config
 /core/modules/ckeditor/css
 /core/modules/ckeditor/images
 /core/modules/ckeditor/images/buttons
@@ -171,6 +189,8 @@
 /core/modules/entityreference/plugins/behavior
 /core/modules/entityreference/plugins/selection
 /core/modules/entityreference/tests
+/core/modules/entityreference/tests/entityreference_views_test
+/core/modules/entityreference/tests/entityreference_views_test/config
 /core/modules/entityreference/views
 /core/modules/entity/templates
 /core/modules/entity/tests
@@ -199,6 +219,7 @@
 /core/modules/field/templates
 /core/modules/field/tests
 /core/modules/field/tests/field_test
+/core/modules/field/tests/field_test_schema_alter
 /core/modules/field/theme
 /core/modules/field_ui
 /core/modules/field_ui/css
@@ -282,6 +303,8 @@
 /core/modules/node/templates
 /core/modules/node/tests
 /core/modules/node/tests/node_access_test
+/core/modules/node/tests/node_layout_preview_revision_test
+/core/modules/node/tests/node_layout_preview_revision_test/config
 /core/modules/node/tests/node_layout_preview_test
 /core/modules/node/tests/node_layout_preview_test/config
 /core/modules/node/tests/node_test
@@ -322,6 +345,8 @@
 /core/modules/simpletest/tests/themes/test_basetheme
 /core/modules/simpletest/tests/themes/test_subtheme
 /core/modules/simpletest/tests/themes/test_theme
+/core/modules/simpletest/tests/themes/test_theme_config
+/core/modules/simpletest/tests/themes/test_theme_config/config
 /core/modules/simpletest/tests/themes/test_theme/templates
 /core/modules/simpletest/tests/upgrade
 /core/modules/syslog
@@ -344,6 +369,8 @@
 /core/modules/taxonomy/layout
 /core/modules/taxonomy/templates
 /core/modules/taxonomy/tests
+/core/modules/taxonomy/tests/taxonomy_nodes_test
+/core/modules/taxonomy/tests/taxonomy_vocab_load_test
 /core/modules/taxonomy/views
 /core/modules/telemetry
 /core/modules/telemetry/config
@@ -441,6 +468,7 @@
 /core/themes/seven/js
 /core/themes/seven/templates
 /core/themes/stark
+/.cspell
 /files
 /.github
 /.github/misc
