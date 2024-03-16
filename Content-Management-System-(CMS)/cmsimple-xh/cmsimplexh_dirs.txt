@@ -88,6 +88,8 @@
 /plugins/jquery/lib/jquery/3.2.1
 /plugins/jquery/lib/jquery/3.5.1
 /plugins/jquery/lib/jquery/3.6.0
+/plugins/jquery/lib/jquery/3.6.4
+/plugins/jquery/lib/jquery/3.7.0
 /plugins/jquery/lib/jquery_ui
 /plugins/jquery/lib/jquery_ui/1.10.2
 /plugins/jquery/lib/jquery_ui/1.10.2/css
@@ -112,6 +114,9 @@
 /plugins/jquery/lib/jquery_ui/1.12.1
 /plugins/jquery/lib/jquery_ui/1.12.1/css
 /plugins/jquery/lib/jquery_ui/1.12.1/css/images
+/plugins/jquery/lib/jquery_ui/1.13.2
+/plugins/jquery/lib/jquery_ui/1.13.2/css
+/plugins/jquery/lib/jquery_ui/1.13.2/css/images
 /plugins/jquery/lib/migrate
 /plugins/meta_tags
 /plugins/meta_tags/css
@@ -440,6 +445,11 @@
 /templates/mini1/images
 /templates/n6200tbisGPL3
 /templates/n6200tbisGPL3/images
+/templates/overlay_03
+/templates/overlay_03/fonts
+/templates/overlay_03/fonts/open-sans-condensed
+/templates/overlay_03/images
+/templates/overlay_03/languages
 /templates/photo11
 /templates/photo11/images
 /templates/photo11/menu
