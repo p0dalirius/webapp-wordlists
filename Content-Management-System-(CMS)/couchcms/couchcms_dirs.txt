@@ -33,6 +33,7 @@
 /couch/addons/repeatable/tablegear
 /couch/addons/repeatable/theme
 /couch/addons/routes
+/couch/addons/sub-templates
 /couch/auth
 /couch/cache
 /couch/includes

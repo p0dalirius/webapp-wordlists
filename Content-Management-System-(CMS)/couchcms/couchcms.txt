@@ -144,6 +144,9 @@
 /couch/addons/repeatable/theme/repeatable_column_deleted.html
 /couch/addons/routes
 /couch/addons/routes/routes.php
+/couch/addons/sub-templates
+/couch/addons/sub-templates/filtered_search.php
+/couch/addons/sub-templates/sub-templates.php
 /couch/ajax.php
 /couch/auth
 /couch/auth/auth.php
@@ -1055,6 +1058,7 @@
 /couch/theme/prompt_unsaved.php
 /couch/theme/sample
 /couch/theme/sample/icons.php
+/couch/theme/sample/kfunctions.example.php
 /couch/theme/sample/kfunctions.php
 /couch/theme/sample/styles.css
 /couch/theme/styles.css
