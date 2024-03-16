@@ -13,6 +13,7 @@
 /app/Http/Controllers/User
 /app/Http/Middleware
 /app/Http/Requests
+/app/Http/Requests/Auth
 /app/Http/Requests/Litepie
 /app/Http/Requests/User
 /app/Http/Response
@@ -32,6 +33,8 @@
 /app/Repositories/User/Criteria
 /app/Repositories/User/Eloquent
 /app/Repositories/User/Presenter
+/app/View
+/app/View/Components
 /bootstrap
 /bootstrap/cache
 /config
@@ -60,7 +63,10 @@
 /public/assets/vendor/jquery
 /public/css
 /public/img
+/public/img/avatar
+/public/img/default
 /public/img/logo
+/public/img/social
 /public/js
 /public/themes
 /public/themes/public
